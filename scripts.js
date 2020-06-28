@@ -29,26 +29,25 @@ request.onload = function() {
 }
 
 function selectEpisode() {
-    ep = data[epSelect.value]
+    ep = data[epSelect.value];
     resetLabels()
 }
 
 function resetLabels() {
     direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
-        inputTimeLabel.textContent = 'Podcast time:'
-        outputTimeLabel.textContent = 'YouTube time:'
+        inputTimeLabel.textContent = 'Podcast time:';
+        outputTimeLabel.textContent = 'YouTube time:';
     } else if (direction == 'youtube2podcast') {
-        inputTimeLabel.textContent = 'YouTube time:'
-        outputTimeLabel.textContent = 'Podcast time:'
+        inputTimeLabel.textContent = 'YouTube time:';
+        outputTimeLabel.textContent = 'Podcast time:';
     } else {
         console.log(`error, bad direction: ${direction}`)
-        inputTimeLabel.textContent = ''
-        outputTimeLabel.textContent = ''
+        inputTimeLabel.textContent = '';
+        outputTimeLabel.textContent = '';
     }
 
-    outputTime.textContent = ''
-    outputTime.removeAttribute('href')
+    outputTime.innerHTML = '';
 }
 
 function str2sec(string) {
@@ -150,11 +149,8 @@ function showConvertedTimestamp() {
         } else {
             url = `https://www.youtube.com/watch?v=${ep.youtube_id}&t=${sec2str(new_seconds, format='youtube')}`
         }
-        outputTime.href = url;
+        outputTime.innerHTML = `<a href="${url}" target="_blank">${time_string}</a>`;
     } else {
-        // disable hyperlink if not converting to YouTube time
-        outputTime.removeAttribute('href')
+        outputTime.innerHTML = time_string;
     }
-
-    outputTime.textContent = time_string;
 }

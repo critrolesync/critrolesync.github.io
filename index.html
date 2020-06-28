@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>CritRoleSync</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-    <title>CritRoleSync</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
@@ -25,6 +26,7 @@
 
     <form action="javascript:void(0);" onsubmit="showConvertedTimestamp()">
         <p>
+            <label for="episode-select">Episode:</label>
             <select id="episode-select" onchange="selectEpisode()"></select>
         </p>
         <p>
@@ -42,7 +44,7 @@
 
     <p>
         <span id="output-time-label"></span>
-        <a id="output-time" target="_blank"></a>
+        <span id="output-time"></span>
     </p>
 
     <hr/>
