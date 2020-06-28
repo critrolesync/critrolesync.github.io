@@ -7,6 +7,22 @@
 </head>
 <body>
 
+    <h1>CritRoleSync</h1>
+
+    <p>
+        This is a simple, unofficial web app that helps you switch back and forth between the <a href="https://critrole.com" target="_blank">Critical Role</a> podcast and YouTube videos.
+    </p>
+
+    <p>
+        Listening to the podcast but want to see the map Matt just pulled out? Need to switch to audio for your daily commute? This app exists to make these tasks easier.
+    </p>
+
+    <p>
+        Given your current playback position in one medium, it will calculate the corresponding time in the other, accounting for differences caused by the mid-session break, altered introductions, and variable playback rate.
+    </p>
+
+    <hr/>
+
     <form action="javascript:void(0);" onsubmit="showConvertedTimestamp()">
         <p>
             <select id="episode-select" onchange="selectEpisode()"></select>
@@ -32,7 +48,7 @@
     <hr/>
 
     <p>
-        Episodes marked with "*" do not have time code mappings yet. You can help by <a href="https://github.com/critrolesync/critrolesync.github.io/issues/1" target="_blank">contributing to the GitHub repository</a>!
+        * Episodes marked with an asterisk do not have timestamp mappings yet, and so conversions are not yet possible. You can help by <a href="https://github.com/critrolesync/critrolesync.github.io/issues/1" target="_blank">contributing to the GitHub repository</a>!
     </p>
 
     <p>
