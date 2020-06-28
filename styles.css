@@ -1,7 +1,9 @@
 body {
-    width: 600px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(250,240,230);
     font-family: Georgia, serif;
     color: #333333;
@@ -15,6 +17,8 @@ p { line-height: 28px; margin: 0 0 28px; }
 #output-time { font-size: 28px; font-weight: bold; }
 
 select, input { font-family: Georgia, serif; font-size: 18px; }
+
+#input-time { width: 6em; }
 
 a { color: #c73036; text-decoration: underline; }
 
