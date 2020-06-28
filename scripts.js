@@ -1,5 +1,7 @@
 var data, ep;
 var epSelect = document.getElementById('episode-select');
+var readMoreButton = document.getElementById("read-more");
+var moreText = document.getElementById("more-text");
 var inputTime = document.getElementById('input-time');
 var inputTimeLabel = document.getElementById('input-time-label');
 var outputTime = document.getElementById('output-time');
@@ -48,6 +50,16 @@ function resetLabels() {
     }
 
     outputTime.innerHTML = '';
+}
+
+function readMore() {
+    readMoreButton.style.display = "none";
+    moreText.style.display = "inline";
+}
+
+function readLess() {
+    readMoreButton.style.display = "inline";
+    moreText.style.display = "none";
 }
 
 function str2sec(string) {
