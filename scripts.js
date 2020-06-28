@@ -20,6 +20,7 @@ request.onload = function() {
       if (data[i].timestamps.length == 0) {
           // disable episodes that do not have timestamps yet
           option.disabled = true;
+          option.textContent = '* ' + option.textContent
       }
       epSelect.appendChild(option)
   }
