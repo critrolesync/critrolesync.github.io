@@ -6,7 +6,7 @@ var outputTime = document.getElementById('output-time');
 var outputTimeLabel = document.getElementById('output-time-label');
 
 // load the episode data
-var requestURL = 'https://raw.githubusercontent.com/critrolesync/critrolesync.github.io/master/data.json';
+var requestURL = 'data.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
