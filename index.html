@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+</head>
+<body>
+
+    <form action="javascript:void(0);" onsubmit="showConvertedTimestamp()">
+        <p>
+            <select id="episode-select" onchange="selectEpisode()"></select>
+        </p>
+        <p>
+            <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels()" checked>
+            <label for="podcast2youtube">Podcast → YouTube</label><br>
+            <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels()">
+            <label for="youtube2podcast">YouTube → Podcast</label><br>
+        </p>
+        <p>
+            <label for="input-time" id="input-time-label"></label>
+            <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" required>
+            <input type="submit" value="Convert time">
+        </p>
+    </form>
+
+    <p>
+        <span id="output-time-label"></span>
+        <a id="output-time" target="_blank"></a>
+    </p>
+
+    <script type="text/javascript" src="everpolate/everpolate.browserified.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
