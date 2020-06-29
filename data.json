@@ -995,6 +995,10 @@
         "timestamps_columns":
             ["youtube", "podcast", "comment"],
         "timestamps": [
+            ["0:07:29", "0:07:39", "LIVE SHOW - 'Welcome, To Critical Role'"],
+            ["1:58:27", "1:58:39", "break start"],
+            ["2:22:08", "1:58:57", "break end"],
+            ["4:13:37", "3:50:23", "IITY?"]
         ]
     },
     {
@@ -1005,6 +1009,10 @@
         "timestamps_columns":
             ["youtube", "podcast", "comment"],
         "timestamps": [
+            ["0:00:00", "0:03:03", "hello"],
+            ["1:30:50", "93:53", "break start"],
+            ["1:57:54", "94:54", "break end"],
+            ["5:08:07", "285:07", "IITY?"]
         ]
     },
     {
@@ -1015,6 +1023,10 @@
         "timestamps_columns":
             ["youtube", "podcast", "comment"],
         "timestamps": [
+            ["0:00:00", "0:01:29", "hello"],
+            ["2:13:56", "2:15:26", "break start"],
+            ["2:42:34", "2:16:27", "break end"],
+            ["3:47:57", "3:21:49", "IITY?"]
         ]
     }
 ]
