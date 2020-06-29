@@ -18,3 +18,7 @@ Click here to start using the app: https://critrolesync.github.io
 This project needs volunteers to catalogue timestamps from the podcast and
 YouTube videos. If you're interested in helping, [read
 this](https://github.com/critrolesync/critrolesync.github.io/issues/1)!
+
+## Acknowledgements
+
+Thanks to @brojam for contributing timestamps!
