@@ -7,6 +7,10 @@
         "timestamps_columns":
             ["youtube", "podcast", "comment"],
         "timestamps": [
+            ["0:17:53", "0:00:25", "last left off"],
+            ["1:31:47", "1:14:19", "break start"],
+            ["1:43:41", "1:14:29", "break end"],
+            ["3:02:48", "2:33:36", "end"]
         ]
     },
     {
