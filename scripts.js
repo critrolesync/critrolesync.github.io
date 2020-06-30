@@ -1,5 +1,6 @@
 var data, ep;
-var epSelect = document.getElementById('episode-select');
+var seriesSelect = document.getElementById('series-select');
+var episodeSelect = document.getElementById('episode-select');
 var readMoreButton = document.getElementById("read-more");
 var moreText = document.getElementById("more-text");
 var inputTime = document.getElementById('input-time');
@@ -18,20 +19,43 @@ request.onload = function() {
   for (let i = 0; i < data.length; i++) {
       let option = document.createElement('option')
       option.value = i
-      option.textContent = `${data[i].id}: ${data[i].title}`
-      if (data[i].timestamps.length == 0) {
-          // disable episodes that do not have timestamps yet
+      option.textContent = data[i].series
+      if (data[i].episodes.length == 0) {
+          // disable series that do not have episodes yet
           option.disabled = true;
           option.textContent = '* ' + option.textContent
       }
-      epSelect.appendChild(option)
+      seriesSelect.appendChild(option)
   }
-  selectEpisode()
-  resetLabels()
+  selectSeries()
+}
+
+function selectSeries() {
+    series = data[seriesSelect.value]
+
+    // remove all episodes from the episode selector
+    for (let i = episodeSelect.options.length-1; i >= 0; i--) {
+       episodeSelect.remove(i);
+    }
+
+    // repopulate the episode selector
+    for (let i = 0; i < series['episodes'].length; i++) {
+        let option = document.createElement('option')
+        option.value = i
+        option.textContent = `${series['episodes'][i].id}: ${series['episodes'][i].title}`
+        if (series['episodes'][i].timestamps.length == 0) {
+            // disable episodes that do not have timestamps yet
+            option.disabled = true;
+            option.textContent = '* ' + option.textContent
+        }
+        episodeSelect.appendChild(option)
+    }
+
+    selectEpisode()
 }
 
 function selectEpisode() {
-    ep = data[epSelect.value];
+    ep = series['episodes'][episodeSelect.value];
     resetLabels()
 }
 

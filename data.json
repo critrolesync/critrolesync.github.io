@@ -1,2221 +1,2226 @@
 [
     {
-        "id": "C1E1",
-        "title": "Arrival at Kraghammer",
-        "youtube_id": "i-p9lWIhcLQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:17:53", "0:00:25", "last left off"],
-            ["1:31:47", "1:14:19", "break start"],
-            ["1:43:41", "1:14:29", "break end"],
-            ["3:02:48", "2:33:36", "end"]
-        ]
-    },
-    {
-        "id": "C1E2",
-        "title": "Into the Greyspine Mines",
-        "youtube_id": "JTie0S_5gjE",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E3",
-        "title": "Strange Bedfellows",
-        "youtube_id": "kpkCcb--r90",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E4",
-        "title": "Attack on the Duergar Warcamp",
-        "youtube_id": "kGxiZNbjwGI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E5",
-        "title": "The Trick About Falling",
-        "youtube_id": "u6QpXDL7E8Y",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E6",
-        "title": "Breaching the Emberhold",
-        "youtube_id": "cemCmD27Rnc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E7",
-        "title": "The Throne Room",
-        "youtube_id": "XGs3bOX4XFQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E8",
-        "title": "Glass and Bone",
-        "youtube_id": "A14MzQxxdwM",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E9",
-        "title": "Yug'voril Uncovered",
-        "youtube_id": "IsLIiKFSJLQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E10",
-        "title": "K'Varn Revealed",
-        "youtube_id": "AvnaMU7Dr-E",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E11",
-        "title": "The Temple Showdown",
-        "youtube_id": "xoYyHYsl5po",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E12",
-        "title": "Dungeons & Dragons Campaign Tips",
-        "youtube_id": "P8EcS0WYbuc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E13",
-        "title": "Escape from the Underdark",
-        "youtube_id": "315mZGX-mjs",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E14",
-        "title": "Shopping and Shipping",
-        "youtube_id": "Z4tjssfei5E",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E15",
-        "title": "Skyward",
-        "youtube_id": "_dIBh0dGhzI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E16",
-        "title": "Enter Vasselheim",
-        "youtube_id": "elarLmuDtzU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E17",
-        "title": "Hubris",
-        "youtube_id": "QDdT5UqGaDw",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E18",
-        "title": "Trial of the Take, Part 1",
-        "youtube_id": "60sUkTh6xBc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E19",
-        "title": "Trial of the Take, Part 2",
-        "youtube_id": "IW6GgFQg3kk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E20",
-        "title": "Trial of the Take, Part 3",
-        "youtube_id": "GFU_qqwSs0U",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E21",
-        "title": "Trial of the Take, Part 4",
-        "youtube_id": "zGaISHs2s7Q",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E22",
-        "title": "AraMente to Pyrah",
-        "youtube_id": "1GY3HTZE5R0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E23",
-        "title": "The Rematch",
-        "youtube_id": "FM6L4tuyXq0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E24",
-        "title": "The Feast",
-        "youtube_id": "kre27f30IVs",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E25",
-        "title": "Crimson Diplomacy",
-        "youtube_id": "yrrB_q-V8G0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E26",
-        "title": "Consequences and Cows",
-        "youtube_id": "_2CCQnD4AQ8",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E27",
-        "title": "The Path to Whitestone",
-        "youtube_id": "2mB-aM2bIBk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E28",
-        "title": "The Sun Tree",
-        "youtube_id": "yE27NwtXjPY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E29",
-        "title": "Whispers",
-        "youtube_id": "gq4av949-3Y",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E30",
-        "title": "Stoke the Flames",
-        "youtube_id": "MtS1LGdqxuI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E31 (Part 1)",
-        "title": "Gunpowder Plot",
-        "youtube_id": "CVSgD1iB1G0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E31 (Part 2)",
-        "title": "Gunpowder Plot",
-        "youtube_id": "K-k2JpMSa_k",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E32",
-        "title": "Against the Tide of Bone",
-        "youtube_id": "B5sUXSaTHKc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E33 (Part 1)",
-        "title": "Reunions",
-        "youtube_id": "EtdswJtQ_Ew",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E33 (Part 2)",
-        "title": "Reunions",
-        "youtube_id": "iP1gylnxfLU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E34",
-        "title": "Race to the Ziggurat",
-        "youtube_id": "2AqLu-u-GcY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E35 (Part 1)",
-        "title": "Denouement",
-        "youtube_id": "p8p5qZcqIk0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E35 (Part 2)",
-        "title": "Denouement",
-        "youtube_id": "WFbmY79Qdfc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E36",
-        "title": "Winter's Crest in Whitestone",
-        "youtube_id": "EikRMYRf5-Y",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E37",
-        "title": "A Musician's Nostalgia",
-        "youtube_id": "1cbxJRfvBtI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E38",
-        "title": "Echoes of the Past",
-        "youtube_id": "wCj4kCq1Z9Y",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E39",
-        "title": "Omens",
-        "youtube_id": "9EToAf4nhDw",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E40",
-        "title": "Desperate Measures",
-        "youtube_id": "0W_by9hT6VQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E41",
-        "title": "In Ruins",
-        "youtube_id": "L8xSI6QoT-A",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E42",
-        "title": "Dangerous Dealings",
-        "youtube_id": "qWoloOxtvc0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E43",
-        "title": "Return to Vasselheim",
-        "youtube_id": "zr2n1fLVasU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E44",
-        "title": "The Sunken Tomb",
-        "youtube_id": "KHsA0R_GovU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E45",
-        "title": "Those Who Walk Away...",
-        "youtube_id": "0uazTyTrk-8",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E46",
-        "title": "Cindergrove Revisited",
-        "youtube_id": "uw1crQ1d9AU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E47",
-        "title": "The Family Business",
-        "youtube_id": "QqU5pqKoH2c",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E48",
-        "title": "Into the Frostweald",
-        "youtube_id": "1uMH-hFJz0Q",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E49",
-        "title": "A Name Is Earned",
-        "youtube_id": "PfvVssT83MU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E50",
-        "title": "Best Laid Plans...",
-        "youtube_id": "W4e4gTmoGi4",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E51",
-        "title": "Test of Pride",
-        "youtube_id": "9g3cnEacrEo",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E52",
-        "title": "The Kill Box",
-        "youtube_id": "9QXZ4LfSi84",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E53",
-        "title": "At Dawn, We Plan!",
-        "youtube_id": "Nfcja-6hr24",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E54",
-        "title": "In the Belly of the Beast",
-        "youtube_id": "9QRg2YEkVLU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E55",
-        "title": "Umbrasyl",
-        "youtube_id": "A6ma5W_TSDE",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E56",
-        "title": "Hope",
-        "youtube_id": "8xpnCiF4im0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E57",
-        "title": "Duskmeadow",
-        "youtube_id": "HMBS__TC5R4",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E58",
-        "title": "A Cycle of Vengeance",
-        "youtube_id": "nRBzpiPccOs",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E59",
-        "title": "The Feywild",
-        "youtube_id": "l_jwMsIv1oc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E60",
-        "title": "Heredity and Hats",
-        "youtube_id": "Ok4ZW9cNupc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E61",
-        "title": "Denizens of the Moonbrush",
-        "youtube_id": "QKaubU-lk04",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E62",
-        "title": "Uninviting Waters",
-        "youtube_id": "QePayxU0kKo",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E63",
-        "title": "The Echo Tree",
-        "youtube_id": "OS5aMcxkldI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E64",
-        "title": "The Frigid Doom",
-        "youtube_id": "yqJdHshftrs",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E65",
-        "title": "The Streets of Ank'Harel",
-        "youtube_id": "6-Od2lnsiHs",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E66",
-        "title": "A Traveler's Gamble",
-        "youtube_id": "jgmBV5NA2A8",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E67",
-        "title": "The Chase to Glintshore",
-        "youtube_id": "Z7ozVxDtJzM",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E68",
-        "title": "Cloak and Dagger",
-        "youtube_id": "RCnwjLK_ZuQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E69",
-        "title": "Passed Through Fire",
-        "youtube_id": "YLcRhm8UP8g",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E70",
-        "title": "Trust",
-        "youtube_id": "YxWU4r-cLIY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E71",
-        "title": "Vorugal",
-        "youtube_id": "-I_tnzBKSWk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E72",
-        "title": "The Elephant in the Room",
-        "youtube_id": "qn8tLbXWAtc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E73",
-        "title": "The Coming Storm",
-        "youtube_id": "UHUBmvRNrik",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E74",
-        "title": "Path of Brass",
-        "youtube_id": "2U21dJrY6ZI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E75",
-        "title": "Where the Cards Fall",
-        "youtube_id": "Qz-twLRAE_A",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E76",
-        "title": "Brawl in the Arches",
-        "youtube_id": "L4Sb53wvbKI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E77",
-        "title": "Clash at Daxio",
-        "youtube_id": "43gRUYn4x_M",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E78",
-        "title": "The Siege of Emon",
-        "youtube_id": "tEnHX2XiGaQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E79",
-        "title": "Thordak",
-        "youtube_id": "THyXWq5iS0k",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E80",
-        "title": "Raishan",
-        "youtube_id": "5jc1pbOVUX0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E81",
-        "title": "What Lies Beneath the Surface",
-        "youtube_id": "um3mkvNmDPY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E82",
-        "title": "Deadly Echoes",
-        "youtube_id": "Mgjf7knzbx0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E83",
-        "title": "The Deceiver's Stand",
-        "youtube_id": "4z_wF_SJR2I",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E84",
-        "title": "Loose Ends",
-        "youtube_id": "KiGoxBJQ_I0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E85",
-        "title": "A Bard's Lament",
-        "youtube_id": "N7DuwqJtCGI",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E86",
-        "title": "Daring Days",
-        "youtube_id": "OrOZRVxyR3I",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E87",
-        "title": "Onward to Vesrah",
-        "youtube_id": "cZfFsdaK1dg",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E88",
-        "title": "Tangled Depths",
-        "youtube_id": "rMEIgwyv2Wc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E89",
-        "title": "Curious Tides",
-        "youtube_id": "5tU-mBn4qsk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E90",
-        "title": "Voice of the Tempest",
-        "youtube_id": "Yr3tvzSqTDQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E91",
-        "title": "Vox Machina Go to Hell",
-        "youtube_id": "mymhgcNgqBY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E92",
-        "title": "Deals in the Dark",
-        "youtube_id": "uplxc5lB7cQ",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E93",
-        "title": "Bats Out of Hell",
-        "youtube_id": "Tcj90Lu6Tyk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E94",
-        "title": "Jugs and Rods",
-        "youtube_id": "BNaWnFwfGJc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E95",
-        "title": "One Year Later...",
-        "youtube_id": "oUoMRr12oQc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E96",
-        "title": "Family Matters",
-        "youtube_id": "ZWkicUhQ7yE",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E97",
-        "title": "Taryon, My Wayward Son",
-        "youtube_id": "JweRpzsCiGo",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E98",
-        "title": "The Mines of the Many",
-        "youtube_id": "H84po-1-GB0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E99",
-        "title": "Masquerade",
-        "youtube_id": "B16lXrMK5t0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E100",
-        "title": "Unfinished Business",
-        "youtube_id": "Gyk7vcIgPv8",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E101",
-        "title": "Thar Amphala",
-        "youtube_id": "MfTj8ZFaUy0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E102",
-        "title": "Race to the Tower",
-        "youtube_id": "N1A-JGIF1Vc",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E103",
-        "title": "The Fate-Touched",
-        "youtube_id": "2HOdxvQ_ydU",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E104",
-        "title": "Elysium",
-        "youtube_id": "bAYN8qw7FYw",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E105",
-        "title": "The Fear of Isolation",
-        "youtube_id": "uwNxxXtGxgM",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E106",
-        "title": "The Endless Atheneum",
-        "youtube_id": "Wl1Oi8Rbc1s",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E107",
-        "title": "Scaldseat",
-        "youtube_id": "Cr2Rc7MRaf0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E108",
-        "title": "The Core Anvil",
-        "youtube_id": "2sBrNMR5FRE",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E109",
-        "title": "The Ominous March",
-        "youtube_id": "t7oLhv6HKl4",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E110",
-        "title": "The Climb Within",
-        "youtube_id": "5qQMkxfWkSw",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E111",
-        "title": "Shadows of Thomara",
-        "youtube_id": "DFGKgYY7SKk",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E112",
-        "title": "Dark Dealings",
-        "youtube_id": "kTd4D8q5MvY",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E113",
-        "title": "The Final Ascent",
-        "youtube_id": "zUXL--sSc3A",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E114",
-        "title": "Vecna, the Ascended",
-        "youtube_id": "W-SMrG0QLc0",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C1E115",
-        "title": "The Chapter Closes",
-        "youtube_id": "XrKcdyV0eq4",
-        "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-
-
-
-
-
-    {
-        "id": "C2E1",
-        "title": "Curious Beginnings",
-        "youtube_id": "byva0hOj8CU",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:24", "hello"],
-            ["1:32:09", "1:32:21", "break start"],
-            ["1:49:07", "1:32:28", "break end"],
-            ["3:17:16", "3:00:25", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E2",
-        "title": "A Show of Scrutiny",
-        "youtube_id": "MPELLuQXVcE",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:24", "hello"],
-            ["2:06:26", "2:06:34", "break start"],
-            ["2:20:41", "2:06:40", "break end"],
-            ["4:11:58", "3:57:42", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E3",
-        "title": "The Midnight Chase",
-        "youtube_id": "_Ig_s9j4MuU",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E4",
-        "title": "Disparate Pieces",
-        "youtube_id": "JtJTqLSzXaM",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E5",
-        "title": "The Open Road",
-        "youtube_id": "m3vPWbJoBrQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E6",
-        "title": "The Howling Mines",
-        "youtube_id": "5DHEj9nY-wo",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E7",
-        "title": "Hush",
-        "youtube_id": "JAyT10WP-cY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E8",
-        "title": "The Gates of Zadash",
-        "youtube_id": "dGv-_8tk8g4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E9",
-        "title": "Steam and Conversation",
-        "youtube_id": "HtnTlm6UBpg",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E10",
-        "title": "Waste and Webs",
-        "youtube_id": "R0rx28wgA4E",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E11",
-        "title": "Zemnian Nights",
-        "youtube_id": "w3JWNPcspoM",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E12",
-        "title": "Midnight Espionage",
-        "youtube_id": "HoZGMqCIRK8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E13",
-        "title": "Lost & Found",
-        "youtube_id": "3GNcQ1Abnek",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E14",
-        "title": "Fleeting Memories",
-        "youtube_id": "seY-M0i78F4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E15",
-        "title": "Where the River Goes",
-        "youtube_id": "0ZLwaSShk8M",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E16",
-        "title": "A Favor in Kind",
-        "youtube_id": "lT-wFK4SgJc",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E17",
-        "title": "Harvest Close",
-        "youtube_id": "RNOyGusWh3s",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E18",
-        "title": "Whispers of War",
-        "youtube_id": "4C-frHrNWjY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E19",
-        "title": "The Gentleman's Path",
-        "youtube_id": "w6jE3T_ooKw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E20",
-        "title": "Labenda Awaits",
-        "youtube_id": "jyCoCqhsFp4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E21",
-        "title": "Stalker in the Swamp",
-        "youtube_id": "YTARojk9tBY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E22",
-        "title": "Lost Treasures",
-        "youtube_id": "aQxpxWz38P8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:26", "hello"],
-            ["2:23:34", "2:23:40", "break start"],
-            ["2:23:37", "2:24:02", "break end"],
-            ["3:24:13", "3:24:30", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E23",
-        "title": "Have Bird, Will Travel",
-        "youtube_id": "xr1dOEL2EHQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:22", "hello"],
-            ["1:56:28", "1:56:35", "break start"],
-            ["1:56:29", "1:56:58", "break end"],
-            ["3:44:32", "3:44:46", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E24",
-        "title": "The Hour of Honor",
-        "youtube_id": "YtNB-7Jz1LQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:19", "hello"],
-            ["2:13:09", "2:13:11", "break start"],
-            ["2:13:10", "2:13:33", "break end"],
-            ["3:35:50", "3:36:02", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E25",
-        "title": "Divergent Paths",
-        "youtube_id": "CoomA-qeJMI",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:22", "hello"],
-            ["1:25:39", "1:25:50", "break start"],
-            ["1:25:40", "1:26:10", "break end"],
-            ["3:48:41", "3:48:53", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E26",
-        "title": "Found & Lost",
-        "youtube_id": "NZVqPja6Alg",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E27",
-        "title": "Converging Fury",
-        "youtube_id": "p6miK4kIwIE",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E28",
-        "title": "Within the Nest",
-        "youtube_id": "_jDCU8IRyfA",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E29",
-        "title": "The Stalking Nightmare",
-        "youtube_id": "L3vV7ZdE_w8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E30",
-        "title": "The Journey Home",
-        "youtube_id": "nmiBiqC3fDY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E31",
-        "title": "Commerce & Chaos",
-        "youtube_id": "FJ25t2cM6Ws",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E32",
-        "title": "Beyond the Boundaries",
-        "youtube_id": "aRQr1QMNHsQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E33",
-        "title": "The Ruby and the Sapphire",
-        "youtube_id": "QbrorVyH4mk",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E34",
-        "title": "Encroaching Waters",
-        "youtube_id": "GcmINbstp-E",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E35",
-        "title": "Dockside Diplomacy",
-        "youtube_id": "39TP4YZHf3M",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E36",
-        "title": "O Captain, Who's Captain?",
-        "youtube_id": "AB-yVfipWTU",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E37",
-        "title": "Dangerous Liaisons",
-        "youtube_id": "B2IYaW9lUM4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E38",
-        "title": "Welcome to the Jungle",
-        "youtube_id": "GOsCZ8kQom0",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E39",
-        "title": "Temple of the False Serpent",
-        "youtube_id": "M6XpCPfDP8M",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E40",
-        "title": "Dubious Pursuits",
-        "youtube_id": "etjou2cxZJw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E41",
-        "title": "A Pirate's Life for Me",
-        "youtube_id": "NOh9T7YeR3o",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E42",
-        "title": "A Hole in the Plan",
-        "youtube_id": "W723E1ofhcE",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E43",
-        "title": "In Hot Water",
-        "youtube_id": "dyArEJYKr5U",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E44",
-        "title": "The Diver's Grave",
-        "youtube_id": "P8UVu-kGusg",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E45",
-        "title": "The Stowaway",
-        "youtube_id": "ujWYp5Wr64U",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E46",
-        "title": "A Storm of Memories",
-        "youtube_id": "jw1AhahRFTY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E47",
-        "title": "The Second Seal",
-        "youtube_id": "pj3CeW_a1hQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E48",
-        "title": "Homeward Bound",
-        "youtube_id": "ozSrsj6TtKc",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E49",
-        "title": "A Game of Names",
-        "youtube_id": "Xmsjf8jQZWE",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E50",
-        "title": "The Endless Burrows",
-        "youtube_id": "eRFetHZDSg4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E51",
-        "title": "Xhorhas",
-        "youtube_id": "jnn4dpC2qAQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E52",
-        "title": "Feral Business",
-        "youtube_id": "REyVoebe06E",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:00:15", "hello"],
-            ["1:44:48", "1:44:48", "break start"],
-            ["2:04:32", "1:45:04", "break end"],
-            ["4:08:29", "3:48:45", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E53",
-        "title": "Cornered",
-        "youtube_id": "tdP3yCRPtJY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E54",
-        "title": "Well Beneath",
-        "youtube_id": "iA0rVPoBK5E",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E55",
-        "title": "Duplicity",
-        "youtube_id": "k1PRExWXj8o",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E56",
-        "title": "The Favor",
-        "youtube_id": "ZtcAs7jCDvw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E57",
-        "title": "In Love and War",
-        "youtube_id": "fUfCP184L0I",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E58",
-        "title": "Wood and Steel",
-        "youtube_id": "7Z610fSoifk",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E59",
-        "title": "Perspective",
-        "youtube_id": "-qveongNOUI",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E60",
-        "title": "A Turtle By Any Other Name",
-        "youtube_id": "yJgaEh_GZ6M",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E61",
-        "title": "Agreements",
-        "youtube_id": "Ck_yuplT8O8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E62",
-        "title": "Domestic Respite",
-        "youtube_id": "-EfuYx_YWC8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E63",
-        "title": "Intervention",
-        "youtube_id": "CQWv6zQZTGo",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E64",
-        "title": "A Dangerous Chase",
-        "youtube_id": "3yfLht7w7Yk",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E65",
-        "title": "Chases and Trees",
-        "youtube_id": "HNODkS9gZmM",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E66",
-        "title": "Beneath Bazzoxan",
-        "youtube_id": "JGnGZbuvSJY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E67",
-        "title": "Beyond the Eyes of Angels",
-        "youtube_id": "hdtabnXnckw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E68",
-        "title": "Reflections",
-        "youtube_id": "5GAclNF61Xs",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E69",
-        "title": "The King's Cage",
-        "youtube_id": "Sj5wImPuG-k",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E70",
-        "title": "Causatum",
-        "youtube_id": "kKeNW01RJYY",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E71",
-        "title": "Family Gathering",
-        "youtube_id": "XpLgITRGA30",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E72",
-        "title": "Clay and Dust",
-        "youtube_id": "8tCcRA2aogk",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E73",
-        "title": "Uthodurn",
-        "youtube_id": "M5lRGaV-xQk",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E74",
-        "title": "Manifold Morals",
-        "youtube_id": "rMZYyG8qm-Y",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E75",
-        "title": "Rime and Reason",
-        "youtube_id": "Z1pJ0essryI",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E76",
-        "title": "Refjorged",
-        "youtube_id": "BzHkVh80kVQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E77",
-        "title": "A Tangled Web",
-        "youtube_id": "IW-wt6u7GNQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E78",
-        "title": "Between the Lines",
-        "youtube_id": "Z8Jbn8VoXaw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E79",
-        "title": "Through the Trees",
-        "youtube_id": "yG2vBIu1ieg",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E80",
-        "title": "The Folding Halls",
-        "youtube_id": "aHKloZn2rII",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E81",
-        "title": "From Door to Door",
-        "youtube_id": "XPu0ANzvQdQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E82",
-        "title": "The Beat of the Permaheart",
-        "youtube_id": "2Jv3OPxR7F8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E83",
-        "title": "Dark Bargains",
-        "youtube_id": "YpoHqSgjTjg",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E84",
-        "title": "Titles and Tattoos",
-        "youtube_id": "vFMddwkLjJw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E85",
-        "title": "The Threads Converge",
-        "youtube_id": "J1Efz6E3_-0",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E86",
-        "title": "The Cathedral",
-        "youtube_id": "Wao4L1Mfam4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E87",
-        "title": "Punishment and Politics",
-        "youtube_id": "3RnC_HS2Ck4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E88",
-        "title": "Unwanted Reunions",
-        "youtube_id": "d-xQ5dsILYU",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E89",
-        "title": "Lingering Wounds",
-        "youtube_id": "KrZps9j2bl4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E90",
-        "title": "Bathhouses and Bastions",
-        "youtube_id": "wdHE0avQRVw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E91",
-        "title": "Stone to Clay",
-        "youtube_id": "mN6jDz0UPdo",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E92",
-        "title": "Home Is Where the Heart Is",
-        "youtube_id": "qS9rz1srwio",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E93",
-        "title": "Misery Loves Company",
-        "youtube_id": "PJawve2RxNM",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E94",
-        "title": "With Great Power...",
-        "youtube_id": "Arx8bX4E_Cw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E95",
-        "title": "Blessing In Disguise",
-        "youtube_id": "1Db5CorBfz4",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E96",
-        "title": "Family Shatters",
-        "youtube_id": "Tmz4TS3Div8",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-        ]
-    },
-    {
-        "id": "C2E97",
-        "title": "The Fancy and the Fooled",
-        "youtube_id": "SV8eKqbZZNQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:07:29", "0:07:39", "LIVE SHOW - 'Welcome, To Critical Role'"],
-            ["1:58:27", "1:58:39", "break start"],
-            ["2:22:08", "1:58:57", "break end"],
-            ["4:13:37", "3:50:23", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E98",
-        "title": "Dark Waters",
-        "youtube_id": "4OH5Sa8x_Cw",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:03:03", "hello"],
-            ["1:30:50", "1:33:53", "break start"],
-            ["1:57:54", "1:34:54", "break end"],
-            ["5:08:07", "4:45:07", "IITY?"]
-        ]
-    },
-    {
-        "id": "C2E99",
-        "title": "High Seas, High Stakes",
-        "youtube_id": "KmLNSQwQQXQ",
-        "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-        "timestamps_columns":
-            ["youtube", "podcast", "comment"],
-        "timestamps": [
-            ["0:00:00", "0:01:29", "hello"],
-            ["2:13:56", "2:15:26", "break start"],
-            ["2:42:34", "2:16:27", "break end"],
-            ["3:47:57", "3:21:49", "IITY?"]
+        "series": "Campaign 1: Vox Machina",
+        "episodes": [
+            {
+                "id": "C1E1",
+                "title": "Arrival at Kraghammer",
+                "youtube_id": "i-p9lWIhcLQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:17:53", "0:00:25", "last left off"],
+                    ["1:31:47", "1:14:19", "break start"],
+                    ["1:43:41", "1:14:29", "break end"],
+                    ["3:02:48", "2:33:36", "end"]
+                ]
+            },
+            {
+                "id": "C1E2",
+                "title": "Into the Greyspine Mines",
+                "youtube_id": "JTie0S_5gjE",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E3",
+                "title": "Strange Bedfellows",
+                "youtube_id": "kpkCcb--r90",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E4",
+                "title": "Attack on the Duergar Warcamp",
+                "youtube_id": "kGxiZNbjwGI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E5",
+                "title": "The Trick About Falling",
+                "youtube_id": "u6QpXDL7E8Y",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E6",
+                "title": "Breaching the Emberhold",
+                "youtube_id": "cemCmD27Rnc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E7",
+                "title": "The Throne Room",
+                "youtube_id": "XGs3bOX4XFQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E8",
+                "title": "Glass and Bone",
+                "youtube_id": "A14MzQxxdwM",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E9",
+                "title": "Yug'voril Uncovered",
+                "youtube_id": "IsLIiKFSJLQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E10",
+                "title": "K'Varn Revealed",
+                "youtube_id": "AvnaMU7Dr-E",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E11",
+                "title": "The Temple Showdown",
+                "youtube_id": "xoYyHYsl5po",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E12",
+                "title": "Dungeons & Dragons Campaign Tips",
+                "youtube_id": "P8EcS0WYbuc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E13",
+                "title": "Escape from the Underdark",
+                "youtube_id": "315mZGX-mjs",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E14",
+                "title": "Shopping and Shipping",
+                "youtube_id": "Z4tjssfei5E",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E15",
+                "title": "Skyward",
+                "youtube_id": "_dIBh0dGhzI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E16",
+                "title": "Enter Vasselheim",
+                "youtube_id": "elarLmuDtzU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E17",
+                "title": "Hubris",
+                "youtube_id": "QDdT5UqGaDw",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E18",
+                "title": "Trial of the Take, Part 1",
+                "youtube_id": "60sUkTh6xBc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E19",
+                "title": "Trial of the Take, Part 2",
+                "youtube_id": "IW6GgFQg3kk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E20",
+                "title": "Trial of the Take, Part 3",
+                "youtube_id": "GFU_qqwSs0U",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E21",
+                "title": "Trial of the Take, Part 4",
+                "youtube_id": "zGaISHs2s7Q",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E22",
+                "title": "AraMente to Pyrah",
+                "youtube_id": "1GY3HTZE5R0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E23",
+                "title": "The Rematch",
+                "youtube_id": "FM6L4tuyXq0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E24",
+                "title": "The Feast",
+                "youtube_id": "kre27f30IVs",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E25",
+                "title": "Crimson Diplomacy",
+                "youtube_id": "yrrB_q-V8G0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E26",
+                "title": "Consequences and Cows",
+                "youtube_id": "_2CCQnD4AQ8",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E27",
+                "title": "The Path to Whitestone",
+                "youtube_id": "2mB-aM2bIBk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E28",
+                "title": "The Sun Tree",
+                "youtube_id": "yE27NwtXjPY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E29",
+                "title": "Whispers",
+                "youtube_id": "gq4av949-3Y",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E30",
+                "title": "Stoke the Flames",
+                "youtube_id": "MtS1LGdqxuI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E31 (Part 1)",
+                "title": "Gunpowder Plot",
+                "youtube_id": "CVSgD1iB1G0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E31 (Part 2)",
+                "title": "Gunpowder Plot",
+                "youtube_id": "K-k2JpMSa_k",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E32",
+                "title": "Against the Tide of Bone",
+                "youtube_id": "B5sUXSaTHKc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E33 (Part 1)",
+                "title": "Reunions",
+                "youtube_id": "EtdswJtQ_Ew",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E33 (Part 2)",
+                "title": "Reunions",
+                "youtube_id": "iP1gylnxfLU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E34",
+                "title": "Race to the Ziggurat",
+                "youtube_id": "2AqLu-u-GcY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E35 (Part 1)",
+                "title": "Denouement",
+                "youtube_id": "p8p5qZcqIk0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E35 (Part 2)",
+                "title": "Denouement",
+                "youtube_id": "WFbmY79Qdfc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E36",
+                "title": "Winter's Crest in Whitestone",
+                "youtube_id": "EikRMYRf5-Y",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E37",
+                "title": "A Musician's Nostalgia",
+                "youtube_id": "1cbxJRfvBtI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E38",
+                "title": "Echoes of the Past",
+                "youtube_id": "wCj4kCq1Z9Y",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E39",
+                "title": "Omens",
+                "youtube_id": "9EToAf4nhDw",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E40",
+                "title": "Desperate Measures",
+                "youtube_id": "0W_by9hT6VQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E41",
+                "title": "In Ruins",
+                "youtube_id": "L8xSI6QoT-A",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E42",
+                "title": "Dangerous Dealings",
+                "youtube_id": "qWoloOxtvc0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E43",
+                "title": "Return to Vasselheim",
+                "youtube_id": "zr2n1fLVasU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E44",
+                "title": "The Sunken Tomb",
+                "youtube_id": "KHsA0R_GovU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E45",
+                "title": "Those Who Walk Away...",
+                "youtube_id": "0uazTyTrk-8",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E46",
+                "title": "Cindergrove Revisited",
+                "youtube_id": "uw1crQ1d9AU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E47",
+                "title": "The Family Business",
+                "youtube_id": "QqU5pqKoH2c",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E48",
+                "title": "Into the Frostweald",
+                "youtube_id": "1uMH-hFJz0Q",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E49",
+                "title": "A Name Is Earned",
+                "youtube_id": "PfvVssT83MU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E50",
+                "title": "Best Laid Plans...",
+                "youtube_id": "W4e4gTmoGi4",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E51",
+                "title": "Test of Pride",
+                "youtube_id": "9g3cnEacrEo",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E52",
+                "title": "The Kill Box",
+                "youtube_id": "9QXZ4LfSi84",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E53",
+                "title": "At Dawn, We Plan!",
+                "youtube_id": "Nfcja-6hr24",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E54",
+                "title": "In the Belly of the Beast",
+                "youtube_id": "9QRg2YEkVLU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E55",
+                "title": "Umbrasyl",
+                "youtube_id": "A6ma5W_TSDE",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E56",
+                "title": "Hope",
+                "youtube_id": "8xpnCiF4im0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E57",
+                "title": "Duskmeadow",
+                "youtube_id": "HMBS__TC5R4",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E58",
+                "title": "A Cycle of Vengeance",
+                "youtube_id": "nRBzpiPccOs",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E59",
+                "title": "The Feywild",
+                "youtube_id": "l_jwMsIv1oc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E60",
+                "title": "Heredity and Hats",
+                "youtube_id": "Ok4ZW9cNupc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E61",
+                "title": "Denizens of the Moonbrush",
+                "youtube_id": "QKaubU-lk04",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E62",
+                "title": "Uninviting Waters",
+                "youtube_id": "QePayxU0kKo",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E63",
+                "title": "The Echo Tree",
+                "youtube_id": "OS5aMcxkldI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E64",
+                "title": "The Frigid Doom",
+                "youtube_id": "yqJdHshftrs",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E65",
+                "title": "The Streets of Ank'Harel",
+                "youtube_id": "6-Od2lnsiHs",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E66",
+                "title": "A Traveler's Gamble",
+                "youtube_id": "jgmBV5NA2A8",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E67",
+                "title": "The Chase to Glintshore",
+                "youtube_id": "Z7ozVxDtJzM",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E68",
+                "title": "Cloak and Dagger",
+                "youtube_id": "RCnwjLK_ZuQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E69",
+                "title": "Passed Through Fire",
+                "youtube_id": "YLcRhm8UP8g",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E70",
+                "title": "Trust",
+                "youtube_id": "YxWU4r-cLIY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E71",
+                "title": "Vorugal",
+                "youtube_id": "-I_tnzBKSWk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E72",
+                "title": "The Elephant in the Room",
+                "youtube_id": "qn8tLbXWAtc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E73",
+                "title": "The Coming Storm",
+                "youtube_id": "UHUBmvRNrik",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E74",
+                "title": "Path of Brass",
+                "youtube_id": "2U21dJrY6ZI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E75",
+                "title": "Where the Cards Fall",
+                "youtube_id": "Qz-twLRAE_A",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E76",
+                "title": "Brawl in the Arches",
+                "youtube_id": "L4Sb53wvbKI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E77",
+                "title": "Clash at Daxio",
+                "youtube_id": "43gRUYn4x_M",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E78",
+                "title": "The Siege of Emon",
+                "youtube_id": "tEnHX2XiGaQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E79",
+                "title": "Thordak",
+                "youtube_id": "THyXWq5iS0k",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E80",
+                "title": "Raishan",
+                "youtube_id": "5jc1pbOVUX0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E81",
+                "title": "What Lies Beneath the Surface",
+                "youtube_id": "um3mkvNmDPY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E82",
+                "title": "Deadly Echoes",
+                "youtube_id": "Mgjf7knzbx0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E83",
+                "title": "The Deceiver's Stand",
+                "youtube_id": "4z_wF_SJR2I",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E84",
+                "title": "Loose Ends",
+                "youtube_id": "KiGoxBJQ_I0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E85",
+                "title": "A Bard's Lament",
+                "youtube_id": "N7DuwqJtCGI",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E86",
+                "title": "Daring Days",
+                "youtube_id": "OrOZRVxyR3I",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E87",
+                "title": "Onward to Vesrah",
+                "youtube_id": "cZfFsdaK1dg",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E88",
+                "title": "Tangled Depths",
+                "youtube_id": "rMEIgwyv2Wc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E89",
+                "title": "Curious Tides",
+                "youtube_id": "5tU-mBn4qsk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E90",
+                "title": "Voice of the Tempest",
+                "youtube_id": "Yr3tvzSqTDQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E91",
+                "title": "Vox Machina Go to Hell",
+                "youtube_id": "mymhgcNgqBY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E92",
+                "title": "Deals in the Dark",
+                "youtube_id": "uplxc5lB7cQ",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E93",
+                "title": "Bats Out of Hell",
+                "youtube_id": "Tcj90Lu6Tyk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E94",
+                "title": "Jugs and Rods",
+                "youtube_id": "BNaWnFwfGJc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E95",
+                "title": "One Year Later...",
+                "youtube_id": "oUoMRr12oQc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E96",
+                "title": "Family Matters",
+                "youtube_id": "ZWkicUhQ7yE",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E97",
+                "title": "Taryon, My Wayward Son",
+                "youtube_id": "JweRpzsCiGo",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E98",
+                "title": "The Mines of the Many",
+                "youtube_id": "H84po-1-GB0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E99",
+                "title": "Masquerade",
+                "youtube_id": "B16lXrMK5t0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E100",
+                "title": "Unfinished Business",
+                "youtube_id": "Gyk7vcIgPv8",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E101",
+                "title": "Thar Amphala",
+                "youtube_id": "MfTj8ZFaUy0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E102",
+                "title": "Race to the Tower",
+                "youtube_id": "N1A-JGIF1Vc",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E103",
+                "title": "The Fate-Touched",
+                "youtube_id": "2HOdxvQ_ydU",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E104",
+                "title": "Elysium",
+                "youtube_id": "bAYN8qw7FYw",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E105",
+                "title": "The Fear of Isolation",
+                "youtube_id": "uwNxxXtGxgM",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E106",
+                "title": "The Endless Atheneum",
+                "youtube_id": "Wl1Oi8Rbc1s",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E107",
+                "title": "Scaldseat",
+                "youtube_id": "Cr2Rc7MRaf0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E108",
+                "title": "The Core Anvil",
+                "youtube_id": "2sBrNMR5FRE",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E109",
+                "title": "The Ominous March",
+                "youtube_id": "t7oLhv6HKl4",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E110",
+                "title": "The Climb Within",
+                "youtube_id": "5qQMkxfWkSw",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E111",
+                "title": "Shadows of Thomara",
+                "youtube_id": "DFGKgYY7SKk",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E112",
+                "title": "Dark Dealings",
+                "youtube_id": "kTd4D8q5MvY",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E113",
+                "title": "The Final Ascent",
+                "youtube_id": "zUXL--sSc3A",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E114",
+                "title": "Vecna, the Ascended",
+                "youtube_id": "W-SMrG0QLc0",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C1E115",
+                "title": "The Chapter Closes",
+                "youtube_id": "XrKcdyV0eq4",
+                "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            }
+        ]
+    },
+    {
+        "series": "Campaign 2: Mighty Nein",
+        "episodes": [
+            {
+                "id": "C2E1",
+                "title": "Curious Beginnings",
+                "youtube_id": "byva0hOj8CU",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["1:32:09", "1:32:21", "break start"],
+                    ["1:49:07", "1:32:28", "break end"],
+                    ["3:17:16", "3:00:25", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E2",
+                "title": "A Show of Scrutiny",
+                "youtube_id": "MPELLuQXVcE",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["2:06:26", "2:06:34", "break start"],
+                    ["2:20:41", "2:06:40", "break end"],
+                    ["4:11:58", "3:57:42", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E3",
+                "title": "The Midnight Chase",
+                "youtube_id": "_Ig_s9j4MuU",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E4",
+                "title": "Disparate Pieces",
+                "youtube_id": "JtJTqLSzXaM",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E5",
+                "title": "The Open Road",
+                "youtube_id": "m3vPWbJoBrQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E6",
+                "title": "The Howling Mines",
+                "youtube_id": "5DHEj9nY-wo",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E7",
+                "title": "Hush",
+                "youtube_id": "JAyT10WP-cY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E8",
+                "title": "The Gates of Zadash",
+                "youtube_id": "dGv-_8tk8g4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E9",
+                "title": "Steam and Conversation",
+                "youtube_id": "HtnTlm6UBpg",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E10",
+                "title": "Waste and Webs",
+                "youtube_id": "R0rx28wgA4E",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E11",
+                "title": "Zemnian Nights",
+                "youtube_id": "w3JWNPcspoM",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E12",
+                "title": "Midnight Espionage",
+                "youtube_id": "HoZGMqCIRK8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E13",
+                "title": "Lost & Found",
+                "youtube_id": "3GNcQ1Abnek",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E14",
+                "title": "Fleeting Memories",
+                "youtube_id": "seY-M0i78F4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E15",
+                "title": "Where the River Goes",
+                "youtube_id": "0ZLwaSShk8M",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E16",
+                "title": "A Favor in Kind",
+                "youtube_id": "lT-wFK4SgJc",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E17",
+                "title": "Harvest Close",
+                "youtube_id": "RNOyGusWh3s",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E18",
+                "title": "Whispers of War",
+                "youtube_id": "4C-frHrNWjY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E19",
+                "title": "The Gentleman's Path",
+                "youtube_id": "w6jE3T_ooKw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E20",
+                "title": "Labenda Awaits",
+                "youtube_id": "jyCoCqhsFp4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E21",
+                "title": "Stalker in the Swamp",
+                "youtube_id": "YTARojk9tBY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E22",
+                "title": "Lost Treasures",
+                "youtube_id": "aQxpxWz38P8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:26", "hello"],
+                    ["2:23:34", "2:23:40", "break start"],
+                    ["2:23:37", "2:24:02", "break end"],
+                    ["3:24:13", "3:24:30", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E23",
+                "title": "Have Bird, Will Travel",
+                "youtube_id": "xr1dOEL2EHQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:22", "hello"],
+                    ["1:56:28", "1:56:35", "break start"],
+                    ["1:56:29", "1:56:58", "break end"],
+                    ["3:44:32", "3:44:46", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E24",
+                "title": "The Hour of Honor",
+                "youtube_id": "YtNB-7Jz1LQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:19", "hello"],
+                    ["2:13:09", "2:13:11", "break start"],
+                    ["2:13:10", "2:13:33", "break end"],
+                    ["3:35:50", "3:36:02", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E25",
+                "title": "Divergent Paths",
+                "youtube_id": "CoomA-qeJMI",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:22", "hello"],
+                    ["1:25:39", "1:25:50", "break start"],
+                    ["1:25:40", "1:26:10", "break end"],
+                    ["3:48:41", "3:48:53", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E26",
+                "title": "Found & Lost",
+                "youtube_id": "NZVqPja6Alg",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E27",
+                "title": "Converging Fury",
+                "youtube_id": "p6miK4kIwIE",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E28",
+                "title": "Within the Nest",
+                "youtube_id": "_jDCU8IRyfA",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E29",
+                "title": "The Stalking Nightmare",
+                "youtube_id": "L3vV7ZdE_w8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E30",
+                "title": "The Journey Home",
+                "youtube_id": "nmiBiqC3fDY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E31",
+                "title": "Commerce & Chaos",
+                "youtube_id": "FJ25t2cM6Ws",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E32",
+                "title": "Beyond the Boundaries",
+                "youtube_id": "aRQr1QMNHsQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E33",
+                "title": "The Ruby and the Sapphire",
+                "youtube_id": "QbrorVyH4mk",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E34",
+                "title": "Encroaching Waters",
+                "youtube_id": "GcmINbstp-E",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E35",
+                "title": "Dockside Diplomacy",
+                "youtube_id": "39TP4YZHf3M",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E36",
+                "title": "O Captain, Who's Captain?",
+                "youtube_id": "AB-yVfipWTU",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E37",
+                "title": "Dangerous Liaisons",
+                "youtube_id": "B2IYaW9lUM4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E38",
+                "title": "Welcome to the Jungle",
+                "youtube_id": "GOsCZ8kQom0",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E39",
+                "title": "Temple of the False Serpent",
+                "youtube_id": "M6XpCPfDP8M",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E40",
+                "title": "Dubious Pursuits",
+                "youtube_id": "etjou2cxZJw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E41",
+                "title": "A Pirate's Life for Me",
+                "youtube_id": "NOh9T7YeR3o",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E42",
+                "title": "A Hole in the Plan",
+                "youtube_id": "W723E1ofhcE",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E43",
+                "title": "In Hot Water",
+                "youtube_id": "dyArEJYKr5U",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E44",
+                "title": "The Diver's Grave",
+                "youtube_id": "P8UVu-kGusg",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E45",
+                "title": "The Stowaway",
+                "youtube_id": "ujWYp5Wr64U",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E46",
+                "title": "A Storm of Memories",
+                "youtube_id": "jw1AhahRFTY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E47",
+                "title": "The Second Seal",
+                "youtube_id": "pj3CeW_a1hQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E48",
+                "title": "Homeward Bound",
+                "youtube_id": "ozSrsj6TtKc",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E49",
+                "title": "A Game of Names",
+                "youtube_id": "Xmsjf8jQZWE",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E50",
+                "title": "The Endless Burrows",
+                "youtube_id": "eRFetHZDSg4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E51",
+                "title": "Xhorhas",
+                "youtube_id": "jnn4dpC2qAQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E52",
+                "title": "Feral Business",
+                "youtube_id": "REyVoebe06E",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:15", "hello"],
+                    ["1:44:48", "1:44:48", "break start"],
+                    ["2:04:32", "1:45:04", "break end"],
+                    ["4:08:29", "3:48:45", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E53",
+                "title": "Cornered",
+                "youtube_id": "tdP3yCRPtJY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E54",
+                "title": "Well Beneath",
+                "youtube_id": "iA0rVPoBK5E",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E55",
+                "title": "Duplicity",
+                "youtube_id": "k1PRExWXj8o",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E56",
+                "title": "The Favor",
+                "youtube_id": "ZtcAs7jCDvw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E57",
+                "title": "In Love and War",
+                "youtube_id": "fUfCP184L0I",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E58",
+                "title": "Wood and Steel",
+                "youtube_id": "7Z610fSoifk",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E59",
+                "title": "Perspective",
+                "youtube_id": "-qveongNOUI",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E60",
+                "title": "A Turtle By Any Other Name",
+                "youtube_id": "yJgaEh_GZ6M",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E61",
+                "title": "Agreements",
+                "youtube_id": "Ck_yuplT8O8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E62",
+                "title": "Domestic Respite",
+                "youtube_id": "-EfuYx_YWC8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E63",
+                "title": "Intervention",
+                "youtube_id": "CQWv6zQZTGo",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E64",
+                "title": "A Dangerous Chase",
+                "youtube_id": "3yfLht7w7Yk",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E65",
+                "title": "Chases and Trees",
+                "youtube_id": "HNODkS9gZmM",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E66",
+                "title": "Beneath Bazzoxan",
+                "youtube_id": "JGnGZbuvSJY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E67",
+                "title": "Beyond the Eyes of Angels",
+                "youtube_id": "hdtabnXnckw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E68",
+                "title": "Reflections",
+                "youtube_id": "5GAclNF61Xs",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E69",
+                "title": "The King's Cage",
+                "youtube_id": "Sj5wImPuG-k",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E70",
+                "title": "Causatum",
+                "youtube_id": "kKeNW01RJYY",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E71",
+                "title": "Family Gathering",
+                "youtube_id": "XpLgITRGA30",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E72",
+                "title": "Clay and Dust",
+                "youtube_id": "8tCcRA2aogk",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E73",
+                "title": "Uthodurn",
+                "youtube_id": "M5lRGaV-xQk",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E74",
+                "title": "Manifold Morals",
+                "youtube_id": "rMZYyG8qm-Y",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E75",
+                "title": "Rime and Reason",
+                "youtube_id": "Z1pJ0essryI",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E76",
+                "title": "Refjorged",
+                "youtube_id": "BzHkVh80kVQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E77",
+                "title": "A Tangled Web",
+                "youtube_id": "IW-wt6u7GNQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E78",
+                "title": "Between the Lines",
+                "youtube_id": "Z8Jbn8VoXaw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E79",
+                "title": "Through the Trees",
+                "youtube_id": "yG2vBIu1ieg",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E80",
+                "title": "The Folding Halls",
+                "youtube_id": "aHKloZn2rII",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E81",
+                "title": "From Door to Door",
+                "youtube_id": "XPu0ANzvQdQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E82",
+                "title": "The Beat of the Permaheart",
+                "youtube_id": "2Jv3OPxR7F8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E83",
+                "title": "Dark Bargains",
+                "youtube_id": "YpoHqSgjTjg",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E84",
+                "title": "Titles and Tattoos",
+                "youtube_id": "vFMddwkLjJw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E85",
+                "title": "The Threads Converge",
+                "youtube_id": "J1Efz6E3_-0",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E86",
+                "title": "The Cathedral",
+                "youtube_id": "Wao4L1Mfam4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E87",
+                "title": "Punishment and Politics",
+                "youtube_id": "3RnC_HS2Ck4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E88",
+                "title": "Unwanted Reunions",
+                "youtube_id": "d-xQ5dsILYU",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E89",
+                "title": "Lingering Wounds",
+                "youtube_id": "KrZps9j2bl4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E90",
+                "title": "Bathhouses and Bastions",
+                "youtube_id": "wdHE0avQRVw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E91",
+                "title": "Stone to Clay",
+                "youtube_id": "mN6jDz0UPdo",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E92",
+                "title": "Home Is Where the Heart Is",
+                "youtube_id": "qS9rz1srwio",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E93",
+                "title": "Misery Loves Company",
+                "youtube_id": "PJawve2RxNM",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E94",
+                "title": "With Great Power...",
+                "youtube_id": "Arx8bX4E_Cw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E95",
+                "title": "Blessing In Disguise",
+                "youtube_id": "1Db5CorBfz4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E96",
+                "title": "Family Shatters",
+                "youtube_id": "Tmz4TS3Div8",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
+            },
+            {
+                "id": "C2E97",
+                "title": "The Fancy and the Fooled",
+                "youtube_id": "SV8eKqbZZNQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:07:29", "0:07:39", "LIVE SHOW - 'Welcome, To Critical Role'"],
+                    ["1:58:27", "1:58:39", "break start"],
+                    ["2:22:08", "1:58:57", "break end"],
+                    ["4:13:37", "3:50:23", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E98",
+                "title": "Dark Waters",
+                "youtube_id": "4OH5Sa8x_Cw",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:03:03", "hello"],
+                    ["1:30:50", "1:33:53", "break start"],
+                    ["1:57:54", "1:34:54", "break end"],
+                    ["5:08:07", "4:45:07", "IITY?"]
+                ]
+            },
+            {
+                "id": "C2E99",
+                "title": "High Seas, High Stakes",
+                "youtube_id": "KmLNSQwQQXQ",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:01:29", "hello"],
+                    ["2:13:56", "2:15:26", "break start"],
+                    ["2:42:34", "2:16:27", "break end"],
+                    ["3:47:57", "3:21:49", "IITY?"]
+                ]
+            }
         ]
     }
 ]
