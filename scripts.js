@@ -86,39 +86,43 @@ function readLess() {
     moreText.style.display = "none";
 }
 
-function str2sec(string) {
+function timeObjFromString(string) {
     var t = string.split(':');
     if (t.length == 3) {
-        hours = parseInt(t[0])
-        mins = parseInt(t[1])
-        secs = parseInt(t[2])
+        h = parseInt(t[0])
+        m = parseInt(t[1])
+        s = parseInt(t[2])
     } else if (t.length == 2) {
-        hours = 0
-        mins = parseInt(t[0])
-        secs = parseInt(t[1])
+        h = 0
+        m = parseInt(t[0])
+        s = parseInt(t[1])
     } else {
         console.log(`error, bad time got past form validator: ${string}`);
         return false
     }
-    seconds = 3600*hours + 60*mins + secs;
-    return seconds
+
+    total = 3600*h + 60*m + s;
+
+    return {string: string, h: h, m: m, s: s, total: total}
 }
 
-function sec2str(seconds, format=null) {
-    if (!seconds || seconds < 0) {
-        console.log(`error, bad time: ${seconds}`)
+function timeObjFromTotal(total) {
+    if (!total || total < 0) {
+        console.log(`error, bad time: ${total}`)
         return false
     }
-    seconds = Math.floor(seconds);
-    mins = Math.floor(seconds / 60);
-    secs = seconds % 60;
-    hours = Math.floor(mins / 60);
-    mins = mins % 60;
-    if (format =='youtube') {
-        return `${hours}h${String(mins).padStart(2, '0')}m${String(secs).padStart(2, '0')}s`
-    } else {
-        return `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`
-    }
+    s = Math.floor(total % 60);
+    m = Math.floor(total / 60);
+    h = Math.floor(m / 60);
+    m = m % 60;
+
+    string = `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+
+    return {string: string, h: h, m: m, s: s, total: total}
+}
+
+function youtubeTimeQuery(time_obj) {
+    return `t=${time_obj.h}h${time_obj.m}m${time_obj.s}s`
 }
 
 function parseTimestamps() {
@@ -127,33 +131,31 @@ function parseTimestamps() {
         if (ep.timestamps_columns[i] == 'comment') {
             col = ep.timestamps.map(function(value, index) { return value[i]; });
         } else {
-            col = ep.timestamps.map(function(value, index) { return str2sec(value[i]); });
+            col = ep.timestamps.map(function(value, index) { return timeObjFromString(value[i]).total; });
         }
         ts[ep.timestamps_columns[i]] = col
     }
     return ts
 }
 
-function convertTimestamp(source, dest) {
+function convertTimeObj(time_obj, source, dest) {
 
-    var seconds = str2sec(inputTime.value);
-
-    var new_seconds, time_string;
+    var new_total;
     var ts = parseTimestamps();
     if (ts[source].length < 2 || ts[dest].length < 2) {
         console.log('error, not enough timestamps for interpolation');
         return
-    } else if (seconds < ts[source][0]) {
+    } else if (time_obj.total < ts[source][0]) {
         // use earliest destination time
-        new_seconds = ts[dest][0];
-    } else if (seconds > ts[source].slice(-1)) {
+        new_total = ts[dest][0];
+    } else if (time_obj.total > ts[source].slice(-1)) {
         // use latest destination time
-        new_seconds = ts[dest].slice(-1);
+        new_total = ts[dest].slice(-1);
     } else {
-        new_seconds = everpolate.linear(seconds, ts[source], ts[dest]);
+        new_total = everpolate.linear(time_obj.total, ts[source], ts[dest]);
     }
 
-    return new_seconds
+    return timeObjFromTotal(new_total)
 }
 
 function showConvertedTimestamp() {
@@ -171,22 +173,18 @@ function showConvertedTimestamp() {
         return
     }
 
-    var new_seconds = convertTimestamp(source, dest)
-    var time_string = sec2str(new_seconds);
-
-    if (!time_string) {
-        return
-    }
+    var timeObjs = {};
+    timeObjs[source] = timeObjFromString(inputTime.value);
+    timeObjs[dest] = convertTimeObj(timeObjs[source], source, dest);
 
     if (dest == 'youtube') {
-        var url;
+        var youtubeUrl;
+        youtubeUrl = `https://www.youtube.com/watch?v=${ep.youtube_id}&t=${timeObjs[dest].h}h${timeObjs[dest].m}m${timeObjs[dest].s}s`;
         if (ep.youtube_playlist) {
-            url = `https://www.youtube.com/watch?v=${ep.youtube_id}&list=${ep.youtube_playlist}&t=${sec2str(new_seconds, format='youtube')}`
-        } else {
-            url = `https://www.youtube.com/watch?v=${ep.youtube_id}&t=${sec2str(new_seconds, format='youtube')}`
+            youtubeUrl += `&list=${ep.youtube_playlist}`;
         }
-        outputTime.innerHTML = `<a href="${url}" target="_blank">${time_string}</a>`;
+        outputTime.innerHTML = `<a href="${youtubeUrl}" target="_blank">${timeObjs[dest].string}</a>`;
     } else {
-        outputTime.innerHTML = time_string;
+        outputTime.innerHTML = timeObjs[dest].string;
     }
 }
