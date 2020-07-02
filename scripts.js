@@ -1,28 +1,28 @@
-var data, ep;
-var seriesSelect = document.getElementById('series-select');
-var episodeSelect = document.getElementById('episode-select');
-var readMoreButton = document.getElementById("read-more");
-var moreText = document.getElementById("more-text");
-var inputTime = document.getElementById('input-time');
-var inputTimeLabel = document.getElementById('input-time-label');
-var outputTime = document.getElementById('output-time');
-var outputTimeLabel = document.getElementById('output-time-label');
+var data, ep
+var seriesSelect = document.getElementById('series-select')
+var episodeSelect = document.getElementById('episode-select')
+var readMoreButton = document.getElementById("read-more")
+var moreText = document.getElementById("more-text")
+var inputTime = document.getElementById('input-time')
+var inputTimeLabel = document.getElementById('input-time-label')
+var outputTime = document.getElementById('output-time')
+var outputTimeLabel = document.getElementById('output-time-label')
 
 // load the episode data
-var requestURL = 'data.json';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
+var requestURL = 'data.json'
+var request = new XMLHttpRequest()
+request.open('GET', requestURL)
+request.responseType = 'json'
+request.send()
 request.onload = function() {
-  data = request.response;
+  data = request.response
   for (let i = 0; i < data.length; i++) {
       let option = document.createElement('option')
       option.value = i
       option.textContent = data[i].series
       if (data[i].episodes.length == 0) {
           // disable series that do not have episodes yet
-          option.disabled = true;
+          option.disabled = true
           option.textContent = '* ' + option.textContent
       }
       seriesSelect.appendChild(option)
@@ -35,7 +35,7 @@ function selectSeries() {
 
     // remove all episodes from the episode selector
     for (let i = episodeSelect.options.length-1; i >= 0; i--) {
-       episodeSelect.remove(i);
+       episodeSelect.remove(i)
     }
 
     // repopulate the episode selector
@@ -45,7 +45,7 @@ function selectSeries() {
         option.textContent = `${series['episodes'][i].id}: ${series['episodes'][i].title}`
         if (series['episodes'][i].timestamps.length == 0) {
             // disable episodes that do not have timestamps yet
-            option.disabled = true;
+            option.disabled = true
             option.textContent = '* ' + option.textContent
         }
         episodeSelect.appendChild(option)
@@ -55,39 +55,39 @@ function selectSeries() {
 }
 
 function selectEpisode() {
-    ep = series['episodes'][episodeSelect.value];
+    ep = series['episodes'][episodeSelect.value]
     resetLabels()
 }
 
 function resetLabels() {
     direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
-        inputTimeLabel.textContent = 'Podcast time:';
-        outputTimeLabel.textContent = 'YouTube time:';
+        inputTimeLabel.textContent = 'Podcast time:'
+        outputTimeLabel.textContent = 'YouTube time:'
     } else if (direction == 'youtube2podcast') {
-        inputTimeLabel.textContent = 'YouTube time:';
-        outputTimeLabel.textContent = 'Podcast time:';
+        inputTimeLabel.textContent = 'YouTube time:'
+        outputTimeLabel.textContent = 'Podcast time:'
     } else {
         console.log(`error, bad direction: ${direction}`)
-        inputTimeLabel.textContent = '';
-        outputTimeLabel.textContent = '';
+        inputTimeLabel.textContent = ''
+        outputTimeLabel.textContent = ''
     }
 
-    outputTime.innerHTML = '';
+    outputTime.innerHTML = ''
 }
 
 function readMore() {
-    readMoreButton.style.display = "none";
-    moreText.style.display = "inline";
+    readMoreButton.style.display = "none"
+    moreText.style.display = "inline"
 }
 
 function readLess() {
-    readMoreButton.style.display = "inline";
-    moreText.style.display = "none";
+    readMoreButton.style.display = "inline"
+    moreText.style.display = "none"
 }
 
 function timeObjFromString(string) {
-    var t = string.split(':');
+    var t = string.split(':')
     if (t.length == 3) {
         h = parseInt(t[0])
         m = parseInt(t[1])
@@ -97,11 +97,11 @@ function timeObjFromString(string) {
         m = parseInt(t[0])
         s = parseInt(t[1])
     } else {
-        console.log(`error, bad time got past form validator: ${string}`);
+        console.log(`error, bad time got past form validator: ${string}`)
         return false
     }
 
-    total = 3600*h + 60*m + s;
+    total = 3600*h + 60*m + s
 
     return {string: string, h: h, m: m, s: s, total: total}
 }
@@ -111,10 +111,10 @@ function timeObjFromTotal(total) {
         console.log(`error, bad time: ${total}`)
         return false
     }
-    s = Math.floor(total % 60);
-    m = Math.floor(total / 60);
-    h = Math.floor(m / 60);
-    m = m % 60;
+    s = Math.floor(total % 60)
+    m = Math.floor(total / 60)
+    h = Math.floor(m / 60)
+    m = m % 60
 
     string = `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
 
@@ -129,9 +129,9 @@ function parseTimestamps() {
     ts = {}
     for (let i = 0; i < ep.timestamps_columns.length; i++) {
         if (ep.timestamps_columns[i] == 'comment') {
-            col = ep.timestamps.map(function(value, index) { return value[i]; });
+            col = ep.timestamps.map(function(value, index) { return value[i] })
         } else {
-            col = ep.timestamps.map(function(value, index) { return timeObjFromString(value[i]).total; });
+            col = ep.timestamps.map(function(value, index) { return timeObjFromString(value[i]).total })
         }
         ts[ep.timestamps_columns[i]] = col
     }
@@ -140,19 +140,19 @@ function parseTimestamps() {
 
 function convertTimeObj(time_obj, source, dest) {
 
-    var new_total;
-    var ts = parseTimestamps();
+    var new_total
+    var ts = parseTimestamps()
     if (ts[source].length < 2 || ts[dest].length < 2) {
-        console.log('error, not enough timestamps for interpolation');
+        console.log('error, not enough timestamps for interpolation')
         return
     } else if (time_obj.total < ts[source][0]) {
         // use earliest destination time
-        new_total = ts[dest][0];
+        new_total = ts[dest][0]
     } else if (time_obj.total > ts[source].slice(-1)) {
         // use latest destination time
-        new_total = ts[dest].slice(-1);
+        new_total = ts[dest].slice(-1)
     } else {
-        new_total = everpolate.linear(time_obj.total, ts[source], ts[dest]);
+        new_total = everpolate.linear(time_obj.total, ts[source], ts[dest])
     }
 
     return timeObjFromTotal(new_total)
@@ -160,7 +160,7 @@ function convertTimeObj(time_obj, source, dest) {
 
 function showConvertedTimestamp() {
 
-    var source, dest;
+    var source, dest
     var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
         source = 'podcast'
@@ -173,18 +173,18 @@ function showConvertedTimestamp() {
         return
     }
 
-    var timeObjs = {};
-    timeObjs[source] = timeObjFromString(inputTime.value);
-    timeObjs[dest] = convertTimeObj(timeObjs[source], source, dest);
+    var timeObjs = {}
+    timeObjs[source] = timeObjFromString(inputTime.value)
+    timeObjs[dest] = convertTimeObj(timeObjs[source], source, dest)
 
     if (dest == 'youtube') {
-        var youtubeUrl;
-        youtubeUrl = `https://www.youtube.com/watch?v=${ep.youtube_id}&t=${timeObjs[dest].h}h${timeObjs[dest].m}m${timeObjs[dest].s}s`;
+        var youtubeUrl
+        youtubeUrl = `https://www.youtube.com/watch?v=${ep.youtube_id}&t=${timeObjs[dest].h}h${timeObjs[dest].m}m${timeObjs[dest].s}s`
         if (ep.youtube_playlist) {
-            youtubeUrl += `&list=${ep.youtube_playlist}`;
+            youtubeUrl += `&list=${ep.youtube_playlist}`
         }
-        outputTime.innerHTML = `<a href="${youtubeUrl}" target="_blank">${timeObjs[dest].string}</a>`;
+        outputTime.innerHTML = `<a href="${youtubeUrl}" target="_blank">${timeObjs[dest].string}</a>`
     } else {
-        outputTime.innerHTML = timeObjs[dest].string;
+        outputTime.innerHTML = timeObjs[dest].string
     }
 }

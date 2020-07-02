@@ -11,19 +11,19 @@
 
     <h1>CritRoleSync</h1>
 
-    <p>This is a simple, unofficial web app that helps you switch back and forth between the <a href="https://critrole.com" target="_blank">Critical Role</a> podcast and YouTube videos. <span id='read-more'><a href="javascript:readMore();">Read more.</a></span></p>
+    <p>This is a simple, unofficial web app that helps you switch back and forth between the <a href="https://critrole.com" target="_blank">Critical Role</a> podcast and YouTube videos. <span id='read-more'><a href="javascript:readMore()">Read more.</a></span></p>
 
     <span id="more-text">
         <p>Listening to the podcast but want to see the map Matt just pulled out? Need to switch to audio for your daily commute? This app exists to make these tasks easier.</p>
 
         <p>Given your current playback position in one medium, it will calculate the corresponding time in the other, accounting for differences caused by the mid-session break, altered introductions, and variable playback rate.</p>
 
-        <p><a href="javascript:readLess();">Read less.</a></p>
+        <p><a href="javascript:readLess()">Read less.</a></p>
     </span>
 
     <hr/>
 
-    <form action="javascript:void(0);" onsubmit="showConvertedTimestamp()">
+    <form action="javascript:void(0)" onsubmit="showConvertedTimestamp()">
         <p>
             <label for="series-select">Series:</label>
             <select id="series-select" onchange="selectSeries()"></select>
