@@ -7,6 +7,7 @@ var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
 var outputTime = document.getElementById('output-time')
 var outputTimeLabel = document.getElementById('output-time-label')
+var transcriptLink = document.getElementById('transcript-link')
 
 // load the episode data
 var requestURL = 'data.json'
@@ -74,6 +75,7 @@ function resetLabels() {
     }
 
     outputTime.innerHTML = ''
+    transcriptLink.innerHTML = ''
 }
 
 function readMore() {
@@ -123,6 +125,10 @@ function timeObjFromTotal(total) {
 
 function youtubeTimeQuery(time_obj) {
     return `t=${time_obj.h}h${time_obj.m}m${time_obj.s}s`
+}
+
+function transcriptTimeQuery(time_obj) {
+    return `h=${time_obj.h}&m=${time_obj.m}&s=${time_obj.s}`
 }
 
 function parseTimestamps() {
@@ -187,4 +193,9 @@ function showConvertedTimestamp() {
     } else {
         outputTime.innerHTML = timeObjs[dest].string
     }
+
+    var transcriptUrl, c = ep.id.split(/[CE]/)[1], e = ep.id.split(/[CE]/)[2]
+    transcriptUrl = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}&h=${timeObjs['youtube'].h}&m=${timeObjs['youtube'].m}&s=${timeObjs['youtube'].s}`
+    transcriptLink.innerHTML = `<a href="${transcriptUrl}" target="_blank">Go!</a>`
+
 }

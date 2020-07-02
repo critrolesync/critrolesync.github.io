@@ -2,6 +2,8 @@
 
 This is a simple, unofficial web app that helps you switch back and forth
 between the [Critical Role](https://critrole.com) podcast and YouTube videos.
+It can also take you directly to the appropriate point in the episode
+transcript.
 
 Listening to the podcast but want to see the map Matt just pulled out? Need to
 switch to audio for your daily commute? This app exists to make these tasks
@@ -22,3 +24,5 @@ this](https://github.com/critrolesync/critrolesync.github.io/issues/1)!
 ## Acknowledgements
 
 Thanks to @brojam for contributing timestamps!
+
+Special thanks to @sil for creating the API for linking to transcripts!
