@@ -1398,7 +1398,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:23", "hello"],
+                    ["2:15:25", "2:15:31", "break start"],
+                    ["2:15:26", "2:15:49", "break end"],
+                    ["3:31:19", "3:31:31", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E21",
@@ -1409,7 +1416,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:20", "hello"],
+                    ["2:22:40", "2:22:40", "break start"],
+                    ["2:22:41", "2:23:01", "break end"],
+                    ["4:20:46", "4:20:50", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E22",
@@ -1492,7 +1506,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:21", "hello"],
+                    ["1:54:01", "1:54:06", "break start"],
+                    ["1:54:02", "1:54:25", "break end"],
+                    ["4:40:39", "4:40:39", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E27",
