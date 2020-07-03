@@ -168,6 +168,7 @@ function showConvertedTimestamp() {
 
     var source, dest
     var direction = document.querySelector('input[name="direction"]:checked').value
+    var bitrateMode = document.querySelector('input[name="bitrate-mode"]:checked').value
     if (direction == 'podcast2youtube') {
         source = 'podcast'
         dest = 'youtube'
@@ -181,7 +182,23 @@ function showConvertedTimestamp() {
 
     var timeObjs = {}
     timeObjs[source] = timeObjFromString(inputTime.value)
+    if (bitrateMode == 'abr' && source == 'podcast' && ep.CBR && ep.ABR) {
+        // if source time is from a podcast player with ABR decoding, the time
+        // needs to be fixed before conversion to work with the CBR timestamps
+        // stored in data.json, where the factor 127.7/128 represents the ratio
+        // of the average bitrate used by ABR decoders and the constant bitrate
+        // used by CBR decoders
+        timeObjs[source] = timeObjFromTotal(timeObjs[source].total * ep.ABR/ep.CBR)
+    }
     timeObjs[dest] = convertTimeObj(timeObjs[source], source, dest)
+    if (bitrateMode == 'abr' && dest == 'podcast' && ep.CBR && ep.ABR) {
+        // if destination time is for a podcast player with ABR decoding, the
+        // time needs to be fixed since it was converted using CBR timestamps,
+        // where the factor 128/127.7 represents the ratio of the constant
+        // bitrate used by CBR decoders and the average bitrate used by ABR
+        // decoders
+        timeObjs[dest] = timeObjFromTotal(timeObjs[dest].total * ep.CBR/ep.ABR)
+    }
 
     if (dest == 'youtube') {
         var youtubeUrl

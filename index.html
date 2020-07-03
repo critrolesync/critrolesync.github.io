@@ -39,6 +39,13 @@
             <label for="youtube2podcast">YouTube → Podcast</label><br>
         </p>
         <p>
+            <abbr title="If your converted time is inaccurate, try switching this">Podcast decoder mode</abbr> (experimental):<br/>
+            <input type="radio" id="cbr" name="bitrate-mode" value="cbr" onchange="resetLabels()" checked>
+            <label for="cbr"><abbr title="Constant bitrate">CBR</abbr> (recommended for Chrome, Android apps)</label><br>
+            <input type="radio" id="abr" name="bitrate-mode" value="abr" onchange="resetLabels()">
+            <label for="abr"><abbr title="Average bitrate">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
+        </p>
+        <p>
             <label for="input-time" id="input-time-label"></label>
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required>
             <input type="submit" value="Convert">
