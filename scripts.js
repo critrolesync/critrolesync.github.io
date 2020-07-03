@@ -208,7 +208,13 @@ function showConvertedTimestamp() {
         }
         outputTime.innerHTML = `<a href="${youtubeUrl}" target="_blank">${timeObjs[dest].string}</a>`
     } else {
-        outputTime.innerHTML = timeObjs[dest].string
+        if (ep.overcast_id) {
+            var overcastUrl
+            overcastUrl = `https://overcast.fm/+${ep.overcast_id}/${timeObjs[dest].string}`
+            outputTime.innerHTML = `<a href="${overcastUrl}" target="_blank">${timeObjs[dest].string}</a>`
+        } else {
+            outputTime.innerHTML = timeObjs[dest].string
+        }
     }
 
     var transcriptUrl, c = ep.id.split(/[CE]/)[1], e = ep.id.split(/[CE]/)[2]
