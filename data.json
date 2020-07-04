@@ -10,11 +10,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:17:53", "0:00:25", "last left off"],
-                    ["1:31:47", "1:14:19", "break start"],
-                    ["1:43:41", "1:14:29", "break end"],
-                    ["3:02:48", "2:33:36", "end"]
-                ]
+                    ["0:17:53", "0:00:24", "last left off"],
+                    ["1:31:47", "1:14:08", "break start"],
+                    ["1:43:41", "1:14:18", "break end"],
+                    ["3:02:48", "2:33:15", "end"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C1E2",
@@ -1780,14 +1783,18 @@
                 "title": "Feral Business",
                 "youtube_id": "REyVoebe06E",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "overcast_id": "QzWaq6ido",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:15", "hello"],
                     ["1:44:48", "1:44:48", "break start"],
                     ["2:04:32", "1:45:04", "break end"],
-                    ["4:08:29", "3:48:45", "IITY?"]
-                ]
+                    ["4:08:31", "3:48:45", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E53",
@@ -2234,34 +2241,43 @@
                 "title": "The Fancy and the Fooled",
                 "youtube_id": "SV8eKqbZZNQ",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "overcast_id": "QzWaNHbD0",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:07:29", "0:07:39", "LIVE SHOW - 'Welcome, To Critical Role'"],
+                    ["0:00:27", "0:00:36", "uh oh"],
                     ["1:58:27", "1:58:39", "break start"],
-                    ["2:22:08", "1:58:57", "break end"],
-                    ["4:13:37", "3:50:23", "IITY?"]
-                ]
+                    ["2:22:09", "1:58:57", "break end"],
+                    ["4:13:37", "3:50:24", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             },
             {
                 "id": "C2E98",
                 "title": "Dark Waters",
                 "youtube_id": "4OH5Sa8x_Cw",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "overcast_id": "QzWYGbPuU",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:03", "hello"],
                     ["1:30:50", "1:33:53", "break start"],
-                    ["1:57:54", "1:34:54", "break end"],
-                    ["5:08:07", "4:45:07", "IITY?"]
-                ]
+                    ["1:57:55", "1:34:54", "break end"],
+                    ["5:08:06", "4:45:05", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             },
             {
                 "id": "C2E99",
                 "title": "High Seas, High Stakes",
                 "youtube_id": "KmLNSQwQQXQ",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "overcast_id": "QzWaQr2Ao",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
@@ -2269,7 +2285,10 @@
                     ["2:13:56", "2:15:26", "break start"],
                     ["2:42:34", "2:16:27", "break end"],
                     ["3:47:57", "3:21:49", "IITY?"]
-                ]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             }
         ]
     },
