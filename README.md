@@ -23,6 +23,6 @@ this](https://github.com/critrolesync/critrolesync.github.io/issues/1)!
 
 ## Acknowledgements
 
-Thanks to u/scruffed_books_fire and @brojam for contributing timestamps!
+Thanks to u/scruffed_books_fire, @brojam, and u/CantReadMaps for contributing timestamps!
 
 Special thanks to @sil for creating the API for linking to transcripts!
