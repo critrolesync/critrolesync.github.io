@@ -986,7 +986,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:30:32", "0:00:25", "recap"],
+                    ["1:32:50", "1:02:35", "break start"],
+                    ["1:50:33", "1:02:44", "break end"],
+                    ["3:45:35", "2:57:27", "end"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C1E87",
@@ -996,7 +1003,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:07:56", "0:00:25", "recap"],
+                    ["2:10:47", "2:02:58", "break start"],
+                    ["2:27:45", "2:03:07", "break end"],
+                    ["3:31:12", "3:06:26", "end"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C1E88",
