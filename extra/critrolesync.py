@@ -9,7 +9,6 @@ import numpy as np
 
 with open('../data.json') as f:
     data = json.load(f)
-    data = {d['id']:d for d in data}
 
 def str2sec(string):
     if len(string.split(':')) == 3:
@@ -33,28 +32,39 @@ def sec2str(seconds, format=None):
         string = '%d:%02d:%02d' % (hours, mins, secs)
     return string
 
-def convert_time(time, episode, source, dest):
+def get_episode_data_from_id(episode_id):
+    c, e = map(int, episode_id.strip('C').split('E'))
+    ep = data[c-1]['episodes'][e-1]
+    if ep['id'] != episode_id:
+        raise ValueError(f'episode id mismatch for {episode_id}: {ep}')
+    else:
+        return ep
 
-    timestamps = {k:d for k,d in zip(data[episode]['timestamps_columns'], np.array(data[episode]['timestamps']).T)}
+def convert_time(time, episode_id, source, dest):
+
+    ep = get_episode_data_from_id(episode_id)
+    timestamps = {k:d for k,d in zip(ep['timestamps_columns'], np.array(ep['timestamps']).T)}
 
     seconds = np.interp(str2sec(time), list(map(str2sec, timestamps[source])), list(map(str2sec, timestamps[dest])))
 
     if dest == 'youtube':
-        youtube_id = data[episode]['youtube_id']
-        youtube_playlist = data[episode].get('youtube_playlist', None)
+        youtube_id = ep['youtube_id']
+        youtube_playlist = ep.get('youtube_playlist', None)
         time_string = sec2str(seconds, format='youtube')
         if youtube_playlist is not None:
-            return f"https://www.youtube.com/watch?v={youtube_id}&list={youtube_playlist}&t={time_string}"
+            return f'https://www.youtube.com/watch?v={youtube_id}&list={youtube_playlist}&t={time_string}'
         else:
-            return f"https://www.youtube.com/watch?v={youtube_id}&t={time_string}"
+            return f'https://www.youtube.com/watch?v={youtube_id}&t={time_string}'
     else:
         time_string = sec2str(seconds)
         return time_string
 
-def podcast2youtube(time, episode='C2E22'):
-    print(data[episode]['title'])
-    print(convert_time(time, episode, source='podcast', dest='youtube'))
+def podcast2youtube(time, episode_id='C2E22'):
+    ep = get_episode_data_from_id(episode_id)
+    print(ep['title'])
+    print(convert_time(time, episode_id, source='podcast', dest='youtube'))
 
-def youtube2podcast(time, episode='C2E22'):
-    print(data[episode]['title'])
-    print(convert_time(time, episode, source='youtube', dest='podcast'))
+def youtube2podcast(time, episode_id='C2E22'):
+    ep = get_episode_data_from_id(episode_id)
+    print(ep['title'])
+    print(convert_time(time, episode_id, source='youtube', dest='podcast'))
