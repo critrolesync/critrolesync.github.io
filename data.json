@@ -1636,7 +1636,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["1:36:14", "1:36:24", "break start"],
+                    ["1:36:15", "1:36:44", "break end"],
+                    ["3:50:59", "3:51:08", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E28",
@@ -1647,7 +1654,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:20", "hello"],
+                    ["1:46:30", "1:46:36", "break start"],
+                    ["1:46:31", "1:46:59", "break end"],
+                    ["3:58:42", "3:58:52", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E29",
@@ -1658,7 +1672,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:40", "0:01:04", "why can't i find"],
+                    ["1:59:02", "1:59:10", "break start"],
+                    ["1:59:03", "1:59:32", "break end"],
+                    ["3:57:42", "3:57:54", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E30",
@@ -1669,7 +1690,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:01", "0:00:20", "hello"],
+                    ["1:32:51", "1:32:57", "break start"],
+                    ["1:32:52", "1:33:17", "break end"],
+                    ["3:21:21", "3:21:30", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E31",
