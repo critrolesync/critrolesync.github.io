@@ -3,14 +3,25 @@
 ******************************************************************************/
 
 var data, ep
-var seriesSelect = document.getElementById('series-select')
-var episodeSelect = document.getElementById('episode-select')
+
 var readMoreButton = document.getElementById("read-more")
 var moreText = document.getElementById("more-text")
+var incompleteWarning = document.getElementById("incomplete-warning")
+
+var seriesSelect = document.getElementById('series-select')
+var episodeSelect = document.getElementById('episode-select')
+
+var radioPodcast2Youtube = document.getElementById('podcast2youtube')
+var radioYoutube2Podcast = document.getElementById('youtube2podcast')
+var radioCBR = document.getElementById('cbr')
+var radioABR = document.getElementById('abr')
+var convertButton = document.getElementById('convert-button')
+
 var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
 var outputTime = document.getElementById('output-time')
 var outputTimeLabel = document.getElementById('output-time-label')
+
 var videoLink = document.getElementById('video-link')
 var podcastLink = document.getElementById('podcast-link')
 var transcriptLink = document.getElementById('transcript-link')
@@ -54,9 +65,8 @@ function selectSeries() {
         let option = document.createElement('option')
         option.value = i
         option.textContent = `${series['episodes'][i].id}: ${series['episodes'][i].title}`
-        if (series['episodes'][i].timestamps.length == 0) {
-            // disable episodes that do not have timestamps yet
-            option.disabled = true
+        if (series['episodes'][i].timestamps.length < 2) {
+            // mark episodes that do not have timestamps yet
             option.textContent = '* ' + option.textContent
         }
         episodeSelect.appendChild(option)
@@ -67,6 +77,25 @@ function selectSeries() {
 
 function selectEpisode() {
     ep = series['episodes'][episodeSelect.value]
+    if (ep.timestamps.length < 2) {
+        // disable form controls if timestamp data are missing
+        radioPodcast2Youtube.disabled = true
+        radioYoutube2Podcast.disabled = true
+        radioCBR.disabled = true
+        radioABR.disabled = true
+        inputTime.disabled = true
+        convertButton.disabled = true
+        incompleteWarning.style.display = "block"
+    } else {
+        // enable form controls if timestamp data are available
+        radioPodcast2Youtube.disabled = false
+        radioYoutube2Podcast.disabled = false
+        radioCBR.disabled = false
+        radioABR.disabled = false
+        inputTime.disabled = false
+        convertButton.disabled = false
+        incompleteWarning.style.display = "none"
+    }
     resetLabels()
 }
 
@@ -93,7 +122,7 @@ function resetLabels() {
 
 function readMore() {
     readMoreButton.style.display = "none"
-    moreText.style.display = "inline"
+    moreText.style.display = "block"
 }
 
 function readLess() {

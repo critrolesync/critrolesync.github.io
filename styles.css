@@ -24,6 +24,8 @@ p { line-height: 28px; margin: 0 0 28px; }
 
 #more-text { display: none; }
 
+#incomplete-warning { display: none; font-style: italic; color: #c73036; }
+
 #output-time { font-size: 28px; font-weight: bold; }
 
 select, input { font-family: Georgia, serif; font-size: 18px; }

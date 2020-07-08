@@ -36,6 +36,9 @@
             <label for="episode-select">Episode:</label>
             <select id="episode-select" onchange="selectEpisode()"></select>
         </p>
+        <p id="incomplete-warning">
+            * Time conversion not available yet for this episode.
+        </p>
         <p>
             <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels()" checked>
             <label for="podcast2youtube">Podcast → YouTube</label><br>
@@ -52,7 +55,7 @@
         <p>
             <label for="input-time" id="input-time-label"></label>
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required>
-            <input type="submit" value="Convert">
+            <input type="submit" id="convert-button" value="Convert">
         </p>
     </form>
 
