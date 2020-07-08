@@ -11,6 +11,8 @@ var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
 var outputTime = document.getElementById('output-time')
 var outputTimeLabel = document.getElementById('output-time-label')
+var videoLink = document.getElementById('video-link')
+var podcastLink = document.getElementById('podcast-link')
 var transcriptLink = document.getElementById('transcript-link')
 
 // load the episode data
@@ -83,7 +85,10 @@ function resetLabels() {
     }
 
     outputTime.innerHTML = ''
-    transcriptLink.innerHTML = ''
+
+    videoLink.href = youtubeUrl(ep)
+    podcastLink.href = googlePodcastsUrl(ep)
+    transcriptLink.href = transcriptUrl(ep)
 }
 
 function readMore() {
@@ -216,8 +221,9 @@ function showConvertedTimestamp() {
         outputTime.innerHTML = timeObjs[dest].string
     }
 
-    url = transcriptUrl(ep, timeObjs['youtube'])
-    transcriptLink.innerHTML = `<a href="${url}" target="_blank">Go!</a>`
+    videoLink.href = youtubeUrl(ep, timeObjs['youtube'])
+    podcastLink.href = googlePodcastsUrl(ep, timeObjs['podcast'])
+    transcriptLink.href = transcriptUrl(ep, timeObjs['youtube'])
 }
 
 /******************************************************************************
@@ -228,10 +234,8 @@ function getUrl(type, ep, timeObj=null) {
     switch (type) {
         case 'youtube':
             return youtubeUrl(ep, timeObj)
-        case 'transcript':
-            return transcriptUrl(ep, timeObj)
         case 'podcast':
-            return overcastUrl(ep, timeObj)
+            return googlePodcastsUrl(ep, timeObj)
         default:
             return
     }
@@ -247,13 +251,20 @@ function youtubeUrl(ep, timeObj=null) {
 }
 
 function transcriptUrl(ep, timeObj=null) {
-    var c = ep.id.split(/[CE]/)[1], e = ep.id.split(/[CE]/)[2]
-    var url = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}`
+    var url, c = ep.id.split(/[CE]/)[1], e = ep.id.split(/[CE]/)[2]
     if (timeObj) {
-        url += `&h=${timeObj.h}&m=${timeObj.m}&s=${timeObj.s}`
+        url = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}&h=${timeObj.h}&m=${timeObj.m}&s=${timeObj.s}`
     } else {
-        url += '&h=0&m=0&s=0'
+        url = `https://kryogenix.org/crsearch/html/cr${c}-${e}.html`
     }
+    return url
+}
+
+function googlePodcastsUrl(ep, timeObj=null) {
+    if (!ep.google_podcasts_feed || !ep.google_podcasts_episode) { return }
+
+    var url = `https://podcasts.google.com/?feed=${ep.google_podcasts_feed}&episode=${ep.google_podcasts_episode}`
+    if (timeObj) { url += `&pe=1&pep=${Math.floor(timeObj.total)}000` }
     return url
 }
 
