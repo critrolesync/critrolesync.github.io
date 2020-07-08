@@ -26,6 +26,9 @@ var videoLink = document.getElementById('video-link')
 var podcastLink = document.getElementById('podcast-link')
 var transcriptLink = document.getElementById('transcript-link')
 
+var c1ProgressBar = document.getElementById('c1-progress-bar')
+var c2ProgressBar = document.getElementById('c2-progress-bar')
+
 // load the episode data
 var requestURL = 'data.json'
 var request = new XMLHttpRequest()
@@ -34,6 +37,25 @@ request.responseType = 'json'
 request.send()
 request.onload = function() {
   data = request.response
+
+  // evaluate campaign 1 episode progress
+  var numEpisodesComplete = 0
+  for (let i = 0; i < data[0].episodes.length; i++) {
+      if (data[0].episodes[i].timestamps.length >= 2) {
+          numEpisodesComplete += 1
+      }
+  }
+  c1ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${data[0].episodes.length}&suffix=/${data[0].episodes.length}&title=Campaign%201%20&width=250&color=666666`
+
+  // evaluate campaign 2 episode progress
+  numEpisodesComplete = 0
+  for (let i = 0; i < data[1].episodes.length; i++) {
+      if (data[1].episodes[i].timestamps.length >= 2) {
+          numEpisodesComplete += 1
+      }
+  }
+  c2ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${data[1].episodes.length}&suffix=/${data[1].episodes.length}&title=Campaign%202%20&width=250&color=666666`
+
   for (let i = 0; i < data.length; i++) {
       let option = document.createElement('option')
       option.value = i
@@ -61,11 +83,11 @@ function selectSeries() {
     }
 
     // repopulate the episode selector
-    for (let i = 0; i < series['episodes'].length; i++) {
+    for (let i = 0; i < series.episodes.length; i++) {
         let option = document.createElement('option')
         option.value = i
-        option.textContent = `${series['episodes'][i].id}: ${series['episodes'][i].title}`
-        if (series['episodes'][i].timestamps.length < 2) {
+        option.textContent = `${series.episodes[i].id}: ${series.episodes[i].title}`
+        if (series.episodes[i].timestamps.length < 2) {
             // mark episodes that do not have timestamps yet
             option.textContent = '* ' + option.textContent
         }
@@ -76,7 +98,7 @@ function selectSeries() {
 }
 
 function selectEpisode() {
-    ep = series['episodes'][episodeSelect.value]
+    ep = series.episodes[episodeSelect.value]
     if (ep.timestamps.length < 2) {
         // disable form controls if timestamp data are missing
         radioPodcast2Youtube.disabled = true
