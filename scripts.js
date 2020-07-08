@@ -2,7 +2,7 @@
                                 INITIALIZE
 ******************************************************************************/
 
-var data, ep
+var data, series, ep
 
 var readMoreButton = document.getElementById("read-more")
 var moreText = document.getElementById("more-text")
@@ -100,7 +100,7 @@ function selectEpisode() {
 }
 
 function resetLabels() {
-    direction = document.querySelector('input[name="direction"]:checked').value
+    var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
         inputTimeLabel.textContent = 'Podcast time:'
         outputTimeLabel.textContent = 'YouTube time:'
@@ -163,7 +163,7 @@ function timeObjFromString(string) {
 }
 
 function timeObjFromTotal(total) {
-    if (!total || total < 0) {
+    if (isNaN(total) || total < 0) {
         console.log(`error, bad time: ${total}`)
         return false
     }
