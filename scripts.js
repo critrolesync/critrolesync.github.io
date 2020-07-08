@@ -115,9 +115,9 @@ function resetLabels() {
 
     outputTime.innerHTML = ''
 
-    videoLink.href = youtubeUrl(ep)
-    podcastLink.href = googlePodcastsUrl(ep)
-    transcriptLink.href = transcriptUrl(ep)
+    setLink(videoLink, 'Video', youtubeUrl(ep))
+    setLink(podcastLink, 'Podcast', googlePodcastsUrl(ep))
+    setLink(transcriptLink, 'Transcript', transcriptUrl(ep))
 }
 
 function readMore() {
@@ -128,6 +128,14 @@ function readMore() {
 function readLess() {
     readMoreButton.style.display = "inline"
     moreText.style.display = "none"
+}
+
+function setLink(span, text, url=null, target="_blank") {
+    if (url) {
+        span.innerHTML = `<a href="${url}" target=${target}>${text}</a>`
+    } else {
+        span.innerHTML = text
+    }
 }
 
 /******************************************************************************
@@ -243,16 +251,11 @@ function showConvertedTimestamp() {
         timeObjs[dest] = timeObjFromTotal(timeObjs[dest].total * ep.CBR/ep.ABR)
     }
 
-    var url = getUrl(dest, ep, timeObjs[dest])
-    if (url) {
-        outputTime.innerHTML = `<a href="${url}" target="_blank">${timeObjs[dest].string}</a>`
-    } else {
-        outputTime.innerHTML = timeObjs[dest].string
-    }
+    setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
 
-    videoLink.href = youtubeUrl(ep, timeObjs['youtube'])
-    podcastLink.href = googlePodcastsUrl(ep, timeObjs['podcast'])
-    transcriptLink.href = transcriptUrl(ep, timeObjs['youtube'])
+    setLink(videoLink, 'Video', youtubeUrl(ep, timeObjs['youtube']))
+    setLink(podcastLink, 'Podcast', googlePodcastsUrl(ep, timeObjs['podcast']))
+    setLink(transcriptLink, 'Transcript', transcriptUrl(ep, timeObjs['youtube']))
 }
 
 /******************************************************************************
