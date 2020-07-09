@@ -26,8 +26,9 @@ this](https://github.com/critrolesync/critrolesync.github.io/issues/1)!
 Thanks to
 [u/scruffed_books_fire](https://www.reddit.com/user/scruffed_books_fire) /
 [@theDragonTurtle](https://github.com/theDragonTurtle),
-[@brojam](https://github.com/brojam), and
-[u/CantReadMaps](https://www.reddit.com/user/CantReadMaps)
+[@brojam](https://github.com/brojam),
+[u/CantReadMaps](https://www.reddit.com/user/CantReadMaps), and
+[@the-soul-keeper](https://github.com/the-soul-keeper)
 for contributing timestamps!
 
 Special thanks to [u/silxx](https://www.reddit.com/user/silxx/) for creating
