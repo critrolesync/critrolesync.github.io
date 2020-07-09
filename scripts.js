@@ -137,9 +137,9 @@ function resetLabels() {
 
     outputTime.innerHTML = ''
 
-    setLink(videoLink, 'Video', youtubeUrl(ep))
-    setLink(podcastLink, 'Podcast', googlePodcastsUrl(ep))
-    setLink(transcriptLink, 'Transcript', transcriptUrl(ep))
+    setLink(videoLink, 'Video', getUrl('youtube', ep))
+    setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
+    setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
 }
 
 function readMore() {
@@ -275,9 +275,9 @@ function showConvertedTimestamp() {
 
     setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
 
-    setLink(videoLink, 'Video', youtubeUrl(ep, timeObjs['youtube']))
-    setLink(podcastLink, 'Podcast', googlePodcastsUrl(ep, timeObjs['podcast']))
-    setLink(transcriptLink, 'Transcript', transcriptUrl(ep, timeObjs['youtube']))
+    setLink(videoLink, 'Video', getUrl('youtube', ep, timeObjs['youtube']))
+    setLink(podcastLink, 'Podcast', getUrl('podcast', ep, timeObjs['podcast']))
+    setLink(transcriptLink, 'Transcript', getUrl('transcript', ep, timeObjs['youtube']))
 }
 
 /******************************************************************************
@@ -289,7 +289,11 @@ function getUrl(type, ep, timeObj=null) {
         case 'youtube':
             return youtubeUrl(ep, timeObj)
         case 'podcast':
-            return googlePodcastsUrl(ep, timeObj)
+            var url = googlePodcastsUrl(ep, timeObj)
+            if (!url) { url = overcastUrl(ep, timeObj) }
+            return url
+        case 'transcript':
+            return transcriptUrl(ep, timeObj)
         default:
             return
     }
