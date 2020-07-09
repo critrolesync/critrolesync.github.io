@@ -3009,13 +3009,20 @@
                 "title": "Hunted at Sea",
                 "youtube_id": "1s0odp2AI_0",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-                "google_podcasts_feed": "",
-                "google_podcasts_episode": "",
-                "overcast_id": "",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vMzAwYmE4NTktNmNjOS01ZGZiLTgyNzUtNzdjYTY2NjZiZmNl",
+                "overcast_id": "QzWZBBcLM",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:01:48", "hello"],
+                    ["1:53:52", "1:55:24", "break start"],
+                    ["2:18:34", "1:55:53", "break end"],
+                    ["3:37:47", "3:14:55", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             }
         ]
     },
