@@ -135,6 +135,11 @@ function changeEpisode() {
         inputTimeFieldset.disabled = true
         outputTimeFieldset.disabled = true
 
+        directionFieldset.style.display = "none"
+        bitrateFieldset.style.display = "none"
+        inputTimeFieldset.style.display = "none"
+        outputTimeFieldset.style.display = "none"
+
         incompleteWarning.style.display = "block"
     } else {
         // enable form controls if timestamp data are available
@@ -142,6 +147,11 @@ function changeEpisode() {
         bitrateFieldset.disabled = false
         inputTimeFieldset.disabled = false
         outputTimeFieldset.disabled = false
+
+        directionFieldset.style.display = "block"
+        bitrateFieldset.style.display = "block"
+        inputTimeFieldset.style.display = "block"
+        outputTimeFieldset.style.display = "block"
 
         incompleteWarning.style.display = "none"
     }
