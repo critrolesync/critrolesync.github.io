@@ -25,10 +25,9 @@
         <p><a href="javascript:readLess()">Read less.</a></p>
     </span>
 
-    <hr/>
-
     <form action="javascript:void(0)" onsubmit="showConvertedTimestamp()">
-        <p>
+
+        <fieldset id="episode-fieldset"><legend>Choose episode</legend>
             <table id="table-select">
                 <colgroup>
                     <col id="col-label">
@@ -49,41 +48,45 @@
                     </tr>
                 </tbody>
             </table>
-        </p>
-        <p id="incomplete-warning">
-            * Time conversion not available yet for this episode.
-        </p>
-        <p>
+
+            <div id="incomplete-warning">
+                * Time conversion not available yet for this episode.
+            </div>
+        </fieldset>
+
+        <fieldset id="direction-fieldset"><legend>Choose direction</legend>
             <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels()" checked>
             <label for="podcast2youtube">Podcast → YouTube</label><br>
             <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels()">
             <label for="youtube2podcast">YouTube → Podcast</label><br>
-        </p>
-        <p>
-            <abbr title="If your converted time is inaccurate, try switching this">Podcast decoder mode</abbr> (experimental):<br/>
+        </fieldset>
+
+        <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="If your converted time is inaccurate, try switching this">podcast player type</abbr></legend>
             <input type="radio" id="cbr" name="bitrate-mode" value="cbr" onchange="resetLabels()" checked>
             <label for="cbr"><abbr title="Constant bitrate">CBR</abbr> (recommended for Chrome, Android apps)</label><br>
             <input type="radio" id="abr" name="bitrate-mode" value="abr" onchange="resetLabels()">
             <label for="abr"><abbr title="Average bitrate">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
-        </p>
-        <p>
+        </fieldset>
+
+        <fieldset id="input-time-fieldset"><legend>Enter time</legend>
             <label for="input-time" id="input-time-label"></label>
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required>
             <input type="submit" id="convert-button" value="Convert">
+        </fieldset>
+
+        <fieldset id="output-time-fieldset"><legend>Converted time</legend>
+            <span id="output-time-label"></span>
+            <span id="output-time"></span>
+        </fieldset>
+
+        <p>
+            Go to:
+            <span id="video-link"></span> |
+            <span id="podcast-link"></span> |
+            <span id="transcript-link"></span>
         </p>
+
     </form>
-
-    <p>
-        <span id="output-time-label"></span>
-        <span id="output-time"></span>
-    </p>
-
-    <p>
-        Go to:
-        <span id="video-link"></span> |
-        <span id="podcast-link"></span> |
-        <span id="transcript-link"></span>
-    </p>
 
     <hr/>
 

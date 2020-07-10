@@ -6,17 +6,16 @@ var data, series, ep
 
 var readMoreButton = document.getElementById("read-more")
 var moreText = document.getElementById("more-text")
-var incompleteWarning = document.getElementById("incomplete-warning")
 
 var seriesSelect = document.getElementById('series-select')
 var episodeSelect = document.getElementById('episode-select')
 var hideTitles = document.getElementById('hide-titles')
+var incompleteWarning = document.getElementById("incomplete-warning")
 
-var radioPodcast2Youtube = document.getElementById('podcast2youtube')
-var radioYoutube2Podcast = document.getElementById('youtube2podcast')
-var radioCBR = document.getElementById('cbr')
-var radioABR = document.getElementById('abr')
-var convertButton = document.getElementById('convert-button')
+var directionFieldset = document.getElementById('direction-fieldset')
+var bitrateFieldset = document.getElementById('bitrate-fieldset')
+var inputTimeFieldset = document.getElementById('input-time-fieldset')
+var outputTimeFieldset = document.getElementById('output-time-fieldset')
 
 var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
@@ -131,21 +130,19 @@ function changeEpisode() {
 
     if (ep.timestamps.length < 2) {
         // disable form controls if timestamp data are missing
-        radioPodcast2Youtube.disabled = true
-        radioYoutube2Podcast.disabled = true
-        radioCBR.disabled = true
-        radioABR.disabled = true
-        inputTime.disabled = true
-        convertButton.disabled = true
+        directionFieldset.disabled = true
+        bitrateFieldset.disabled = true
+        inputTimeFieldset.disabled = true
+        outputTimeFieldset.disabled = true
+
         incompleteWarning.style.display = "block"
     } else {
         // enable form controls if timestamp data are available
-        radioPodcast2Youtube.disabled = false
-        radioYoutube2Podcast.disabled = false
-        radioCBR.disabled = false
-        radioABR.disabled = false
-        inputTime.disabled = false
-        convertButton.disabled = false
+        directionFieldset.disabled = false
+        bitrateFieldset.disabled = false
+        inputTimeFieldset.disabled = false
+        outputTimeFieldset.disabled = false
+
         incompleteWarning.style.display = "none"
     }
 

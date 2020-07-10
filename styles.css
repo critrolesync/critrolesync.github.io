@@ -10,11 +10,10 @@ body {
     font-family: Georgia, serif;
     color: #4d4d4d;
     font-size: 18px;
+    line-height: 28px;
 }
 
 h1 { font-size: 50px; font-weight: normal; line-height: 54px; margin: 0 0 54px; }
-
-p { line-height: 28px; margin: 0 0 28px; }
 
 select { width: 100%; }
 
@@ -33,6 +32,8 @@ select { width: 100%; }
 label.row-label { white-space: nowrap; }
 
 #incomplete-warning { display: none; font-style: italic; color: #c73036; }
+
+fieldset { border: 1px solid; margin-bottom: 10px; }
 
 #output-time { font-size: 28px; font-weight: bold; }
 
