@@ -10,6 +10,7 @@ var incompleteWarning = document.getElementById("incomplete-warning")
 
 var seriesSelect = document.getElementById('series-select')
 var episodeSelect = document.getElementById('episode-select')
+var hideTitles = document.getElementById('hide-titles')
 
 var radioPodcast2Youtube = document.getElementById('podcast2youtube')
 var radioYoutube2Podcast = document.getElementById('youtube2podcast')
@@ -79,14 +80,14 @@ function populateSeries() {
     for (let i = 0; i < data.length; i++) {
         let option = document.createElement('option')
         option.value = i
-      option.textContent = data[i].series
-      if (data[i].episodes.length == 0) {
-          // disable series that do not have episodes yet
-          option.disabled = true
-          option.textContent = '* ' + option.textContent
-      }
-      seriesSelect.appendChild(option)
-  }
+        option.textContent = data[i].series
+        if (data[i].episodes.length == 0) {
+            // disable series that do not have episodes yet
+            option.disabled = true
+            option.textContent = '* ' + option.textContent
+        }
+        seriesSelect.appendChild(option)
+    }
 
     changeSeries()
 }
@@ -96,7 +97,10 @@ function changeSeries() {
     populateEpisodes()
 }
 
-function populateEpisodes() {
+function populateEpisodes(keepSelectedIndex=false) {
+    var selectedIndex = 0
+    if (keepSelectedIndex) { selectedIndex = episodeSelect.selectedIndex }
+
     // remove all episodes from the episode selector
     for (let i = episodeSelect.options.length-1; i >= 0; i--) {
        episodeSelect.remove(i)
@@ -106,13 +110,18 @@ function populateEpisodes() {
     for (let i = 0; i < series.episodes.length; i++) {
         let option = document.createElement('option')
         option.value = i
-        option.textContent = `${series.episodes[i].id}: ${series.episodes[i].title}`
+        option.textContent = series.episodes[i].id
+        if (!hideTitles.checked) {
+            // show episode titles
+            option.textContent += `: ${series.episodes[i].title}`
+        }
         if (series.episodes[i].timestamps.length < 2) {
             // mark episodes that do not have timestamps yet
             option.textContent = '* ' + option.textContent
         }
         episodeSelect.appendChild(option)
     }
+    episodeSelect.selectedIndex = selectedIndex
 
     changeEpisode()
 }

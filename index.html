@@ -34,7 +34,9 @@
         </p>
         <p>
             <label for="episode-select">Episode:</label>
-            <select id="episode-select" onchange="changeEpisode()"></select>
+            <select id="episode-select" onchange="changeEpisode()"></select><br/>
+            <label for="hide-titles">Hide titles</label>
+            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)">
         </p>
         <p id="incomplete-warning">
             * Time conversion not available yet for this episode.
