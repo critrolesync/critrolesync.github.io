@@ -16,6 +16,8 @@ h1 { font-size: 50px; font-weight: normal; line-height: 54px; margin: 0 0 54px; 
 
 p { line-height: 28px; margin: 0 0 28px; }
 
+select { width: 100%; }
+
 #header { margin: 0 0 28px; padding-top: 20px; }
 
 #logo { display: inline-block; vertical-align: middle; margin: 0px; height: 54px; margin-right: 10px; }
@@ -23,6 +25,12 @@ p { line-height: 28px; margin: 0 0 28px; }
 #title { display: inline-block; vertical-align: middle; margin: 0px; }
 
 #more-text { display: none; }
+
+#table-select { width: 100%; }
+
+#col-select { width: 100%; }
+
+label.row-label { white-space: nowrap; }
 
 #incomplete-warning { display: none; font-style: italic; color: #c73036; }
 

@@ -29,14 +29,26 @@
 
     <form action="javascript:void(0)" onsubmit="showConvertedTimestamp()">
         <p>
-            <label for="series-select">Series:</label>
-            <select id="series-select" onchange="changeSeries()"></select>
-        </p>
-        <p>
-            <label for="episode-select">Episode:</label>
-            <select id="episode-select" onchange="changeEpisode()"></select><br/>
-            <label for="hide-titles">Hide titles</label>
-            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)">
+            <table id="table-select">
+                <colgroup>
+                    <col id="col-label">
+                    <col id="col-select">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td><label class="row-label" for="series-select">Series:</label></td>
+                        <td><select id="series-select" onchange="changeSeries()"></select></td>
+                    </tr>
+                    <tr>
+                        <td><label class="row-label" for="episode-select">Episode:</label></td>
+                        <td><select id="episode-select" onchange="changeEpisode()"></select></td>
+                    </tr>
+                    <tr>
+                        <td><label class="row-label" for="hide-titles">Hide titles:</label></td>
+                        <td><input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)"></td>
+                    </tr>
+                </tbody>
+            </table>
         </p>
         <p id="incomplete-warning">
             * Time conversion not available yet for this episode.
