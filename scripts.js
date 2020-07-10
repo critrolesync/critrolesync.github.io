@@ -37,28 +37,48 @@ request.responseType = 'json'
 request.send()
 request.onload = function() {
   data = request.response
+  updateProgressBars()
+  populateSeries()
+}
 
-  // evaluate campaign 1 episode progress
-  var numEpisodesComplete = 0
-  for (let i = 0; i < data[0].episodes.length; i++) {
-      if (data[0].episodes[i].timestamps.length >= 2) {
-          numEpisodesComplete += 1
-      }
-  }
-  c1ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${data[0].episodes.length}&suffix=/${data[0].episodes.length}&title=Campaign%201%20&width=250&color=666666`
+/******************************************************************************
+                                PAGE MANIPULATION
+******************************************************************************/
 
-  // evaluate campaign 2 episode progress
-  numEpisodesComplete = 0
-  for (let i = 0; i < data[1].episodes.length; i++) {
-      if (data[1].episodes[i].timestamps.length >= 2) {
-          numEpisodesComplete += 1
-      }
-  }
-  c2ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${data[1].episodes.length}&suffix=/${data[1].episodes.length}&title=Campaign%202%20&width=250&color=666666`
+function updateProgressBars() {
+    var eps, numEpisodesComplete
 
-  for (let i = 0; i < data.length; i++) {
-      let option = document.createElement('option')
-      option.value = i
+    // evaluate campaign 1 episode progress
+    eps = data[0].episodes
+    numEpisodesComplete = 0
+    for (let i = 0; i < eps.length; i++) {
+        if (eps[i].timestamps.length >= 2) {
+            numEpisodesComplete += 1
+        }
+    }
+    c1ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Campaign%201%20&width=250&color=666666`
+
+    // evaluate campaign 2 episode progress
+    eps = data[1].episodes
+    numEpisodesComplete = 0
+    for (let i = 0; i < eps.length; i++) {
+        if (eps[i].timestamps.length >= 2) {
+            numEpisodesComplete += 1
+        }
+    }
+    c2ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Campaign%202%20&width=250&color=666666`
+}
+
+function populateSeries() {
+    // remove all series from the series selector
+    for (let i = seriesSelect.options.length-1; i >= 0; i--) {
+       seriesSelect.remove(i)
+    }
+
+    // repopulate the series selector
+    for (let i = 0; i < data.length; i++) {
+        let option = document.createElement('option')
+        option.value = i
       option.textContent = data[i].series
       if (data[i].episodes.length == 0) {
           // disable series that do not have episodes yet
@@ -67,16 +87,16 @@ request.onload = function() {
       }
       seriesSelect.appendChild(option)
   }
-  selectSeries()
+
+    changeSeries()
 }
 
-/******************************************************************************
-                                PAGE MANIPULATION
-******************************************************************************/
-
-function selectSeries() {
+function changeSeries() {
     series = data[seriesSelect.value]
+    populateEpisodes()
+}
 
+function populateEpisodes() {
     // remove all episodes from the episode selector
     for (let i = episodeSelect.options.length-1; i >= 0; i--) {
        episodeSelect.remove(i)
@@ -94,11 +114,12 @@ function selectSeries() {
         episodeSelect.appendChild(option)
     }
 
-    selectEpisode()
+    changeEpisode()
 }
 
-function selectEpisode() {
+function changeEpisode() {
     ep = series.episodes[episodeSelect.value]
+
     if (ep.timestamps.length < 2) {
         // disable form controls if timestamp data are missing
         radioPodcast2Youtube.disabled = true
@@ -118,6 +139,7 @@ function selectEpisode() {
         convertButton.disabled = false
         incompleteWarning.style.display = "none"
     }
+
     resetLabels()
 }
 
