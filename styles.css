@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Georgia:400,700&display=swap');
 
+:root {
+  --red: #c73036;
+  --black: #4d4d4d;
+  --bg-color: rgb(250,240,230);
+  --font-family: Georgia, serif;
+  --font-size: 18px;
+}
+
 body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(250,240,230);
-    font-family: Georgia, serif;
-    color: #4d4d4d;
-    font-size: 18px;
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--black);
+    font-size: var(--font-size);
     line-height: 28px;
 }
 
@@ -31,16 +39,16 @@ select { width: 100%; }
 
 label.row-label { white-space: nowrap; }
 
-#incomplete-warning { display: none; font-style: italic; color: #c73036; }
+#incomplete-warning { display: none; font-style: italic; color: var(--red); }
 
 fieldset { border: 1px solid; margin-bottom: 10px; }
 
 #output-time { font-size: 28px; font-weight: bold; }
 
-select, input { font-family: Georgia, serif; font-size: 18px; }
+select, input { font-family: var(--font-family); font-size: var(--font-size); }
 
 #input-time { width: 6em; }
 
-a { color: #c73036; text-decoration: underline; }
+a { color: var(--red); text-decoration: underline; }
 
 a:hover { text-decoration: none; }
