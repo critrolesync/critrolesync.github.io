@@ -70,7 +70,7 @@
 
         <fieldset id="input-time-fieldset"><legend>Enter time</legend>
             <label for="input-time" id="input-time-label"></label>
-            <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required>
+            <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="resetLabels()" onchange="resetLabels()">
             <input type="submit" id="convert-button" value="Convert">
         </fieldset>
 
