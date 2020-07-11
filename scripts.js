@@ -29,6 +29,9 @@ var transcriptLink = document.getElementById('transcript-link')
 var c1ProgressBar = document.getElementById('c1-progress-bar')
 var c2ProgressBar = document.getElementById('c2-progress-bar')
 
+// load mobile-friendly tooltips
+tippy('[data-tippy-content]')
+
 // load the episode data
 var requestURL = 'data.json'
 var request = new XMLHttpRequest()

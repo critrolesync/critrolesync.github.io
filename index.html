@@ -61,11 +61,11 @@
             <label for="youtube2podcast">YouTube → Podcast</label><br>
         </fieldset>
 
-        <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="If your converted time is inaccurate, try switching this">podcast player type</abbr></legend>
+        <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="" data-tippy-content="Different podcast apps and web browsers will play some episodes at slightly different rates, resulting in different times for the same moment. If your converted time is inaccurate, try switching this setting.">podcast player type</abbr></legend>
             <input type="radio" id="cbr" name="bitrate-mode" value="cbr" onchange="resetLabels()" checked>
-            <label for="cbr"><abbr title="Constant bitrate">CBR</abbr> (recommended for Chrome, Android apps)</label><br>
+            <label for="cbr"><abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr> (recommended for Chrome, Android apps)</label><br>
             <input type="radio" id="abr" name="bitrate-mode" value="abr" onchange="resetLabels()">
-            <label for="abr"><abbr title="Average bitrate">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
+            <label for="abr"><abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
         </fieldset>
 
         <fieldset id="input-time-fieldset"><legend>Enter time</legend>
@@ -106,6 +106,8 @@
         <a href="https://github.com/critrolesync/critrolesync.github.io/issues" target="_blank">Report a problem</a>
     </p>
 
+    <script type="text/javascript" src="https://unpkg.com/@popperjs/core@2"></script>
+    <script type="text/javascript" src="https://unpkg.com/tippy.js@6"></script>
     <script type="text/javascript" src="everpolate/everpolate.browserified.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
 
