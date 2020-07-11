@@ -219,6 +219,9 @@ function timeObjFromString(string) {
 
     total = 3600*h + 60*m + s
 
+    // make sure hours are in string even if they are zero
+    string = `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+
     return {string: string, h: h, m: m, s: s, total: total}
 }
 
@@ -329,9 +332,9 @@ function showConvertedTimestamp() {
 
     setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
 
-    setLink(videoLink, 'Video', getUrl('youtube', ep, timeObjs['youtube']))
-    setLink(podcastLink, 'Podcast', getUrl('podcast', ep, timeObjs['podcast']))
-    setLink(transcriptLink, 'Transcript', getUrl('transcript', ep, timeObjs['youtube']))
+    setLink(videoLink, `Video @ ${timeObjs['youtube'].string}`, getUrl('youtube', ep, timeObjs['youtube']))
+    setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
+    setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
 }
 
 /******************************************************************************
