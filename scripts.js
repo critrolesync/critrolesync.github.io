@@ -255,7 +255,7 @@ function parseTimestamps() {
     return ts
 }
 
-function convertTimeObj(timeObj, source, dest) {
+function convertMedia(timeObj, source, dest) {
 
     var newTotal
     var ts = parseTimestamps()
@@ -272,6 +272,11 @@ function convertTimeObj(timeObj, source, dest) {
         newTotal = everpolate.linear(timeObj.total, ts[source], ts[dest])
     }
 
+    return timeObjFromTotal(newTotal)
+}
+
+function convertBitrate(timeObj, oldBitrate, newBitrate) {
+    var newTotal = timeObj.total * oldBitrate/newBitrate
     return timeObjFromTotal(newTotal)
 }
 
@@ -293,22 +298,33 @@ function showConvertedTimestamp() {
 
     var timeObjs = {}
     timeObjs[source] = timeObjFromString(inputTime.value)
-    if (bitrateMode == 'abr' && source == 'podcast' && ep.CBR && ep.ABR) {
-        // if source time is from a podcast player with ABR decoding, the time
-        // needs to be fixed before conversion to work with the CBR timestamps
-        // stored in data.json, where the factor 127.7/128 represents the ratio
-        // of the average bitrate used by ABR decoders and the constant bitrate
-        // used by CBR decoders
-        timeObjs[source] = timeObjFromTotal(timeObjs[source].total * ep.ABR/ep.CBR)
+
+    if (bitrateMode == 'cbr') {
+        // no bitrate conversion necessary
+        timeObjs[dest] = convertMedia(timeObjs[source], source, dest)
+
+    } else if (bitrateMode == 'abr' && ep.CBR && ep.ABR) {
+        // podcast timestamps stored in data.json are from CBR podcast players,
+        // so only CBR podcast times can be converted directly to YouTube
+        // times, and vice verse. if an ABR podcast time is input (or needs to
+        // be output), the bitrate will need to be converted to CBR (or from
+        // CBR), before (or after) media conversion.
+
+        if (source == 'podcast') {
+            // ABR podcast --> CBR podcast --> YouTube
+            timeObjs[dest] = convertBitrate(timeObjs[source], ep.ABR, ep.CBR)
+            timeObjs[dest] = convertMedia(timeObjs[dest], source, dest)
+
+        } else if (dest == 'podcast') {
+            // YouTube --> CBR podcast --> ABR podcast
+            timeObjs[dest] = convertMedia(timeObjs[source], source, dest)
+            timeObjs[dest] = convertBitrate(timeObjs[dest], ep.CBR, ep.ABR)
+        }
     }
-    timeObjs[dest] = convertTimeObj(timeObjs[source], source, dest)
-    if (bitrateMode == 'abr' && dest == 'podcast' && ep.CBR && ep.ABR) {
-        // if destination time is for a podcast player with ABR decoding, the
-        // time needs to be fixed since it was converted using CBR timestamps,
-        // where the factor 128/127.7 represents the ratio of the constant
-        // bitrate used by CBR decoders and the average bitrate used by ABR
-        // decoders
-        timeObjs[dest] = timeObjFromTotal(timeObjs[dest].total * ep.CBR/ep.ABR)
+
+    if (!timeObjs[dest]) {
+        console.log('error, something bad happened (CBR/ABR params missing for episode?)')
+        return
     }
 
     setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
