@@ -52,3 +52,12 @@ select, input { font-family: var(--font-family); font-size: var(--font-size); }
 a { color: var(--red); text-decoration: underline; }
 
 a:hover { text-decoration: none; }
+
+.picker-body, .picker-footer { max-width: 400px; margin: auto; }
+.picker-cell, .picker-cell__header, .picker-cancel, .picker-confirm { font-size: var(--font-size); }
+.picker-cell__header, .picker-cancel, .picker-confirm { color: var(--black); font-weight: bold; font-family: var(--font-family); }
+.picker-picked { color: var(--red); font-weight: bold; }
+.picker-dialog, .picker-cancel:focus, .picker-cancel:hover, .picker-confirm:focus, .picker-confirm:hover { background-color: var(--bg-color); }
+.picker-cell::before, .picker-cell::after, .picker-cell__body::before, .picker-cell__body::after { background-image: none; }
+.picker-dialog, .picker-header, .picker-footer { border: none; }
+ .picker-cell__header, .picker-cell, .picker-cell + .picker-cell { border-bottom: 1px solid; border-left: none; }

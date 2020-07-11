@@ -32,6 +32,10 @@ var c2ProgressBar = document.getElementById('c2-progress-bar')
 // load mobile-friendly tooltips
 tippy('[data-tippy-content]')
 
+// set up time picker
+var picker
+setupTimePicker()
+
 // load the episode data
 var requestURL = 'data.json'
 var request = new XMLHttpRequest()
@@ -47,6 +51,23 @@ request.onload = function() {
 /******************************************************************************
                                 PAGE MANIPULATION
 ******************************************************************************/
+
+function setupTimePicker() {
+    picker = new Picker(inputTime, {
+        format: 'HH:mm:ss',
+        date: "00:00:00",
+        text: {title: ''},
+        headers: true,
+    })
+
+    // do not open the time picker when clicking in the input field
+    inputTime.removeEventListener('focus', picker.onFocus)
+    inputTime.removeEventListener('click', picker.onFocus)
+
+    // restrict the time picker's max hour
+    picker.data.hour.max = 5
+    picker.reset()
+}
 
 function updateProgressBars() {
     var eps, numEpisodesComplete
@@ -201,6 +222,16 @@ function setLink(span, text, url=null, target="_blank") {
     }
 }
 
+function showPicker() {
+    // similar to picker.show() but first copies input time to time picker
+    var timeObj = timeObjFromString(inputTime.value)
+    if (timeObj && timeObj.string) {
+        // current input is a valid time, so set the time picker to that value
+        picker.setDate(picker.parseDate(timeObj.string))
+    }
+    picker.show()
+}
+
 /******************************************************************************
                                 TIME OBJECTS
 ******************************************************************************/
@@ -216,7 +247,7 @@ function timeObjFromString(string) {
         m = parseInt(t[0])
         s = parseInt(t[1])
     } else {
-        console.log(`error, bad time got past form validator: ${string}`)
+        // console.log(`error, bad time got past form validator: ${string}`)
         return false
     }
 

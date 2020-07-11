@@ -5,6 +5,7 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="pickerjs/picker.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="logo.png">
 </head>
@@ -71,6 +72,7 @@
         <fieldset id="input-time-fieldset"><legend>Enter time</legend>
             <label for="input-time" id="input-time-label"></label>
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="resetLabels()" onchange="resetLabels()">
+            <input type="button" id="pick-time-button" onclick="showPicker()" value="Pick time">
             <input type="submit" id="convert-button" value="Convert">
         </fieldset>
 
@@ -108,6 +110,7 @@
 
     <script type="text/javascript" src="https://unpkg.com/@popperjs/core@2"></script>
     <script type="text/javascript" src="https://unpkg.com/tippy.js@6"></script>
+    <script type="text/javascript" src="pickerjs/picker.min.js"></script>
     <script type="text/javascript" src="everpolate/everpolate.browserified.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
 
