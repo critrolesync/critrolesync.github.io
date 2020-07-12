@@ -45,8 +45,10 @@
                         <td><select id="episode-select" onchange="changeEpisode()"></select></td>
                     </tr>
                     <tr>
-                        <td><label class="row-label" for="hide-titles">Hide titles:</label></td>
-                        <td><input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)"></td>
+                        <td colspan=2>
+                            <label class="row-label" for="hide-titles">Hide titles:</label>
+                            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)">
+                        </td>
                     </tr>
                 </tbody>
             </table>

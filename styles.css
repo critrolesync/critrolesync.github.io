@@ -38,7 +38,7 @@ select { width: 100%; }
 
 #col-select { width: 100%; }
 
-label.row-label { white-space: nowrap; }
+label.row-label { white-space: nowrap; margin-right: 5px; }
 
 .warning { display: none; font-style: italic; color: var(--red); }
 
