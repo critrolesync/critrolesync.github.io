@@ -10,7 +10,9 @@ var moreText = document.getElementById("more-text")
 var seriesSelect = document.getElementById('series-select')
 var episodeSelect = document.getElementById('episode-select')
 var hideTitles = document.getElementById('hide-titles')
+
 var incompleteWarning = document.getElementById("incomplete-warning")
+var lateTimeWarning = document.getElementById("late-time-warning")
 
 var directionFieldset = document.getElementById('direction-fieldset')
 var bitrateFieldset = document.getElementById('bitrate-fieldset')
@@ -202,6 +204,8 @@ function resetLabels() {
     setLink(videoLink, 'Video', getUrl('youtube', ep))
     setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
     setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
+
+    lateTimeWarning.style.display = "none"
 }
 
 function readMore() {
@@ -292,6 +296,18 @@ function parseTimestamps() {
     return ts
 }
 
+function isAfterEpisodeEnd(timeObj, source) {
+    var ts = parseTimestamps()
+    if (ts[source].length < 2) {
+        console.log('error, not enough timestamps')
+        return
+    } else if (timeObj.total > ts[source].slice(-1)) {
+        return true
+    } else {
+        return false
+    }
+}
+
 function convertMedia(timeObj, source, dest) {
 
     var newTotal
@@ -335,6 +351,13 @@ function showConvertedTimestamp() {
 
     var timeObjs = {}
     timeObjs[source] = timeObjFromString(inputTime.value)
+
+    if (isAfterEpisodeEnd(timeObjs[source], source)) {
+        lateTimeWarning.style.display = "block"
+        return
+    } else {
+        lateTimeWarning.style.display = "none"
+    }
 
     if (bitrateMode == 'cbr') {
         // no bitrate conversion necessary

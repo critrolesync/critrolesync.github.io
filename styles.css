@@ -39,7 +39,7 @@ select { width: 100%; }
 
 label.row-label { white-space: nowrap; }
 
-#incomplete-warning { display: none; font-style: italic; color: var(--red); }
+.warning { display: none; font-style: italic; color: var(--red); }
 
 fieldset { border: 1px solid; margin-bottom: 10px; }
 

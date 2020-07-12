@@ -50,7 +50,7 @@
                 </tbody>
             </table>
 
-            <div id="incomplete-warning">
+            <div id="incomplete-warning" class="warning">
                 * Time conversion not available yet for this episode.
             </div>
         </fieldset>
@@ -74,6 +74,9 @@
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="resetLabels()" onchange="resetLabels()">
             <input type="button" id="pick-time-button" onclick="showPicker()" value="Pick time">
             <input type="submit" id="convert-button" value="Convert">
+            <div id="late-time-warning" class="warning">
+                This time exceeds the episode duration.
+            </div>
         </fieldset>
 
         <fieldset id="output-time-fieldset"><legend>Converted time</legend>
