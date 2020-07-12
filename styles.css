@@ -6,6 +6,7 @@
   --bg-color: rgb(250,240,230);
   --font-family: Georgia, serif;
   --font-size: 18px;
+  --line-height: 28px;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
     font-family: var(--font-family);
     color: var(--black);
     font-size: var(--font-size);
-    line-height: 28px;
+    line-height: var(--line-height);
 }
 
 h1 { font-size: 50px; font-weight: normal; line-height: 54px; margin: 0 0 54px; }
@@ -49,8 +50,25 @@ select, input { font-family: var(--font-family); font-size: var(--font-size); }
 
 #input-time { width: 6em; }
 
-a { color: var(--red); text-decoration: underline; }
+.nowrap { white-space: nowrap; }
 
+button.icon-button {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    height: var(--line-height);
+    color: white;
+    background-color: var(--red);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.icon-button.square { width: var(--line-height); padding: 0px; }
+button.icon-button:hover { background-color: RoyalBlue; }
+
+#pick-time-button {}
+#convert-button { display: block; margin: 15px 0px 15px 10px; padding: 15px; height: auto; }
+
+a { color: var(--red); text-decoration: underline; }
 a:hover { text-decoration: none; }
 
 .picker-body, .picker-footer { max-width: 400px; margin: auto; }

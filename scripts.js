@@ -16,8 +16,7 @@ var lateTimeWarning = document.getElementById("late-time-warning")
 
 var directionFieldset = document.getElementById('direction-fieldset')
 var bitrateFieldset = document.getElementById('bitrate-fieldset')
-var inputTimeFieldset = document.getElementById('input-time-fieldset')
-var outputTimeFieldset = document.getElementById('output-time-fieldset')
+var timesFieldset = document.getElementById('times-fieldset')
 
 var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
@@ -158,26 +157,22 @@ function changeEpisode() {
         // disable form controls if timestamp data are missing
         directionFieldset.disabled = true
         bitrateFieldset.disabled = true
-        inputTimeFieldset.disabled = true
-        outputTimeFieldset.disabled = true
+        timesFieldset.disabled = true
 
         directionFieldset.style.display = "none"
         bitrateFieldset.style.display = "none"
-        inputTimeFieldset.style.display = "none"
-        outputTimeFieldset.style.display = "none"
+        timesFieldset.style.display = "none"
 
         incompleteWarning.style.display = "block"
     } else {
         // enable form controls if timestamp data are available
         directionFieldset.disabled = false
         bitrateFieldset.disabled = false
-        inputTimeFieldset.disabled = false
-        outputTimeFieldset.disabled = false
+        timesFieldset.disabled = false
 
         directionFieldset.style.display = "block"
         bitrateFieldset.style.display = "block"
-        inputTimeFieldset.style.display = "block"
-        outputTimeFieldset.style.display = "block"
+        timesFieldset.style.display = "block"
 
         incompleteWarning.style.display = "none"
     }

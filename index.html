@@ -6,6 +6,7 @@
     <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="pickerjs/picker.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="logo.png">
 </head>
@@ -69,19 +70,23 @@
             <label for="abr"><abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
         </fieldset>
 
-        <fieldset id="input-time-fieldset"><legend>Enter time</legend>
+        <fieldset id="times-fieldset"><legend>Convert time</legend>
+            <span class="nowrap">
             <label for="input-time" id="input-time-label"></label>
             <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="resetLabels()" onchange="resetLabels()">
-            <input type="button" id="pick-time-button" onclick="showPicker()" value="Pick time">
-            <input type="submit" id="convert-button" value="Convert">
+                <button class="icon-button square" type="button" id="pick-time-button" onclick="showPicker()"><i class="fa fa-clock-o"></i></button>
+            </span>
+
             <div id="late-time-warning" class="warning">
                 This time exceeds the episode duration.
             </div>
-        </fieldset>
 
-        <fieldset id="output-time-fieldset"><legend>Converted time</legend>
+            <button class="icon-button" type="submit" id="convert-button"><i class="fa fa-arrow-down"></i> Convert</button>
+
+            <span class="nowrap">
             <span id="output-time-label"></span>
             <span id="output-time"></span>
+            </span>
         </fieldset>
 
         <p>
