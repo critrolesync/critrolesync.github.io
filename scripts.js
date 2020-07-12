@@ -67,7 +67,7 @@ function setupTimePicker() {
 
     // restrict the time picker's max hour
     picker.data.hour.max = 5
-    picker.reset()
+    picker.render()
 }
 
 function updateProgressBars() {
