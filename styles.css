@@ -47,9 +47,9 @@ legend { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 
 #output-time { font-size: 28px; font-weight: bold; }
 
-select, input { font-family: var(--font-family); font-size: var(--font-size); border: 1px solid; border-radius: 5px; }
+select, input { font-family: var(--font-family); font-size: var(--font-size); border: 1px solid; border-radius: 5px; background-color: white; }
 
-#input-time { width: 6em; }
+#input-time { width: 6em; padding-left: 5px; }
 
 .nowrap { white-space: nowrap; }
 
