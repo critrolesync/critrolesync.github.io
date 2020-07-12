@@ -42,11 +42,12 @@ label.row-label { white-space: nowrap; }
 
 .warning { display: none; font-style: italic; color: var(--red); }
 
-fieldset { border: 1px solid; margin-bottom: 10px; }
+fieldset { border: 1px solid; border-radius: 5px; margin-bottom: 10px; }
+legend { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 
 #output-time { font-size: 28px; font-weight: bold; }
 
-select, input { font-family: var(--font-family); font-size: var(--font-size); }
+select, input { font-family: var(--font-family); font-size: var(--font-size); border: 1px solid; border-radius: 5px; }
 
 #input-time { width: 6em; }
 
@@ -78,4 +79,4 @@ a:hover { text-decoration: none; }
 .picker-dialog, .picker-cancel:focus, .picker-cancel:hover, .picker-confirm:focus, .picker-confirm:hover { background-color: var(--bg-color); }
 .picker-cell::before, .picker-cell::after, .picker-cell__body::before, .picker-cell__body::after { background-image: none; }
 .picker-dialog, .picker-header, .picker-footer { border: none; }
- .picker-cell__header, .picker-cell, .picker-cell + .picker-cell { border-bottom: 1px solid; border-left: none; }
+.picker-cell__header, .picker-cell, .picker-cell + .picker-cell { border-bottom: 1px solid; border-left: none; }
