@@ -3230,6 +3230,19 @@
                 "timestampsFromCBR": true,
                 "CBR": 128,
                 "ABR": 127.7
+            },
+            {
+                "id": "C2E101",
+                "title": "Mysteries, Memories, and Music",
+                "youtube_id": "GGQhSkwh2h4",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "google_podcasts_feed": "",
+                "google_podcasts_episode": "",
+                "overcast_id": "",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
             }
         ]
     },
