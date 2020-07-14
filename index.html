@@ -60,21 +60,21 @@
 
         <fieldset id="direction-fieldset"><legend>Choose direction</legend>
             <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels()" checked>
-            <label for="podcast2youtube">Podcast → YouTube</label><br>
+            <label for="podcast2youtube">Podcast <i class="fa fa-long-arrow-right"></i> YouTube</label><br>
             <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels()">
-            <label for="youtube2podcast">YouTube → Podcast</label><br>
+            <label for="youtube2podcast">YouTube <i class="fa fa-long-arrow-right"></i> Podcast</label><br>
         </fieldset>
 
         <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="" data-tippy-content="Different podcast apps and web browsers will play some episodes at slightly different rates, resulting in different times for the same moment. If your converted time is inaccurate, try switching this setting.">podcast player type</abbr></legend>
             <input type="radio" id="cbr" name="bitrate-mode" value="cbr" onchange="resetLabels()" checked>
             <label for="cbr"><abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr>
-                <i class="fa fa-chrome platform-icon" data-tippy-content="Recommended for Chrome"></i>
-                <i class="fa fa-android platform-icon" data-tippy-content="Recommended for Android"></i></label><br>
+                <i class="fa fa-chrome" data-tippy-content="Recommended for Chrome"></i>
+                <i class="fa fa-android" data-tippy-content="Recommended for Android"></i></label><br>
 
             <input type="radio" id="abr" name="bitrate-mode" value="abr" onchange="resetLabels()">
             <label for="abr"><abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr>
-                <i class="fa fa-firefox platform-icon" data-tippy-content="Recommended for Firefox"></i>
-                <i class="fa fa-apple platform-icon" data-tippy-content="Recommended for iOS"></i></label><br>
+                <i class="fa fa-firefox" data-tippy-content="Recommended for Firefox"></i>
+                <i class="fa fa-apple" data-tippy-content="Recommended for iOS"></i></label><br>
         </fieldset>
 
         <fieldset id="times-fieldset"><legend>Convert time</legend>

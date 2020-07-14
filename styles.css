@@ -53,8 +53,6 @@ select, input { font-family: var(--font-family); font-size: var(--font-size); bo
 
 .nowrap { white-space: nowrap; }
 
-.platform-icon { margin: 0px 2px 0px 2px; }
-
 button.icon-button {
     font-family: var(--font-family);
     font-size: var(--font-size);
@@ -68,8 +66,11 @@ button.icon-button {
 button.icon-button.square { width: var(--line-height); padding: 0px; }
 button.icon-button:hover { background-color: RoyalBlue; }
 
+#direction-fieldset .fa { margin: 0px 5px 0px 5px; }
+#bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
 #pick-time-button {}
 #convert-button { display: block; margin: 15px 0px 15px 10px; padding: 15px; height: auto; }
+#convert-button .fa { margin-right: 5px; }
 
 a { color: var(--red); text-decoration: underline; }
 a:hover { text-decoration: none; }
