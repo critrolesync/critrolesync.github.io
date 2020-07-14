@@ -53,6 +53,8 @@ select, input { font-family: var(--font-family); font-size: var(--font-size); bo
 
 .nowrap { white-space: nowrap; }
 
+.platform-icon { margin: 0px 2px 0px 2px; }
+
 button.icon-button {
     font-family: var(--font-family);
     font-size: var(--font-size);

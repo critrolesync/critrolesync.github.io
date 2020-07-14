@@ -67,9 +67,14 @@
 
         <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="" data-tippy-content="Different podcast apps and web browsers will play some episodes at slightly different rates, resulting in different times for the same moment. If your converted time is inaccurate, try switching this setting.">podcast player type</abbr></legend>
             <input type="radio" id="cbr" name="bitrate-mode" value="cbr" onchange="resetLabels()" checked>
-            <label for="cbr"><abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr> (recommended for Chrome, Android apps)</label><br>
+            <label for="cbr"><abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr>
+                <i class="fa fa-chrome platform-icon" data-tippy-content="Recommended for Chrome"></i>
+                <i class="fa fa-android platform-icon" data-tippy-content="Recommended for Android"></i></label><br>
+
             <input type="radio" id="abr" name="bitrate-mode" value="abr" onchange="resetLabels()">
-            <label for="abr"><abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr> (recommended for Firefox, iOS apps)</label><br>
+            <label for="abr"><abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr>
+                <i class="fa fa-firefox platform-icon" data-tippy-content="Recommended for Firefox"></i>
+                <i class="fa fa-apple platform-icon" data-tippy-content="Recommended for iOS"></i></label><br>
         </fieldset>
 
         <fieldset id="times-fieldset"><legend>Convert time</legend>
