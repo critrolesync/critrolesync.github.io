@@ -3250,6 +3250,19 @@
                 "timestampsFromCBR": true,
                 "CBR": 128,
                 "ABR": 128
+            },
+            {
+                "id": "C2E102",
+                "title": "Ghosts, Dinosaurs, and Stuff",
+                "youtube_id": "hKlo5FWlxnA",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "google_podcasts_feed": "",
+                "google_podcasts_episode": "",
+                "overcast_id": "",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
             }
         ]
     },
