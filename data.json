@@ -3536,13 +3536,20 @@
                 "title": "Ghosts, Dinosaurs, and Stuff",
                 "youtube_id": "hKlo5FWlxnA",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
-                "google_podcasts_feed": "",
-                "google_podcasts_episode": "",
-                "overcast_id": "",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vNDQ5NTIyMGQtNTE2Zi0zOTNmLThiMzItZDU2ODBmNjA4Yzgz",
+                "overcast_id": "QzWbNFzX4",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:03:05", "hello"],
+                    ["1:39:21", "1:42:26", "break start"],
+                    ["1:59:24", "1:42:55", "break end"],
+                    ["3:26:44", "3:10:15", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             }
         ]
     },
