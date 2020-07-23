@@ -2821,7 +2821,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:13", "hello"],
+                    ["1:53:52", "1:53:50", "break start"],
+                    ["2:12:03", "1:54:04", "break end"],
+                    ["3:34:45", "3:16:34", "goodnight"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E54",
@@ -2834,7 +2841,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:37", "hello"],
+                    ["2:03:49", "2:04:27", "break start"],
+                    ["2:27:19", "2:04:41", "break end"],
+                    ["3:34:41", "3:12:03", "goodnight"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             },
             {
                 "id": "C2E55",
@@ -2847,7 +2861,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:13", "hello"],
+                    ["1:51:16", "1:51:14", "break start"],
+                    ["2:13:33", "1:51:29", "break end"],
+                    ["4:25:12", "4:02:50", "goodnight"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 127.7
             },
             {
                 "id": "C2E56",
@@ -2860,7 +2881,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:13", "hello"],
+                    ["1:32:54", "1:33:08", "break start"],
+                    ["1:55:09", "1:33:21", "break end"],
+                    ["3:01:00", "2:39:12", "goodnight"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             },
             {
                 "id": "C2E57",
@@ -2873,7 +2901,14 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:00:13", "hello"],
+                    ["1:51:18", "1:51:32", "break start"],
+                    ["2:17:47", "1:51:45", "break end"],
+                    ["3:44:58", "3:18:56", "goodnight"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             },
             {
                 "id": "C2E58",
