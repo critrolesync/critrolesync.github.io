@@ -462,12 +462,21 @@ function youtubeUrl(ep, timeObj=null) {
 }
 
 function transcriptUrl(ep, timeObj=null) {
-    var url, c = ep.id.split(/[CE]/)[1], e = ep.id.split(/[CE]/)[2]
-    if (timeObj) {
-        url = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}&h=${timeObj.h}&m=${timeObj.m}&s=${timeObj.s}`
-    } else {
-        url = `https://kryogenix.org/crsearch/html/cr${c}-${e}.html`
+    // see searchable transcript API: https://kryogenix.org/crsearch/api.html
+
+    var url, [, c, e, p] = ep.id.match(/C(\d+)E(\d+)(?: \(Part (\d+)\)|)/)
+
+    if (p && p > 1) {
+        // change episode parameter for multi-part episodes
+        e = `${e}.${(p-1).toString().padStart(2, 0)}`
     }
+
+    if (timeObj) {
+            url = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}&h=${timeObj.h}&m=${timeObj.m}&s=${timeObj.s}`
+    } else {
+            url = `https://kryogenix.org/crsearch/html/cr${c}-${e}.html`
+    }
+
     return url
 }
 
