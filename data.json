@@ -3926,6 +3926,19 @@
                 "timestampsFromCBR": true,
                 "CBR": 128,
                 "ABR": 128
+            },
+            {
+                "id": "C2E105",
+                "title": "Rumble at Rumblecusp",
+                "youtube_id": "ItgpnsJS2pE",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "overcast_id": "",
+                "timestamps_columns":
+                    ["youtube", "podcast", "comment"],
+                "timestamps": [
+                ]
             }
         ]
     },
