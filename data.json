@@ -3933,12 +3933,19 @@
                 "youtube_id": "ItgpnsJS2pE",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "overcast_id": "",
+                "google_podcasts_episode": "YjJmODU0ODgtYjBiZC00OWY3LWIxNWUtYzJlMWU5MTM2YzY3",
+                "overcast_id": "gPf15Jj5w",
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:00:00", "0:01:42", "hello"],
+                    ["2:36:20", "2:38:02", "break start"],
+                    ["2:52:45", "2:39:32", "break end"],
+                    ["4:42:04", "4:28:51", "IITY?"]
+                ],
+                "timestampsFromCBR": true,
+                "CBR": 128,
+                "ABR": 128
             }
         ]
     },
