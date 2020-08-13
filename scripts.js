@@ -2,7 +2,7 @@
                                 INITIALIZE
 ******************************************************************************/
 
-var data, series, ep
+var data, series, ep, debug = false
 
 var readMoreButton = document.getElementById('read-more')
 var moreText = document.getElementById('more-text')
@@ -26,6 +26,9 @@ var outputTimeLabel = document.getElementById('output-time-label')
 var videoLink = document.getElementById('video-link')
 var podcastLink = document.getElementById('podcast-link')
 var transcriptLink = document.getElementById('transcript-link')
+
+var debugContainer = document.getElementById('debug-container')
+var debugTable = document.getElementById('debug-table')
 
 var c1ProgressBar = document.getElementById('c1-progress-bar')
 var c2ProgressBar = document.getElementById('c2-progress-bar')
@@ -178,6 +181,7 @@ function changeEpisode() {
     }
 
     resetLabels()
+    updateEpisodeDebugInfo()
 }
 
 function resetLabels() {
@@ -201,6 +205,46 @@ function resetLabels() {
     setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
 
     lateTimeWarning.style.display = 'none'
+}
+
+function updateEpisodeDebugInfo() {
+    if (debug) {
+        // display debug information on page
+        debugContainer.style.display = 'block'
+
+        if (ep.timestamps.length < 2) {
+            // clear timestamp link table if timestamp data are missing
+            debugTable.innerHTML = ''
+        } else {
+            // display timestamp link table header
+            debugTable.innerHTML = `
+                <tr>
+                    <th>Timestamp</th>
+                    <th>YouTube</th>
+                    <th>Podcast</th>
+                <tr>`
+
+            // print timestamps to console
+            console.log(`${ep.id}: ${ep.title}`)
+            console.log(ep.timestamps_columns[0], ' ', ep.timestamps_columns[1], ' ', ep.timestamps_columns[2])
+            for (let i = 0; i < ep.timestamps.length; i++) {
+                var [youtube_time, podcast_time, comment] = ep.timestamps[i]
+                console.log(youtube_time, ' ', podcast_time, ' ', comment)
+
+                // add timestamp links to table
+                debugTable.innerHTML += `
+                    <tr>
+                        <td>${comment}</td>
+                        <td><a href="${getUrl('youtube', ep, timeObjFromString(youtube_time))}">${youtube_time}</a></td>
+                        <td><a href="${getUrl('podcast', ep, timeObjFromString(podcast_time))}">${podcast_time}</a></td>
+                    </tr>`
+            }
+            console.log('')
+        }
+    } else {
+        // hide debug information on page
+        debugContainer.style.display = 'none'
+    }
 }
 
 function readMore() {
