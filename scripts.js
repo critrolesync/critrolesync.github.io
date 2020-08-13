@@ -4,15 +4,15 @@
 
 var data, series, ep
 
-var readMoreButton = document.getElementById("read-more")
-var moreText = document.getElementById("more-text")
+var readMoreButton = document.getElementById('read-more')
+var moreText = document.getElementById('more-text')
 
 var seriesSelect = document.getElementById('series-select')
 var episodeSelect = document.getElementById('episode-select')
 var hideTitles = document.getElementById('hide-titles')
 
-var incompleteWarning = document.getElementById("incomplete-warning")
-var lateTimeWarning = document.getElementById("late-time-warning")
+var incompleteWarning = document.getElementById('incomplete-warning')
+var lateTimeWarning = document.getElementById('late-time-warning')
 
 var directionFieldset = document.getElementById('direction-fieldset')
 var bitrateFieldset = document.getElementById('bitrate-fieldset')
@@ -56,7 +56,7 @@ request.onload = function() {
 function setupTimePicker() {
     picker = new Picker(inputTime, {
         format: 'HH:mm:ss',
-        date: "00:00:00",
+        date: '00:00:00',
         text: {title: ''},
         headers: true,
     })
@@ -159,22 +159,22 @@ function changeEpisode() {
         bitrateFieldset.disabled = true
         timesFieldset.disabled = true
 
-        directionFieldset.style.display = "none"
-        bitrateFieldset.style.display = "none"
-        timesFieldset.style.display = "none"
+        directionFieldset.style.display = 'none'
+        bitrateFieldset.style.display = 'none'
+        timesFieldset.style.display = 'none'
 
-        incompleteWarning.style.display = "block"
+        incompleteWarning.style.display = 'block'
     } else {
         // enable form controls if timestamp data are available
         directionFieldset.disabled = false
         bitrateFieldset.disabled = false
         timesFieldset.disabled = false
 
-        directionFieldset.style.display = "block"
-        bitrateFieldset.style.display = "block"
-        timesFieldset.style.display = "block"
+        directionFieldset.style.display = 'block'
+        bitrateFieldset.style.display = 'block'
+        timesFieldset.style.display = 'block'
 
-        incompleteWarning.style.display = "none"
+        incompleteWarning.style.display = 'none'
     }
 
     resetLabels()
@@ -200,20 +200,20 @@ function resetLabels() {
     setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
     setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
 
-    lateTimeWarning.style.display = "none"
+    lateTimeWarning.style.display = 'none'
 }
 
 function readMore() {
-    readMoreButton.style.display = "none"
-    moreText.style.display = "block"
+    readMoreButton.style.display = 'none'
+    moreText.style.display = 'block'
 }
 
 function readLess() {
-    readMoreButton.style.display = "inline"
-    moreText.style.display = "none"
+    readMoreButton.style.display = 'inline'
+    moreText.style.display = 'none'
 }
 
-function setLink(span, text, url=null, target="_blank") {
+function setLink(span, text, url=null, target='_blank') {
     if (url) {
         span.innerHTML = `<a href="${url}" target=${target}>${text}</a>`
     } else {
@@ -348,10 +348,10 @@ function showConvertedTimestamp() {
     timeObjs[source] = timeObjFromString(inputTime.value)
 
     if (isAfterEpisodeEnd(timeObjs[source], source)) {
-        lateTimeWarning.style.display = "block"
+        lateTimeWarning.style.display = 'block'
         return
     } else {
-        lateTimeWarning.style.display = "none"
+        lateTimeWarning.style.display = 'none'
     }
 
     if (bitrateMode == 'cbr') {
