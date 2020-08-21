@@ -27,6 +27,10 @@ var videoLink = document.getElementById('video-link')
 var podcastLink = document.getElementById('podcast-link')
 var transcriptLink = document.getElementById('transcript-link')
 
+var showEmbeds = document.getElementById('show-embeds')
+var videoEmbed = document.getElementById('video-embed')
+var podcastEmbed = document.getElementById('podcast-embed')
+
 var debugContainer = document.getElementById('debug-container')
 var debugTable = document.getElementById('debug-table')
 var debugDateVerified = document.getElementById('debug-date-verified')
@@ -199,6 +203,7 @@ function changeEpisode() {
     }
 
     resetLabels()
+    updateEmbeds()
     updateEpisodeDebugInfo()
 }
 
@@ -300,6 +305,18 @@ function setLink(span, text, url=null, target='_blank') {
         span.innerHTML = `<a href="${url}" target=${target}>${text}</a>`
     } else {
         span.innerHTML = text
+    }
+}
+
+function fillEmbed(div, type, ep, timeObj=null) {
+    if (type == 'youtube') {
+        var url = `https://www.youtube-nocookie.com/embed/${ep.youtube_id}`
+        if (timeObj) { url += `?start=${Math.floor(timeObj.total)}` }
+        div.innerHTML = `<iframe width="100%" height="337" src="${url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    } else if (type == 'spotify') {
+        var url = `https://open.spotify.com/embed/episode/${ep.spotify_id}`
+        if (timeObj) { url += `?t=${Math.floor(timeObj.total)}` }
+        div.innerHTML = `<iframe src="${url}" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`
     }
 }
 
@@ -411,7 +428,7 @@ function convertBitrate(timeObj, oldBitrate, newBitrate) {
     return timeObjFromTotal(newTotal)
 }
 
-function showConvertedTimestamp() {
+function convertTimestamp() {
 
     var source, dest
     var direction = document.querySelector('input[name="direction"]:checked').value
@@ -429,6 +446,9 @@ function showConvertedTimestamp() {
 
     var timeObjs = {}
     timeObjs[source] = timeObjFromString(inputTime.value)
+    if (!timeObjs[source]) {
+        return
+    }
 
     if (isAfterEpisodeEnd(timeObjs[source], source)) {
         lateTimeWarning.style.display = 'block'
@@ -475,11 +495,48 @@ function showConvertedTimestamp() {
         return
     }
 
+    return timeObjs
+}
+
+function showConvertedTimestamp() {
+    var source, dest
+    var direction = document.querySelector('input[name="direction"]:checked').value
+    if (direction == 'podcast2youtube') {
+        source = 'podcast'
+        dest = 'youtube'
+    } else if (direction == 'youtube2podcast') {
+        source = 'youtube'
+        dest = 'podcast'
+    } else {
+        console.log(`error, bad direction: ${direction}`)
+        return
+    }
+
+    timeObjs = convertTimestamp()
+
     setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
 
     setLink(videoLink, `Video @ ${timeObjs['youtube'].string}`, getUrl('youtube', ep, timeObjs['youtube']))
     setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
     setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
+
+    updateEmbeds()
+}
+
+function updateEmbeds() {
+    if (showEmbeds.checked) {
+        timeObjs = convertTimestamp()
+        if (timeObjs) {
+            fillEmbed(videoEmbed, 'youtube', ep, timeObjs['youtube'])
+            fillEmbed(podcastEmbed, 'spotify', ep, timeObjs['podcast'])
+        } else {
+            fillEmbed(videoEmbed, 'youtube', ep)
+            fillEmbed(podcastEmbed, 'spotify', ep)
+        }
+    } else {
+        videoEmbed.innerHTML = ''
+        podcastEmbed.innerHTML = ''
+    }
 }
 
 /******************************************************************************
