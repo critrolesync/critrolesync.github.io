@@ -2656,10 +2656,10 @@
                 "timestamps": [
                     ["0:00:10", "0:00:33", "hello"],
                     ["2:03:11", "2:03:35", "break start"],
-                    ["2:03:17", "2:05:17", "break end"],
-                    ["3:06:02", "3:08:02", "hot mic"]
+                    ["2:03:17", "2:05:09", "break end"],
+                    ["3:06:02", "3:07:54", "hot mic"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-26"
             },
             {
                 "id": "C2E38",
@@ -2672,12 +2672,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:21", "hello"],
-                    ["2:07:14", "2:07:35", "break start"],
-                    ["2:07:16", "2:08:59", "break end"],
-                    ["3:14:20", "3:16:02", "IITY?"]
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["2:07:14", "2:07:39", "break start"],
+                    ["2:07:16", "2:09:09", "break end"],
+                    ["3:14:20", "3:16:12", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-26"
             },
             {
                 "id": "C2E39",
@@ -2690,12 +2690,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:28", "hello"],
-                    ["2:11:21", "2:11:48", "break start"],
-                    ["2:11:22", "2:13:09", "break end"],
-                    ["4:07:44", "4:09:31", "IITY?"]
+                    ["0:00:00", "0:00:22", "hello"],
+                    ["2:11:21", "2:11:42", "break start"],
+                    ["2:11:22", "2:13:12", "break end"],
+                    ["4:07:44", "4:09:34", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-26"
             },
             {
                 "id": "C2E40",
@@ -2708,12 +2708,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:24", "hello"],
-                    ["2:06:12", "2:06:38", "break start"],
-                    ["2:06:14", "2:07:57", "break end"],
-                    ["2:58:38", "3:00:21", "IITY?"]
+                    ["0:00:00", "0:00:41", "hello"],
+                    ["2:06:12", "2:06:54", "break start"],
+                    ["2:06:14", "2:08:24", "break end"],
+                    ["2:58:36", "3:00:46", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-26"
             },
             {
                 "id": "C2E41",
@@ -2726,12 +2726,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:21", "hello"],
-                    ["1:53:46", "1:54:07", "break start"],
-                    ["1:53:47", "1:55:28", "break end"],
-                    ["3:28:57", "3:30:38", "IITY?"]
+                    ["0:00:00", "0:00:27", "hello"],
+                    ["1:53:45", "1:54:12", "break start"],
+                    ["1:53:47", "1:55:42", "break end"],
+                    ["3:28:55", "3:30:50", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E42",
@@ -2744,12 +2744,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:23", "hello"],
+                    ["0:00:00", "0:00:24", "hello"],
                     ["1:55:17", "1:55:41", "break start"],
-                    ["1:55:18", "1:57:06", "break end"],
-                    ["3:44:28", "3:46:16", "IITY?"]
+                    ["1:55:19", "1:57:11", "break end"],
+                    ["3:44:25", "3:46:17", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E43",
@@ -2762,12 +2762,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:26", "hello"],
-                    ["1:44:34", "1:44:59", "break start"],
-                    ["1:44:35", "1:46:24", "break end"],
-                    ["3:24:39", "3:26:30", "IITY?"]
+                    ["0:00:00", "0:00:22", "hello"],
+                    ["1:44:34", "1:44:56", "break start"],
+                    ["1:44:35", "1:46:25", "break end"],
+                    ["3:24:37", "3:26:27", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E44",
@@ -2780,12 +2780,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:27", "hello"],
-                    ["1:54:16", "1:54:43", "break start"],
-                    ["1:54:18", "1:56:04", "break end"],
-                    ["3:57:20", "3:59:06", "IITY?"]
+                    ["0:00:00", "0:00:26", "hello"],
+                    ["1:54:15", "1:54:41", "break start"],
+                    ["1:54:18", "1:56:11", "break end"],
+                    ["3:57:20", "3:59:14", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E45",
@@ -2798,12 +2798,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:21", "hello"],
-                    ["1:46:20", "1:46:41", "break start"],
-                    ["1:46:22", "1:48:06", "break end"],
-                    ["4:44:44", "4:46:28", "IITY?"]
+                    ["0:00:00", "0:00:27", "hello"],
+                    ["1:46:18", "1:46:45", "break start"],
+                    ["1:46:22", "1:48:17", "break end"],
+                    ["4:44:43", "4:46:38", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E46",
@@ -2816,12 +2816,12 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:00:00", "0:00:21", "hello"],
-                    ["1:32:37", "1:32:59", "break start"],
-                    ["1:32:39", "1:34:24", "break end"],
-                    ["3:45:37", "3:47:22", "IITY?"]
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["1:32:37", "1:33:01", "break start"],
+                    ["1:32:39", "1:34:31", "break end"],
+                    ["3:45:37", "3:47:29", "IITY?"]
                 ],
-                "date_verified": null
+                "date_verified": "2021-03-27"
             },
             {
                 "id": "C2E47",
