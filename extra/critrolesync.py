@@ -68,3 +68,35 @@ def youtube2podcast(time, episode_id='C2E22'):
     ep = get_episode_data_from_id(episode_id)
     print(ep['title'])
     print(convert_time(time, episode_id, source='youtube', dest='podcast'))
+
+
+
+def fixAnchorMidroll(newAdDuration=61, oldAdDuration=0):
+    '''For fixing issue #8: https://github.com/critrolesync/critrolesync.github.io/issues/8'''
+
+    anchor_podcast_episodes = data[1]['episodes'][19:]
+    for ep in anchor_podcast_episodes:
+        if 'timestampsBitrate' in ep:
+            # need to adjust for new bitrate
+            bitrateRatio = 128/127.7
+        else:
+            # do need to adjust for bitrate
+            bitrateRatio = 1
+
+        print(ep['id'])
+        print()
+        print('                "timestamps": [')
+
+        for i, (youtube, podcast, comment) in enumerate(ep['timestamps']):
+            if i<2: # before break
+                podcast_new = sec2str(str2sec(podcast)*bitrateRatio)
+            else: # after break
+                podcast_new = sec2str((str2sec(podcast)-oldAdDuration+newAdDuration)*bitrateRatio)
+            if i<len(ep['timestamps'])-1: # include final comma
+                print(f'                    ["{youtube}", "{podcast_new}", "{comment}"],')
+            else: # no final comma
+                print(f'                    ["{youtube}", "{podcast_new}", "{comment}"]')
+
+        print('                ]')
+        print()
+        print()
