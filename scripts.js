@@ -178,6 +178,12 @@ function changeEpisode() {
         timesFieldset.style.display = 'block'
 
         incompleteWarning.style.display = 'none'
+
+        if (ep.CBR == ep.ABR) {
+            // disable podcast player selector if bitrates are identical
+            bitrateFieldset.disabled = true
+            bitrateFieldset.style.display = 'none'
+        }
     }
 
     resetLabels()
