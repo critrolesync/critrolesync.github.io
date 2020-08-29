@@ -179,8 +179,8 @@ function changeEpisode() {
 
         incompleteWarning.style.display = 'none'
 
-        if (ep.CBR == ep.ABR) {
-            // disable podcast player selector if bitrates are identical
+        if (!ep.CBR || !ep.ABR || !ep.timestampsBitrate || ep.CBR == ep.ABR) {
+            // disable podcast player selector if bitrates are undefined or identical
             bitrateFieldset.disabled = true
             bitrateFieldset.style.display = 'none'
         }
@@ -408,7 +408,8 @@ function showConvertedTimestamp() {
     // CONVERSION STEP LOGIC:
     // 1. podcast timestamps stored in data.json were obtained using a podcast
     //    player with some bitrate, given by ep.timestampsBitrate. had a
-    //    different player been used, the timestamps might have differed.
+    //    different player been used, the timestamps might have differed,
+    //    depending on the podcast file type.
     // 2. the user's selected podcast bitrate, given by ep[bitrateMode], may or
     //    may not match this.
     // 3. if they match, no extra bitrate conversion is necessary, and the
@@ -419,15 +420,22 @@ function showConvertedTimestamp() {
     //    bitrate, podcast times must be adjusted for this difference in
     //    bitrate, either before or after media conversion, depending on the
     //    direction.
-    if (source == 'podcast') {
-        // podcast (user bitrate) --> podcast (timestamp bitrate) --> YouTube
-        timeObjs[dest] = convertBitrate(timeObjs[source], ep[bitrateMode], ep.timestampsBitrate)
-        timeObjs[dest] = convertMedia(timeObjs[dest], source, dest)
-
-    } else if (dest == 'podcast') {
-        // YouTube --> podcast (timestamp bitrate) --> podcast (user bitrate)
+    if (!ep.timestampsBitrate || !ep[bitrateMode]) {
+        // do nothing about bitrate if information is not provided, which
+        // usually signifies that there are no bitrate differences between
+        // podcast players for this episode
         timeObjs[dest] = convertMedia(timeObjs[source], source, dest)
-        timeObjs[dest] = convertBitrate(timeObjs[dest], ep.timestampsBitrate, ep[bitrateMode])
+    } else {
+        if (source == 'podcast') {
+            // podcast (user bitrate) --> podcast (timestamp bitrate) --> YouTube
+            timeObjs[dest] = convertBitrate(timeObjs[source], ep[bitrateMode], ep.timestampsBitrate)
+            timeObjs[dest] = convertMedia(timeObjs[dest], source, dest)
+
+        } else if (dest == 'podcast') {
+            // YouTube --> podcast (timestamp bitrate) --> podcast (user bitrate)
+            timeObjs[dest] = convertMedia(timeObjs[source], source, dest)
+            timeObjs[dest] = convertBitrate(timeObjs[dest], ep.timestampsBitrate, ep[bitrateMode])
+        }
     }
 
     if (!timeObjs[dest]) {
