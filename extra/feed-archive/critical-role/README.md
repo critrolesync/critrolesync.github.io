@@ -9,3 +9,5 @@ https://anchor.fm/s/91c7948/podcast/rss
 XML files were obtained using fetch-feeds.py or the following:
 
     wget -O feed-YYYY-MM-DD.xml https://anchor.fm/s/91c7948/podcast/rss
+
+JSON files were derived from XML files using parse-feeds.py.

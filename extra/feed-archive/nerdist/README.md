@@ -9,3 +9,5 @@ http://critrole.nerdistind.libsynpro.com/rss
 XML files were obtained using fetch-feeds.py or the following:
 
     wget -O feed-YYYY-MM-DD.xml http://critrole.nerdistind.libsynpro.com/rss
+
+JSON files were derived from XML files using parse-feeds.py.
