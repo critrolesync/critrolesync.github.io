@@ -1,6 +1,6 @@
 This podcast's homepage is
 
-https://critrole.podbean.com
+https://anchor.fm/criticalrole/
 
 and the feed is located at
 
