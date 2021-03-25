@@ -6,6 +6,6 @@ and the feed is located at
 
 https://anchor.fm/s/91c7948/podcast/rss
 
-XML files were obtained using the following:
+XML files were obtained using fetch-feeds.py or the following:
 
     wget -O feed-YYYY-MM-DD.xml https://anchor.fm/s/91c7948/podcast/rss
