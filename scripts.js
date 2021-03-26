@@ -29,6 +29,7 @@ var transcriptLink = document.getElementById('transcript-link')
 
 var debugContainer = document.getElementById('debug-container')
 var debugTable = document.getElementById('debug-table')
+var debugDateVerified = document.getElementById('debug-date-verified')
 
 var c1ProgressBar = document.getElementById('c1-progress-bar')
 var c2ProgressBar = document.getElementById('c2-progress-bar')
@@ -219,9 +220,13 @@ function updateEpisodeDebugInfo() {
         debugContainer.style.display = 'block'
 
         if (ep.timestamps.length < 2) {
-            // clear timestamp link table if timestamp data are missing
+            // clear debug information if timestamp data are missing
+            debugDateVerified.innerHTML = ''
             debugTable.innerHTML = ''
         } else {
+            // display last timestamp verification date
+            debugDateVerified.innerHTML = `Timestamps last verified on ${ep.date_verified || "date unknown"}`
+
             // display timestamp link table header
             debugTable.innerHTML = `
                 <tr>
@@ -232,6 +237,7 @@ function updateEpisodeDebugInfo() {
 
             // print timestamps to console
             console.log(`${ep.id}: ${ep.title}`)
+            console.log(`Timestamps last verified on ${ep.date_verified || "date unknown"}`)
             console.log(ep.timestamps_columns[0], ' ', ep.timestamps_columns[1], ' ', ep.timestamps_columns[2])
             for (let i = 0; i < ep.timestamps.length; i++) {
                 var [youtube_time, podcast_time, comment] = ep.timestamps[i]

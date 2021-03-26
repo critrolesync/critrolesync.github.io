@@ -52,7 +52,8 @@ select, input { font-family: var(--font-family); font-size: var(--font-size); bo
 #input-time { width: 6em; padding-left: 5px; }
 
 #debug-container { display: none; text-align: center; }
-#debug-header { font-weight: bold; }
+#debug-header { font-weight: bold; margin: auto; }
+#debug-date-verified { font-style: italic; margin: auto; }
 #debug-table { width: 60%; margin: auto; text-align: center; }
 
 .nowrap { white-space: nowrap; }
