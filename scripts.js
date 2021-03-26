@@ -253,6 +253,15 @@ function updateEpisodeDebugInfo() {
     }
 }
 
+function toggleDebug(state=null) {
+    if (state == null) {
+        debug = !debug
+    } else {
+        debug = state
+    }
+    updateEpisodeDebugInfo()
+}
+
 function readMore() {
     readMoreButton.style.display = 'none'
     moreText.style.display = 'block'
