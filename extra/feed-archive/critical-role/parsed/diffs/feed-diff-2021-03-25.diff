@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-03-24.json	2021-03-25 20:02:06.674025100 -0400
++++ critical-role/parsed/feed-parsed-2021-03-25.json	2021-03-25 20:02:06.674025100 -0400
+@@ -1,12 +1,24 @@
+ [
+     {
++        "Title": "C2E130 The Calm Before The Storm ",
++        "GUID": "1cf13559-e616-474a-8a57-548a01ab0659",
++        "Publication Date": "2021-03-25",
++        "Staging Date": "2021-03-24",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "03:47:58",
++        "Seconds": 13678,
++        "Bytes": 221217112,
++        "File": "2687c7097633952b5f27ae2779edebb5.m4a",
++        "Type": "audio/x-m4a"
++    },
++    {
+         "Title": "C2E129 Between a Ball and a Hot Place",
+         "GUID": "da5c56f7-5c38-467e-aba9-61aff0ddc976",
+         "Publication Date": "2021-03-18",
+         "Staging Date": "2021-03-18",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "03:21:59",
+         "Seconds": 12119,
+         "Bytes": 196006226,
+         "File": "687d981d2fb1737db7411b683683a411.m4a",
+         "Type": "audio/x-m4a"

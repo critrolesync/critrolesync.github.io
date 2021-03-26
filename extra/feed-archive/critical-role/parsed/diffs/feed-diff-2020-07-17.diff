@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2020-07-12.json	2021-03-25 20:02:06.673024400 -0400
++++ critical-role/parsed/feed-parsed-2020-07-17.json	2021-03-25 20:02:06.673024400 -0400
+@@ -1,12 +1,24 @@
+ [
+     {
++        "Title": "C2E101 Mysteries, Memories, and Music",
++        "GUID": "critrole.podbean.com/d8d263ad-e785-573d-a01e-523954c2c01f",
++        "Publication Date": "2020-07-16",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:21:43",
++        "Seconds": 12103,
++        "Bytes": 195959935,
++        "File": "CR_C02E0101_Podcast_v001.mp3",
++        "Type": "audio/mpeg"
++    },
++    {
+         "Title": "C2E100 Hunted at Sea",
+         "GUID": "critrole.podbean.com/300ba859-6cc9-5dfb-8275-77ca6666bfce",
+         "Publication Date": "2020-07-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:15:32",
+         "Seconds": 11732,
+         "Bytes": 188184791,
+         "File": "CR_C02E0100_V06_Podcast_V2.mp3",
+         "Type": "audio/mpeg"
