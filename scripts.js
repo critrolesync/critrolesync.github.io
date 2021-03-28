@@ -227,12 +227,18 @@ function updateEpisodeDebugInfo() {
             // display last timestamp verification date
             debugDateVerified.innerHTML = `Timestamps last verified on ${ep.date_verified || "date unknown"}`
 
-            // display timestamp link table header
+            // display table header for timestamp links
+            var podcastHeader = 'Podcast'
+            if (ep.timestampsBitrate && ep.timestampsBitrate == ep.CBR) {
+                podcastHeader += ' (Chrome)'
+            } else if (ep.timestampsBitrate && ep.timestampsBitrate == ep.ABR) {
+                podcastHeader += ' (Firefox)'
+            }
             debugTable.innerHTML = `
                 <tr>
                     <th>Timestamp</th>
                     <th>YouTube</th>
-                    <th>Podcast</th>
+                    <th>${podcastHeader}</th>
                 <tr>`
 
             // print timestamps to console
