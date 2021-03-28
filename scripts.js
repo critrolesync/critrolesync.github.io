@@ -247,8 +247,8 @@ function updateEpisodeDebugInfo() {
                 debugTable.innerHTML += `
                     <tr>
                         <td>${comment}</td>
-                        <td><a href="${getUrl('youtube', ep, timeObjFromString(youtube_time))}">${youtube_time}</a></td>
-                        <td><a href="${getUrl('podcast', ep, timeObjFromString(podcast_time))}">${podcast_time}</a></td>
+                        <td><a href="${getUrl('youtube', ep, timeObjFromString(youtube_time))}" target=_blank>${youtube_time}</a></td>
+                        <td><a href="${getUrl('podcast', ep, timeObjFromString(podcast_time))}" target=_blank>${podcast_time}</a></td>
                     </tr>`
             }
             console.log('')
