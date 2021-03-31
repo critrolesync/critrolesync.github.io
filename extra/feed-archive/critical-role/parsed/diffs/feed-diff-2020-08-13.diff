@@ -1,8 +1,8 @@
---- critical-role/parsed/feed-parsed-2020-08-04.json	2021-03-25 20:02:06.675023400 -0400
-+++ critical-role/parsed/feed-parsed-2020-08-13.json	2021-03-25 20:02:06.673024400 -0400
-@@ -1,12 +1,36 @@
+--- critical-role\parsed\feed-parsed-2020-08-04.json
++++ critical-role\parsed\feed-parsed-2020-08-13.json
+@@ -1,11 +1,35 @@
  [
-     {
++    {
 +        "Title": "C2E105 Rumble at Rumblecusp",
 +        "GUID": "b2f85488-b0bd-49f7-b15e-c2e1e9136c67",
 +        "Publication Date": "2020-08-13",
@@ -26,7 +26,7 @@
 +        "File": "1f544d62-794d-ce13-2885-0690fd9cefa6.mp3",
 +        "Type": "audio/mpeg"
 +    },
-+    {
+     {
          "Title": "C2E103 Maritime Mysteries",
          "GUID": "fc45c699-8d50-47db-a291-1778caa4ae43",
          "Publication Date": "2020-07-31",
@@ -36,4 +36,3 @@
          "Seconds": 11914,
          "Bytes": 191214529,
          "File": "080ed4cb-01da-266f-5ce4-258e7ef1ea5e.mp3",
-         "Type": "audio/mpeg"

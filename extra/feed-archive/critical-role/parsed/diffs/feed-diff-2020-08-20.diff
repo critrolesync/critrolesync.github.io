@@ -1,8 +1,8 @@
---- critical-role/parsed/feed-parsed-2020-08-13.json	2021-03-25 20:02:06.673024400 -0400
-+++ critical-role/parsed/feed-parsed-2020-08-20.json	2021-03-25 20:02:06.672024600 -0400
+--- critical-role\parsed\feed-parsed-2020-08-13.json
++++ critical-role\parsed\feed-parsed-2020-08-20.json
 @@ -1,1034 +1,1046 @@
  [
-     {
++    {
 +        "Title": "C2E106 A Fog Lifted",
 +        "GUID": "4e44d2c2-c22d-4622-ae32-628ce9090f78",
 +        "Publication Date": "2020-08-20",
@@ -14,7 +14,7 @@
 +        "File": "991efaaa929ee0f8da056b9f33b7fdd1.m4a",
 +        "Type": "audio/x-m4a"
 +    },
-+    {
+     {
          "Title": "C2E105 Rumble at Rumblecusp",
          "GUID": "b2f85488-b0bd-49f7-b15e-c2e1e9136c67",
          "Publication Date": "2020-08-13",
@@ -1642,4 +1642,3 @@
 +        "Type": "audio/x-m4a"
      }
  ]
-\ No newline at end of file

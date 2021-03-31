@@ -1,8 +1,8 @@
---- critical-role/parsed/feed-parsed-2020-08-29.json	2021-03-25 20:02:06.674025100 -0400
-+++ critical-role/parsed/feed-parsed-2021-03-24.json	2021-03-25 20:02:06.674025100 -0400
+--- critical-role\parsed\feed-parsed-2020-08-29.json
++++ critical-role\parsed\feed-parsed-2021-03-24.json
 @@ -1,1046 +1,1322 @@
  [
-     {
++    {
 +        "Title": "C2E129 Between a Ball and a Hot Place",
 +        "GUID": "da5c56f7-5c38-467e-aba9-61aff0ddc976",
 +        "Publication Date": "2021-03-18",
@@ -278,7 +278,7 @@
 +        "File": "5f5fc2d780bb6b17bceab6857609ac27.m4a",
 +        "Type": "audio/x-m4a"
 +    },
-+    {
+     {
          "Title": "C2E106 A Fog Lifted",
          "GUID": "4e44d2c2-c22d-4622-ae32-628ce9090f78",
          "Publication Date": "2020-08-20",
@@ -1497,4 +1497,3 @@
          "Type": "audio/x-m4a"
      }
  ]
-\ No newline at end of file
