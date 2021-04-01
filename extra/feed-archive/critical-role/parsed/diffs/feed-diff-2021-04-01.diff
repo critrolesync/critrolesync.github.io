@@ -1,0 +1,26 @@
+--- critical-role\parsed\feed-parsed-2021-03-25.json
++++ critical-role\parsed\feed-parsed-2021-04-01.json
+@@ -1,11 +1,23 @@
+ [
++    {
++        "Title": "C2E131 Into the Eye",
++        "GUID": "b3e44094-ac03-48c4-8e57-5604e67ae554",
++        "Publication Date": "2021-04-01",
++        "Staging Date": "2021-03-31",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "04:03:11",
++        "Seconds": 14591,
++        "Bytes": 235984053,
++        "File": "536e7c229bef9221e848c73f9e67f0a8.m4a",
++        "Type": "audio/x-m4a"
++    },
+     {
+         "Title": "C2E130 The Calm Before The Storm ",
+         "GUID": "1cf13559-e616-474a-8a57-548a01ab0659",
+         "Publication Date": "2021-03-25",
+         "Staging Date": "2021-03-24",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "03:47:58",
+         "Seconds": 13678,
+         "Bytes": 221217112,
+         "File": "2687c7097633952b5f27ae2779edebb5.m4a",
