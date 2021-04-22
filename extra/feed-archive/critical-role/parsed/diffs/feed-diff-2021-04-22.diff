@@ -1,0 +1,26 @@
+--- critical-role\parsed\feed-parsed-2021-04-15.json
++++ critical-role\parsed\feed-parsed-2021-04-22.json
+@@ -1,11 +1,23 @@
+ [
++    {
++        "Title": "C2E134 The Streets of the Forgotten",
++        "GUID": "36ac77fa-2577-4df9-9703-b40ef94236c9",
++        "Publication Date": "2021-04-22",
++        "Staging Date": "2021-04-21",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "03:55:47",
++        "Seconds": 14147,
++        "Bytes": 228808102,
++        "File": "e02050764a53708407c8f1d2ff187c7a.m4a",
++        "Type": "audio/x-m4a"
++    },
+     {
+         "Title": "C2E133 Hunter and Hunted",
+         "GUID": "cdb40c43-337e-4447-862d-847b0c2f3057",
+         "Publication Date": "2021-04-15",
+         "Staging Date": "2021-04-14",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "04:08:19",
+         "Seconds": 14899,
+         "Bytes": 240957302,
+         "File": "c6cf0655c0ba889a8c86fa45d6879fa0.m4a",
