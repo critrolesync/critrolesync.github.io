@@ -1,0 +1,26 @@
+--- critical-role\parsed\feed-parsed-2021-04-22.json
++++ critical-role\parsed\feed-parsed-2021-04-29.json
+@@ -1,11 +1,23 @@
+ [
++    {
++        "Title": "C2E1135 The Genesis Ward",
++        "GUID": "574e5a09-140e-4447-8177-e87d4b857212",
++        "Publication Date": "2021-04-29",
++        "Staging Date": "2021-04-29",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "03:29:23",
++        "Seconds": 12563,
++        "Bytes": 203176407,
++        "File": "96f9c33259777857c79ad96f941ed27e.m4a",
++        "Type": "audio/x-m4a"
++    },
+     {
+         "Title": "C2E134 The Streets of the Forgotten",
+         "GUID": "36ac77fa-2577-4df9-9703-b40ef94236c9",
+         "Publication Date": "2021-04-22",
+         "Staging Date": "2021-04-21",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "03:55:47",
+         "Seconds": 14147,
+         "Bytes": 228808102,
+         "File": "e02050764a53708407c8f1d2ff187c7a.m4a",
