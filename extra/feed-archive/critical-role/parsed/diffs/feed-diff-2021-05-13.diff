@@ -1,0 +1,26 @@
+--- critical-role\parsed\feed-parsed-2021-05-06.json
++++ critical-role\parsed\feed-parsed-2021-05-13.json
+@@ -1,11 +1,23 @@
+ [
++    {
++        "Title": "C2E137 Welcome to Cognouza",
++        "GUID": "8cabf150-e42e-4ba3-841a-13e397d6b87f",
++        "Publication Date": "2021-05-13",
++        "Staging Date": "2021-05-12",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "02:51:26",
++        "Seconds": 10286,
++        "Bytes": 166359046,
++        "File": "a2c47db2fea4b1a7c230d8d45bc3d3f7.m4a",
++        "Type": "audio/x-m4a"
++    },
+     {
+         "Title": "C2E136 Hell or High Water",
+         "GUID": "50fbc87a-c0b8-4f17-bc6e-785e01b5cf53",
+         "Publication Date": "2021-05-06",
+         "Staging Date": "2021-05-05",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "03:25:15",
+         "Seconds": 12315,
+         "Bytes": 199178389,
+         "File": "d58df7a29d90bdbe96d929d6b2aab6c9.m4a",
