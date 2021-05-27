@@ -1,0 +1,26 @@
+--- critical-role\parsed\feed-parsed-2021-05-20.json
++++ critical-role\parsed\feed-parsed-2021-05-27.json
+@@ -1,11 +1,23 @@
+ [
++    {
++        "Title": "C2E139 Rebirth",
++        "GUID": "7f3498c1-1970-458e-9e0e-5d1cb1e75921",
++        "Publication Date": "2021-05-27",
++        "Staging Date": "2021-05-26",
++        "Sponsor": "a2ufu95,a4i9v6i",
++        "HH:MM:SS": "03:35:01",
++        "Seconds": 12901,
++        "Bytes": 208651134,
++        "File": "1711ec43a802229a1d52fe59f350eede.m4a",
++        "Type": "audio/x-m4a"
++    },
+     {
+         "Title": "C2E138 Where There Is A Will...",
+         "GUID": "2e6e1d36-4504-42c2-8f54-c8abd2d813d6",
+         "Publication Date": "2021-05-20",
+         "Staging Date": "2021-05-19",
+         "Sponsor": "a2ufu95,a4i9v6i",
+         "HH:MM:SS": "03:06:18",
+         "Seconds": 11178,
+         "Bytes": 180791148,
+         "File": "a9a2d2ab0a1e5c6ec80a68e9e4a21ad1.m4a",
