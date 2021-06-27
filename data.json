@@ -34,7 +34,15 @@
                 "timestamps_columns":
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
-                ]
+                    ["0:13:25", "0:00:30", "recap"],
+                    ["1:29:01", "1:15:56", "break start"],
+                    ["1:43:31", "1:16:08", "break end"],
+                    ["2:58:13", "2:30:39", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-06-27"
             },
             {
                 "id": "C1E3",

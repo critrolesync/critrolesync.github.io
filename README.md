@@ -27,8 +27,9 @@ Thanks to
 [u/scruffed_books_fire](https://www.reddit.com/user/scruffed_books_fire) /
 [@theDragonTurtle](https://github.com/theDragonTurtle),
 [@brojam](https://github.com/brojam),
-[u/CantReadMaps](https://www.reddit.com/user/CantReadMaps), and
-[@the-soul-keeper](https://github.com/the-soul-keeper)
+[u/CantReadMaps](https://www.reddit.com/user/CantReadMaps),
+[@the-soul-keeper](https://github.com/the-soul-keeper), and
+nebula
 for contributing timestamps!
 
 Special thanks to [u/silxx](https://www.reddit.com/user/silxx/) for creating
