@@ -14,14 +14,14 @@
                     ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:17:53", "0:00:24", "last left off"],
-                    ["1:31:47", "1:14:08", "break start"],
+                    ["1:31:45", "1:14:06", "break start"],
                     ["1:43:41", "1:14:18", "break end"],
-                    ["3:02:48", "2:33:15", "end"]
+                    ["3:02:37", "2:33:04", "end"]
                 ],
                 "timestampsBitrate": 128,
                 "CBR": 128,
                 "ABR": 127.7,
-                "date_verified": null
+                "date_verified": "2021-06-27"
             },
             {
                 "id": "C1E2",
