@@ -39,8 +39,8 @@ def parse_feed(input_xml, output_txt=None):
     episodes = []
     for item in root[0].findall('item'):
         title = item.find('title').text
-        match = re.match('C2E|Vox Machina Ep', title)
-        if match:
+        smellsLikeCabbage = re.match('Talks Machina|Talking', title)
+        if not smellsLikeCabbage:
             pubdate = item.find('pubDate').text
             for format in ['%a, %d %b %Y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S %z']:
                 try:

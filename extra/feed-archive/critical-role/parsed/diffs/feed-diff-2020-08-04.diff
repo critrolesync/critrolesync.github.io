@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2020-07-17.json
 +++ critical-role\parsed\feed-parsed-2020-08-04.json
-@@ -1,986 +1,1010 @@
+@@ -1,1202 +1,1226 @@
  [
 +    {
 +        "Title": "C2E103 Maritime Mysteries",
@@ -52,6 +52,20 @@
          "Bytes": 188184791,
 -        "File": "CR_C02E0100_V06_Podcast_V2.mp3",
 +        "File": "92846694-44100-2-83eec59dd1cacd6d.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "Doom Eternal One-Shot",
+         "GUID": "critrole.podbean.com/c39632d6-214e-5661-bdec-95a94ccf6227",
+         "Publication Date": "2020-03-23",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "03:33:20",
+         "Seconds": 12800,
+         "Bytes": 204826952,
+-        "File": "Doom_Eternal_OneShot_031320_TL_V002_Podcast.mp3",
++        "File": "92815108-48000-2-e2b18f72a57acbe2.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -108,6 +122,20 @@
          "Bytes": 245330858,
 -        "File": "CriticalRole_C02_E096_022020_Podcast.mp3",
 +        "File": "92861942-48000-2-341fe60aa5430bb4.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "Cinderbrush: A Monsterhearts Story (A Critical Role One-Shot)",
+         "GUID": "critrole.podbean.com/9db5563a-b4a3-5f00-8fc0-1b1d9f6f4feb",
+         "Publication Date": "2020-02-21",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:31:59",
+         "Seconds": 16319,
+         "Bytes": 262088886,
+-        "File": "MonsterheartsPodcast_Export_v2.mp3",
++        "File": "92840743-48000-2-db9f88dcf79b916e.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -238,6 +266,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "The Adventures of the Darrington Brigade",
+         "GUID": "critrole.podbean.com/the-adventures-of-the-darrington-brigade-e23bb4c11b1ee7ebdc6931eefade7589",
+         "Publication Date": "2019-12-06",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:25:40",
+         "Seconds": 15940,
+         "Bytes": 255456374,
+-        "File": "AustinLiveShow_Podcast.mp3",
++        "File": "92813766-48000-2-d7c1b2c33251ae41.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E86 The Cathedral",
          "GUID": "critrole.podbean.com/c2e86-the-cathedral-32745196359b0c9bf6b0d5229f0e374e",
          "Publication Date": "2019-11-28",
@@ -249,6 +291,20 @@
          "Bytes": 264369064,
 -        "File": "CriticalRole_C02_E086_11212019_Podcast.mp3",
 +        "File": "92814942-48000-2-6eeb4cbfe8caa843.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "UnDeadwood Part IV: Goodnight, Miss Miram",
+         "GUID": "critrole.podbean.com/undeadwood-part-iv-goodnight-miss-miram-cc034ebc91ffdb53bf81d65ba58adde7",
+         "Publication Date": "2019-11-22",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:18:10",
+         "Seconds": 8290,
+         "Bytes": 132663970,
+-        "File": "UnDeadwood_S01E04_Podcast_V1.mp3",
++        "File": "92813108-48000-2-c3f0e403c0344510.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -276,7 +332,25 @@
          "Seconds": 12782,
          "Bytes": 204575961,
 -        "File": "CriticalRole_C02_E084_11072019_Podcast.mp3",
+-        "Type": "audio/mpeg"
+-    },
+-    {
+-        "Title": "UnDeadwood Part III: I Got My Wish ",
 +        "File": "92813945-48000-2-8363a696e0463165.mp3",
++        "Type": "audio/mpeg"
++    },
++    {
++        "Title": "UnDeadwood Part III: I Got My Wish",
+         "GUID": "critrole.podbean.com/undeadwood-part-iii-i-got-my-wish-316e4ccaaa8fcb47679729444903da14",
+         "Publication Date": "2019-11-08",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:03:45",
+         "Seconds": 7425,
+         "Bytes": 120946092,
+-        "File": "UnDeadwood_S01E03_Podccast_V2.mp3",
++        "File": "92814023-48000-2-93f9431279c0686b.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -294,6 +368,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "UnDeadwood Part II: God Don't Play Cards",
+         "GUID": "critrole.podbean.com/undeadwood-part-ii-god-dont-play-cards-f11fc94f0173159a9874f13b99948118",
+         "Publication Date": "2019-11-01",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:40:52",
+         "Seconds": 9652,
+         "Bytes": 154455606,
+-        "File": "UnDeadwood_S01E02_Podccast_V1.mp3",
++        "File": "92815943-48000-2-cc1d8550897576cf.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E82 The Beat of the Permaheart",
          "GUID": "critrole.podbean.com/c2e82-the-beat-of-the-permaheart-e25a178cb8df2272dd0ed04ae2a12ae5",
          "Publication Date": "2019-10-31",
@@ -305,6 +393,20 @@
          "Bytes": 230408868,
 -        "File": "CriticalRole_C02_E082_10242019_Podcast_V2.mp3",
 +        "File": "92841101-48000-2-3374559df3cfd78e.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "UnDeadwood Part I: Stay Close, Reverend",
+         "GUID": "critrole.podbean.com/undeadwood-part-i-stay-close-reverend-e069114b8f17738d54c0a1dd62c1e352",
+         "Publication Date": "2019-10-25",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:03:55",
+         "Seconds": 7435,
+         "Bytes": 118988778,
+-        "File": "UnDeadwood_S01E01_Podcast.mp3",
++        "File": "92817326-44100-2-93f756515e4c30bc.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -378,6 +480,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "Vox Machina: Dalen's Closet",
+         "GUID": "critrole.podbean.com/vox-machina-dalens-closet-one-shot-d9f0c8db42e1ab76b4a9bb025f032895",
+         "Publication Date": "2019-09-05",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:00:33",
+         "Seconds": 14433,
+         "Bytes": 232954566,
+-        "File": "CR_DalenCloset_Podcast.mp3",
++        "File": "92814284-48000-2-251b86fdee0e17ca.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E76 Refjorged",
          "GUID": "critrole.podbean.com/c2e76-refjorged-84cdfb8b4071c03574b9ee7ea4393052",
          "Publication Date": "2019-08-29",
@@ -437,6 +553,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "Call of Cthulhu: Shadow of the Crystal Palace",
+         "GUID": "critrole.podbean.com/call-of-cthulhu-shadow-of-the-crystal-palace-5466f41c8cff23a7590d76ca10f2b141",
+         "Publication Date": "2019-08-05",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:01:11",
+         "Seconds": 14471,
+         "Bytes": 251180288,
+-        "File": "CallOfCthulu_ShadowofTheCrystalPalace_Podcastv3.mp3",
++        "File": "92813164-48000-2-2a88ae3e818d5a2d.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E72 Clay and Dust",
          "GUID": "critrole.podbean.com/c2e72-clay-and-dust-f025971feb74dd3f5054792fe1f477a4",
          "Publication Date": "2019-08-01",
@@ -493,6 +623,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "The Search For Bob",
+         "GUID": "critrole.podbean.com/the-search-for-bob-1641c48088597f87a85d6094dc18c3e6",
+         "Publication Date": "2019-06-28",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "03:43:59",
+         "Seconds": 13439,
+         "Bytes": 216990030,
+-        "File": "TheSearchForBob_Fine_Podcast.mp3",
++        "File": "92841877-48000-2-b4a1ee586d573107.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E68 Reflections",
          "GUID": "critrole.podbean.com/c2e68-reflections-cf409c8e4b1f1199d8449b6ff36c32fe",
          "Publication Date": "2019-06-27",
@@ -518,6 +662,20 @@
          "Bytes": 231861284,
 -        "File": "CriticalRole_C02_E067_06132019_Podcastv2.mp3",
 +        "File": "92813677-48000-2-dec918bb7a439f20.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "Tails of Equestria One-Shot",
+         "GUID": "critrole.podbean.com/tails-of-equestria-one-shot-c786cb01440b36c1a2f88449fac56594",
+         "Publication Date": "2019-06-14",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "03:35:33",
+         "Seconds": 12933,
+         "Bytes": 209835954,
+-        "File": "012_MyLittlePony_PodcastMagic.mp3",
++        "File": "92814016-48000-2-86128021a775267e.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -675,6 +833,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "The Night Before Critmas",
+         "GUID": "critrole.podbean.com/the-night-before-critmas-e99107602fa902f7def50264e7e64d76",
+         "Publication Date": "2019-03-22",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:28:22",
+         "Seconds": 16102,
+         "Bytes": 260592467,
+-        "File": "Night_Before_Critmas_Podcast.mp3",
++        "File": "92814443-44100-2-9d558b18c9831f46.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E55 Duplicity",
          "GUID": "critrole.podbean.com/c2e55-duplicity-de624331e3cdee0004c778c8f78dbf90",
          "Publication Date": "2019-03-21",
@@ -686,6 +858,20 @@
          "Bytes": 233354805,
 -        "File": "CriticalRole_C02E055_Podcast.mp3",
 +        "File": "92813894-44100-2-71d8ac2d289d818e.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "Honey Heist 3: Tova's Honeys",
+         "GUID": "critrole.podbean.com/honey-heist-3-tovas-honeys-8a56af53de05f00502da90022aaa1713",
+         "Publication Date": "2019-03-15",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:59:21",
+         "Seconds": 10761,
+         "Bytes": 174302005,
+-        "File": "Honey_Heist_3_Tovas_Honeys_v2.mp3",
++        "File": "92814750-44100-2-73cb03d3184a45af.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -703,6 +889,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "Crash Pandas",
+         "GUID": "critrole.podbean.com/crash-pandas-251af97f007bda20da50a893ae729d5a",
+         "Publication Date": "2019-03-08",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:53:06",
+         "Seconds": 10386,
+         "Bytes": 166197903,
+-        "File": "CrashPandas.mp3",
++        "File": "92813314-44100-2-63fd660bb8580063.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E53 Cornered",
          "GUID": "critrole.podbean.com/c2e53-cornered-c032ce556ea397b4ce8615211d184972",
          "Publication Date": "2019-03-07",
@@ -717,6 +917,20 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "Honey Heist 2: Electric Beargaloo",
+         "GUID": "critrole.podbean.com/honey-heist-2-electric-beargaloo-99032aafb37a746d583d7fc706528365",
+         "Publication Date": "2019-03-01",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:45:18",
+         "Seconds": 9918,
+         "Bytes": 158707794,
+-        "File": "Honey_Heist_2_Electric_Beargaloo.mp3",
++        "File": "92814504-44100-2-3eab5417fb6f0ae7.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E52 Feral Business",
          "GUID": "critrole.podbean.com/c2e52-feral-business-30c97762e8dd3ceb5e51737ccdee689b",
          "Publication Date": "2019-02-28",
@@ -728,6 +942,20 @@
          "Bytes": 219886160,
 -        "File": "CriticalRole_S01E052_Podcast.mp3",
 +        "File": "92841831-44100-2-af9533f17f681781.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "The Search For Grog",
+         "GUID": "critrole.podbean.com/the-search-for-grog-3c89a21dd4dcaa9427860d24fe1f93e4",
+         "Publication Date": "2019-02-23",
+-        "Staging Date": null,
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:22:42",
+         "Seconds": 15762,
+         "Bytes": 259874201,
+-        "File": "CRPresents_TheSearchForGrog_Podcast.mp3",
++        "File": "92813699-44100-2-129f97c8e412d560.mp3",
          "Type": "audio/mpeg"
      },
      {
@@ -911,6 +1139,21 @@
          "Type": "audio/mpeg"
      },
      {
+         "Title": "Critical Role and the Club of Misfits  (Laura's One-Shot)",
+         "GUID": "critrole.podbean.com/critical-role-and-the-club-of-misfits-lauras-one-shot-ff6e8b388a49458b11ef220580e8ded5",
+-        "Publication Date": "2018-10-25",
+-        "Staging Date": null,
++        "Publication Date": "2018-10-26",
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "02:35:43",
+         "Seconds": 9343,
+         "Bytes": 149511219,
+-        "File": "CRP_PODCAST_Critical_Role_and_the_Club_of_Misfits.mp3",
++        "File": "92813215-44100-2-87012b29b7c1b538.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
          "Title": "C2E39 Temple of the False Serpent",
          "GUID": "critrole.podbean.com/c2e39-temple-of-the-false-serpent-49b275e2c4135da13615a3cc9a6339b5",
 -        "Publication Date": "2018-10-18",
@@ -1013,6 +1256,21 @@
          "Bytes": 214733928,
 -        "File": "CRP_C02E033_PODCAST_The_Ruby_and_the_Sapphire.mp3",
 +        "File": "92813349-44100-2-cf5c99d045356e17.mp3",
+         "Type": "audio/mpeg"
+     },
+     {
+         "Title": "Liam\u2019s One-Shot: The Song of the Lorelei",
+         "GUID": "critrole.podbean.com/liam-s-one-shot-the-song-of-the-lorelei-18d9fc337541dcdd0b30ffeca8386847",
+-        "Publication Date": "2018-08-30",
+-        "Staging Date": null,
++        "Publication Date": "2018-08-31",
++        "Staging Date": "2020-6-24",
+         "Sponsor": null,
+         "HH:MM:SS": "04:27:03",
+         "Seconds": 16023,
+         "Bytes": 256392930,
+-        "File": "CRP_PODCAST_Liam_s_One-Shot_The_Song_of_the_Lorelei.mp3",
++        "File": "92813709-44100-2-f04825eff9bafccb.mp3",
          "Type": "audio/mpeg"
      },
      {

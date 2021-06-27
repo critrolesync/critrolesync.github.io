@@ -1,7 +1,31 @@
 --- critical-role\parsed\feed-parsed-2021-06-16.json
 +++ critical-role\parsed\feed-parsed-2021-06-27.json
-@@ -1,1466 +1,1466 @@
+@@ -1,1694 +1,1718 @@
  [
++    {
++        "Title": "Vox Machina vs. Mighty Nein",
++        "GUID": "54ae4a6e-bdde-4b56-9e8c-093de6d8b040",
++        "Publication Date": "2021-06-25",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "04:07:46",
++        "Seconds": 14866,
++        "Bytes": 240426636,
++        "File": "ebdd5a2d0e81c422c2b2d0349558e20b.m4a",
++        "Type": "audio/x-m4a"
++    },
++    {
++        "Title": "Critical Role Campaign 2 Wrap Up",
++        "GUID": "f6302c61-b43c-40ac-a744-d6399a05f04d",
++        "Publication Date": "2021-06-24",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "03:55:49",
++        "Seconds": 14149,
++        "Bytes": 228829189,
++        "File": "9195d27988e8465ff8035fbbe04b007d.m4a",
++        "Type": "audio/x-m4a"
++    },
      {
          "Title": "C2E141 Fond Farewells",
          "GUID": "1b238925-3b25-4373-b4c4-87fc093e2796",
@@ -18,6 +42,20 @@
 +        "Seconds": 24171,
 +        "Bytes": 390909971,
 +        "File": "2a969dd98a311c4ff32704567d44d6b3.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "The Elder Scrolls Online: Blackwood - Part One: Death & Taxes One-Shot",
+         "GUID": "bbee24ae-0e6d-4586-a5fe-82a5bde74ee7",
+         "Publication Date": "2021-06-07",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": null,
+         "HH:MM:SS": "03:22:52",
+         "Seconds": 12172,
+         "Bytes": 196857046,
+-        "File": "5eae1ed17b79e349dd018b79d7fd0980.m4a",
++        "File": "b7b160d553a1a685bea6cfbaa88ec203.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -759,6 +797,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "Doom Eternal One-Shot",
+         "GUID": "critrole.podbean.com/c39632d6-214e-5661-bdec-95a94ccf6227",
+         "Publication Date": "2020-03-23",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "03:34:21",
+         "Seconds": 12861,
+         "Bytes": 207997486,
+-        "File": "090c83963ea916d8653693377b8f9f33.m4a",
++        "File": "6de9f9b9658d4377e2f6bc323a088773.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E99 High Seas, High Stakes",
          "GUID": "critrole.podbean.com/56fa8aa8-4352-51cf-9e6e-61e9481d2648",
          "Publication Date": "2020-03-19",
@@ -828,6 +880,20 @@
 +        "Seconds": 15431,
 +        "Bytes": 249572097,
 +        "File": "ea4dc30249631499553c01f72b696f9a.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "Cinderbrush: A Monsterhearts Story (A Critical Role One-Shot)",
+         "GUID": "critrole.podbean.com/9db5563a-b4a3-5f00-8fc0-1b1d9f6f4feb",
+         "Publication Date": "2020-02-21",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:33:00",
+         "Seconds": 16380,
+         "Bytes": 264916780,
+-        "File": "9780402dfa7a6c6439cea499c2e0d20a.m4a",
++        "File": "745ca4cddd0eb5ab0a0676169e7f56cb.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -993,6 +1059,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "The Adventures of the Darrington Brigade",
+         "GUID": "critrole.podbean.com/the-adventures-of-the-darrington-brigade-e23bb4c11b1ee7ebdc6931eefade7589",
+         "Publication Date": "2019-12-06",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:26:41",
+         "Seconds": 16001,
+         "Bytes": 258781798,
+-        "File": "2936beb048608e81c89b502834c56256.m4a",
++        "File": "f05e47907a10dfbf301a43ed4fe2388a.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E86 The Cathedral",
          "GUID": "critrole.podbean.com/c2e86-the-cathedral-32745196359b0c9bf6b0d5229f0e374e",
          "Publication Date": "2019-11-28",
@@ -1008,6 +1088,24 @@
 +        "Seconds": 16620,
 +        "Bytes": 268790262,
 +        "File": "163d72783fb37d9feb0285d3f91ab6a8.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "UnDeadwood Part IV: Goodnight, Miss Miram",
+         "GUID": "critrole.podbean.com/undeadwood-part-iv-goodnight-miss-miram-cc034ebc91ffdb53bf81d65ba58adde7",
+         "Publication Date": "2019-11-22",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:20:01",
+-        "Seconds": 8401,
+-        "Bytes": 135866530,
+-        "File": "eb7e077ba3b3458aaa0a23547dc809f1.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:19:51",
++        "Seconds": 8391,
++        "Bytes": 135715024,
++        "File": "df2326aa6e56cddb907d304a9f18d0e3.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1047,6 +1145,24 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "UnDeadwood Part III: I Got My Wish",
+         "GUID": "critrole.podbean.com/undeadwood-part-iii-i-got-my-wish-316e4ccaaa8fcb47679729444903da14",
+         "Publication Date": "2019-11-08",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:05:36",
+-        "Seconds": 7536,
+-        "Bytes": 121883970,
+-        "File": "9fc5b9a3c027817f4fcf2a0dce5ea390.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:05:27",
++        "Seconds": 7527,
++        "Bytes": 121732328,
++        "File": "f138f63a82319a69958ebf19421f4c61.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E83 Dark Bargains",
          "GUID": "critrole.podbean.com/c2e83-dark-bargains-668459213f0f8f210b7ca0f42f0a260b",
          "Publication Date": "2019-11-07",
@@ -1065,6 +1181,24 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "UnDeadwood Part II: God Don't Play Cards",
+         "GUID": "critrole.podbean.com/undeadwood-part-ii-god-dont-play-cards-f11fc94f0173159a9874f13b99948118",
+         "Publication Date": "2019-11-01",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:42:43",
+-        "Seconds": 9763,
+-        "Bytes": 157893212,
+-        "File": "b13538a186f3f56593ed15a2bc8ac925.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:42:33",
++        "Seconds": 9753,
++        "Bytes": 157741610,
++        "File": "88122ea46f8e2101bef101daa73cf75a.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E82 The Beat of the Permaheart",
          "GUID": "critrole.podbean.com/c2e82-the-beat-of-the-permaheart-e25a178cb8df2272dd0ed04ae2a12ae5",
          "Publication Date": "2019-10-31",
@@ -1080,6 +1214,24 @@
 +        "Seconds": 14497,
 +        "Bytes": 234466934,
 +        "File": "bbd45a460e8e11af1bfd6cc9579e0bfe.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "UnDeadwood Part I: Stay Close, Reverend",
+         "GUID": "critrole.podbean.com/undeadwood-part-i-stay-close-reverend-e069114b8f17738d54c0a1dd62c1e352",
+         "Publication Date": "2019-10-25",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:06:03",
+-        "Seconds": 7563,
+-        "Bytes": 122322081,
+-        "File": "4b04dc67d868d73ca25092b802945371.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:05:54",
++        "Seconds": 7554,
++        "Bytes": 122170359,
++        "File": "f5d5a0ca3392a768b19c4c5a4ff895db.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1169,6 +1321,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "Vox Machina: Dalen's Closet",
+         "GUID": "critrole.podbean.com/vox-machina-dalens-closet-one-shot-d9f0c8db42e1ab76b4a9bb025f032895",
+         "Publication Date": "2019-09-05",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:01:34",
+         "Seconds": 14494,
+         "Bytes": 234407633,
+-        "File": "09689b91da884f2e17b742ca4bfe0ea8.m4a",
++        "File": "0c6152f269ecea7b682887297e8d8b3d.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E76 Refjorged",
          "GUID": "critrole.podbean.com/c2e76-refjorged-84cdfb8b4071c03574b9ee7ea4393052",
          "Publication Date": "2019-08-29",
@@ -1238,6 +1404,20 @@
 +        "Seconds": 13730,
 +        "Bytes": 222050341,
 +        "File": "97005600d668c3cb9fec831d32eff1eb.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "Call of Cthulhu: Shadow of the Crystal Palace",
+         "GUID": "critrole.podbean.com/call-of-cthulhu-shadow-of-the-crystal-palace-5466f41c8cff23a7590d76ca10f2b141",
+         "Publication Date": "2019-08-05",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:02:12",
+         "Seconds": 14532,
+         "Bytes": 235018442,
+-        "File": "9117feedbf8529329270df0f2b8cd0c5.m4a",
++        "File": "d69b9b0ea409f986eaba4ded167879c6.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1313,6 +1493,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "The Search For Bob",
+         "GUID": "critrole.podbean.com/the-search-for-bob-1641c48088597f87a85d6094dc18c3e6",
+         "Publication Date": "2019-06-28",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "03:45:00",
+         "Seconds": 13500,
+         "Bytes": 218340093,
+-        "File": "b4253ad627520fa7dfdbbb2c989d9f31.m4a",
++        "File": "5d99b02825d130408b43c74f76f51d7f.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E68 Reflections",
          "GUID": "critrole.podbean.com/c2e68-reflections-cf409c8e4b1f1199d8449b6ff36c32fe",
          "Publication Date": "2019-06-27",
@@ -1346,6 +1540,20 @@
 +        "Seconds": 14591,
 +        "Bytes": 235975047,
 +        "File": "f73d2d959aba6d7f3f1673d0162f09d5.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "Tails of Equestria One-Shot",
+         "GUID": "critrole.podbean.com/tails-of-equestria-one-shot-c786cb01440b36c1a2f88449fac56594",
+         "Publication Date": "2019-06-14",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "03:36:34",
+         "Seconds": 12994,
+         "Bytes": 210160097,
+-        "File": "83d2c8197a480b984cde3e3a4fc2c865.m4a",
++        "File": "ac4e363f18f5506b809da6023143db97.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1547,6 +1755,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "The Night Before Critmas",
+         "GUID": "critrole.podbean.com/the-night-before-critmas-e99107602fa902f7def50264e7e64d76",
+         "Publication Date": "2019-03-22",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:30:00",
+         "Seconds": 16200,
+         "Bytes": 262002646,
+-        "File": "1e189318576aafaf87e89dccaa7ffd54.m4a",
++        "File": "d183254da3eb36c4d9f4c6eb098e4da3.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E55 Duplicity",
          "GUID": "critrole.podbean.com/c2e55-duplicity-de624331e3cdee0004c778c8f78dbf90",
          "Publication Date": "2019-03-21",
@@ -1562,6 +1784,24 @@
 +        "Seconds": 14718,
 +        "Bytes": 238030091,
 +        "File": "097cdabc52d2c43cc3a4e97f688e7a52.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "Honey Heist 3: Tova's Honeys",
+         "GUID": "critrole.podbean.com/honey-heist-3-tovas-honeys-8a56af53de05f00502da90022aaa1713",
+         "Publication Date": "2019-03-15",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "03:01:37",
+-        "Seconds": 10897,
+-        "Bytes": 176232998,
+-        "File": "eebc065030ba305b3ce939fd4bf3a40b.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "03:01:27",
++        "Seconds": 10887,
++        "Bytes": 176081324,
++        "File": "8f4a2b1ece8ae6bc1343ec8eb2e374a3.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1583,6 +1823,24 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "Crash Pandas",
+         "GUID": "critrole.podbean.com/crash-pandas-251af97f007bda20da50a893ae729d5a",
+         "Publication Date": "2019-03-08",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:55:20",
+-        "Seconds": 10520,
+-        "Bytes": 170144608,
+-        "File": "538e4566e22332f3c4226c4355c926ea.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:55:11",
++        "Seconds": 10511,
++        "Bytes": 169992802,
++        "File": "8d319192ef9d01dcc4e1ecc6a87c7a1e.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E53 Cornered",
          "GUID": "critrole.podbean.com/c2e53-cornered-c032ce556ea397b4ce8615211d184972",
          "Publication Date": "2019-03-07",
@@ -1601,6 +1859,20 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "Honey Heist 2: Electric Beargaloo",
+         "GUID": "critrole.podbean.com/honey-heist-2-electric-beargaloo-99032aafb37a746d583d7fc706528365",
+         "Publication Date": "2019-03-01",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "02:46:41",
+         "Seconds": 10001,
+         "Bytes": 161755215,
+-        "File": "0ea0f4f3dc1018454219ec167885ffb3.m4a",
++        "File": "af2b6c67cd76003131799ae207bcdad4.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E52 Feral Business",
          "GUID": "critrole.podbean.com/c2e52-feral-business-30c97762e8dd3ceb5e51737ccdee689b",
          "Publication Date": "2019-02-28",
@@ -1616,6 +1888,20 @@
 +        "Seconds": 13874,
 +        "Bytes": 224387241,
 +        "File": "729e9893c0fc6da8e28d52a737a91833.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "The Search For Grog",
+         "GUID": "critrole.podbean.com/the-search-for-grog-3c89a21dd4dcaa9427860d24fe1f93e4",
+         "Publication Date": "2019-02-23",
+-        "Staging Date": "2021-06-10",
++        "Staging Date": "2021-06-25",
+         "Sponsor": "a2ufu95",
+         "HH:MM:SS": "04:24:19",
+         "Seconds": 15859,
+         "Bytes": 256490756,
+-        "File": "077c3903c75ea6c24511f8ce98fa78e7.m4a",
++        "File": "582ce44f76609f083022ca51303e911f.m4a",
          "Type": "audio/x-m4a"
      },
      {
@@ -1835,6 +2121,24 @@
          "Type": "audio/x-m4a"
      },
      {
+         "Title": "Critical Role and the Club of Misfits  (Laura's One-Shot)",
+         "GUID": "critrole.podbean.com/critical-role-and-the-club-of-misfits-lauras-one-shot-ff6e8b388a49458b11ef220580e8ded5",
+         "Publication Date": "2018-10-26",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "02:37:55",
+-        "Seconds": 9475,
+-        "Bytes": 153244287,
+-        "File": "a39d7cb6d50fce7a10f6265bbf9fbdf7.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "02:37:46",
++        "Seconds": 9466,
++        "Bytes": 153092481,
++        "File": "c17fe663e2f8000b61c344e2477d8668.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
          "Title": "C2E39 Temple of the False Serpent",
          "GUID": "critrole.podbean.com/c2e39-temple-of-the-false-serpent-49b275e2c4135da13615a3cc9a6339b5",
          "Publication Date": "2018-10-19",
@@ -1958,6 +2262,24 @@
 +        "Seconds": 13552,
 +        "Bytes": 219171895,
 +        "File": "a91544eee4911690ea46115d9533aed3.m4a",
+         "Type": "audio/x-m4a"
+     },
+     {
+         "Title": "Liam\u2019s One-Shot: The Song of the Lorelei",
+         "GUID": "critrole.podbean.com/liam-s-one-shot-the-song-of-the-lorelei-18d9fc337541dcdd0b30ffeca8386847",
+         "Publication Date": "2018-08-31",
+-        "Staging Date": "2021-06-10",
+-        "Sponsor": "a2ufu95,a5re8k4",
+-        "HH:MM:SS": "04:29:30",
+-        "Seconds": 16170,
+-        "Bytes": 261521423,
+-        "File": "172ac918570eb7bd5d69987125f175c7.m4a",
++        "Staging Date": "2021-06-25",
++        "Sponsor": "a2ufu95,a604ah5",
++        "HH:MM:SS": "04:29:21",
++        "Seconds": 16161,
++        "Bytes": 261369701,
++        "File": "1bfb959ebc6fd8cc05a57d1db788e178.m4a",
          "Type": "audio/x-m4a"
      },
      {
