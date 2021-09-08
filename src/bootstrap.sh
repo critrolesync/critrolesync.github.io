@@ -2,7 +2,7 @@
 
 apt-get update
 
-apt-get install -y python3.7 python3-pip ffmpeg
+apt-get install -y python3.7 python3-pip ffmpeg libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 python3-psycopg2
 
 python3 -m pip install -r /vagrant/src/requirements.txt
 

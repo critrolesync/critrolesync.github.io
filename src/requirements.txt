@@ -1,5 +1,14 @@
-docker
+# python3 -m pip install -r requirements.txt
+
 numpy
 requests
 tqdm
 youtube_dl
+
+docker
+matplotlib
+psycopg2
+pyaudio
+pydub
+scipy
+https://github.com/worldveil/dejavu/zipball/master
