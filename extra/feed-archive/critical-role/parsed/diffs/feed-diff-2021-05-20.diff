@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-05-13.json
 +++ critical-role\parsed\feed-parsed-2021-05-20.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E138 Where There Is A Will...",
@@ -12,7 +12,8 @@
 +        "Seconds": 11178,
 +        "Bytes": 180791148,
 +        "File": "a9a2d2ab0a1e5c6ec80a68e9e4a21ad1.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/33856925/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-19%2Fa9a2d2ab0a1e5c6ec80a68e9e4a21ad1.m4a"
 +    },
      {
          "Title": "C2E137 Welcome to Cognouza",

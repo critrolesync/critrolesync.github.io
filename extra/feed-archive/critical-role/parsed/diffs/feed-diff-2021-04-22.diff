@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-04-15.json
 +++ critical-role\parsed\feed-parsed-2021-04-22.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E134 The Streets of the Forgotten",
@@ -12,7 +12,8 @@
 +        "Seconds": 14147,
 +        "Bytes": 228808102,
 +        "File": "e02050764a53708407c8f1d2ff187c7a.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/31912186/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-21%2Fe02050764a53708407c8f1d2ff187c7a.m4a"
 +    },
      {
          "Title": "C2E133 Hunter and Hunted",

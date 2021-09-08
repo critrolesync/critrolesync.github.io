@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-06-27.json
 +++ critical-role\parsed\feed-parsed-2021-09-07.json
-@@ -1,1718 +1,1838 @@
+@@ -1,1861 +1,1991 @@
  [
 +    {
 +        "Title": "Exandria Unlimited Wrap-Up",
@@ -12,7 +12,8 @@
 +        "Seconds": 6503,
 +        "Bytes": 105179869,
 +        "File": "510fc96aaedf7dc3d9b28e020b6c8832.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/39681542/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-09-01%2F510fc96aaedf7dc3d9b28e020b6c8832.m4a"
 +    },
 +    {
 +        "Title": "The Elder Scrolls Online: Blackwood - Part Two: A Faulty Foundation One-Shot",
@@ -24,7 +25,8 @@
 +        "Seconds": 14906,
 +        "Bytes": 241071523,
 +        "File": "f68157997d7ff08d58783e20a757efe4.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/39349079/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-26%2Ff68157997d7ff08d58783e20a757efe4.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 8: What Comes Next ",
@@ -36,7 +38,8 @@
 +        "Seconds": 11996,
 +        "Bytes": 194005355,
 +        "File": "a5fbb45fd5d355bc4d8b1780622320ed.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/38924665/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-17%2Fa5fbb45fd5d355bc4d8b1780622320ed.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 7: Beyond the Heart City",
@@ -48,7 +51,8 @@
 +        "Seconds": 13882,
 +        "Bytes": 224509857,
 +        "File": "7fa569c72e01820d838e061333205986.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/38643874/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-11%2F7fa569c72e01820d838e061333205986.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 6: The Gift Among the Green",
@@ -60,7 +64,8 @@
 +        "Seconds": 16370,
 +        "Bytes": 264759274,
 +        "File": "79d70b104641c6fb94f379eea0b044c1.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/38247597/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-08-03%2F79d70b104641c6fb94f379eea0b044c1.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 5: A Test of Worth ",
@@ -72,7 +77,8 @@
 +        "Seconds": 13447,
 +        "Bytes": 217485406,
 +        "File": "ba07d56feb4f2662a01fb91224aa28a7.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/37991204/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-29%2Fba07d56feb4f2662a01fb91224aa28a7.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 4: By The Road",
@@ -84,7 +90,8 @@
 +        "Seconds": 15249,
 +        "Bytes": 246618506,
 +        "File": "31eda6a8cc38f0175793637b0b9ba981.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/37606610/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-21%2F31eda6a8cc38f0175793637b0b9ba981.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 3: A Glorious Return",
@@ -96,7 +103,8 @@
 +        "Seconds": 11116,
 +        "Bytes": 179782578,
 +        "File": "c580f2103581e33c654b364316f41ad2.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/37261470/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fc580f2103581e33c654b364316f41ad2.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 2: The Oh No Plateau",
@@ -108,7 +116,8 @@
 +        "Seconds": 13595,
 +        "Bytes": 219867636,
 +        "File": "d8afe251ce5989e6684413029c99c73b.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/36868391/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd8afe251ce5989e6684413029c99c73b.m4a"
 +    },
 +    {
 +        "Title": "Exandria Unlimited Episode 1: The Nameless Ones",
@@ -120,7 +129,8 @@
 +        "Seconds": 14324,
 +        "Bytes": 231659252,
 +        "File": "11b22d16b71a4bde73f7b2d1a661b844.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/36493340/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F11b22d16b71a4bde73f7b2d1a661b844.m4a"
 +    },
      {
          "Title": "Vox Machina vs. Mighty Nein",
@@ -132,13 +142,16 @@
 -        "Seconds": 14866,
 -        "Bytes": 240426636,
 -        "File": "ebdd5a2d0e81c422c2b2d0349558e20b.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/36055162/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Febdd5a2d0e81c422c2b2d0349558e20b.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:07:39",
 +        "Seconds": 14859,
 +        "Bytes": 240317955,
 +        "File": "541e0d9f568b7d1dfd87cd1379742566.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/36055162/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F541e0d9f568b7d1dfd87cd1379742566.m4a"
      },
      {
          "Title": "Critical Role Campaign 2 Wrap Up",
@@ -150,13 +163,16 @@
 -        "Seconds": 14149,
 -        "Bytes": 228829189,
 -        "File": "9195d27988e8465ff8035fbbe04b007d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/36054406/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F9195d27988e8465ff8035fbbe04b007d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:55:42",
 +        "Seconds": 14142,
 +        "Bytes": 228720640,
 +        "File": "9c8fc0849a3a80b247e18ae8fd0893f4.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/36054406/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9c8fc0849a3a80b247e18ae8fd0893f4.m4a"
      },
      {
          "Title": "C2E141 Fond Farewells",
@@ -168,13 +184,16 @@
 -        "Seconds": 24171,
 -        "Bytes": 390909971,
 -        "File": "2a969dd98a311c4ff32704567d44d6b3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/35169533/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F2a969dd98a311c4ff32704567d44d6b3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "06:42:44",
 +        "Seconds": 24164,
 +        "Bytes": 390801326,
 +        "File": "23e315e0a8ed74a2a6dc1f52c54d5f40.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/35169533/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F23e315e0a8ed74a2a6dc1f52c54d5f40.m4a"
      },
      {
          "Title": "The Elder Scrolls Online: Blackwood - Part One: Death & Taxes One-Shot",
@@ -187,8 +206,11 @@
          "Seconds": 12172,
          "Bytes": 196857046,
 -        "File": "b7b160d553a1a685bea6cfbaa88ec203.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/34988048/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb7b160d553a1a685bea6cfbaa88ec203.m4a"
 +        "File": "67bba69c1bd688bd50fe1cac22017b4c.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/34988048/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F67bba69c1bd688bd50fe1cac22017b4c.m4a"
      },
      {
          "Title": "C2E140 Long May He Reign",
@@ -200,13 +222,16 @@
 -        "Seconds": 16038,
 -        "Bytes": 259382376,
 -        "File": "750f26a6a623036cfe7b0a8180d51a6c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/34749897/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F750f26a6a623036cfe7b0a8180d51a6c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:27:11",
 +        "Seconds": 16031,
 +        "Bytes": 259273911,
 +        "File": "2738a610eae08fd96bd08edf65a3ff0e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/34749897/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F2738a610eae08fd96bd08edf65a3ff0e.m4a"
      },
      {
          "Title": "C2E139 Rebirth",
@@ -218,13 +243,16 @@
 -        "Seconds": 12895,
 -        "Bytes": 208558936,
 -        "File": "c6a9e6686b3edc6ae56f8e4d3c8576ce.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/34291487/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc6a9e6686b3edc6ae56f8e4d3c8576ce.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:34:49",
 +        "Seconds": 12889,
 +        "Bytes": 208450291,
 +        "File": "3a8cf77bd9762fb34073a66760341388.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/34291487/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F3a8cf77bd9762fb34073a66760341388.m4a"
      },
      {
          "Title": "C2E138 Where There Is A Will...",
@@ -236,13 +264,16 @@
 -        "Seconds": 11173,
 -        "Bytes": 180698662,
 -        "File": "62f27b467595f157784561707df9c5f6.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/33856925/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F62f27b467595f157784561707df9c5f6.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:06:06",
 +        "Seconds": 11166,
 +        "Bytes": 180590293,
 +        "File": "135e72f2227a07d3fa426b7e24769486.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/33856925/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F135e72f2227a07d3fa426b7e24769486.m4a"
      },
      {
          "Title": "C2E137 Welcome to Cognouza",
@@ -254,13 +285,16 @@
 -        "Seconds": 10280,
 -        "Bytes": 166266704,
 -        "File": "f16d2adf3fd58fa7d762b9787b360461.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/33371896/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff16d2adf3fd58fa7d762b9787b360461.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:51:14",
 +        "Seconds": 10274,
 +        "Bytes": 166158143,
 +        "File": "17874daa8f4ebf2ac2bab43329a81077.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/33371896/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F17874daa8f4ebf2ac2bab43329a81077.m4a"
      },
      {
          "Title": "C2E136 Hell or High Water",
@@ -272,13 +306,16 @@
 -        "Seconds": 12310,
 -        "Bytes": 199086035,
 -        "File": "1877d1ea772785a81aefa013289f6fa0.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/32907453/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1877d1ea772785a81aefa013289f6fa0.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:25:03",
 +        "Seconds": 12303,
 +        "Bytes": 198977546,
 +        "File": "9387ffd99fe366b12eacffc32d569847.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/32907453/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9387ffd99fe366b12eacffc32d569847.m4a"
      },
      {
          "Title": "C2E135 The Genesis Ward",
@@ -290,13 +327,16 @@
 -        "Seconds": 12557,
 -        "Bytes": 203084041,
 -        "File": "ed33f56196c0b8085458fd3e79c05276.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/32441581/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fed33f56196c0b8085458fd3e79c05276.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:29:10",
 +        "Seconds": 12550,
 +        "Bytes": 202975636,
 +        "File": "5b69444083bdd89853d1ca9c9a39f504.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/32441581/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F5b69444083bdd89853d1ca9c9a39f504.m4a"
      },
      {
          "Title": "C2E134 The Streets of the Forgotten",
@@ -308,13 +348,16 @@
 -        "Seconds": 14142,
 -        "Bytes": 228715592,
 -        "File": "1947724c5dd8aa4ac79fcaeb4a94843e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/31912186/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1947724c5dd8aa4ac79fcaeb4a94843e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:55:35",
 +        "Seconds": 14135,
 +        "Bytes": 228607079,
 +        "File": "12183c8e55d4dc79bae4f29072eb2b97.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/31912186/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F12183c8e55d4dc79bae4f29072eb2b97.m4a"
      },
      {
          "Title": "C2E133 Hunter and Hunted",
@@ -326,13 +369,16 @@
 -        "Seconds": 14893,
 -        "Bytes": 240864792,
 -        "File": "203616c398ed7d24fc001bebdfeb328e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/31421334/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F203616c398ed7d24fc001bebdfeb328e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:08:06",
 +        "Seconds": 14886,
 +        "Bytes": 240756387,
 +        "File": "429032ec8ce0a9539f63f018700c780f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/31421334/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F429032ec8ce0a9539f63f018700c780f.m4a"
      },
      {
          "Title": "C2E132 Aeor",
@@ -344,13 +390,16 @@
 -        "Seconds": 12162,
 -        "Bytes": 196702635,
 -        "File": "42c53a80ec3fd88e70497324df12537a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/30946491/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F42c53a80ec3fd88e70497324df12537a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:22:36",
 +        "Seconds": 12156,
 +        "Bytes": 196594038,
 +        "File": "0881df7232d68509e77d674a1ce48e10.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/30946491/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F0881df7232d68509e77d674a1ce48e10.m4a"
      },
      {
          "Title": "C2E131 Into the Eye",
@@ -362,13 +411,16 @@
 -        "Seconds": 14586,
 -        "Bytes": 235891723,
 -        "File": "007817f15a4d064933ca0a5744adf2f9.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/30448758/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F007817f15a4d064933ca0a5744adf2f9.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:02:59",
 +        "Seconds": 14579,
 +        "Bytes": 235783222,
 +        "File": "fd4316c0be9d78c7c8c54f16479410c4.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/30448758/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ffd4316c0be9d78c7c8c54f16479410c4.m4a"
      },
      {
          "Title": "C2E130 The Calm Before The Storm ",
@@ -380,13 +432,16 @@
 -        "Seconds": 13672,
 -        "Bytes": 221124830,
 -        "File": "97340c3b113e9a4f23c2a60b182695f0.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/29881373/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F97340c3b113e9a4f23c2a60b182695f0.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:47:46",
 +        "Seconds": 13666,
 +        "Bytes": 221016233,
 +        "File": "ea3dadd1af12eceaeb99a1ab29786f7f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/29881373/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fea3dadd1af12eceaeb99a1ab29786f7f.m4a"
      },
      {
          "Title": "C2E129 Between a Ball and a Hot Place",
@@ -398,13 +453,16 @@
 -        "Seconds": 12113,
 -        "Bytes": 195913872,
 -        "File": "897d68d5d772f10fddbb7297e7c9dfcf.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/29278646/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F897d68d5d772f10fddbb7297e7c9dfcf.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:21:47",
 +        "Seconds": 12107,
 +        "Bytes": 195805407,
 +        "File": "9dd0559742ab3cd0da5a07a98fd1f84d.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/29278646/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9dd0559742ab3cd0da5a07a98fd1f84d.m4a"
      },
      {
          "Title": "C2E128 Cat and Mouse",
@@ -416,13 +474,16 @@
 -        "Seconds": 12047,
 -        "Bytes": 194833270,
 -        "File": "a8d7abbfd147f8173c7ee18790f5381c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/28628211/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fa8d7abbfd147f8173c7ee18790f5381c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:20:40",
 +        "Seconds": 12040,
 +        "Bytes": 194724757,
 +        "File": "2c96d26f1b5995b3fc5a7662b235d730.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/28628211/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F2c96d26f1b5995b3fc5a7662b235d730.m4a"
      },
      {
          "Title": "C2E127 Sarsaparilla, Licorice, and Red Hot",
@@ -434,13 +495,16 @@
 -        "Seconds": 11104,
 -        "Bytes": 179596202,
 -        "File": "ba91049ce7bdbc432f5170f1bf8fed3c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/27789486/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fba91049ce7bdbc432f5170f1bf8fed3c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:04:58",
 +        "Seconds": 11098,
 +        "Bytes": 179487701,
 +        "File": "cebdc63d16c5847d87259f723010a30c.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/27789486/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fcebdc63d16c5847d87259f723010a30c.m4a"
      },
      {
          "Title": "C2E126 Worth Fighting For",
@@ -452,13 +516,16 @@
 -        "Seconds": 12135,
 -        "Bytes": 196259758,
 -        "File": "89119caf0afb468fd734eae8d7815cab.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/27365735/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F89119caf0afb468fd734eae8d7815cab.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:22:08",
 +        "Seconds": 12128,
 +        "Bytes": 196151149,
 +        "File": "d73b3f9732be565904bd83ff54ea3916.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/27365735/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd73b3f9732be565904bd83ff54ea3916.m4a"
      },
      {
          "Title": "C2E125 The Neverending Day",
@@ -470,13 +537,16 @@
 -        "Seconds": 12834,
 -        "Bytes": 207561725,
 -        "File": "edfaab180369045696c3b0057b87a562.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/26869180/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fedfaab180369045696c3b0057b87a562.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:33:47",
 +        "Seconds": 12827,
 +        "Bytes": 207453260,
 +        "File": "d6de2218b61bf3aa84320832585ee1d1.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/26869180/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd6de2218b61bf3aa84320832585ee1d1.m4a"
      },
      {
          "Title": "C2E124 A Walk to Warmer Welcomes",
@@ -488,13 +558,16 @@
 -        "Seconds": 14274,
 -        "Bytes": 230853974,
 -        "File": "f9eb2c2a38922d56aa44d93fa87cc63c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/26527725/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff9eb2c2a38922d56aa44d93fa87cc63c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:57:47",
 +        "Seconds": 14267,
 +        "Bytes": 230745569,
 +        "File": "ac6fe9c8b7a616bf1a1a817c3c8414fa.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/26527725/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fac6fe9c8b7a616bf1a1a817c3c8414fa.m4a"
      },
      {
          "Title": "C2E123 Fair-weather Faith",
@@ -506,13 +579,16 @@
 -        "Seconds": 18829,
 -        "Bytes": 304527152,
 -        "File": "bd0dff13c5918cfbd08b29a4ca052df5.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/26175283/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fbd0dff13c5918cfbd08b29a4ca052df5.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "05:13:43",
 +        "Seconds": 18823,
 +        "Bytes": 304418795,
 +        "File": "07dfae5bb70f5007c83295477098ead6.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/26175283/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F07dfae5bb70f5007c83295477098ead6.m4a"
      },
      {
          "Title": "C2E122 Nothing Ventured, Nothing Gained",
@@ -524,13 +600,16 @@
 -        "Seconds": 12295,
 -        "Bytes": 198850025,
 -        "File": "733750fd317aedfbc5cd6c7026b971bd.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/25832629/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F733750fd317aedfbc5cd6c7026b971bd.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:24:48",
 +        "Seconds": 12288,
 +        "Bytes": 198741488,
 +        "File": "4a693536d65f561d4540d96c2f61120e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/25832629/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4a693536d65f561d4540d96c2f61120e.m4a"
      },
      {
          "Title": "C2E121 Ice and Fire ",
@@ -542,13 +621,16 @@
 -        "Seconds": 11172,
 -        "Bytes": 180691559,
 -        "File": "71f800797824c1ff4cbfefbd55a8d23e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/25494151/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F71f800797824c1ff4cbfefbd55a8d23e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:06:06",
 +        "Seconds": 11166,
 +        "Bytes": 180583034,
 +        "File": "291fe65e654f605098f51685fe94fc7d.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/25494151/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F291fe65e654f605098f51685fe94fc7d.m4a"
      },
      {
          "Title": "C2E120 Contentious Company",
@@ -560,13 +642,16 @@
 -        "Seconds": 12990,
 -        "Bytes": 210088813,
 -        "File": "450ec4db478de37cd7dd61aca2cc26bf.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/24363270/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F450ec4db478de37cd7dd61aca2cc26bf.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:36:23",
 +        "Seconds": 12983,
 +        "Bytes": 209980288,
 +        "File": "8b621632fc2ff23e4f6ce34a2bdeacad.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/24363270/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F8b621632fc2ff23e4f6ce34a2bdeacad.m4a"
      },
      {
          "Title": "C2E119 Malice and Mystery Below",
@@ -578,13 +663,16 @@
 -        "Seconds": 11697,
 -        "Bytes": 189175471,
 -        "File": "c97c0c154ae3f85885be7ba1711e82cf.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/24091067/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc97c0c154ae3f85885be7ba1711e82cf.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:14:50",
 +        "Seconds": 11690,
 +        "Bytes": 189066850,
 +        "File": "7c51406f2a0fcc6d1f3c24b40d9ecba2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/24091067/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7c51406f2a0fcc6d1f3c24b40d9ecba2.m4a"
      },
      {
          "Title": "C2E118 Solace Between the Secrets",
@@ -596,13 +684,16 @@
 -        "Seconds": 15626,
 -        "Bytes": 252716433,
 -        "File": "9b88a8be6527cdfa7fb9f1de473f9ddb.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/23757247/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F9b88a8be6527cdfa7fb9f1de473f9ddb.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:20:19",
 +        "Seconds": 15619,
 +        "Bytes": 252607860,
 +        "File": "ba8ca22640c81901c5f4460bf152bfbc.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/23757247/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fba8ca22640c81901c5f4460bf152bfbc.m4a"
      },
      {
          "Title": "C2E117 The Tortoise and The Dare",
@@ -614,13 +705,16 @@
 -        "Seconds": 14446,
 -        "Bytes": 233637975,
 -        "File": "b817b291a1b8684f6ef54dbe7f1e905d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/23079763/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb817b291a1b8684f6ef54dbe7f1e905d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:00:39",
 +        "Seconds": 14439,
 +        "Bytes": 233529462,
 +        "File": "c3572d39e618a70406a5453b188a97ec.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/23079763/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fc3572d39e618a70406a5453b188a97ec.m4a"
      },
      {
          "Title": "C2E116 Under Timeless Ice",
@@ -632,13 +726,16 @@
 -        "Seconds": 14071,
 -        "Bytes": 227569091,
 -        "File": "be8b1c5166cf789d730eeeaab6b96a0e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/22801928/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fbe8b1c5166cf789d730eeeaab6b96a0e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:54:24",
 +        "Seconds": 14064,
 +        "Bytes": 227460494,
 +        "File": "707a54c0fb012267029806f11161ae23.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/22801928/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F707a54c0fb012267029806f11161ae23.m4a"
      },
      {
          "Title": "C2E115 Fetching Fables & Frosty Friends",
@@ -650,13 +747,16 @@
 -        "Seconds": 14266,
 -        "Bytes": 230720166,
 -        "File": "8b46279d18df2b04f390036fc2c8cadd.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/22414571/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8b46279d18df2b04f390036fc2c8cadd.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:57:39",
 +        "Seconds": 14259,
 +        "Bytes": 230611581,
 +        "File": "7d51d75bbcba1daf4ba5f79c6c802cea.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/22414571/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7d51d75bbcba1daf4ba5f79c6c802cea.m4a"
      },
      {
          "Title": "C2E114 An Open Window",
@@ -668,13 +768,16 @@
 -        "Seconds": 12567,
 -        "Bytes": 203254091,
 -        "File": "49cc7f5868462041deb3cebd7878b533.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/22122490/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F49cc7f5868462041deb3cebd7878b533.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:29:21",
 +        "Seconds": 12561,
 +        "Bytes": 203145638,
 +        "File": "c02869db36a2effa646581483bca9de4.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/22122490/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fc02869db36a2effa646581483bca9de4.m4a"
      },
      {
          "Title": "C2E113 A Heart Grown Cold",
@@ -686,13 +789,16 @@
 -        "Seconds": 13877,
 -        "Bytes": 224440772,
 -        "File": "c099352ae15a1894dddf5e993a9f0a4b.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/21792822/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc099352ae15a1894dddf5e993a9f0a4b.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:51:11",
 +        "Seconds": 13871,
 +        "Bytes": 224332211,
 +        "File": "550fe62412e9c4308ce548765f985cd5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/21792822/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F550fe62412e9c4308ce548765f985cd5.m4a"
      },
      {
          "Title": "C2E112 The Chase Begins",
@@ -704,13 +810,16 @@
 -        "Seconds": 14526,
 -        "Bytes": 234923569,
 -        "File": "98ca7098eab39e2480d4dcad70eb21d6.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/21447617/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F98ca7098eab39e2480d4dcad70eb21d6.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:01:59",
 +        "Seconds": 14519,
 +        "Bytes": 234814996,
 +        "File": "5c4508cb5f34b763aea4bdb0fd16ca35.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/21447617/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F5c4508cb5f34b763aea4bdb0fd16ca35.m4a"
      },
      {
          "Title": "C2E111 New Homes and Old Friends",
@@ -722,13 +831,16 @@
 -        "Seconds": 11933,
 -        "Bytes": 192994141,
 -        "File": "3e14ade7dd79a71b5cd380024f043be4.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/20430653/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3e14ade7dd79a71b5cd380024f043be4.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:18:46",
 +        "Seconds": 11926,
 +        "Bytes": 192885544,
 +        "File": "dfe1aedaafc168c1b1c6c57b4cdc1cd0.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/20430653/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fdfe1aedaafc168c1b1c6c57b4cdc1cd0.m4a"
      },
      {
          "Title": "C2E110 Dinner with the Devil",
@@ -740,13 +852,16 @@
 -        "Seconds": 14162,
 -        "Bytes": 229043701,
 -        "File": "86cb36240a531ac665bc06722058bfd7.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/20068609/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F86cb36240a531ac665bc06722058bfd7.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:55:55",
 +        "Seconds": 14155,
 +        "Bytes": 228935404,
 +        "File": "0c397abde61f38b4779ca67cccdb3623.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/20068609/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F0c397abde61f38b4779ca67cccdb3623.m4a"
      },
      {
          "Title": "C2E109 Frigid Propositions ",
@@ -758,13 +873,16 @@
 -        "Seconds": 13321,
 -        "Bytes": 215436784,
 -        "File": "7219f4abf0f76c1ace6a2b096ab55213.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/19716503/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F7219f4abf0f76c1ace6a2b096ab55213.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:41:54",
 +        "Seconds": 13314,
 +        "Bytes": 215328199,
 +        "File": "13104e405973fdad015ca640a33e6263.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/19716503/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F13104e405973fdad015ca640a33e6263.m4a"
      },
      {
          "Title": "C2E108 Traveler Con ",
@@ -776,13 +894,16 @@
 -        "Seconds": 13706,
 -        "Bytes": 221664464,
 -        "File": "fffe42c6d8c27e8a13a041214476b636.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/19347783/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ffffe42c6d8c27e8a13a041214476b636.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:48:19",
 +        "Seconds": 13699,
 +        "Bytes": 221555939,
 +        "File": "336b21d6933ccf71b580131cb87257d3.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/19347783/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F336b21d6933ccf71b580131cb87257d3.m4a"
      },
      {
          "Title": "C2E107 Devoutness and Dicks",
@@ -794,13 +915,16 @@
 -        "Seconds": 12748,
 -        "Bytes": 206172975,
 -        "File": "4edc9136c80c34d2eede1844eda9449c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/18983743/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F4edc9136c80c34d2eede1844eda9449c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:32:21",
 +        "Seconds": 12741,
 +        "Bytes": 206064426,
 +        "File": "ceefd5d0656464b5069e4195a62a2f90.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/18983743/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fceefd5d0656464b5069e4195a62a2f90.m4a"
      },
      {
          "Title": "C2E106 A Fog Lifted",
@@ -812,13 +936,16 @@
 -        "Seconds": 13339,
 -        "Bytes": 215735661,
 -        "File": "8ce59962290a15c37338cf983529e764.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/18291790/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8ce59962290a15c37338cf983529e764.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:42:12",
 +        "Seconds": 13332,
 +        "Bytes": 215627088,
 +        "File": "6f8c551280e412499a148f1e7ded4f27.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/18291790/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F6f8c551280e412499a148f1e7ded4f27.m4a"
      },
      {
          "Title": "C2E105 Rumble at Rumblecusp",
@@ -830,13 +957,16 @@
 -        "Seconds": 16204,
 -        "Bytes": 262066558,
 -        "File": "41e752159c2e6763fbce53b4fd29e685.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17963701/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F41e752159c2e6763fbce53b4fd29e685.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:29:57",
 +        "Seconds": 16197,
 +        "Bytes": 261958357,
 +        "File": "a83a69c84c5cc599a31d2960666adef0.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17963701/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa83a69c84c5cc599a31d2960666adef0.m4a"
      },
      {
          "Title": "C2E104 The Ruined Sliver",
@@ -848,13 +978,16 @@
 -        "Seconds": 13381,
 -        "Bytes": 216409810,
 -        "File": "049b7562d28cde879ccfbaf8af1791ce.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17610742/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F049b7562d28cde879ccfbaf8af1791ce.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:42:54",
 +        "Seconds": 13374,
 +        "Bytes": 216301249,
 +        "File": "866c0bdbd25517e3bf2c6da4db3aa792.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17610742/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F866c0bdbd25517e3bf2c6da4db3aa792.m4a"
      },
      {
          "Title": "C2E103 Maritime Mysteries",
@@ -866,13 +999,16 @@
 -        "Seconds": 12043,
 -        "Bytes": 194771754,
 -        "File": "359f0af86aff4b8e70f7e37fd492f65e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17475166/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F359f0af86aff4b8e70f7e37fd492f65e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:20:36",
 +        "Seconds": 12036,
 +        "Bytes": 194663325,
 +        "File": "b18981c3bb22e39fb5857d8545a501fe.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17475166/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fb18981c3bb22e39fb5857d8545a501fe.m4a"
      },
      {
          "Title": "C2E102 Ghosts, Dinosaurs, and Stuff",
@@ -884,13 +1020,16 @@
 -        "Seconds": 11551,
 -        "Bytes": 186818251,
 -        "File": "52c43d20a6e59e9a0f14174740fdfe4c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041023/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F52c43d20a6e59e9a0f14174740fdfe4c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:12:24",
 +        "Seconds": 11544,
 +        "Bytes": 186709810,
 +        "File": "f6389eb253d5aaec1dde36b425079068.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041023/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ff6389eb253d5aaec1dde36b425079068.m4a"
      },
      {
          "Title": "C2E101 Mysteries, Memories, and Music",
@@ -902,13 +1041,16 @@
 -        "Seconds": 12204,
 -        "Bytes": 197378518,
 -        "File": "b3493a06c12ddcddafd86ef1424a3c29.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041005/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb3493a06c12ddcddafd86ef1424a3c29.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:23:17",
 +        "Seconds": 12197,
 +        "Bytes": 197269993,
 +        "File": "d8b73e6de9b8098840684168bc2bf5e3.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041005/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd8b73e6de9b8098840684168bc2bf5e3.m4a"
      },
      {
          "Title": "C2E100 Hunted at Sea",
@@ -920,13 +1062,16 @@
 -        "Seconds": 11861,
 -        "Bytes": 191827299,
 -        "File": "c3d99499a2bfac004110fe9afa39ff7e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046874/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc3d99499a2bfac004110fe9afa39ff7e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:17:34",
 +        "Seconds": 11854,
 +        "Bytes": 191718746,
 +        "File": "b1cd0d74732d22c6f5b4bfee89064c9f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046874/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fb1cd0d74732d22c6f5b4bfee89064c9f.m4a"
      },
      {
          "Title": "Doom Eternal One-Shot",
@@ -939,8 +1084,11 @@
          "Seconds": 12861,
          "Bytes": 207997486,
 -        "File": "6de9f9b9658d4377e2f6bc323a088773.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041433/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F6de9f9b9658d4377e2f6bc323a088773.m4a"
 +        "File": "8cf50ce023edafe38f6b69873c4c2835.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041433/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F8cf50ce023edafe38f6b69873c4c2835.m4a"
      },
      {
          "Title": "C2E99 High Seas, High Stakes",
@@ -952,13 +1100,16 @@
 -        "Seconds": 12242,
 -        "Bytes": 197986466,
 -        "File": "8a43d1dcc8e94c81ca3e9640bd41495d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046186/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8a43d1dcc8e94c81ca3e9640bd41495d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:23:55",
 +        "Seconds": 12235,
 +        "Bytes": 197877953,
 +        "File": "ca5c1f6aa474f5d456fd7b4802aaa086.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046186/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fca5c1f6aa474f5d456fd7b4802aaa086.m4a"
      },
      {
          "Title": "C2E98 Dark Waters",
@@ -970,13 +1121,16 @@
 -        "Seconds": 17238,
 -        "Bytes": 278785279,
 -        "File": "a4ce20e689bd5c6e82d5b72236982c13.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041385/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fa4ce20e689bd5c6e82d5b72236982c13.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:47:11",
 +        "Seconds": 17231,
 +        "Bytes": 278676714,
 +        "File": "e1ae9a426b43dce5f4d7c78dfbc973eb.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041385/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fe1ae9a426b43dce5f4d7c78dfbc973eb.m4a"
      },
      {
          "Title": "C2E97 The Fancy and the Fooled",
@@ -988,13 +1142,16 @@
 -        "Seconds": 13980,
 -        "Bytes": 226097456,
 -        "File": "ecf729c928b265122736f4f81ad9c4af.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17047224/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fecf729c928b265122736f4f81ad9c4af.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:52:53",
 +        "Seconds": 13973,
 +        "Bytes": 225988991,
 +        "File": "d6a903ef7ee2a5418ad1853385ab3159.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17047224/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd6a903ef7ee2a5418ad1853385ab3159.m4a"
      },
      {
          "Title": "C2E96 Family Shatters",
@@ -1006,13 +1163,16 @@
 -        "Seconds": 15431,
 -        "Bytes": 249572097,
 -        "File": "ea4dc30249631499553c01f72b696f9a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17049677/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fea4dc30249631499553c01f72b696f9a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:17:05",
 +        "Seconds": 15425,
 +        "Bytes": 249463608,
 +        "File": "4a7c48cc2fabe119412b843d074c9f18.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17049677/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4a7c48cc2fabe119412b843d074c9f18.m4a"
      },
      {
          "Title": "Cinderbrush: A Monsterhearts Story (A Critical Role One-Shot)",
@@ -1025,8 +1185,11 @@
          "Seconds": 16380,
          "Bytes": 264916780,
 -        "File": "745ca4cddd0eb5ab0a0676169e7f56cb.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045975/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F745ca4cddd0eb5ab0a0676169e7f56cb.m4a"
 +        "File": "5a8853012f310c374ad9daee3cca2960.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045975/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F5a8853012f310c374ad9daee3cca2960.m4a"
      },
      {
          "Title": "C2E95 Blessing In Disguise",
@@ -1038,13 +1201,16 @@
 -        "Seconds": 12198,
 -        "Bytes": 197276019,
 -        "File": "031a14f7acb79c7b2a329165b7cf7d50.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041076/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F031a14f7acb79c7b2a329165b7cf7d50.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:23:11",
 +        "Seconds": 12191,
 +        "Bytes": 197167518,
 +        "File": "1c2fd83f304a09755aebd8c1910d4a9c.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041076/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F1c2fd83f304a09755aebd8c1910d4a9c.m4a"
      },
      {
          "Title": "C2E94 With Great Power...",
@@ -1056,13 +1222,16 @@
 -        "Seconds": 13403,
 -        "Bytes": 216766657,
 -        "File": "e485585bcccd8d527cae6d8baeebfd7a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046022/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fe485585bcccd8d527cae6d8baeebfd7a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:43:16",
 +        "Seconds": 13396,
 +        "Bytes": 216658204,
 +        "File": "8f6a680ab557348760710c4cfd694801.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046022/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F8f6a680ab557348760710c4cfd694801.m4a"
      },
      {
          "Title": "C2E93 Misery Loves Company",
@@ -1074,13 +1243,16 @@
 -        "Seconds": 12736,
 -        "Bytes": 205981484,
 -        "File": "1601f48cec5351aaf9cc47e376fff441.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17048002/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1601f48cec5351aaf9cc47e376fff441.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:32:09",
 +        "Seconds": 12729,
 +        "Bytes": 205872947,
 +        "File": "963488a2a8dbe7f37a5f8bd608c9f915.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17048002/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F963488a2a8dbe7f37a5f8bd608c9f915.m4a"
      },
      {
          "Title": "C2E92 Home Is Where the Heart Is",
@@ -1092,13 +1264,16 @@
 -        "Seconds": 14028,
 -        "Bytes": 226881380,
 -        "File": "c99eeed15c582facea02f819e3312795.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045993/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc99eeed15c582facea02f819e3312795.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:53:42",
 +        "Seconds": 14022,
 +        "Bytes": 226772815,
 +        "File": "9e4e1e339846248f91cb6068bf6c0508.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045993/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9e4e1e339846248f91cb6068bf6c0508.m4a"
      },
      {
          "Title": "C2E91 Stone to Clay",
@@ -1110,13 +1285,16 @@
 -        "Seconds": 13082,
 -        "Bytes": 211569933,
 -        "File": "ef0d271863a8192e7389c9678b313cbb.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041189/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fef0d271863a8192e7389c9678b313cbb.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:37:55",
 +        "Seconds": 13075,
 +        "Bytes": 211461564,
 +        "File": "56bcf68a5acca22702ec00563495bdfa.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041189/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F56bcf68a5acca22702ec00563495bdfa.m4a"
      },
      {
          "Title": "C2E90 Bathhouses and Bastions",
@@ -1128,13 +1306,16 @@
 -        "Seconds": 13030,
 -        "Bytes": 210738649,
 -        "File": "d77e03dab2ce27cc7c34df3616224b6b.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041741/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fd77e03dab2ce27cc7c34df3616224b6b.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:37:03",
 +        "Seconds": 13023,
 +        "Bytes": 210630076,
 +        "File": "25200d10a72b8991300ebfecfb9f4e18.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041741/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F25200d10a72b8991300ebfecfb9f4e18.m4a"
      },
      {
          "Title": "C2E89 Lingering Wounds",
@@ -1146,13 +1327,16 @@
 -        "Seconds": 14794,
 -        "Bytes": 239259303,
 -        "File": "da9e20f59745a1b31ccba3b837b02075.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046956/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fda9e20f59745a1b31ccba3b837b02075.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:06:27",
 +        "Seconds": 14787,
 +        "Bytes": 239150826,
 +        "File": "4c11c8389e8028f97da97f99d43ce9a6.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046956/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4c11c8389e8028f97da97f99d43ce9a6.m4a"
      },
      {
          "Title": "C2E88 Unwanted Reunions",
@@ -1164,13 +1348,16 @@
 -        "Seconds": 13895,
 -        "Bytes": 224730398,
 -        "File": "1b4eec9f3ca96706e78b8738ee497447.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046109/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1b4eec9f3ca96706e78b8738ee497447.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:51:29",
 +        "Seconds": 13889,
 +        "Bytes": 224621905,
 +        "File": "98062fca3b4efb46de57f4dfc8cf555e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046109/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F98062fca3b4efb46de57f4dfc8cf555e.m4a"
      },
      {
          "Title": "C2E87 Punishment and Politics",
@@ -1182,13 +1369,16 @@
 -        "Seconds": 10862,
 -        "Bytes": 175676395,
 -        "File": "eafa3f6b2fbe70351a1debd8ff3cac87.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040997/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Feafa3f6b2fbe70351a1debd8ff3cac87.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:00:55",
 +        "Seconds": 10855,
 +        "Bytes": 175567882,
 +        "File": "734119f408a9159496537c3c0c2ef909.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040997/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F734119f408a9159496537c3c0c2ef909.m4a"
      },
      {
          "Title": "The Adventures of the Darrington Brigade",
@@ -1201,8 +1391,11 @@
          "Seconds": 16001,
          "Bytes": 258781798,
 -        "File": "f05e47907a10dfbf301a43ed4fe2388a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041147/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff05e47907a10dfbf301a43ed4fe2388a.m4a"
 +        "File": "935f9d3f2f02c62c225e142b0be9983e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041147/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F935f9d3f2f02c62c225e142b0be9983e.m4a"
      },
      {
          "Title": "C2E86 The Cathedral",
@@ -1214,13 +1407,16 @@
 -        "Seconds": 16620,
 -        "Bytes": 268790262,
 -        "File": "163d72783fb37d9feb0285d3f91ab6a8.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041412/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F163d72783fb37d9feb0285d3f91ab6a8.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:36:53",
 +        "Seconds": 16613,
 +        "Bytes": 268681713,
 +        "File": "80938042ff0b06960af8d4c3e00754c9.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041412/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F80938042ff0b06960af8d4c3e00754c9.m4a"
      },
      {
          "Title": "UnDeadwood Part IV: Goodnight, Miss Miram",
@@ -1232,13 +1428,16 @@
 -        "Seconds": 8391,
 -        "Bytes": 135715024,
 -        "File": "df2326aa6e56cddb907d304a9f18d0e3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040992/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fdf2326aa6e56cddb907d304a9f18d0e3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:19:44",
 +        "Seconds": 8384,
 +        "Bytes": 135606423,
 +        "File": "c31bf291db274a75de7679cfd16125b9.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040992/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fc31bf291db274a75de7679cfd16125b9.m4a"
      },
      {
          "Title": "C2E85 The Threads Converge",
@@ -1250,13 +1449,16 @@
 -        "Seconds": 14788,
 -        "Bytes": 239167336,
 -        "File": "261fce03168a99ba8b8361d7720acb75.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17048346/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F261fce03168a99ba8b8361d7720acb75.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:06:21",
 +        "Seconds": 14781,
 +        "Bytes": 239058835,
 +        "File": "f307b6aa9afca08380bfaacc65fdf372.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17048346/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ff307b6aa9afca08380bfaacc65fdf372.m4a"
      },
      {
          "Title": "C2E84 Titles and Tattoos",
@@ -1268,13 +1470,16 @@
 -        "Seconds": 12883,
 -        "Bytes": 208358081,
 -        "File": "ccf8eba512a9abea93ad0d2ff981f2d0.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041217/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fccf8eba512a9abea93ad0d2ff981f2d0.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:34:36",
 +        "Seconds": 12876,
 +        "Bytes": 208249508,
 +        "File": "28eb027cd62f3a7d2270e5d1930a7f00.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041217/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F28eb027cd62f3a7d2270e5d1930a7f00.m4a"
      },
      {
          "Title": "UnDeadwood Part III: I Got My Wish",
@@ -1286,13 +1491,16 @@
 -        "Seconds": 7527,
 -        "Bytes": 121732328,
 -        "File": "f138f63a82319a69958ebf19421f4c61.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041209/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff138f63a82319a69958ebf19421f4c61.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:05:20",
 +        "Seconds": 7520,
 +        "Bytes": 121623767,
 +        "File": "4b2bfe5081394eb19469f87fb85e3d17.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041209/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4b2bfe5081394eb19469f87fb85e3d17.m4a"
      },
      {
          "Title": "C2E83 Dark Bargains",
@@ -1304,13 +1512,16 @@
 -        "Seconds": 13498,
 -        "Bytes": 218299178,
 -        "File": "5e1af48b37560a6b19642c369a0b00e0.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041767/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F5e1af48b37560a6b19642c369a0b00e0.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:44:51",
 +        "Seconds": 13491,
 +        "Bytes": 218190677,
 +        "File": "1c1890f918beb102506e0e5f01b7febe.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041767/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F1c1890f918beb102506e0e5f01b7febe.m4a"
      },
      {
          "Title": "UnDeadwood Part II: God Don't Play Cards",
@@ -1322,13 +1533,16 @@
 -        "Seconds": 9753,
 -        "Bytes": 157741610,
 -        "File": "88122ea46f8e2101bef101daa73cf75a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041648/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F88122ea46f8e2101bef101daa73cf75a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:42:26",
 +        "Seconds": 9746,
 +        "Bytes": 157632869,
 +        "File": "0d1784b4258f8918c42db199e444acd6.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041648/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F0d1784b4258f8918c42db199e444acd6.m4a"
      },
      {
          "Title": "C2E82 The Beat of the Permaheart",
@@ -1340,13 +1554,16 @@
 -        "Seconds": 14497,
 -        "Bytes": 234466934,
 -        "File": "bbd45a460e8e11af1bfd6cc9579e0bfe.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046062/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fbbd45a460e8e11af1bfd6cc9579e0bfe.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:01:31",
 +        "Seconds": 14491,
 +        "Bytes": 234358397,
 +        "File": "bb1f7825885d4d2164fdce1a5f8400fd.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046062/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fbb1f7825885d4d2164fdce1a5f8400fd.m4a"
      },
      {
          "Title": "UnDeadwood Part I: Stay Close, Reverend",
@@ -1358,13 +1575,16 @@
 -        "Seconds": 7554,
 -        "Bytes": 122170359,
 -        "File": "f5d5a0ca3392a768b19c4c5a4ff895db.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041853/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff5d5a0ca3392a768b19c4c5a4ff895db.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:05:47",
 +        "Seconds": 7547,
 +        "Bytes": 122061966,
 +        "File": "dcd640e0760654ce38313888e28660cf.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041853/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fdcd640e0760654ce38313888e28660cf.m4a"
      },
      {
          "Title": "C2E81 From Door to Door",
@@ -1376,13 +1596,16 @@
 -        "Seconds": 14016,
 -        "Bytes": 226675312,
 -        "File": "b11678a93953901a7190edef072fa453.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041251/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb11678a93953901a7190edef072fa453.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:53:29",
 +        "Seconds": 14009,
 +        "Bytes": 226566739,
 +        "File": "d34dd5ee9fd8c7eded1f6782f3553fa2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041251/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd34dd5ee9fd8c7eded1f6782f3553fa2.m4a"
      },
      {
          "Title": "C2E80 The Folding Halls",
@@ -1395,8 +1618,11 @@
          "Seconds": 12289,
          "Bytes": 198751046,
 -        "File": "b00339f8aafbdcee3f72272a73dc9f9e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041275/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb00339f8aafbdcee3f72272a73dc9f9e.m4a"
 +        "File": "8e3977a5b8c1ffe3c22377ed3b1719a9.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041275/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F8e3977a5b8c1ffe3c22377ed3b1719a9.m4a"
      },
      {
          "Title": "C2E79 Through the Trees",
@@ -1408,13 +1634,16 @@
 -        "Seconds": 14389,
 -        "Bytes": 232707218,
 -        "File": "05fab5cb66c194058d72d163915b76be.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040989/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F05fab5cb66c194058d72d163915b76be.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:59:42",
 +        "Seconds": 14382,
 +        "Bytes": 232598729,
 +        "File": "d12041ec2ffedcba35090cd3816e1305.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040989/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd12041ec2ffedcba35090cd3816e1305.m4a"
      },
      {
          "Title": "C2E78 Between the Lines",
@@ -1426,13 +1655,16 @@
 -        "Seconds": 13818,
 -        "Bytes": 223484017,
 -        "File": "18b6fa5bb795ea3d09fae6859d7d5da2.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046136/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F18b6fa5bb795ea3d09fae6859d7d5da2.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:50:12",
 +        "Seconds": 13812,
 +        "Bytes": 223375540,
 +        "File": "4382f5fcafbaee49997e83d3b3c341b2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046136/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4382f5fcafbaee49997e83d3b3c341b2.m4a"
      },
      {
          "Title": "C2E77 A Tangled Web",
@@ -1444,13 +1676,16 @@
 -        "Seconds": 12984,
 -        "Bytes": 209998006,
 -        "File": "3079150f5d49490c4c2b30df2faee72c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041047/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3079150f5d49490c4c2b30df2faee72c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:36:18",
 +        "Seconds": 12978,
 +        "Bytes": 209889385,
 +        "File": "bf6d1ad2558d17944e5a98bc6a724926.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041047/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fbf6d1ad2558d17944e5a98bc6a724926.m4a"
      },
      {
          "Title": "Vox Machina: Dalen's Closet",
@@ -1463,8 +1698,11 @@
          "Seconds": 14494,
          "Bytes": 234407633,
 -        "File": "0c6152f269ecea7b682887297e8d8b3d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041279/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F0c6152f269ecea7b682887297e8d8b3d.m4a"
 +        "File": "4020a7c6d4b0b2611396207b629119f5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041279/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F4020a7c6d4b0b2611396207b629119f5.m4a"
      },
      {
          "Title": "C2E76 Refjorged",
@@ -1476,13 +1714,16 @@
 -        "Seconds": 16744,
 -        "Bytes": 270791448,
 -        "File": "045dbcc3b2ed74c67dbcb81f7907e399.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041336/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F045dbcc3b2ed74c67dbcb81f7907e399.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:38:57",
 +        "Seconds": 16737,
 +        "Bytes": 270682911,
 +        "File": "24ada7f1e06d1c55642ffff9c7a39897.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041336/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F24ada7f1e06d1c55642ffff9c7a39897.m4a"
      },
      {
          "Title": "C2E75 Rime and Reason",
@@ -1494,13 +1735,16 @@
 -        "Seconds": 14230,
 -        "Bytes": 230147635,
 -        "File": "b33821cb71fa9089ae33599515553bf1.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041621/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb33821cb71fa9089ae33599515553bf1.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:57:04",
 +        "Seconds": 14224,
 +        "Bytes": 230039122,
 +        "File": "5ade19c5531da61a7ec39787fb455498.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041621/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F5ade19c5531da61a7ec39787fb455498.m4a"
      },
      {
          "Title": "C2E74 Manifold Morals",
@@ -1512,13 +1756,16 @@
 -        "Seconds": 13652,
 -        "Bytes": 220796247,
 -        "File": "ee0834e4883e38e47876930763aec1a4.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041102/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fee0834e4883e38e47876930763aec1a4.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:47:25",
 +        "Seconds": 13645,
 +        "Bytes": 220687734,
 +        "File": "517b1c63070226816dfaf9563b390844.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041102/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F517b1c63070226816dfaf9563b390844.m4a"
      },
      {
          "Title": "C2E73 Uthodurn",
@@ -1530,13 +1777,16 @@
 -        "Seconds": 13730,
 -        "Bytes": 222050341,
 -        "File": "97005600d668c3cb9fec831d32eff1eb.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045904/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F97005600d668c3cb9fec831d32eff1eb.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:48:43",
 +        "Seconds": 13723,
 +        "Bytes": 221941852,
 +        "File": "d5a9213b6835a93bb333f3e37c6d5a06.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045904/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd5a9213b6835a93bb333f3e37c6d5a06.m4a"
      },
      {
          "Title": "Call of Cthulhu: Shadow of the Crystal Palace",
@@ -1549,8 +1799,11 @@
          "Seconds": 14532,
          "Bytes": 235018442,
 -        "File": "d69b9b0ea409f986eaba4ded167879c6.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040993/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fd69b9b0ea409f986eaba4ded167879c6.m4a"
 +        "File": "b89842018188e9dd8943f81845404498.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040993/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fb89842018188e9dd8943f81845404498.m4a"
      },
      {
          "Title": "C2E72 Clay and Dust",
@@ -1562,13 +1815,16 @@
 -        "Seconds": 11658,
 -        "Bytes": 188540231,
 -        "File": "077514e663c58e1a2aec076610d35782.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041045/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F077514e663c58e1a2aec076610d35782.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:14:11",
 +        "Seconds": 11651,
 +        "Bytes": 188431766,
 +        "File": "0d5c25f76704d460725cf59c27c08486.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041045/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F0d5c25f76704d460725cf59c27c08486.m4a"
      },
      {
          "Title": "C2E71 Family Gathering",
@@ -1580,13 +1836,16 @@
 -        "Seconds": 11212,
 -        "Bytes": 181327413,
 -        "File": "88d6a1c040453fae2001b5868707a171.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041165/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F88d6a1c040453fae2001b5868707a171.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:06:45",
 +        "Seconds": 11205,
 +        "Bytes": 181218852,
 +        "File": "d74a2729af23a1d1c2f5fe68b5733bad.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041165/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fd74a2729af23a1d1c2f5fe68b5733bad.m4a"
      },
      {
          "Title": "C2E70 Causatum",
@@ -1598,13 +1857,16 @@
 -        "Seconds": 13013,
 -        "Bytes": 210467005,
 -        "File": "c03f1fc816c20916d90e57571485f767.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17047303/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc03f1fc816c20916d90e57571485f767.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:36:47",
 +        "Seconds": 13007,
 +        "Bytes": 210358528,
 +        "File": "f225cdb04bd695be5f78e0fccc2cd112.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17047303/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ff225cdb04bd695be5f78e0fccc2cd112.m4a"
      },
      {
          "Title": "C2E69 The King's Cage",
@@ -1616,13 +1878,16 @@
 -        "Seconds": 14177,
 -        "Bytes": 229283657,
 -        "File": "83ea6eaea17ee3e8c4adbff652714cff.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041350/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F83ea6eaea17ee3e8c4adbff652714cff.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:56:10",
 +        "Seconds": 14170,
 +        "Bytes": 229175072,
 +        "File": "a1e2d804791f7340d827a125310d7d4b.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041350/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa1e2d804791f7340d827a125310d7d4b.m4a"
      },
      {
          "Title": "The Search For Bob",
@@ -1635,8 +1900,11 @@
          "Seconds": 13500,
          "Bytes": 218340093,
 -        "File": "5d99b02825d130408b43c74f76f51d7f.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046165/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F5d99b02825d130408b43c74f76f51d7f.m4a"
 +        "File": "98e755796703abcb075e900909df3df8.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046165/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F98e755796703abcb075e900909df3df8.m4a"
      },
      {
          "Title": "C2E68 Reflections",
@@ -1648,13 +1916,16 @@
 -        "Seconds": 12264,
 -        "Bytes": 198348483,
 -        "File": "02b5ac63cf674f0c62f4b27bfc5dbc51.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041187/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F02b5ac63cf674f0c62f4b27bfc5dbc51.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:24:17",
 +        "Seconds": 12257,
 +        "Bytes": 198239994,
 +        "File": "aa83bb6487363d0dc9275ac9cb36fc04.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041187/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Faa83bb6487363d0dc9275ac9cb36fc04.m4a"
      },
      {
          "Title": "C2E67 Beyond the Eyes of Angels",
@@ -1666,13 +1937,16 @@
 -        "Seconds": 14591,
 -        "Bytes": 235975047,
 -        "File": "f73d2d959aba6d7f3f1673d0162f09d5.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041140/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ff73d2d959aba6d7f3f1673d0162f09d5.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:03:04",
 +        "Seconds": 14584,
 +        "Bytes": 235866546,
 +        "File": "6294ac06a04ed18a1c8ecc12227b7033.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041140/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F6294ac06a04ed18a1c8ecc12227b7033.m4a"
      },
      {
          "Title": "Tails of Equestria One-Shot",
@@ -1685,8 +1959,11 @@
          "Seconds": 12994,
          "Bytes": 210160097,
 -        "File": "ac4e363f18f5506b809da6023143db97.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041204/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fac4e363f18f5506b809da6023143db97.m4a"
 +        "File": "9e81937cd31d572cfb86edc93da9fc49.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041204/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9e81937cd31d572cfb86edc93da9fc49.m4a"
      },
      {
          "Title": "C2E66 Beneath Bazzoxan",
@@ -1698,13 +1975,16 @@
 -        "Seconds": 14868,
 -        "Bytes": 240461380,
 -        "File": "ae6db6daaf10c06374d0d8b21eebe518.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041018/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fae6db6daaf10c06374d0d8b21eebe518.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:07:41",
 +        "Seconds": 14861,
 +        "Bytes": 240352963,
 +        "File": "7602f822843b6e7cc7fbdc1f0fa3b8d8.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041018/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7602f822843b6e7cc7fbdc1f0fa3b8d8.m4a"
      },
      {
          "Title": "C2E65 Chases and Trees",
@@ -1716,13 +1996,16 @@
 -        "Seconds": 12872,
 -        "Bytes": 208177916,
 -        "File": "ccdfb0e264f8108a6d3e3edc950a30c6.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041159/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fccdfb0e264f8108a6d3e3edc950a30c6.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:34:25",
 +        "Seconds": 12865,
 +        "Bytes": 208069475,
 +        "File": "9d28ba187d7c2552ffbe32f39ae10575.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041159/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9d28ba187d7c2552ffbe32f39ae10575.m4a"
      },
      {
          "Title": "C2E64 A Dangerous Chase",
@@ -1734,13 +2017,16 @@
 -        "Seconds": 11571,
 -        "Bytes": 187133943,
 -        "File": "59242a2360e2bff2e1a2e61d44ad480d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041535/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F59242a2360e2bff2e1a2e61d44ad480d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:12:44",
 +        "Seconds": 11564,
 +        "Bytes": 187025442,
 +        "File": "ca8bf06b6bf15059d11a3f501e6bfa8e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041535/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fca8bf06b6bf15059d11a3f501e6bfa8e.m4a"
      },
      {
          "Title": "C2E63 Intervention",
@@ -1752,13 +2038,16 @@
 -        "Seconds": 12739,
 -        "Bytes": 206036565,
 -        "File": "47df84bbd12d0db6886725cefc1b6a0d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045900/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F47df84bbd12d0db6886725cefc1b6a0d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:32:13",
 +        "Seconds": 12733,
 +        "Bytes": 205928052,
 +        "File": "3d1849f579cad853944dfe4566da971f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045900/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F3d1849f579cad853944dfe4566da971f.m4a"
      },
      {
          "Title": "C2E62 Domestic Respite",
@@ -1770,13 +2059,16 @@
 -        "Seconds": 13358,
 -        "Bytes": 216045728,
 -        "File": "86f00831f49c4a7ed067e7381ba539d9.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045909/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F86f00831f49c4a7ed067e7381ba539d9.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:42:32",
 +        "Seconds": 13352,
 +        "Bytes": 215937119,
 +        "File": "7232cd07bfa15e77ee6c2de0eefb6afd.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17045909/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7232cd07bfa15e77ee6c2de0eefb6afd.m4a"
      },
      {
          "Title": "C2E61 Agreements",
@@ -1788,13 +2080,16 @@
 -        "Seconds": 11090,
 -        "Bytes": 179358098,
 -        "File": "28813f3d43dc055bdd96d20b5c5a13f5.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041188/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F28813f3d43dc055bdd96d20b5c5a13f5.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:04:43",
 +        "Seconds": 11083,
 +        "Bytes": 179249549,
 +        "File": "a4101dcbdf75d1cbad3ef9b743aaf2a0.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041188/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa4101dcbdf75d1cbad3ef9b743aaf2a0.m4a"
      },
      {
          "Title": "C2E60 A Turtle By Any Other Name",
@@ -1806,13 +2101,16 @@
 -        "Seconds": 13169,
 -        "Bytes": 212985668,
 -        "File": "20d8235296dbab1c2ba913b088961195.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041342/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F20d8235296dbab1c2ba913b088961195.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:39:22",
 +        "Seconds": 13162,
 +        "Bytes": 212877023,
 +        "File": "73c8efe71fb0d66afc0072c5887bcea5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041342/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F73c8efe71fb0d66afc0072c5887bcea5.m4a"
      },
      {
          "Title": "C2E59 Perspective",
@@ -1824,13 +2122,16 @@
 -        "Seconds": 13008,
 -        "Bytes": 210381071,
 -        "File": "5f0d5c152515e6462af24ffd2de35932.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041215/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F5f0d5c152515e6462af24ffd2de35932.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:36:41",
 +        "Seconds": 13001,
 +        "Bytes": 210272462,
 +        "File": "9c5193f77e90ca2d0fa615f03ee0b936.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041215/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9c5193f77e90ca2d0fa615f03ee0b936.m4a"
      },
      {
          "Title": "C2E58 Wood and Steel",
@@ -1842,13 +2143,16 @@
 -        "Seconds": 12331,
 -        "Bytes": 199429958,
 -        "File": "1d0a7501db74aad28c801ace9643fb0c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041213/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1d0a7501db74aad28c801ace9643fb0c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:25:24",
 +        "Seconds": 12324,
 +        "Bytes": 199321481,
 +        "File": "862606663d4bd14bc75a27ace4538999.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041213/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F862606663d4bd14bc75a27ace4538999.m4a"
      },
      {
          "Title": "C2E57 In Love and War",
@@ -1860,13 +2164,16 @@
 -        "Seconds": 12050,
 -        "Bytes": 194889642,
 -        "File": "bd5cf90f8f7f10a00c4dbca8c2195ceb.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041223/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fbd5cf90f8f7f10a00c4dbca8c2195ceb.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:20:43",
 +        "Seconds": 12043,
 +        "Bytes": 194781141,
 +        "File": "fc119412e29dc2d4c4e68d08303552a5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041223/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ffc119412e29dc2d4c4e68d08303552a5.m4a"
      },
      {
          "Title": "C2E56 The Favor",
@@ -1878,13 +2185,16 @@
 -        "Seconds": 9665,
 -        "Bytes": 156309595,
 -        "File": "a84cfc0ac44b1800d2c1b82ecf4c975d.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041143/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fa84cfc0ac44b1800d2c1b82ecf4c975d.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:40:58",
 +        "Seconds": 9658,
 +        "Bytes": 156201046,
 +        "File": "86e40f3ed3cf46033251fc5c4718e5ca.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041143/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F86e40f3ed3cf46033251fc5c4718e5ca.m4a"
      },
      {
          "Title": "The Night Before Critmas",
@@ -1897,8 +2207,11 @@
          "Seconds": 16200,
          "Bytes": 262002646,
 -        "File": "d183254da3eb36c4d9f4c6eb098e4da3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041297/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fd183254da3eb36c4d9f4c6eb098e4da3.m4a"
 +        "File": "7c27cec130657fec1e72d3ca1ea3d2c5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041297/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7c27cec130657fec1e72d3ca1ea3d2c5.m4a"
      },
      {
          "Title": "C2E55 Duplicity",
@@ -1910,13 +2223,16 @@
 -        "Seconds": 14718,
 -        "Bytes": 238030091,
 -        "File": "097cdabc52d2c43cc3a4e97f688e7a52.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041182/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F097cdabc52d2c43cc3a4e97f688e7a52.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:05:11",
 +        "Seconds": 14711,
 +        "Bytes": 237921542,
 +        "File": "7830432ca6528c62d7cf24e6e0549e48.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041182/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7830432ca6528c62d7cf24e6e0549e48.m4a"
      },
      {
          "Title": "Honey Heist 3: Tova's Honeys",
@@ -1928,13 +2244,16 @@
 -        "Seconds": 10887,
 -        "Bytes": 176081324,
 -        "File": "8f4a2b1ece8ae6bc1343ec8eb2e374a3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041357/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8f4a2b1ece8ae6bc1343ec8eb2e374a3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:01:21",
 +        "Seconds": 10881,
 +        "Bytes": 175972787,
 +        "File": "67a8f86e079d2286e396071758014bb2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041357/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F67a8f86e079d2286e396071758014bb2.m4a"
      },
      {
          "Title": "C2E54 Well Beneath",
@@ -1946,13 +2265,16 @@
 -        "Seconds": 11653,
 -        "Bytes": 188473145,
 -        "File": "3cd1f20b6ef893a2ff02906457a9bc19.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041175/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3cd1f20b6ef893a2ff02906457a9bc19.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:14:07",
 +        "Seconds": 11647,
 +        "Bytes": 188364596,
 +        "File": "dad8c9de3eaa3206315a851f80fc01a1.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041175/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fdad8c9de3eaa3206315a851f80fc01a1.m4a"
      },
      {
          "Title": "Crash Pandas",
@@ -1964,13 +2286,16 @@
 -        "Seconds": 10511,
 -        "Bytes": 169992802,
 -        "File": "8d319192ef9d01dcc4e1ecc6a87c7a1e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041064/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8d319192ef9d01dcc4e1ecc6a87c7a1e.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:55:04",
 +        "Seconds": 10504,
 +        "Bytes": 169884325,
 +        "File": "eea916732c176581d2725ae96c876700.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041064/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Feea916732c176581d2725ae96c876700.m4a"
      },
      {
          "Title": "C2E53 Cornered",
@@ -1982,13 +2307,16 @@
 -        "Seconds": 11935,
 -        "Bytes": 193021478,
 -        "File": "4825288a7f28449d8744e29aa00f82f2.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041403/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F4825288a7f28449d8744e29aa00f82f2.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:18:48",
 +        "Seconds": 11928,
 +        "Bytes": 192912869,
 +        "File": "68703fbf57429da2aef4dc9e4aad8a8d.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041403/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F68703fbf57429da2aef4dc9e4aad8a8d.m4a"
      },
      {
          "Title": "Honey Heist 2: Electric Beargaloo",
@@ -2001,8 +2329,11 @@
          "Seconds": 10001,
          "Bytes": 161755215,
 -        "File": "af2b6c67cd76003131799ae207bcdad4.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041327/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Faf2b6c67cd76003131799ae207bcdad4.m4a"
 +        "File": "53265af4a27f43f7855f24107f88b694.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041327/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F53265af4a27f43f7855f24107f88b694.m4a"
      },
      {
          "Title": "C2E52 Feral Business",
@@ -2014,13 +2345,16 @@
 -        "Seconds": 13874,
 -        "Bytes": 224387241,
 -        "File": "729e9893c0fc6da8e28d52a737a91833.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046158/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F729e9893c0fc6da8e28d52a737a91833.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:51:07",
 +        "Seconds": 13867,
 +        "Bytes": 224278692,
 +        "File": "8ce8cd2aa1457df56c3e17b0c8082d1d.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17046158/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F8ce8cd2aa1457df56c3e17b0c8082d1d.m4a"
      },
      {
          "Title": "The Search For Grog",
@@ -2033,8 +2367,11 @@
          "Seconds": 15859,
          "Bytes": 256490756,
 -        "File": "582ce44f76609f083022ca51303e911f.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041163/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F582ce44f76609f083022ca51303e911f.m4a"
 +        "File": "3c16055d5e464baab2c006d6b53e0cfc.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041163/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F3c16055d5e464baab2c006d6b53e0cfc.m4a"
      },
      {
          "Title": "C2E51 Xhorhas",
@@ -2046,13 +2383,16 @@
 -        "Seconds": 13920,
 -        "Bytes": 225134137,
 -        "File": "30c36a5feea3c3100664cb41081a8c6c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041063/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F30c36a5feea3c3100664cb41081a8c6c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:51:54",
 +        "Seconds": 13914,
 +        "Bytes": 225025816,
 +        "File": "e5e309e8db38bdbff5cb7035169f113b.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041063/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fe5e309e8db38bdbff5cb7035169f113b.m4a"
      },
      {
          "Title": "C2E50 The Endless Burrows",
@@ -2064,13 +2404,16 @@
 -        "Seconds": 14285,
 -        "Bytes": 231029324,
 -        "File": "cce238c448e3b76dc7ddb8b6e4894d8a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041016/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fcce238c448e3b76dc7ddb8b6e4894d8a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:57:58",
 +        "Seconds": 14278,
 +        "Bytes": 230920843,
 +        "File": "05484c57ecd8b3bca0ca681b3a83f5a7.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041016/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F05484c57ecd8b3bca0ca681b3a83f5a7.m4a"
      },
      {
          "Title": "C2E49 A Game of Names",
@@ -2082,13 +2425,16 @@
 -        "Seconds": 12687,
 -        "Bytes": 205193840,
 -        "File": "3be8c802f9cb4a5ef27939470b90d3c7.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041082/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3be8c802f9cb4a5ef27939470b90d3c7.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:31:21",
 +        "Seconds": 12681,
 +        "Bytes": 205085399,
 +        "File": "352e28d0fd7f710291bbf7aaaf7db083.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041082/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F352e28d0fd7f710291bbf7aaaf7db083.m4a"
      },
      {
          "Title": "C2E48 Homeward Bound",
@@ -2100,13 +2446,16 @@
 -        "Seconds": 14291,
 -        "Bytes": 231129651,
 -        "File": "43614e14fc80c8f4237a6152a3f9ae13.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041190/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F43614e14fc80c8f4237a6152a3f9ae13.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:58:04",
 +        "Seconds": 14284,
 +        "Bytes": 231020994,
 +        "File": "0bfe1d792f51b2cef450683fb73762c5.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041190/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F0bfe1d792f51b2cef450683fb73762c5.m4a"
      },
      {
          "Title": "C2E47 The Second Seal",
@@ -2118,13 +2467,16 @@
 -        "Seconds": 13060,
 -        "Bytes": 211215628,
 -        "File": "a2ae0c9527a1e9bd38244dabd8316fc3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041414/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fa2ae0c9527a1e9bd38244dabd8316fc3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:37:33",
 +        "Seconds": 13053,
 +        "Bytes": 211107055,
 +        "File": "ca45a7a0e4cbf2a16559aa111581133a.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041414/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fca45a7a0e4cbf2a16559aa111581133a.m4a"
      },
      {
          "Title": "C2E46 A Storm of Memories",
@@ -2136,13 +2488,16 @@
 -        "Seconds": 13725,
 -        "Bytes": 221980737,
 -        "File": "196ef3868c6f03fc61e81b843e06c80b.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041037/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F196ef3868c6f03fc61e81b843e06c80b.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:48:39",
 +        "Seconds": 13719,
 +        "Bytes": 221872248,
 +        "File": "6d5ee94132b3ce893bd0c023e97b12d2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041037/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F6d5ee94132b3ce893bd0c023e97b12d2.m4a"
      },
      {
          "Title": "C2E45 The Stowaway",
@@ -2154,13 +2509,16 @@
 -        "Seconds": 17276,
 -        "Bytes": 279408337,
 -        "File": "3d184b8afaf570c3d8620335c30f8849.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041086/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3d184b8afaf570c3d8620335c30f8849.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:47:50",
 +        "Seconds": 17270,
 +        "Bytes": 279299656,
 +        "File": "69d8fc98b2ecf40c76a7408f08a89e80.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041086/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F69d8fc98b2ecf40c76a7408f08a89e80.m4a"
      },
      {
          "Title": "C2E44 The Diver's Grave",
@@ -2172,13 +2530,16 @@
 -        "Seconds": 14431,
 -        "Bytes": 233388474,
 -        "File": "0fafbdbfdef9c1ff31827196e004d9d2.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041019/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F0fafbdbfdef9c1ff31827196e004d9d2.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:00:24",
 +        "Seconds": 14424,
 +        "Bytes": 233279793,
 +        "File": "62bb49c64d0797ac16e24057c3bd96fd.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041019/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F62bb49c64d0797ac16e24057c3bd96fd.m4a"
      },
      {
          "Title": "C2E43 In Hot Water",
@@ -2190,13 +2551,16 @@
 -        "Seconds": 12465,
 -        "Bytes": 201597124,
 -        "File": "1c65a32b93b93f2dd832a7d615e17c02.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041033/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1c65a32b93b93f2dd832a7d615e17c02.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:27:38",
 +        "Seconds": 12458,
 +        "Bytes": 201488539,
 +        "File": "efe0a539da98a78b198983a1b1f1cd96.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041033/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fefe0a539da98a78b198983a1b1f1cd96.m4a"
      },
      {
          "Title": "C2E42 A Hole In a Plan",
@@ -2208,13 +2572,16 @@
 -        "Seconds": 13657,
 -        "Bytes": 220878657,
 -        "File": "b2b59efe08bc281ec71e599dd3519228.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041230/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fb2b59efe08bc281ec71e599dd3519228.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:47:30",
 +        "Seconds": 13650,
 +        "Bytes": 220770168,
 +        "File": "a4c1d9757b099a16634fcc7a10e70b81.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041230/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa4c1d9757b099a16634fcc7a10e70b81.m4a"
      },
      {
          "Title": "C2E41 A Pirate's Life for Me",
@@ -2226,13 +2593,16 @@
 -        "Seconds": 12730,
 -        "Bytes": 205890923,
 -        "File": "ab6824cef2fafb19069bc11233205ef3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041065/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fab6824cef2fafb19069bc11233205ef3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:32:04",
 +        "Seconds": 12724,
 +        "Bytes": 205782350,
 +        "File": "412920615598415363a0183512fa03fe.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041065/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F412920615598415363a0183512fa03fe.m4a"
      },
      {
          "Title": "C2E40 Dubious Pursuits",
@@ -2244,13 +2614,16 @@
 -        "Seconds": 10924,
 -        "Bytes": 176677872,
 -        "File": "4dd633f968d33b8aa66343629a382857.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041079/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F4dd633f968d33b8aa66343629a382857.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:01:57",
 +        "Seconds": 10917,
 +        "Bytes": 176569359,
 +        "File": "a39ba95be6a7df4c1cb38459f676cc12.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041079/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa39ba95be6a7df4c1cb38459f676cc12.m4a"
      },
      {
          "Title": "Critical Role and the Club of Misfits  (Laura's One-Shot)",
@@ -2262,13 +2635,16 @@
 -        "Seconds": 9466,
 -        "Bytes": 153092481,
 -        "File": "c17fe663e2f8000b61c344e2477d8668.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040986/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fc17fe663e2f8000b61c344e2477d8668.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "02:37:39",
 +        "Seconds": 9459,
 +        "Bytes": 152984064,
 +        "File": "9b3c88e1268fb17bbdc098c754a5d0d2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040986/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F9b3c88e1268fb17bbdc098c754a5d0d2.m4a"
      },
      {
          "Title": "C2E39 Temple of the False Serpent",
@@ -2280,13 +2656,16 @@
 -        "Seconds": 15050,
 -        "Bytes": 243405136,
 -        "File": "6d0337d6beca3015a17daaf8ab1f924a.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041038/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F6d0337d6beca3015a17daaf8ab1f924a.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:10:43",
 +        "Seconds": 15043,
 +        "Bytes": 243296647,
 +        "File": "b4da7e4fd9b975d42bd3e2725debb8b1.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041038/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fb4da7e4fd9b975d42bd3e2725debb8b1.m4a"
      },
      {
          "Title": "C2E38 Welcome to the Jungle",
@@ -2298,13 +2677,16 @@
 -        "Seconds": 11849,
 -        "Bytes": 191636763,
 -        "File": "1edf1b8b1cf4cd45e85b6b4824c08432.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041124/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1edf1b8b1cf4cd45e85b6b4824c08432.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:17:22",
 +        "Seconds": 11842,
 +        "Bytes": 191528262,
 +        "File": "5af881f36219fc4b579c771bc0ac03db.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041124/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F5af881f36219fc4b579c771bc0ac03db.m4a"
      },
      {
          "Title": "C2E37 Dangerous Liaisons",
@@ -2316,13 +2698,16 @@
 -        "Seconds": 11346,
 -        "Bytes": 183506778,
 -        "File": "aefc803f2641639715cedc7758974ce2.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041216/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Faefc803f2641639715cedc7758974ce2.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:09:00",
 +        "Seconds": 11340,
 +        "Bytes": 183398337,
 +        "File": "2dcaa9775879ac7381a581d0cd8dcbbd.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041216/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F2dcaa9775879ac7381a581d0cd8dcbbd.m4a"
      },
      {
          "Title": "C2E36 O Captain, Who's Captain?",
@@ -2334,13 +2719,16 @@
 -        "Seconds": 14124,
 -        "Bytes": 228431999,
 -        "File": "8ed15327d1c3f1f62dc0495ac6062429.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041231/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8ed15327d1c3f1f62dc0495ac6062429.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:55:18",
 +        "Seconds": 14118,
 +        "Bytes": 228323594,
 +        "File": "ffb28e6efe900865219188c71a992a7b.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041231/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fffb28e6efe900865219188c71a992a7b.m4a"
      },
      {
          "Title": "C2E35 Dockside Diplomacy",
@@ -2352,13 +2740,16 @@
 -        "Seconds": 13294,
 -        "Bytes": 214997690,
 -        "File": "675cd8055a0c9ea91a17b192a974dc95.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041075/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F675cd8055a0c9ea91a17b192a974dc95.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:41:27",
 +        "Seconds": 13287,
 +        "Bytes": 214889033,
 +        "File": "7a788bc6e0235a86a087e01864584739.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041075/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7a788bc6e0235a86a087e01864584739.m4a"
      },
      {
          "Title": "C2E34 Encroaching Waters",
@@ -2370,13 +2761,16 @@
 -        "Seconds": 15248,
 -        "Bytes": 246612749,
 -        "File": "cb9b0d712ca0d7bfd5ddd0cc4d25b396.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041049/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fcb9b0d712ca0d7bfd5ddd0cc4d25b396.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:14:02",
 +        "Seconds": 15242,
 +        "Bytes": 246504320,
 +        "File": "fefbcbc0a181370d0fec9f12ceb9600d.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041049/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Ffefbcbc0a181370d0fec9f12ceb9600d.m4a"
      },
      {
          "Title": "C2E33 The Ruby and the Sapphire",
@@ -2388,13 +2782,16 @@
 -        "Seconds": 13552,
 -        "Bytes": 219171895,
 -        "File": "a91544eee4911690ea46115d9533aed3.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041043/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fa91544eee4911690ea46115d9533aed3.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:45:45",
 +        "Seconds": 13545,
 +        "Bytes": 219063538,
 +        "File": "877289b89cef59bf9ab18e7010fe3cb2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041043/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F877289b89cef59bf9ab18e7010fe3cb2.m4a"
      },
      {
          "Title": "Liam\u2019s One-Shot: The Song of the Lorelei",
@@ -2406,13 +2803,16 @@
 -        "Seconds": 16161,
 -        "Bytes": 261369701,
 -        "File": "1bfb959ebc6fd8cc05a57d1db788e178.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041184/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F1bfb959ebc6fd8cc05a57d1db788e178.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:29:14",
 +        "Seconds": 16154,
 +        "Bytes": 261261188,
 +        "File": "7310f8cd08263d48066ec01816acd21e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041184/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7310f8cd08263d48066ec01816acd21e.m4a"
      },
      {
          "Title": "C2E32 Beyond the Boundaries",
@@ -2424,13 +2824,16 @@
 -        "Seconds": 12990,
 -        "Bytes": 210085510,
 -        "File": "5b7e809f3098fccc02d5bef06271a632.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041186/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F5b7e809f3098fccc02d5bef06271a632.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:36:23",
 +        "Seconds": 12983,
 +        "Bytes": 209977105,
 +        "File": "86e31bd31e1c824589a8d57d4887ba03.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041186/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F86e31bd31e1c824589a8d57d4887ba03.m4a"
      },
      {
          "Title": "C2E31 Commerce & Chaos",
@@ -2442,13 +2845,16 @@
 -        "Seconds": 11718,
 -        "Bytes": 189510201,
 -        "File": "ac39c1bfe2a5b56ca4de0da63b451265.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041139/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fac39c1bfe2a5b56ca4de0da63b451265.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:15:11",
 +        "Seconds": 11711,
 +        "Bytes": 189401700,
 +        "File": "00f8608c44b5732974a41913d52217c6.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041139/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F00f8608c44b5732974a41913d52217c6.m4a"
      },
      {
          "Title": "C2E30 The Journey Home",
@@ -2460,13 +2866,16 @@
 -        "Seconds": 12248,
 -        "Bytes": 198096378,
 -        "File": "fa0a50d7ca5a2e623490e8cc2ef451b0.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041201/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Ffa0a50d7ca5a2e623490e8cc2ef451b0.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:24:02",
 +        "Seconds": 12242,
 +        "Bytes": 197987913,
 +        "File": "ec7a91e4777c458e1a7f18b2ad69bd8f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041201/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fec7a91e4777c458e1a7f18b2ad69bd8f.m4a"
      },
      {
          "Title": "C2E29 The Stalking Nightmare - Live from Indy",
@@ -2478,13 +2887,16 @@
 -        "Seconds": 14462,
 -        "Bytes": 233889949,
 -        "File": "cd20242ac6a43bb38591a18761a30124.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041107/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fcd20242ac6a43bb38591a18761a30124.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:00:55",
 +        "Seconds": 14455,
 +        "Bytes": 233781400,
 +        "File": "032dc221537e0369a8b3defd2460d8d1.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041107/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F032dc221537e0369a8b3defd2460d8d1.m4a"
      },
      {
          "Title": "C2E28 Within the Nest",
@@ -2496,13 +2908,16 @@
 -        "Seconds": 14495,
 -        "Bytes": 234426091,
 -        "File": "54fdb84a1a574f22c836e35e95fe6f3c.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041155/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F54fdb84a1a574f22c836e35e95fe6f3c.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:01:28",
 +        "Seconds": 14488,
 +        "Bytes": 234317494,
 +        "File": "7f2e917cdc186fd06c64b2a2abdd9730.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041155/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7f2e917cdc186fd06c64b2a2abdd9730.m4a"
      },
      {
          "Title": "C2E27 Converging Fury",
@@ -2514,13 +2929,16 @@
 -        "Seconds": 14032,
 -        "Bytes": 226943542,
 -        "File": "7f85ca636a4e05780b82cf9de5238dd4.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041281/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F7f85ca636a4e05780b82cf9de5238dd4.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:53:45",
 +        "Seconds": 14025,
 +        "Bytes": 226834945,
 +        "File": "2c0a606a792ab6de7a735f774de6c03e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041281/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F2c0a606a792ab6de7a735f774de6c03e.m4a"
      },
      {
          "Title": "C2E26 Found & Lost",
@@ -2532,13 +2950,16 @@
 -        "Seconds": 17008,
 -        "Bytes": 275071837,
 -        "File": "3a66122472abf2c1c78e83683f998099.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041234/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F3a66122472abf2c1c78e83683f998099.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:43:21",
 +        "Seconds": 17001,
 +        "Bytes": 274963192,
 +        "File": "c3c5a27a8aeab065973fc7923cf17272.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041234/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fc3c5a27a8aeab065973fc7923cf17272.m4a"
      },
      {
          "Title": "C2E25 Divergent Paths",
@@ -2550,13 +2971,16 @@
 -        "Seconds": 13907,
 -        "Bytes": 224923810,
 -        "File": "68698e828156ac4b4fd66a059327bebd.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041257/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F68698e828156ac4b4fd66a059327bebd.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:51:41",
 +        "Seconds": 13901,
 +        "Bytes": 224815201,
 +        "File": "7f7c4d18d14bc7c4c1ab9ade05d7b35a.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041257/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7f7c4d18d14bc7c4c1ab9ade05d7b35a.m4a"
      },
      {
          "Title": "C2E24 The Hour of Honor",
@@ -2568,13 +2992,16 @@
 -        "Seconds": 13126,
 -        "Bytes": 212285613,
 -        "File": "385281c567fc1e2b4ca20aaaf9fa6709.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040988/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F385281c567fc1e2b4ca20aaaf9fa6709.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:38:39",
 +        "Seconds": 13119,
 +        "Bytes": 212177124,
 +        "File": "7a9cb0b9822aa7b3d5f7f6edf34fcd95.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17040988/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F7a9cb0b9822aa7b3d5f7f6edf34fcd95.m4a"
      },
      {
          "Title": "C2E23 Have Bird, Will Travel",
@@ -2586,13 +3013,16 @@
 -        "Seconds": 13647,
 -        "Bytes": 220719920,
 -        "File": "8f08560747cee8843b0efd8b36c8c860.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041105/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8f08560747cee8843b0efd8b36c8c860.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:47:21",
 +        "Seconds": 13641,
 +        "Bytes": 220611491,
 +        "File": "69d45fe4a4f2d59997faf82b03ee9311.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041105/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2F69d45fe4a4f2d59997faf82b03ee9311.m4a"
      },
      {
          "Title": "C2E22 Lost Treasures",
@@ -2604,13 +3034,16 @@
 -        "Seconds": 12432,
 -        "Bytes": 201062876,
 -        "File": "e07e059e78669f75e049e7ad694f4478.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041144/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2Fe07e059e78669f75e049e7ad694f4478.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:27:05",
 +        "Seconds": 12425,
 +        "Bytes": 200954339,
 +        "File": "a9602ef26757cbf4f34b47c9f501392f.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041144/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa9602ef26757cbf4f34b47c9f501392f.m4a"
      },
      {
          "Title": "C2E21 Stalker in the Swamp",
@@ -2622,13 +3055,16 @@
 -        "Seconds": 15820,
 -        "Bytes": 255857315,
 -        "File": "8cbfb2e13efb5efa2bf5942e27f661d6.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041239/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F8cbfb2e13efb5efa2bf5942e27f661d6.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "04:23:33",
 +        "Seconds": 15813,
 +        "Bytes": 255748766,
 +        "File": "e38f9cadfc4e21d6ce07bde1a0d045e8.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041239/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fe38f9cadfc4e21d6ce07bde1a0d045e8.m4a"
      },
      {
          "Title": "C2E20 Labenda Awaits",
@@ -2640,12 +3076,15 @@
 -        "Seconds": 12853,
 -        "Bytes": 207868512,
 -        "File": "5510ea619a0a6ec92a5e5ec904fa0223.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041249/sponsor/a2ufu95,a604ah5/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-06-25%2F5510ea619a0a6ec92a5e5ec904fa0223.m4a"
 +        "Staging Date": "2021-07-19",
 +        "Sponsor": "a2ufu95,a660vma",
 +        "HH:MM:SS": "03:34:06",
 +        "Seconds": 12846,
 +        "Bytes": 207760023,
 +        "File": "a460dfe598e8789139a0daa4c42f23c2.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17041249/sponsor/a2ufu95,a660vma/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-07-19%2Fa460dfe598e8789139a0daa4c42f23c2.m4a"
      }
  ]

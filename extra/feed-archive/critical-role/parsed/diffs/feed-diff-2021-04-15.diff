@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-04-08.json
 +++ critical-role\parsed\feed-parsed-2021-04-15.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E133 Hunter and Hunted",
@@ -12,7 +12,8 @@
 +        "Seconds": 14899,
 +        "Bytes": 240957302,
 +        "File": "c6cf0655c0ba889a8c86fa45d6879fa0.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/31421334/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-14%2Fc6cf0655c0ba889a8c86fa45d6879fa0.m4a"
 +    },
      {
          "Title": "C2E132 Aeor",

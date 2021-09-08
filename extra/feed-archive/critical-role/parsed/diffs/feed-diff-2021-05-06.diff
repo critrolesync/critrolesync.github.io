@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-04-29.json
 +++ critical-role\parsed\feed-parsed-2021-05-06.json
-@@ -1,21 +1,33 @@
+@@ -1,23 +1,36 @@
  [
      {
 -        "Title": "C2E1135 The Genesis Ward",
@@ -13,7 +13,8 @@
 +        "Seconds": 12315,
 +        "Bytes": 199178389,
 +        "File": "d58df7a29d90bdbe96d929d6b2aab6c9.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/32907453/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-05%2Fd58df7a29d90bdbe96d929d6b2aab6c9.m4a"
 +    },
 +    {
 +        "Title": "C2E135 The Genesis Ward",
@@ -26,8 +27,11 @@
          "Seconds": 12563,
          "Bytes": 203176407,
 -        "File": "96f9c33259777857c79ad96f941ed27e.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/32441581/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-29%2F96f9c33259777857c79ad96f941ed27e.m4a"
 +        "File": "865139519fdf675a4b946e6bb0f3647e.m4a",
-         "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/32441581/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-05%2F865139519fdf675a4b946e6bb0f3647e.m4a"
      },
      {
          "Title": "C2E134 The Streets of the Forgotten",
@@ -37,3 +41,4 @@
          "Sponsor": "a2ufu95,a4i9v6i",
          "HH:MM:SS": "03:55:47",
          "Seconds": 14147,
+         "Bytes": 228808102,

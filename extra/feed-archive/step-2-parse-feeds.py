@@ -90,7 +90,7 @@ def parse_feed(input_xml, output_txt=None):
                 'Bytes': int(size),
                 'File': file,
                 'Type': filetype,
-                # 'URL': url,
+                'URL': url,
             }
             episodes.append(d)
 

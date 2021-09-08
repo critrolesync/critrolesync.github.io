@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2020-08-04.json
 +++ critical-role\parsed\feed-parsed-2020-08-13.json
-@@ -1,11 +1,35 @@
+@@ -1,11 +1,37 @@
  [
 +    {
 +        "Title": "C2E105 Rumble at Rumblecusp",
@@ -12,7 +12,8 @@
 +        "Seconds": 16164,
 +        "Bytes": 261413933,
 +        "File": "f59f6aa1c934027991e48a6493b18fb2.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17963701/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-08-13%2Ff59f6aa1c934027991e48a6493b18fb2.m4a"
 +    },
 +    {
 +        "Title": "C2E104 The Ruined Sliver",
@@ -24,7 +25,8 @@
 +        "Seconds": 13279,
 +        "Bytes": 212837468,
 +        "File": "1f544d62-794d-ce13-2885-0690fd9cefa6.mp3",
-+        "Type": "audio/mpeg"
++        "Type": "audio/mpeg",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/17610742/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-7-5%2F1f544d62-794d-ce13-2885-0690fd9cefa6.mp3"
 +    },
      {
          "Title": "C2E103 Maritime Mysteries",

@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-04-01.json
 +++ critical-role\parsed\feed-parsed-2021-04-08.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E132 Aeor",
@@ -12,7 +12,8 @@
 +        "Seconds": 12168,
 +        "Bytes": 196794893,
 +        "File": "e7dbe99f7df0cf7d55d36629bee1bb62.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/30946491/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-04-08%2Fe7dbe99f7df0cf7d55d36629bee1bb62.m4a"
 +    },
      {
          "Title": "C2E131 Into the Eye",

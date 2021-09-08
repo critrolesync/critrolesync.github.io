@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-05-20.json
 +++ critical-role\parsed\feed-parsed-2021-05-27.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E139 Rebirth",
@@ -12,7 +12,8 @@
 +        "Seconds": 12901,
 +        "Bytes": 208651134,
 +        "File": "1711ec43a802229a1d52fe59f350eede.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/34291487/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-26%2F1711ec43a802229a1d52fe59f350eede.m4a"
 +    },
      {
          "Title": "C2E138 Where There Is A Will...",

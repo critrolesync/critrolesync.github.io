@@ -1,6 +1,6 @@
 --- critical-role\parsed\feed-parsed-2021-05-06.json
 +++ critical-role\parsed\feed-parsed-2021-05-13.json
-@@ -1,11 +1,23 @@
+@@ -1,11 +1,24 @@
  [
 +    {
 +        "Title": "C2E137 Welcome to Cognouza",
@@ -12,7 +12,8 @@
 +        "Seconds": 10286,
 +        "Bytes": 166359046,
 +        "File": "a2c47db2fea4b1a7c230d8d45bc3d3f7.m4a",
-+        "Type": "audio/x-m4a"
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/33371896/sponsor/a2ufu95,a4i9v6i/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-05-12%2Fa2c47db2fea4b1a7c230d8d45bc3d3f7.m4a"
 +    },
      {
          "Title": "C2E136 Hell or High Water",
