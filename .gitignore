@@ -1,6 +1,8 @@
 data-old-g&s-feed.json
+testdata
 *.m4a
 *.mp3
+*.tar
 *.txt
 *.part
 .vagrant
