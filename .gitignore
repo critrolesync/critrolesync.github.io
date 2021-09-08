@@ -3,6 +3,7 @@ data-old-g&s-feed.json
 *.mp3
 *.txt
 *.part
+.vagrant
 __pycache__
 
 !requirements.txt
