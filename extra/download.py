@@ -13,7 +13,7 @@ from tqdm.auto import tqdm
 import youtube_dl
 
 
-with open('../data.json') as f:
+with open('../docs/data.json') as f:
     data = json.load(f)
 
 feed_archive_path = os.path.join(os.path.dirname(__file__), 'feed-archive')

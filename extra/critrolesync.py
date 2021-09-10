@@ -7,7 +7,7 @@ import json
 import numpy as np
 
 
-with open('../data.json') as f:
+with open('../docs/data.json') as f:
     data = json.load(f)
 
 def str2sec(string):
