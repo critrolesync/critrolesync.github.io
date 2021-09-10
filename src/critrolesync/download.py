@@ -4,40 +4,30 @@ Download audio files:
   * download_podcast_audio
 """
 
-import os
-from glob import glob
-import json
+from pathlib import Path
 import shutil
+import json
 import requests
 from tqdm.auto import tqdm
 import youtube_dl
 
-
-with open('../docs/data.json') as f:
-    data = json.load(f)
-
-most_recent_parsed_nerdist_feed = glob('../feed-archive/nerdist/parsed/*.json')[-1]
-most_recent_parsed_criticalrole_feed = glob('../feed-archive/critical-role/parsed/*.json')[-1]
-feed = []
-with open(most_recent_parsed_nerdist_feed) as f:
-    feed += json.load(f)
-with open(most_recent_parsed_criticalrole_feed) as f:
-    feed += json.load(f)
+from . import data
+from .tools import get_episode_data_from_id
 
 
-def get_episode_data_from_id(episode_id):
-    c, e = map(int, episode_id.strip('C').split('E'))
+_latest_parsed_nerdist_feed = list(Path(__file__, '../../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
+_latest_parsed_criticalrole_feed = list(Path(__file__, '../../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
+latest_parsed_podcast_feed = []
+with open(_latest_parsed_nerdist_feed) as _fd:
+    latest_parsed_podcast_feed += json.load(_fd)
+with open(_latest_parsed_criticalrole_feed) as _fd:
+    latest_parsed_podcast_feed += json.load(_fd)
+
+def get_podcast_feed_from_title(episode_title):
     try:
-        return next(filter(lambda ep: ep['id'] == episode_id, data[c-1]['episodes']))
-    except StopIteration:
-        raise ValueError(f'episode with id "{episode_id}" not found')
-
-def get_episode_feed_from_title(episode_title):
-    try:
-        return next(filter(lambda ep: ep['Title'].startswith(episode_title), feed))
+        return next(filter(lambda ep: ep['Title'].startswith(episode_title), latest_parsed_podcast_feed))
     except StopIteration:
         raise ValueError(f'episode with title starting with "{episode_title}" not found')
-
 
 def download_youtube_audio(episode_id, output_file=None):
 
@@ -56,7 +46,7 @@ def download_youtube_audio(episode_id, output_file=None):
 def download_podcast_audio(episode_title, output_file=None):
 
     # get the podcast audio file URL from the feed archive
-    ep = get_episode_feed_from_title(episode_title)
+    ep = get_podcast_feed_from_title(episode_title)
     url = ep['URL']
 
     # determine where to permanently save the file after download
@@ -64,17 +54,15 @@ def download_podcast_audio(episode_title, output_file=None):
         ext = ep['File'].split('.')[-1]
         output_file = f'{episode_title} Podcast.{ext}'
 
-    download_file(url, output_file)
+    _download_file(url, output_file)
 
-def download_file(url, output_file, bytes_per_chunk=1024*32):
+def _download_file(url, output_file, bytes_per_chunk=1024*32):
 
     # determine where to temporarily save the file during download
     temp_file = output_file + '.part'
 
     # create the containing directory if necessary
-    output_dir = os.path.dirname(output_file)
-    if output_dir and not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    Path(output_file).parent.mkdir(parents=True, exist_ok=True)
 
     try:
         response = requests.get(url, stream=True)
@@ -87,8 +75,7 @@ def download_file(url, output_file, bytes_per_chunk=1024*32):
 
     except:
         # the download is likely incomplete, so delete the temporary file
-        if os.path.exists(temp_file):
-            os.remove(temp_file)
+        Path(temp_file).unlink(missing_ok=True)
 
         # raise the exception so that it can be handled elsewhere
         raise
