@@ -16,9 +16,8 @@ import youtube_dl
 with open('../docs/data.json') as f:
     data = json.load(f)
 
-feed_archive_path = os.path.join(os.path.dirname(__file__), 'feed-archive')
-most_recent_parsed_nerdist_feed = glob(os.path.join(feed_archive_path, 'nerdist/parsed/*.json'))[-1]
-most_recent_parsed_criticalrole_feed = glob(os.path.join(feed_archive_path, 'critical-role/parsed/*.json'))[-1]
+most_recent_parsed_nerdist_feed = glob('../feed-archive/nerdist/parsed/*.json')[-1]
+most_recent_parsed_criticalrole_feed = glob('../feed-archive/critical-role/parsed/*.json')[-1]
 feed = []
 with open(most_recent_parsed_nerdist_feed) as f:
     feed += json.load(f)
