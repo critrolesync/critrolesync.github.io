@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-with Path(__file__, '../../../docs/data.json').open() as _fd:
+with Path(__file__).parent.joinpath('../../docs/data.json').open() as _fd:
     data = json.load(_fd)
 
 from .download import *

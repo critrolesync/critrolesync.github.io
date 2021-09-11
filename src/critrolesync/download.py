@@ -15,8 +15,8 @@ from . import data
 from .tools import get_episode_data_from_id
 
 
-_latest_parsed_nerdist_feed = list(Path(__file__, '../../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
-_latest_parsed_criticalrole_feed = list(Path(__file__, '../../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
+_latest_parsed_nerdist_feed = list(Path(__file__).parent.joinpath('../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
+_latest_parsed_criticalrole_feed = list(Path(__file__).parent.joinpath('../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
 latest_parsed_podcast_feed = []
 with open(_latest_parsed_nerdist_feed) as _fd:
     latest_parsed_podcast_feed += json.load(_fd)
