@@ -4,3 +4,5 @@ data-old-g&s-feed.json
 *.txt
 *.part
 __pycache__
+
+!requirements.txt

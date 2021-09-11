@@ -1,0 +1,4 @@
+numpy
+requests
+tqdm
+youtube_dl
