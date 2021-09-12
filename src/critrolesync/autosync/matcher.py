@@ -49,6 +49,7 @@ class Matcher:
 
     def load_fingerprints(self, file:str):
         self._db.load(file)
+        self._dejavu._Dejavu__load_fingerprinted_audio_hashes()
 
     def store_fingerprints(self, file:str):
         self._db.dump(file)
