@@ -9,5 +9,5 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision "shell", inline: "touch /etc/is_vagrant_vm"
-  config.vm.provision :shell, path: "src/bootstrap.sh"
+  config.vm.provision :shell, path: "environment/python/bootstrap.sh"
 end
