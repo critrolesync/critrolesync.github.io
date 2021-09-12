@@ -6,6 +6,7 @@ tqdm
 youtube_dl
 
 docker
+ffmpeg-python
 matplotlib
 psycopg2
 pyaudio
