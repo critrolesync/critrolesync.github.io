@@ -38,10 +38,17 @@ def download_youtube_audio(episode_id, output_file=None):
     # determine where to permanently save the file after download
     if output_file is None:
         output_file = f'{episode_id} YouTube.%(ext)s'
+    else:
+        output_file = str(output_file)
 
     ydl_opts = {'outtmpl': output_file, 'format': 'bestaudio/best', 'postprocessors': [{'key': 'FFmpegExtractAudio'}]}
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-        ydl.download([f'https://www.youtube.com/watch?v={youtube_id}'])
+        url = f'https://www.youtube.com/watch?v={youtube_id}'
+        info_dict = ydl.extract_info(url, download=True)
+        actual_output_file = Path(ydl.prepare_filename(info_dict))
+
+        # return the output file path
+        return actual_output_file
 
 def download_podcast_audio(episode_title, output_file=None):
 
@@ -56,10 +63,13 @@ def download_podcast_audio(episode_title, output_file=None):
 
     _download_file(url, output_file)
 
+    # return the output file path
+    return Path(output_file)
+
 def _download_file(url, output_file, bytes_per_chunk=1024*32):
 
     # determine where to temporarily save the file during download
-    temp_file = output_file + '.part'
+    temp_file = str(output_file) + '.part'
 
     # create the containing directory if necessary
     Path(output_file).parent.mkdir(parents=True, exist_ok=True)
