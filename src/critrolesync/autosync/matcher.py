@@ -64,7 +64,7 @@ class Matcher:
         logger.info('collecting results')
         for m in result['results']:
             matches.append(Result(
-                name=m['song_name'],
+                name=m['song_name'].decode('utf8'),
                 offset=m['offset_seconds'],
                 confidence=m['input_confidence'],
             ))

@@ -1,12 +1,13 @@
 # python3 -m pip install -r requirements.txt
 
-numpy
+numpy <1.21  # librosa requires numba, which requires numpy<1.21 as of numba 0.54
 requests
 tqdm
 youtube_dl
 
 docker
 ffmpeg-python
+librosa
 matplotlib
 psycopg2
 pyaudio

@@ -1,8 +1,10 @@
 from pathlib import Path
+import numpy as np
 import ffmpeg
-from pydub import AudioSegment
+from librosa import get_duration
 import logging
-from critrolesync import sec2str, str2sec, download_youtube_audio, download_podcast_audio
+from critrolesync import sec2str, str2sec, get_episode_data_from_id, \
+                         download_youtube_audio, download_podcast_audio
 from critrolesync.autosync import Matcher
 
 logger = logging.getLogger(__name__)
@@ -45,22 +47,14 @@ def slice_audio_file(input_file, output_file, start=None, end=None, mono=False):
 test_dir = Path('testdata')
 test_dir.mkdir(parents=True, exist_ok=True)
 
-youtube_sample_start = '00:00:00'
-youtube_sample_duration = 6 * 60  # sec
-youtube_sample_stop = sec2str(str2sec(youtube_sample_start) + youtube_sample_duration)
-
-podcast_sample_start = '00:05:00'
-podcast_sample_duration = 20  # sec
-podcast_sample_stop = sec2str(str2sec(podcast_sample_start) + podcast_sample_duration)
-
-offset_by_design = str2sec(podcast_sample_start) - str2sec(youtube_sample_start)
-
-
 # episode_ids = ['C2E20']
 episode_ids = [f'C2E{i}' for i in range(100, 105)]
 
-for episode_id in episode_ids:
 
+
+# download all YouTube and podcast audio files
+
+for episode_id in episode_ids:
 
     youtube_file = test_dir / 'original' / f'{episode_id} YouTube.m4a'
     podcast_file = test_dir / 'original' / f'{episode_id} Podcast.m4a'
@@ -73,35 +67,145 @@ for episode_id in episode_ids:
         download_podcast_audio(episode_id, podcast_file)
 
 
-    youtube_file_beginning = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
-    podcast_file_beginning = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
+# slice beginning and ending for all YouTube audio files
 
-    overwrite_slices = False
-    if not youtube_file_beginning.exists() or overwrite_slices:
-        logger.info(f'slicing YouTube sample for {episode_id}')
-        slice_audio_file(youtube_file, youtube_file_beginning, youtube_sample_start, youtube_sample_stop, mono=True)
-    if not podcast_file_beginning.exists() or overwrite_slices:
-        logger.info(f'slicing podcast sample for {episode_id}')
-        slice_audio_file(podcast_file, podcast_file_beginning, podcast_sample_start, podcast_sample_stop, mono=True)
+youtube_beginning_duration = 6 * 60  # sec
+youtube_ending_duration = 6 * 60  # sec
+podcast_beginning_duration = 10  # sec
+podcast_ending_duration = 10  # sec
+
+overwrite_slices = False
+
+for episode_id in episode_ids:
+
+    d = get_episode_data_from_id(episode_id)
+    ts = np.rec.fromrecords(d['timestamps'], names=d['timestamps_columns'])
+
+    youtube_file = test_dir / 'original' / f'{episode_id} YouTube.m4a'
+    podcast_file = test_dir / 'original' / f'{episode_id} Podcast.m4a'
 
 
+
+    youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
+    podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
+
+    youtube_beginning_start = ts.youtube[0]
+    youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_duration)
+
+    podcast_beginning_start = '00:05:00'
+    podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_duration)
+
+    if not youtube_beginning_file.exists() or overwrite_slices:
+        logger.info(f'slicing YouTube beginning for {episode_id}')
+        slice_audio_file(youtube_file, youtube_beginning_file, youtube_beginning_start, youtube_beginning_stop, mono=True)
+    if not podcast_beginning_file.exists() or overwrite_slices:
+        logger.info(f'slicing podcast beginning for {episode_id}')
+        slice_audio_file(podcast_file, podcast_beginning_file, podcast_beginning_start, podcast_beginning_stop, mono=True)
+
+
+    youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
+    podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
+
+    youtube_ending_stop = ts.youtube[-1]
+    youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
+
+    podcast_ending_stop = sec2str(get_duration(filename=podcast_file) - youtube_ending_duration/2)
+    podcast_ending_start = sec2str(str2sec(podcast_ending_stop) - podcast_ending_duration)
+
+    if not youtube_ending_file.exists() or overwrite_slices:
+        logger.info(f'slicing YouTube ending for {episode_id}')
+        slice_audio_file(youtube_file, youtube_ending_file, youtube_ending_start, youtube_ending_stop, mono=True)
+    if not podcast_ending_file.exists() or overwrite_slices:
+        logger.info(f'slicing podcast ending for {episode_id}')
+        slice_audio_file(podcast_file, podcast_ending_file, podcast_ending_start, podcast_ending_stop, mono=True)
+
+
+
+# fingerprint all YouTube audio slices
 
 database_backup = test_dir / 'db.tar'
 
 rebuild_fingerprint_database = False
-with Matcher() as m:
-    if database_backup.exists() and not rebuild_fingerprint_database:
-        m.load_fingerprints(database_backup)
 
-    m.generate_fingerprints(test_dir / 'youtube-slices')
-    m.store_fingerprints(database_backup)
-    print()
+if not database_backup.exists() or rebuild_fingerprint_database:
+    with Matcher() as m:
+        m.generate_fingerprints(test_dir / 'youtube-slices')
+        m.store_fingerprints(database_backup)
+
+
+
+# match each podcast slice to a YouTube slice and determine timestamps
+
+with Matcher() as m:
+    m.load_fingerprints(database_backup)
 
     for episode_id in episode_ids:
-        podcast_file_beginning = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
-        results = m.match(podcast_file_beginning)
-        print(f'{episode_id}: Podcast opening ads end at {sec2str(offset_by_design - results[0].offset)}')
-        print('    All matches:')
-        for r in results:
-            print('        ', r)
+        print(episode_id)
+
+        d = get_episode_data_from_id(episode_id)
+        ts = np.rec.fromrecords(d['timestamps'], names=d['timestamps_columns'])
+
+        podcast_timestamps = np.empty(4, dtype='object')
+
+
+
+        youtube_file = test_dir / 'original' / f'{episode_id} YouTube.m4a'
+        podcast_file = test_dir / 'original' / f'{episode_id} Podcast.m4a'
+
+        youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
+        podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
+
+        youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
+        podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
+
+
+
+        youtube_beginning_start = ts.youtube[0]
+        youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_duration)
+
+        podcast_beginning_start = '00:05:00'
+        podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_duration)
+
+        matches = m.match(podcast_beginning_file)
+        assert matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_beginning_file.stem})'
+        podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + matches[0].offset))
+        podcast_beginning_confidence = matches[0].confidence
+        logger.info(f'    Podcast "{ts.comment[0]}" at {podcast_beginning_timestamp}')
+        logger.info('        All matches:')
+        for mm in matches:
+            logger.info(f'            {mm}')
+
+
+
+        youtube_ending_stop = ts.youtube[-1]
+        youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
+
+        podcast_ending_stop = sec2str(get_duration(filename=podcast_file) - youtube_ending_duration/2)
+        podcast_ending_start = sec2str(str2sec(podcast_ending_stop) - podcast_ending_duration)
+
+        matches = m.match(podcast_ending_file)
+        assert matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
+        podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) + youtube_ending_duration - matches[0].offset)
+        podcast_ending_confidence = matches[0].confidence
+        logger.info(f'    Podcast "{ts.comment[-1]}" at {podcast_ending_timestamp}')
+        logger.info('        All matches:')
+        for mm in matches:
+            logger.info(f'            {mm}')
+
+
+
+        segment_1_duration, break_duration, segment_2_duration = np.diff(list(map(str2sec, ts.youtube)))
+        podcast_timestamps[0] = podcast_beginning_timestamp
+        podcast_timestamps[1] = sec2str(str2sec(podcast_beginning_timestamp) + segment_1_duration)
+        podcast_timestamps[2] = sec2str(str2sec(podcast_ending_timestamp) - segment_2_duration)
+        podcast_timestamps[3] = podcast_ending_timestamp
+
+        ts.podcast = podcast_timestamps
+        print(d['timestamps_columns'], '\t', 'confidence')
+        # for row in ts:
+        #     print(row)
+        print(ts[0], '\t', podcast_beginning_confidence)
+        print(ts[1])
+        print(ts[2])
+        print(ts[3], '\t', podcast_ending_confidence)
         print()
