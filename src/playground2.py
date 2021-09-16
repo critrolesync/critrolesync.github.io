@@ -70,7 +70,7 @@ for episode_id in episode_ids:
 # slice beginning and ending for all YouTube audio files
 
 youtube_beginning_duration = 6 * 60  # sec
-youtube_ending_duration = 6 * 60  # sec
+youtube_ending_duration = 2 * 60  # sec
 podcast_beginning_duration = 10  # sec
 podcast_ending_duration = 10  # sec
 
@@ -109,8 +109,8 @@ for episode_id in episode_ids:
     youtube_ending_stop = ts.youtube[-1]
     youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
 
-    podcast_ending_stop = sec2str(get_duration(filename=podcast_file) - youtube_ending_duration/2)
-    podcast_ending_start = sec2str(str2sec(podcast_ending_stop) - podcast_ending_duration)
+    podcast_ending_start = sec2str(get_duration(filename=podcast_file) - 120)
+    podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_duration)
 
     if not youtube_ending_file.exists() or overwrite_slices:
         logger.info(f'slicing YouTube ending for {episode_id}')
@@ -182,8 +182,8 @@ with Matcher() as m:
         youtube_ending_stop = ts.youtube[-1]
         youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
 
-        podcast_ending_stop = sec2str(get_duration(filename=podcast_file) - youtube_ending_duration/2)
-        podcast_ending_start = sec2str(str2sec(podcast_ending_stop) - podcast_ending_duration)
+        podcast_ending_start = sec2str(get_duration(filename=podcast_file) - 120)
+        podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_duration)
 
         matches = m.match(podcast_ending_file)
         assert matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
