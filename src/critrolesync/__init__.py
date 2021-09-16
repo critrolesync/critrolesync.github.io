@@ -5,6 +5,7 @@ with Path(__file__).parent.joinpath('../../docs/data.json').open() as _fd:
     data = json.load(_fd)
 
 from .download import *
+from .jsonencoder import *
 from .tools import *
 
 # Do not import autosync here, as this will make critrolesync unimportable

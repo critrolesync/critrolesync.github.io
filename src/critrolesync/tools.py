@@ -1,7 +1,15 @@
+from pathlib import Path
+import json
 import numpy as np
 
 from . import data
+from .jsonencoder import CompactJSONEncoder
 
+
+def write_data(new_data):
+    with Path(__file__).parent.joinpath('../../docs/data.json').open('w') as _fd:
+        json.dump(new_data, _fd, indent=4, cls=CompactJSONEncoder)
+        _fd.write('\n')
 
 def str2sec(string):
     if len(string.split(':')) == 3:
