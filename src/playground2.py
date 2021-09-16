@@ -125,10 +125,12 @@ for episode_id in episode_ids:
 
 database_backup = test_dir / 'db.tar'
 
-rebuild_fingerprint_database = False
+extend_fingerprint_database = True
 
-if not database_backup.exists() or rebuild_fingerprint_database:
+if not database_backup.exists() or extend_fingerprint_database:
     with Matcher() as m:
+        if database_backup.exists():
+            m.load_fingerprints(database_backup)
         m.generate_fingerprints(test_dir / 'youtube-slices')
         m.store_fingerprints(database_backup)
 
