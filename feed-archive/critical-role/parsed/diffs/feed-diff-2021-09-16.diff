@@ -1,0 +1,27 @@
+--- critical-role\parsed\feed-parsed-2021-09-10.json
++++ critical-role\parsed\feed-parsed-2021-09-16.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Nautilus Ark: A Johnson Corp Odyssey | Ashley's One-Shot",
++        "GUID": "db87e8c0-3bee-4bc1-bdad-84b89c10ca9c",
++        "Publication Date": "2021-09-16",
++        "Staging Date": "2021-09-13",
++        "Sponsor": "a2ufu95,a6g66ti",
++        "HH:MM:SS": "03:11:10",
++        "Seconds": 11470,
++        "Bytes": 185503299,
++        "File": "7939a588e31fb1a5d598f9b9eb9750e2.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/40238698/sponsor/a2ufu95,a6g66ti/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-09-13%2F7939a588e31fb1a5d598f9b9eb9750e2.m4a"
++    },
+     {
+         "Title": "Exandria Unlimited Wrap-Up",
+         "GUID": "81619c88-814c-4ec4-9930-bc82a087e900",
+         "Publication Date": "2021-09-02",
+         "Staging Date": "2021-09-08",
+         "Sponsor": "a2ufu95,a6g66ti",
+         "HH:MM:SS": "01:48:35",
+         "Seconds": 6515,
+         "Bytes": 105380676,
+         "File": "ba19210d45f50979a452b67da228edaf.m4a",
