@@ -1,4 +1,5 @@
-import docker, logging, io
+import docker, logging, io, shutil
+from pathlib import Path
 from typing import Any
 from time import sleep
 
@@ -47,14 +48,14 @@ class Database:
                 break
             else:
                 sleep(3)
-        
+
         logger.info('database setup completed')
-    
+
     def close(self):
         logger.info('stopping database container')
 
         self._container.stop()
-    
+
     def __enter__(self):
         return self
 
@@ -67,7 +68,7 @@ class Database:
             raise Exception(result.output)
 
         return str(result.output)
-    
+
     def dump(self, file: str):
         """Dumps the database content as 'tar' to the given file."""
         logger.info('dumping database to {}'.format(file))
@@ -78,26 +79,38 @@ class Database:
         logger.debug('extracting dump from container')
         tar_raw, _ = self._container.get_archive('/root/tmp.sql')
 
-        logger.debug('writing to tar file {}'.format(file))        
-        with open(file, 'wb') as f:
-            for chunk in tar_raw:
-                f.write(chunk)
+        temp_file = str(file) + '.temp'
+
+        logger.debug('writing to tar file {}'.format(file))
+        try:
+            with open(temp_file, 'wb') as f:
+                for chunk in tar_raw:
+                    f.write(chunk)
+        except:
+            # the dump is likely incomplete, so delete the temporary file
+            Path(temp_file).unlink(missing_ok=True)
+
+            # raise the exception so that it can be handled elsewhere
+            raise
+        else:
+            # dump completed, so move the temp file to the final location
+            shutil.move(temp_file, file)
 
         logger.debug('deleting dump inside the container')
         self._run("rm /root/tmp.sql")
 
         logger.info('dump completed')
-        
+
     def load(self, file: str):
         """Loads the database conten as 'tar' from the given file."""
         logger.info('loading database from {}'.format(file))
 
         tarstream = io.BytesIO()
-        logger.debug('opening tar file {}'.format(file))        
+        logger.debug('opening tar file {}'.format(file))
         with open(file, 'rb') as f:
             tarstream.write(f.read())
         tarstream.seek(0)
-        
+
         logger.debug('inserting load to container')
         self._container.put_archive('/root/', tarstream)
 
