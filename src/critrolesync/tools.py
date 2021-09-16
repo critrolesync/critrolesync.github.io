@@ -25,9 +25,9 @@ def str2sec(string):
 def sec2str(seconds, format=None):
     if seconds < 0:
         raise ValueError('seconds must be nonnegative: ' + str(seconds))
+    seconds = round(seconds)
     mins, secs = divmod(seconds, 60)
     hours, mins = divmod(mins, 60)
-    secs = round(secs)
     if format == 'youtube':
         string = '%dh%02dm%02ds' % (hours, mins, secs)
     else:
