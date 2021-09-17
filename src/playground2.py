@@ -47,7 +47,7 @@ def slice_audio_file(input_file, output_file, start=None, end=None, mono=False):
 test_dir = Path('testdata')
 test_dir.mkdir(parents=True, exist_ok=True)
 
-# episode_ids = ['C2E20']
+# episode_ids = [f'C2E{i}' for i in range(20, 141)]
 episode_ids = [f'C2E{i}' for i in range(100, 105)]
 
 
@@ -123,26 +123,31 @@ for episode_id in episode_ids:
 
 # fingerprint all YouTube audio slices
 
-database_backup = test_dir / 'db.tar'
+for episode_id in episode_ids:
+    fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
 
-extend_fingerprint_database = True
+    if not fingerprints_file.exists():
+        youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
+        youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
 
-if not database_backup.exists() or extend_fingerprint_database:
-    with Matcher() as m:
-        if database_backup.exists():
-            m.load_fingerprints(database_backup)
-        m.fingerprint_directory(test_dir / 'youtube-slices')
-        m.store_fingerprints(database_backup)
+        # create the containing directory if necessary
+        Path(fingerprints_file).parent.mkdir(parents=True, exist_ok=True)
+
+        with Matcher() as m:
+            m.fingerprint_file(youtube_beginning_file)
+            m.fingerprint_file(youtube_ending_file)
+            m.store_fingerprints(fingerprints_file)
 
 
 
 # match each podcast slice to a YouTube slice and determine timestamps
 
-with Matcher() as m:
-    m.load_fingerprints(database_backup)
+for episode_id in episode_ids:
+    print(episode_id)
 
-    for episode_id in episode_ids:
-        print(episode_id)
+    fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
+    with Matcher() as m:
+        m.load_fingerprints(fingerprints_file)
 
         d = get_episode_data_from_id(episode_id)
         ts = np.rec.fromrecords(d['timestamps'], names=d['timestamps_columns'])
@@ -175,14 +180,23 @@ with Matcher() as m:
         podcast_beginning_start = '00:05:00'
         podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_duration)
 
-        matches = m.match(podcast_beginning_file)
-        assert matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_beginning_file.stem})'
-        podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + matches[0].offset))
-        podcast_beginning_confidence = matches[0].confidence
-        logger.info(f'    Podcast "{ts.comment[0]}" at {podcast_beginning_timestamp}')
-        logger.info('        All matches:')
-        for mm in matches:
-            logger.info(f'            {mm}')
+        try:
+            matches = m.match(podcast_beginning_file)
+            assert matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_beginning_file.stem})'
+            podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + matches[0].offset))
+            podcast_beginning_confidence = matches[0].confidence
+            logger.info(f'    Podcast "{ts.comment[0]}" at {podcast_beginning_timestamp}')
+            logger.info('        All matches:')
+            for mm in matches:
+                logger.info(f'            {mm}')
+        except ValueError as e:
+            if e.args[0].startswith('seconds must be nonnegative'):
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp.')
+                print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
+                print()
+                continue
+            else:
+                raise
 
 
 
@@ -192,14 +206,23 @@ with Matcher() as m:
         podcast_ending_start = sec2str(get_duration(filename=podcast_file) - 120)
         podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_duration)
 
-        matches = m.match(podcast_ending_file)
-        assert matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
-        podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) + youtube_ending_duration - matches[0].offset)
-        podcast_ending_confidence = matches[0].confidence
-        logger.info(f'    Podcast "{ts.comment[-1]}" at {podcast_ending_timestamp}')
-        logger.info('        All matches:')
-        for mm in matches:
-            logger.info(f'            {mm}')
+        try:
+            matches = m.match(podcast_ending_file)
+            assert matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
+            podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) + youtube_ending_duration - matches[0].offset)
+            podcast_ending_confidence = matches[0].confidence
+            logger.info(f'    Podcast "{ts.comment[-1]}" at {podcast_ending_timestamp}')
+            logger.info('        All matches:')
+            for mm in matches:
+                logger.info(f'            {mm}')
+        except ValueError as e:
+            if e.args[0].startswith('seconds must be nonnegative'):
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast ending timestamp.')
+                print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
+                print()
+                continue
+            else:
+                raise
 
 
 
@@ -225,5 +248,5 @@ with Matcher() as m:
         data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts_new.tolist()
         data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''  # clear date_verified
 
-    # write changes to data.json
-    write_data(data)
+# write changes to data.json
+write_data(data)
