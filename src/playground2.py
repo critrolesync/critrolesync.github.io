@@ -150,7 +150,7 @@ for episode_id in episode_ids:
         m.load_fingerprints(fingerprints_file)
 
         d = get_episode_data_from_id(episode_id)
-        ts = np.rec.fromrecords(d['timestamps'], names=d['timestamps_columns'])
+        ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['O']*len(d['timestamps_columns']))
 
         if len(ts) != 4:
             print(f'Skipping {episode_id}, which does not have the typical number of pairs of timestamps (expected 4, found {len(ts)}).')
@@ -234,7 +234,13 @@ for episode_id in episode_ids:
 
         ts_new = ts.copy()
         ts_new.podcast = podcast_timestamps
-        diff = np.array(list(map(str2sec, ts_new.podcast))) - np.array(list(map(str2sec, ts.podcast)))
+        try:
+            diff = np.array(list(map(str2sec, ts_new.podcast))) - np.array(list(map(str2sec, ts.podcast)))
+        except ValueError as e:
+            if e.args[0].startswith('string must have the form [hh:]mm:ss'):
+                diff = np.full(4, np.nan)
+            else:
+                raise
         print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
         print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', podcast_beginning_confidence)
         print(ts_new[1], '\t', f'{diff[1]:+4g}')
