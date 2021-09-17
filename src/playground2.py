@@ -131,7 +131,7 @@ if not database_backup.exists() or extend_fingerprint_database:
     with Matcher() as m:
         if database_backup.exists():
             m.load_fingerprints(database_backup)
-        m.generate_fingerprints(test_dir / 'youtube-slices')
+        m.fingerprint_directory(test_dir / 'youtube-slices')
         m.store_fingerprints(database_backup)
 
 

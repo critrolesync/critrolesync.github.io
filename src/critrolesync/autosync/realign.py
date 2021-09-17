@@ -90,7 +90,7 @@ def fingerprint(file:str, prebreak_start:int, postbreak_start:int, fingerprint_l
         logger.debug('fingerprinting')
         root, _ = path.splitext(file)
         with Matcher() as m:
-            m.generate_fingerprints(temp_dir)
+            m.fingerprint_directory(temp_dir)
             m.store_fingerprints(root + '.tar')
 
     logger.info('fingerprints saved at {}'.format(root + '.tar'))

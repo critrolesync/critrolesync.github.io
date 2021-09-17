@@ -1,5 +1,6 @@
 import logging, os, collections
 from dejavu import Dejavu
+import dejavu.logic.decoder as decoder
 from dejavu.logic.recognizer.file_recognizer import FileRecognizer
 from .database import Database
 
@@ -43,9 +44,30 @@ class Matcher:
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.close()
 
-    def generate_fingerprints(self, directory: str):
+    def fingerprint_directory(self, directory: str):
         logger.info('fingerprinting {0} with {1} thread(s)'.format(directory, CPU_COUNT))
         self._dejavu.fingerprint_directory(directory, FORMATS, CPU_COUNT)
+
+    def fingerprint_file(self, file_path: str):
+        logger.info('fingerprinting {0}'.format(file_path))
+
+        # self._dejavu.fingerprint_file(file)
+
+        # the version of fingerprint_file contained in dejavu is bugged, so
+        # it is reimplemented here
+
+        song_name = decoder.get_audio_name_from_path(file_path)
+        song_hash = decoder.unique_hash(file_path)
+        # don't refingerprint already fingerprinted files
+        if song_hash in self._dejavu.songhashes_set:
+            logger.info(f"{song_name} already fingerprinted, skipping")
+        else:
+            song_name, hashes, file_hash = Dejavu._fingerprint_worker((file_path, self._dejavu.limit))
+            sid = self._dejavu.db.insert_song(song_name, file_hash, len(hashes))
+
+            self._dejavu.db.insert_hashes(sid, hashes)
+            self._dejavu.db.set_song_fingerprinted(sid)
+            self._dejavu._Dejavu__load_fingerprinted_audio_hashes()
 
     def load_fingerprints(self, file:str):
         self._db.load(file)
