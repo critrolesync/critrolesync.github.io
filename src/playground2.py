@@ -209,18 +209,20 @@ with Matcher() as m:
         podcast_timestamps[2] = sec2str(str2sec(podcast_ending_timestamp) - segment_2_duration)
         podcast_timestamps[3] = podcast_ending_timestamp
 
-        ts.podcast = podcast_timestamps
-        print(d['timestamps_columns'], '\t', 'confidence')
-        print(ts[0], '\t', podcast_beginning_confidence)
-        print(ts[1])
-        print(ts[2])
-        print(ts[3], '\t', podcast_ending_confidence)
+        ts_new = ts.copy()
+        ts_new.podcast = podcast_timestamps
+        diff = np.array(list(map(str2sec, ts_new.podcast))) - np.array(list(map(str2sec, ts.podcast)))
+        print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
+        print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', podcast_beginning_confidence)
+        print(ts_new[1], '\t', f'{diff[1]:+4g}')
+        print(ts_new[2], '\t', f'{diff[2]:+4g}')
+        print(ts_new[3], '\t', f'{diff[3]:+4g}', '\t', podcast_ending_confidence)
         print()
 
         # update data
         c, e = episode_id.strip('C').split('E')
         assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
-        data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts.tolist()
+        data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts_new.tolist()
         data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''  # clear date_verified
 
     # write changes to data.json
