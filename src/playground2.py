@@ -147,6 +147,13 @@ with Matcher() as m:
         d = get_episode_data_from_id(episode_id)
         ts = np.rec.fromrecords(d['timestamps'], names=d['timestamps_columns'])
 
+        if len(ts) != 4:
+            print(f'Skipping {episode_id}, which does not have the typical number of pairs of timestamps (expected 4, found {len(ts)}).')
+            print('This may mean the episode contains more than one discontinuity (normally just the intermission).')
+            print('It will need to be synced manually.')
+            print()
+            continue
+
         podcast_timestamps = np.empty(4, dtype='object')
 
 
