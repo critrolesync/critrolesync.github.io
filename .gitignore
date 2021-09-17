@@ -1,6 +1,7 @@
 data-old-g&s-feed.json
 *.m4a
 *.mp3
+*.tar
 *.txt
 *.part
 __pycache__
