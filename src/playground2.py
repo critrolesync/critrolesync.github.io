@@ -3,7 +3,7 @@ import numpy as np
 import ffmpeg
 from librosa import get_duration
 import logging
-from critrolesync import sec2str, str2sec, get_episode_data_from_id, \
+from critrolesync import data, write_data, sec2str, str2sec, get_episode_data_from_id, \
                          download_youtube_audio, download_podcast_audio
 from critrolesync.autosync import Matcher
 
@@ -204,10 +204,17 @@ with Matcher() as m:
 
         ts.podcast = podcast_timestamps
         print(d['timestamps_columns'], '\t', 'confidence')
-        # for row in ts:
-        #     print(row)
         print(ts[0], '\t', podcast_beginning_confidence)
         print(ts[1])
         print(ts[2])
         print(ts[3], '\t', podcast_ending_confidence)
         print()
+
+        # update data
+        c, e = episode_id.strip('C').split('E')
+        assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
+        data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts.tolist()
+        data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''  # clear date_verified
+
+    # write changes to data.json
+    write_data(data)
