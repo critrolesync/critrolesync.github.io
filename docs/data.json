@@ -4208,6 +4208,23 @@
                     ["4:45:26", "4:25:23", "IITY?"]
                 ],
                 "date_verified": "2021-09-17"
+            },
+            {
+                "id": "C2E141",
+                "title": "Fond Farewells",
+                "youtube_id": "lEZ5UPPtaHA",
+                "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "MWIyMzg5MjUtM2IyNS00MzczLWI0YzQtODdmYzA5M2UyNzk2",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:24", "hello"],
+                    ["3:22:42", "3:23:06", "break start"],
+                    ["3:45:41", "3:25:22", "break end"],
+                    ["7:02:35", "6:42:16", "IITY?"]
+                ],
+                "date_verified": "2021-09-17"
             }
         ]
     },
