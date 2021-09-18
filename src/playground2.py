@@ -69,10 +69,15 @@ for episode_id in episode_ids:
 
 # slice beginning and ending for all YouTube audio files
 
-youtube_beginning_duration = 6 * 60  # sec
-youtube_ending_duration = 2 * 60  # sec
-podcast_beginning_duration = 10  # sec
-podcast_ending_duration = 10  # sec
+youtube_beginning_slice_duration = 6 * 60  # sec
+youtube_ending_slice_duration = 2 * 60  # sec
+youtube_beginning_slice_offset_from_first_timestamp = 0  # sec
+youtube_ending_slice_offset_from_last_timestamp = -youtube_ending_slice_duration  # sec
+
+podcast_beginning_slice_duration = 10  # sec
+podcast_ending_slice_duration = 10  # sec
+podcast_beginning_slice_offset_from_start = 5 * 60  # sec
+podcast_ending_slice_offset_from_end = 120  # sec
 
 overwrite_slices = False
 
@@ -89,11 +94,13 @@ for episode_id in episode_ids:
     youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
     podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
 
-    youtube_beginning_start = ts.youtube[0]
-    youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_duration)
+    youtube_beginning_start = sec2str(str2sec(ts.youtube[0]) + youtube_beginning_slice_offset_from_first_timestamp)
+    youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_slice_duration)
+    logger.info(f'YouTube beginning slice: {youtube_beginning_start} - {youtube_beginning_stop}')
 
-    podcast_beginning_start = '00:05:00'
-    podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_duration)
+    podcast_beginning_start = sec2str(podcast_beginning_slice_offset_from_start)
+    podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_slice_duration)
+    logger.info(f'podcast beginning slice: {podcast_beginning_start} - {podcast_beginning_stop}')
 
     if not youtube_beginning_file.exists() or overwrite_slices:
         logger.info(f'slicing YouTube beginning for {episode_id}')
@@ -106,11 +113,13 @@ for episode_id in episode_ids:
     youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
     podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
 
-    youtube_ending_stop = ts.youtube[-1]
-    youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
+    youtube_ending_start = sec2str(str2sec(ts.youtube[-1]) + youtube_ending_slice_offset_from_last_timestamp)
+    youtube_ending_stop = sec2str(str2sec(youtube_ending_start) + youtube_ending_slice_duration)
+    logger.info(f'YouTube ending slice:    {youtube_ending_start} - {youtube_ending_stop}')
 
-    podcast_ending_start = sec2str(get_duration(filename=podcast_file) - 120)
-    podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_duration)
+    podcast_ending_start = sec2str(get_duration(filename=podcast_file) - podcast_ending_slice_offset_from_end)
+    podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_slice_duration)
+    logger.info(f'podcast ending slice:    {podcast_ending_start} - {podcast_ending_stop}')
 
     if not youtube_ending_file.exists() or overwrite_slices:
         logger.info(f'slicing YouTube ending for {episode_id}')
@@ -174,11 +183,11 @@ for episode_id in episode_ids:
 
 
 
-        youtube_beginning_start = ts.youtube[0]
-        youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_duration)
+        youtube_beginning_start = sec2str(str2sec(ts.youtube[0]) + youtube_beginning_slice_offset_from_first_timestamp)
+        youtube_beginning_stop = sec2str(str2sec(youtube_beginning_start) + youtube_beginning_slice_duration)
 
-        podcast_beginning_start = '00:05:00'
-        podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_duration)
+        podcast_beginning_start = sec2str(podcast_beginning_slice_offset_from_start)
+        podcast_beginning_stop = sec2str(str2sec(podcast_beginning_start) + podcast_beginning_slice_duration)
 
         try:
             matches = m.match(podcast_beginning_file)
@@ -191,7 +200,7 @@ for episode_id in episode_ids:
                 logger.info(f'            {mm}')
         except ValueError as e:
             if e.args[0].startswith('seconds must be nonnegative'):
-                print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp.')
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp (-{sec2str(-(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + matches[0].offset)))}).')
                 print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
                 print()
                 continue
@@ -200,16 +209,16 @@ for episode_id in episode_ids:
 
 
 
-        youtube_ending_stop = ts.youtube[-1]
-        youtube_ending_start = sec2str(str2sec(youtube_ending_stop) - youtube_ending_duration)
+        youtube_ending_start = sec2str(str2sec(ts.youtube[-1]) + youtube_ending_slice_offset_from_last_timestamp)
+        youtube_ending_stop = sec2str(str2sec(youtube_ending_start) + youtube_ending_slice_duration)
 
-        podcast_ending_start = sec2str(get_duration(filename=podcast_file) - 120)
-        podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_duration)
+        podcast_ending_start = sec2str(get_duration(filename=podcast_file) - podcast_ending_slice_offset_from_end)
+        podcast_ending_stop = sec2str(str2sec(podcast_ending_start) + podcast_ending_slice_duration)
 
         try:
             matches = m.match(podcast_ending_file)
             assert matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
-            podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) + youtube_ending_duration - matches[0].offset)
+            podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) + youtube_ending_slice_duration - matches[0].offset)
             podcast_ending_confidence = matches[0].confidence
             logger.info(f'    Podcast "{ts.comment[-1]}" at {podcast_ending_timestamp}')
             logger.info('        All matches:')
@@ -217,7 +226,7 @@ for episode_id in episode_ids:
                 logger.info(f'            {mm}')
         except ValueError as e:
             if e.args[0].startswith('seconds must be nonnegative'):
-                print(f'Skipping {episode_id}, which was determined to have a negative podcast ending timestamp.')
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast ending timestamp (-{sec2str(-(str2sec(podcast_ending_start) + youtube_ending_slice_duration - matches[0].offset))}).')
                 print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
                 print()
                 continue
