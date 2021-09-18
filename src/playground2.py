@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 # logging.basicConfig(level=logging.INFO)
 
 
-def slice_audio_file(input_file, output_file, start=None, end=None, mono=False):
+def slice_audio_file(input_file, output_file, start=None, end=None, mono=False, rate=44100):
     input_kwargs = {}
     output_kwargs = {}
 
@@ -25,6 +25,10 @@ def slice_audio_file(input_file, output_file, start=None, end=None, mono=False):
     else:
         # skip re-encoding, very fast but incompatible with mono
         output_kwargs['c'] = 'copy'
+
+    if rate:
+        # explicitly set the sampling rate
+        output_kwargs['ar'] = rate
 
     # create the containing directory if necessary
     Path(output_file).parent.mkdir(parents=True, exist_ok=True)
