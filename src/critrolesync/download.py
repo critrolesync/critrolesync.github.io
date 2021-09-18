@@ -50,16 +50,17 @@ def download_youtube_audio(episode_id, output_file=None):
         # return the output file path
         return actual_output_file
 
-def download_podcast_audio(episode_title, output_file=None):
+def download_podcast_audio(episode_id, output_file=None):
 
     # get the podcast audio file URL from the feed archive
+    episode_title = episode_id + ' '  # close enough for C2
     ep = get_podcast_feed_from_title(episode_title)
     url = ep['URL']
 
     # determine where to permanently save the file after download
     if output_file is None:
         ext = ep['File'].split('.')[-1]
-        output_file = f'{episode_title} Podcast.{ext}'
+        output_file = f'{episode_id} Podcast.{ext}'
 
     _download_file(url, output_file)
 
