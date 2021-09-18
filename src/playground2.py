@@ -111,13 +111,6 @@ for episode_id in episode_ids:
     d = get_episode_data_from_id(episode_id)
     ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['O']*len(d['timestamps_columns']))
 
-    slice_times = get_slice_times(episode_id, podcast_file)
-    youtube_beginning_start, youtube_beginning_stop = slice_times['youtube']['beginning']
-    podcast_beginning_start, podcast_beginning_stop = slice_times['podcast']['beginning']
-    youtube_ending_start,    youtube_ending_stop    = slice_times['youtube']['ending']
-    podcast_ending_start,    podcast_ending_stop    = slice_times['podcast']['ending']
-    logger.info(f'slice times for {episode_id}: {slice_times}')
-
 
     # download YouTube and podcast audio files
     if not youtube_file.exists() or overwrite_youtube_download:
@@ -127,7 +120,14 @@ for episode_id in episode_ids:
         logger.info(f'downloading podcast audio for {episode_id}')
         download_podcast_audio(episode_id, podcast_file)
 
+
     # slice beginning and ending of YouTube and podcast audio files
+    slice_times = get_slice_times(episode_id, podcast_file)
+    youtube_beginning_start, youtube_beginning_stop = slice_times['youtube']['beginning']
+    podcast_beginning_start, podcast_beginning_stop = slice_times['podcast']['beginning']
+    youtube_ending_start,    youtube_ending_stop    = slice_times['youtube']['ending']
+    podcast_ending_start,    podcast_ending_stop    = slice_times['podcast']['ending']
+    logger.info(f'slice times for {episode_id}: {slice_times}')
     if not youtube_beginning_file.exists() or overwrite_slices:
         logger.info(f'slicing YouTube beginning for {episode_id}')
         slice_audio_file(youtube_file, youtube_beginning_file, *slice_times['youtube']['beginning'], mono=True)
