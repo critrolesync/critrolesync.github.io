@@ -177,7 +177,7 @@ for episode_id in episode_ids:
 
 
         # calculate the first podcast timestamp
-        podcast_beginning_timestamp = str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + beginning_matches[0].offset)
+        podcast_beginning_timestamp = round(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + beginning_matches[0].offset))
         if podcast_beginning_timestamp >= 0:
             podcast_beginning_timestamp = sec2str(podcast_beginning_timestamp)
         else:
@@ -187,7 +187,7 @@ for episode_id in episode_ids:
             continue
 
         # calculate the last podcast timestamp
-        podcast_ending_timestamp = str2sec(podcast_ending_start) + (youtube_ending_slice_duration - ending_matches[0].offset)
+        podcast_ending_timestamp = round(str2sec(podcast_ending_start) + (youtube_ending_slice_duration - ending_matches[0].offset))
         if podcast_ending_timestamp >= 0:
             podcast_ending_timestamp = sec2str(podcast_ending_timestamp)
         else:
