@@ -169,11 +169,11 @@ for episode_id in episode_ids:
 
         # match podcast beginning slice to YouTube beginning slice
         beginning_matches = m.match(podcast_beginning_file)
-        assert beginning_matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({beginning_matches[0].name}) is not the expected file ({youtube_beginning_file.stem})'
+        assert beginning_matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({beginning_matches[0].name}) is not the expected file ({youtube_beginning_file.stem}): {beginning_matches}'
 
         # match podcast ending slice to YouTube ending slice
         ending_matches = m.match(podcast_ending_file)
-        assert ending_matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({ending_matches[0].name}) is not the expected file ({youtube_ending_file.stem})'
+        assert ending_matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({ending_matches[0].name}) is not the expected file ({youtube_ending_file.stem}): {ending_matches}'
 
 
         # calculate the first podcast timestamp
