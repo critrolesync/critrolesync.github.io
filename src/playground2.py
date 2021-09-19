@@ -178,8 +178,9 @@ for episode_id in episode_ids:
 
             # clear date_verified
             c, e = episode_id.strip('C').split('E')
-            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
-            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
+            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
+            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
 
             continue
 
@@ -202,8 +203,9 @@ for episode_id in episode_ids:
 
             # clear date_verified
             c, e = episode_id.strip('C').split('E')
-            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
-            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
+            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
+            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
 
             continue
 
@@ -217,8 +219,9 @@ for episode_id in episode_ids:
 
             # clear date_verified
             c, e = episode_id.strip('C').split('E')
-            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
-            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
+            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
+            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
 
             continue
 
@@ -248,9 +251,10 @@ for episode_id in episode_ids:
 
         # update data object with new timestamps and clear date_verified
         c, e = episode_id.strip('C').split('E')
-        assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
-        data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts_new.tolist()
-        data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+        ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
+        assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
+        data[int(c)-1]['episodes'][ep_i]['timestamps'] = ts_new.tolist()
+        data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
 
 
 # write changes to data.json
