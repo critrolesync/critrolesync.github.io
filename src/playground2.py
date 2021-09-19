@@ -203,7 +203,7 @@ for episode_id in episode_ids:
 
 
         # calculate the first podcast timestamp
-        podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) - (str2sec(youtube_beginning_start) + beginning_matches[0].offset))
+        podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) - beginning_matches[0].offset)
         if podcast_beginning_timestamp[0] == '-':
             print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp}).')
             print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
