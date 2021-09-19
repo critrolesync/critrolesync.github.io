@@ -1,9 +1,12 @@
 data-old-g&s-feed.json
 *.m4a
 *.mp3
+*.opus
 *.tar
 *.txt
 *.part
+*.ini
+.vagrant
 __pycache__
 
 !requirements.txt
