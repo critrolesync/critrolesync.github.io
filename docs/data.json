@@ -1410,15 +1410,19 @@
                 "overcast_id": "eIiv_3VuU",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:08:34", "0:00:26", "recap"],
-                    ["2:06:45", "1:58:20", "break start"],
-                    ["2:25:03", "1:58:30", "break end"],
-                    ["3:58:13", "3:31:22", "end"]
+                    ["0:08:34", "0:00:25", "recap"],
+                    ["2:06:45", "1:58:19", "break start"],
+                    ["2:25:07", "1:58:32", "break end"],
+                    ["2:32:48", "2:06:12", "stutter 1 start"],
+                    ["2:32:50", "2:06:13", "stutter 1 stop"],
+                    ["3:37:14", "3:10:27", "stutter 2 start"],
+                    ["3:37:17", "3:10:28", "stutter 2 stop"],
+                    ["3:58:13", "3:31:21", "end"]
                 ],
                 "timestampsBitrate": 128,
                 "CBR": 128,
                 "ABR": 127.7,
-                "date_verified": null
+                "date_verified": "2021-09-19"
             },
             {
                 "id": "C1E96",
@@ -1611,14 +1615,16 @@
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:39", "0:00:25", "recap"],
-                    ["1:40:21", "1:31:55", "break start"],
+                    ["1:40:21", "1:31:54", "break start"],
                     ["2:01:40", "1:32:05", "break end"],
+                    ["3:03:07", "2:33:23", "video catch up start"],
+                    ["3:03:18", "2:33:24", "video catch up end"],
                     ["4:00:50", "3:30:48", "end"]
                 ],
                 "timestampsBitrate": 128,
                 "CBR": 128,
                 "ABR": 127.7,
-                "date_verified": null
+                "date_verified": "2021-09-19"
             },
             {
                 "id": "C1E106",
@@ -1710,15 +1716,17 @@
                 "overcast_id": "eIitvDJnU",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
-                    ["0:10:18", "0:00:27", "recap"],
+                    ["0:10:18", "0:00:26", "recap"],
+                    ["1:58:48", "1:48:42", "random interruption start"],
+                    ["1:58:49", "1:48:53", "random interruption end"],
                     ["2:29:33", "2:19:33", "break start"],
-                    ["2:29:35", "2:19:35", "break end"],
+                    ["2:29:35", "2:19:34", "break end"],
                     ["3:36:47", "3:26:37", "end"]
                 ],
                 "timestampsBitrate": 128,
                 "CBR": 128,
                 "ABR": 127.7,
-                "date_verified": null
+                "date_verified": "2021-09-19"
             },
             {
                 "id": "C1E111",
