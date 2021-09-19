@@ -61,7 +61,13 @@ def download_youtube_audio(episode_id, output_dir=None):
 def download_podcast_audio(episode_id, output_dir=None):
 
     # get the podcast audio file URL from the feed archive
-    episode_title = episode_id + ' '  # close enough for C2
+    c, e = episode_id.strip('C').split('E')
+    if c == '1':
+        episode_title = f'Vox Machina Ep. {e} '  # include trailing space to distinguish 1, 10, 100, etc.
+    elif c == '2':
+        episode_title = f'{episode_id} '         # include trailing space to distinguish 1, 10, 100, etc.
+    else:
+        raise NotImplementedError
     ep = get_podcast_feed_from_title(episode_title)
     url = ep['URL']
 
