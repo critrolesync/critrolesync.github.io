@@ -101,8 +101,8 @@ episode_ids = [f'C2E{i}' for i in range(100, 105)]
 for episode_id in episode_ids:
     print(episode_id)
 
-    youtube_file = test_dir / 'original' / f'{episode_id} YouTube.m4a'
-    podcast_file = test_dir / 'original' / f'{episode_id} Podcast.m4a'
+    youtube_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
+    podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
 
     youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
     podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
@@ -117,12 +117,12 @@ for episode_id in episode_ids:
 
 
     # download YouTube and podcast audio files
-    if not youtube_file.exists() or overwrite_youtube_download:
+    if youtube_file is None or overwrite_youtube_download:
         logger.info(f'downloading YouTube audio for {episode_id}')
-        download_youtube_audio(episode_id, youtube_file)
-    if not podcast_file.exists() or overwrite_podcast_download:
+        youtube_file = download_youtube_audio(episode_id, test_dir / 'original')
+    if podcast_file is None or overwrite_podcast_download:
         logger.info(f'downloading podcast audio for {episode_id}')
-        download_podcast_audio(episode_id, podcast_file)
+        podcast_file = download_podcast_audio(episode_id, test_dir / 'original')
 
 
     # slice beginning and ending of YouTube and podcast audio files
