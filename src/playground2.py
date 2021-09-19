@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import numpy as np
 import ffmpeg
 from librosa import get_duration
@@ -51,6 +52,7 @@ def slice_audio_file(input_file, output_file, start=None, end=None, mono=False, 
 youtube_slice_times = {
     # these times are relative to the first ("beginning")
     # or last ("ending") YouTube timestamp
+    # >>> NOTE: if these change, fingerprints must be regenerated! <<<
     'beginning': ('0:00:00', '0:06:00'),
     'ending': ('-0:02:00', '-0:00:00'),
 }
@@ -62,19 +64,8 @@ default_podcast_slice_times = {
     'ending': ('-0:02:00', '-0:01:50'),
 }
 
-custom_podcast_slice_times = {
-    # these times are relative to the start ("beginning")
-    # or end ("ending") of the podcast audio file
-    'C2E1': {
-        'ending': ('-0:08:30', '-0:08:20'),
-    },
-    'C2E2': {
-        'ending': ('-0:11:30', '-0:11:20'),
-    },
-    'C2E3': {
-        'ending': ('-0:11:30', '-0:11:20'),
-    },
-}
+with open('custom-podcast-slice-times.json') as _fd:
+    custom_podcast_slice_times = json.load(_fd)
 
 def get_absolute_slice_times(episode_id, podcast_file):
     d = get_episode_data_from_id(episode_id)
@@ -115,7 +106,7 @@ test_dir = Path('testdata')
 test_dir.mkdir(parents=True, exist_ok=True)
 
 # episode_ids = [f'C2E{i}' for i in range(20, 141)]
-episode_ids = [f'C2E{i}' for i in range(100, 105)]
+episode_ids = [f'C2E{i}' for i in range(1, 20)]
 
 
 for episode_id in episode_ids:
