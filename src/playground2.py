@@ -184,6 +184,12 @@ for episode_id in episode_ids:
             print('This may mean the episode contains more than one discontinuity (normally just the intermission).')
             print('It will need to be synced manually.')
             print()
+
+            # clear date_verified
+            c, e = episode_id.strip('C').split('E')
+            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
+            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+
             continue
 
 
@@ -202,6 +208,12 @@ for episode_id in episode_ids:
             print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp}).')
             print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
             print()
+
+            # clear date_verified
+            c, e = episode_id.strip('C').split('E')
+            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
+            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+
             continue
 
         # calculate the last podcast timestamp
@@ -211,6 +223,12 @@ for episode_id in episode_ids:
             print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_ending_timestamp}).')
             print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
             print()
+
+            # clear date_verified
+            c, e = episode_id.strip('C').split('E')
+            assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
+            data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
+
             continue
 
         # calculate other podcast timestamps
@@ -237,11 +255,11 @@ for episode_id in episode_ids:
         print()
 
 
-        # update data object with new timestamps
+        # update data object with new timestamps and clear date_verified
         c, e = episode_id.strip('C').split('E')
         assert data[int(c)-1]['episodes'][int(e)-1]['id'] == episode_id
         data[int(c)-1]['episodes'][int(e)-1]['timestamps'] = ts_new.tolist()
-        data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''  # clear date_verified
+        data[int(c)-1]['episodes'][int(e)-1]['date_verified'] = ''
 
 
 # write changes to data.json
