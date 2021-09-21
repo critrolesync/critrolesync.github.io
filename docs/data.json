@@ -4300,6 +4300,147 @@
         ]
     },
     {
+        "series": "Exandria Unlimited",
+        "episodes": [
+            {
+                "id": "EXU1",
+                "title": "The Nameless Ones",
+                "youtube_id": "-ijPD6yNdMs",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "NjUyZTg2ZjktM2ZhMS00NDFkLTg3NmYtZWU4Y2ExYWEzZGUx",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:02:21", "hello"],
+                    ["1:38:36", "1:40:57", "break start"],
+                    ["1:53:42", "1:43:08", "break end"],
+                    ["4:08:59", "3:58:25", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU2",
+                "title": "The Oh No Plateau",
+                "youtube_id": "Hjucx2vz5Mg",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "NjYzOTUxNTItYmU2ZC00YmMzLTlhMjUtNWJkODk3N2IzZmE1",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:31", "hello"],
+                    ["1:33:25", "1:33:56", "break start"],
+                    ["1:48:30", "1:37:28", "break end"],
+                    ["3:57:22", "3:46:20", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU3",
+                "title": "A Glorious Return",
+                "youtube_id": "YDHxT4UT8NI",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "ZDFhMzgzNWUtYTcwNy00OTYzLWFhYTctYzFhZDNlNmQ1ZWY4",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:37", "hello"],
+                    ["2:02:16", "2:02:53", "break start"],
+                    ["2:17:20", "2:04:58", "break end"],
+                    ["3:17:18", "3:04:56", "IITY?"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU4",
+                "title": "By the Road",
+                "youtube_id": "qAhw51d3cGw",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "NzE3NDZhODYtODhhZi00M2NlLWExYTYtNTM0MDQ0ZTIxNTUw",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:01:32", "hello"],
+                    ["1:59:23", "2:00:55", "break start"],
+                    ["2:14:26", "2:03:03", "break end"],
+                    ["4:25:12", "4:13:49", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU5",
+                "title": "A Test of Worth",
+                "youtube_id": "Bj0Jd5mzLsI",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "ZDViN2ExOWItYTE5NC00N2U0LTk5NTQtZGZkNTJlYTk1YjA2",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:01:43", "hello"],
+                    ["1:39:58", "1:41:41", "break start"],
+                    ["1:55:00", "1:43:41", "break end"],
+                    ["3:55:10", "3:43:51", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU6",
+                "title": "The Gift Among the Green",
+                "youtube_id": "sLxUyJWXA0w",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "ZWNhYTk5NDgtYzk5ZS00Y2VlLTkyMDYtZDQwOWE2ZDMzMmUy",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:37", "hello"],
+                    ["1:37:33", "1:38:10", "break start"],
+                    ["1:52:35", "1:40:13", "break end"],
+                    ["4:44:52", "4:32:30", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU7",
+                "title": "Beyond the Heart City",
+                "youtube_id": "LIrsjzz9TAQ",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "ZmU5Njc4MDEtOTYzMC00ZDUzLTkwZWItODAzODg3MGRmYmE1",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:37", "hello"],
+                    ["2:11:12", "2:11:49", "break start"],
+                    ["2:26:19", "2:15:09", "break end"],
+                    ["4:02:09", "3:50:59", "IITY?"]
+                ],
+                "date_verified": "2021-09-21"
+            },
+            {
+                "id": "EXU8",
+                "title": "What Comes Next",
+                "youtube_id": "73DU7qK-_xs",
+                "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "MTNlODk2ZTItYTA5NC00ODMzLWI3ZWEtYmYyYzJkNzY4NWI0",
+                "overcast_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:31", "hello"],
+                    ["1:39:08", "1:39:39", "break start"],
+                    ["1:54:11", "1:41:41", "break end"],
+                    ["3:32:07", "3:19:37", "end"]
+                ],
+                "date_verified": "2021-09-21"
+            }
+        ]
+    },
+    {
         "series": "One-Shots",
         "episodes": []
     }
