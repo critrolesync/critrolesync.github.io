@@ -153,10 +153,7 @@ for episode_id in episode_ids:
         bitrate_conversion_factor = ABR/timestampsBitrate
         # # for converting stored timestamps to ABR...
         # bitrate_conversion_factor = 1
-        # c, e = episode_id.strip('C').split('E')
-        # ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
-        # assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
-        # data[int(c)-1]['episodes'][ep_i]['timestampsBitrate'] = ABR
+        # d['timestampsBitrate'] = ABR
 
 
     # slice beginning and ending of YouTube and podcast audio files
@@ -200,10 +197,7 @@ for episode_id in episode_ids:
             print()
 
             # clear date_verified
-            c, e = episode_id.strip('C').split('E')
-            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
-            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
-            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
+            d['date_verified'] = ''
 
             continue
 
@@ -225,10 +219,7 @@ for episode_id in episode_ids:
             print()
 
             # clear date_verified
-            c, e = episode_id.strip('C').split('E')
-            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
-            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
-            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
+            d['date_verified'] = ''
 
             continue
 
@@ -241,10 +232,7 @@ for episode_id in episode_ids:
             print()
 
             # clear date_verified
-            c, e = episode_id.strip('C').split('E')
-            ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
-            assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
-            data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
+            d['date_verified'] = ''
 
             continue
 
@@ -275,11 +263,8 @@ for episode_id in episode_ids:
 
 
         # update data object with new timestamps and clear date_verified
-        c, e = episode_id.strip('C').split('E')
-        ep_i = [i for i,d in enumerate(data[int(c)-1]['episodes']) if d['id'] == episode_id][0]
-        assert data[int(c)-1]['episodes'][ep_i]['id'] == episode_id
-        data[int(c)-1]['episodes'][ep_i]['timestamps'] = ts_new.tolist()
-        data[int(c)-1]['episodes'][ep_i]['date_verified'] = ''
+        d['timestamps'] = ts_new.tolist()
+        d['date_verified'] = ''
 
 
 # write changes to data.json
