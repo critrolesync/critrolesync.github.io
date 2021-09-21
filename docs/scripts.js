@@ -502,6 +502,11 @@ function youtubeUrl(ep, timeObj=null) {
 function transcriptUrl(ep, timeObj=null) {
     // see searchable transcript API: https://kryogenix.org/crsearch/api.html
 
+    if (!ep.id.match(/C(\d+)E(\d+)/)) {
+        // kryogenix.org/crsearch only supports the main campaigns
+        return
+    }
+
     var url, [, c, e, p] = ep.id.match(/C(\d+)E(\d+)(?: \(Part (\d+)\)|)/)
 
     if (p && p > 1) {
