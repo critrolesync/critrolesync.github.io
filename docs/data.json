@@ -191,7 +191,16 @@
                 "google_podcasts_episode": "MTlkODA1YTMtYWIwNy00ZmRiLThiMDMtODYyODI0YjczNTQ5",
                 "overcast_id": "eIitGQQt4",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:19:57", "0:00:24", "recap"],
+                    ["2:03:13", "1:43:25", "break start"],
+                    ["2:14:37", "1:43:37", "break end"],
+                    ["2:58:01", "2:26:55", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-22"
             },
             {
                 "id": "C1E11",
@@ -202,7 +211,16 @@
                 "google_podcasts_episode": "N2I2MDBiYzktNmFmOC00MjE4LWJjNGItODJkY2ZlMWZlMzA1",
                 "overcast_id": "eIivT-fFc",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:10:12", "0:00:22", "recap"],
+                    ["1:37:38", "1:27:36", "break start"],
+                    ["1:49:00", "1:27:48", "break end"],
+                    ["4:35:46", "4:14:11", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-22"
             },
             {
                 "id": "C1E12",
