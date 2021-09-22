@@ -34,10 +34,17 @@ def sec2str(seconds, format=None):
     return string
 
 def get_episode_data_from_id(episode_id):
-    c, e = episode_id.strip('C').split('E')
-    try:
-        return next(filter(lambda ep: ep['id'] == episode_id, data[int(c)-1]['episodes']))
-    except StopIteration:
+    ep = None
+    for series in data:
+        for episode in series['episodes']:
+            if episode['id'] == episode_id:
+                if ep is None:
+                    ep = episode
+                else:
+                    raise ValueError(f'episode id "{episode_id}" is not unique')
+    if ep:
+        return ep
+    else:
         raise ValueError(f'episode with id "{episode_id}" not found')
 
 def convert_time(time, episode_id, source, dest):

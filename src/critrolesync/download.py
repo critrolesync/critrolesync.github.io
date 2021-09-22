@@ -24,10 +24,17 @@ with open(_latest_parsed_criticalrole_feed) as _fd:
     latest_parsed_podcast_feed += json.load(_fd)
 
 def get_podcast_feed_from_title(episode_title):
-    try:
-        return next(filter(lambda ep: ep['Title'].startswith(episode_title), latest_parsed_podcast_feed))
-    except StopIteration:
-        raise ValueError(f'episode with title starting with "{episode_title}" not found')
+    ep = None
+    for episode in latest_parsed_podcast_feed:
+        if episode_title.lower() in episode['Title'].lower():
+            if ep is None:
+                ep = episode
+            else:
+                raise ValueError(f'episode title substring "{episode_title}" is not unique')
+    if ep:
+        return ep
+    else:
+        raise ValueError(f'episode with title containing "{episode_title}" not found')
 
 def download_youtube_audio(episode_id, output_file=None):
 
@@ -53,6 +60,20 @@ def download_youtube_audio(episode_id, output_file=None):
 def download_podcast_audio(episode_title, output_file=None):
 
     # get the podcast audio file URL from the feed archive
+    try:
+        # we try it this way first because there is at least one example (C1E78)
+        # where the title is spelled differently in the feed
+        c, e = episode_id.strip('C').split('E')
+        if c == '1':
+            episode_title = f'Vox Machina Ep. {e} '  # include trailing space to distinguish 1, 10, 100, etc.
+        elif c == '2':
+            episode_title = f'{episode_id} '         # include trailing space to distinguish 1, 10, 100, etc.
+        else:
+            raise NotImplementedError
+    except:
+        # we fall back on the actual title if the episode is not part of the
+        # main campaigns
+        episode_title = get_episode_data_from_id(episode_id)['title']
     ep = get_podcast_feed_from_title(episode_title)
     url = ep['URL']
 
