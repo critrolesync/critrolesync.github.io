@@ -49,7 +49,8 @@ def youtube2podcast(time, episode_id):
 def youtube_url(episode_id, seconds=None):
     ep = get_episode_data_from_id(episode_id)
     if seconds:
-        time_string = sec2str(seconds, format='youtube')
+        time_string = sec2str(seconds)
+        time_string = time_string.replace(':', 'h', 1).replace(':', 'm', 1) + 's'
     else:
         time_string = None
     youtube_id = ep['youtube_id']
