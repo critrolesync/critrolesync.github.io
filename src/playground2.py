@@ -105,7 +105,8 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
 
 overwrite_youtube_download = False
 overwrite_podcast_download = False
-overwrite_slices = False
+overwrite_youtube_slices = False
+overwrite_podcast_slices = False
 overwrite_fingerprints = False
 
 test_dir = Path('testdata')
@@ -163,16 +164,16 @@ for episode_id in episode_ids:
     youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
     podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
     logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
-    if not youtube_beginning_file.exists() or overwrite_slices:
+    if not youtube_beginning_file.exists() or overwrite_youtube_slices:
         logger.info(f'slicing YouTube beginning for {episode_id}')
         slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
-    if not podcast_beginning_file.exists() or overwrite_slices:
+    if not podcast_beginning_file.exists() or overwrite_podcast_slices:
         logger.info(f'slicing podcast beginning for {episode_id}')
         slice_audio_file(podcast_file, podcast_beginning_file, *absolute_slice_times['podcast']['beginning'], mono=True)
-    if not youtube_ending_file.exists() or overwrite_slices:
+    if not youtube_ending_file.exists() or overwrite_youtube_slices:
         logger.info(f'slicing YouTube ending for {episode_id}')
         slice_audio_file(youtube_file, youtube_ending_file, *absolute_slice_times['youtube']['ending'], mono=True)
-    if not podcast_ending_file.exists() or overwrite_slices:
+    if not podcast_ending_file.exists() or overwrite_podcast_slices:
         logger.info(f'slicing podcast ending for {episode_id}')
         slice_audio_file(podcast_file, podcast_ending_file, *absolute_slice_times['podcast']['ending'], mono=True)
 
