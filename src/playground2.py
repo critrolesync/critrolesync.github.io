@@ -4,7 +4,7 @@ import numpy as np
 import ffmpeg
 from librosa import get_duration
 import logging
-from critrolesync import data, write_data, sec2str, str2sec, get_episode_data_from_id, \
+from critrolesync import data, write_data, get_episode_data_from_id, Time, \
                          download_youtube_audio, download_podcast_audio
 from critrolesync.autosync import Matcher
 
@@ -69,36 +69,36 @@ with open('custom-podcast-slice-times.json') as _fd:
 
 def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor=None):
     d = get_episode_data_from_id(episode_id)
-    ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['O']*len(d['timestamps_columns']))
+    ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
     podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
 
     podcast_slice_times = default_podcast_slice_times.copy()
     podcast_slice_times.update(custom_podcast_slice_times.get(episode_id, {}))
 
-    youtube_beginning_start = sec2str(str2sec(ts.youtube[0])  + str2sec(youtube_slice_times['beginning'][0]))
-    youtube_ending_start    = sec2str(str2sec(ts.youtube[-1]) + str2sec(youtube_slice_times['ending'][0]))
-    podcast_beginning_start = sec2str(0                       + str2sec(podcast_slice_times['beginning'][0]))
-    podcast_ending_start    = sec2str(podcast_duration        + str2sec(podcast_slice_times['ending'][0]))
+    youtube_beginning_start = Time(ts.youtube[0])  + Time(youtube_slice_times['beginning'][0])
+    youtube_ending_start    = Time(ts.youtube[-1]) + Time(youtube_slice_times['ending'][0])
+    podcast_beginning_start = 0                    + Time(podcast_slice_times['beginning'][0])
+    podcast_ending_start    = podcast_duration     + Time(podcast_slice_times['ending'][0])
 
-    youtube_beginning_stop  = sec2str(str2sec(ts.youtube[0])  + str2sec(youtube_slice_times['beginning'][1]))
-    youtube_ending_stop     = sec2str(str2sec(ts.youtube[-1]) + str2sec(youtube_slice_times['ending'][1]))
-    podcast_beginning_stop  = sec2str(0                       + str2sec(podcast_slice_times['beginning'][1]))
-    podcast_ending_stop     = sec2str(podcast_duration        + str2sec(podcast_slice_times['ending'][1]))
+    youtube_beginning_stop  = Time(ts.youtube[0])  + Time(youtube_slice_times['beginning'][1])
+    youtube_ending_stop     = Time(ts.youtube[-1]) + Time(youtube_slice_times['ending'][1])
+    podcast_beginning_stop  = 0                    + Time(podcast_slice_times['beginning'][1])
+    podcast_ending_stop     = podcast_duration     + Time(podcast_slice_times['ending'][1])
 
     if bitrate_conversion_factor:
-        podcast_beginning_start = sec2str(str2sec(podcast_beginning_start) / bitrate_conversion_factor)
-        podcast_ending_start    = sec2str(str2sec(podcast_ending_start)    / bitrate_conversion_factor)
-        podcast_beginning_stop  = sec2str(str2sec(podcast_beginning_stop)  / bitrate_conversion_factor)
-        podcast_ending_stop     = sec2str(str2sec(podcast_ending_stop)     / bitrate_conversion_factor)
+        podcast_beginning_start = podcast_beginning_start / bitrate_conversion_factor
+        podcast_ending_start    = podcast_ending_start    / bitrate_conversion_factor
+        podcast_beginning_stop  = podcast_beginning_stop  / bitrate_conversion_factor
+        podcast_ending_stop     = podcast_ending_stop     / bitrate_conversion_factor
 
     return {
         'youtube': {
-            'beginning': (youtube_beginning_start, youtube_beginning_stop),
-            'ending':    (youtube_ending_start,    youtube_ending_stop),
+            'beginning': Time([youtube_beginning_start, youtube_beginning_stop]),
+            'ending':    Time([youtube_ending_start,    youtube_ending_stop]),
         },
         'podcast': {
-            'beginning': (podcast_beginning_start, podcast_beginning_stop),
-            'ending':    (podcast_ending_start,    podcast_ending_stop),
+            'beginning': Time([podcast_beginning_start, podcast_beginning_stop]),
+            'ending':    Time([podcast_ending_start,    podcast_ending_stop]),
         },
     }
 
@@ -130,7 +130,7 @@ for episode_id in episode_ids:
     fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
 
     d = get_episode_data_from_id(episode_id)
-    ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['O']*len(d['timestamps_columns']))
+    ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
 
 
     # download YouTube and podcast audio files
@@ -212,9 +212,9 @@ for episode_id in episode_ids:
 
 
         # calculate the first podcast timestamp
-        podcast_beginning_timestamp = sec2str(str2sec(podcast_beginning_start) * bitrate_conversion_factor - beginning_matches[0].offset)
-        if podcast_beginning_timestamp[0] == '-':
-            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp}).')
+        podcast_beginning_timestamp = podcast_beginning_start * bitrate_conversion_factor - beginning_matches[0].offset
+        if podcast_beginning_timestamp.round() < 0:
+            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp.text}).')
             print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
             print()
 
@@ -224,10 +224,10 @@ for episode_id in episode_ids:
             continue
 
         # calculate the last podcast timestamp
-        youtube_ending_slice_duration = str2sec(youtube_ending_stop) - str2sec(youtube_ending_start)
-        podcast_ending_timestamp = sec2str(str2sec(podcast_ending_start) * bitrate_conversion_factor + (youtube_ending_slice_duration - ending_matches[0].offset))
-        if podcast_ending_timestamp[0] == '-':
-            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_ending_timestamp}).')
+        youtube_ending_slice_duration = youtube_ending_stop - youtube_ending_start
+        podcast_ending_timestamp = podcast_ending_start * bitrate_conversion_factor + (youtube_ending_slice_duration - ending_matches[0].offset)
+        if podcast_ending_timestamp.round() < 0:
+            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_ending_timestamp.text}).')
             print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
             print()
 
@@ -237,14 +237,15 @@ for episode_id in episode_ids:
             continue
 
         # calculate other podcast timestamps
-        prebreak_duration, break_duration, postbreak_duration = np.diff(list(map(str2sec, ts.youtube)))
+        prebreak_duration, break_duration, postbreak_duration = np.diff(Time(ts.youtube))
         prebreak_duration = prebreak_duration * bitrate_conversion_factor
         postbreak_duration = postbreak_duration * bitrate_conversion_factor
-        podcast_timestamps = np.empty(4, dtype='object')
-        podcast_timestamps[0] = podcast_beginning_timestamp
-        podcast_timestamps[1] = sec2str(str2sec(podcast_beginning_timestamp) + prebreak_duration)
-        podcast_timestamps[2] = sec2str(str2sec(podcast_ending_timestamp) - postbreak_duration)
-        podcast_timestamps[3] = podcast_ending_timestamp
+        podcast_timestamps = Time([
+            podcast_beginning_timestamp,
+            podcast_beginning_timestamp + prebreak_duration,
+            podcast_ending_timestamp - postbreak_duration,
+            podcast_ending_timestamp
+        ]).text
         ts_new = ts.copy()
         ts_new.podcast = podcast_timestamps
 
@@ -253,7 +254,7 @@ for episode_id in episode_ids:
         diff = np.full(4, np.nan)
         for i, (new, old) in enumerate(zip(ts_new.podcast, ts.podcast)):
             if old:
-                diff[i] = str2sec(new) - str2sec(old)
+                diff[i] = Time(new) - Time(old)
         print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
         print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', beginning_matches[0].confidence)
         print(ts_new[1], '\t', f'{diff[1]:+4g}')

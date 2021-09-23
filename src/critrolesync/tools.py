@@ -4,7 +4,7 @@ import numpy as np
 
 from . import data
 from .jsonencoder import CompactJSONEncoder
-from .time import sec2str, str2sec
+from .time import Time
 
 
 def write_data(new_data):
@@ -27,18 +27,10 @@ def get_episode_data_from_id(episode_id):
         raise ValueError(f'episode with id "{episode_id}" not found')
 
 def convert_time(time, episode_id, source, dest):
-
     ep = get_episode_data_from_id(episode_id)
     timestamps = {k:d for k,d in zip(ep['timestamps_columns'], np.array(ep['timestamps']).T)}
-
-    seconds = np.interp(str2sec(time), list(map(str2sec, timestamps[source])), list(map(str2sec, timestamps[dest])))
-
-    if dest == 'youtube':
-        time_string = sec2str(seconds)
-        return time_string
-    else:
-        time_string = sec2str(seconds)
-        return time_string
+    seconds = np.interp(Time(time), Time(timestamps[source]), Time(timestamps[dest]))
+    return Time(seconds).text
 
 def podcast2youtube(time, episode_id):
     return convert_time(time, episode_id, source='podcast', dest='youtube')
@@ -49,7 +41,7 @@ def youtube2podcast(time, episode_id):
 def youtube_url(episode_id, seconds=None):
     ep = get_episode_data_from_id(episode_id)
     if seconds:
-        time_string = sec2str(seconds)
+        time_string = Time(seconds).text
         time_string = time_string.replace(':', 'h', 1).replace(':', 'm', 1) + 's'
     else:
         time_string = None
