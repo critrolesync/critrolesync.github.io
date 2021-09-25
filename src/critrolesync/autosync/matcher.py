@@ -7,7 +7,7 @@ from .database import Database
 logger = logging.getLogger(__name__)
 
 CPU_COUNT = len(os.sched_getaffinity(0))
-FORMATS = ['.mp3', '.m4a']
+FORMATS = ['.mp3', '.m4a', '.opus']
 
 class Matcher:
     _db: Database
