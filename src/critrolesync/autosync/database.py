@@ -17,6 +17,12 @@ class Database:
         address='127.0.0.1',
         port=5432,
     ):
+        self._db_name = database_name
+        self._db_pass = password
+        self._db_root = root
+        self._db_address = address
+        self._db_port = port
+
         """Sets up the database."""
         logger.info('setting up database')
 
@@ -40,7 +46,6 @@ class Database:
             },
             detach=True,
         )
-        self._db_name = database_name
 
         logger.debug('ensuring database is ready')
         while True:
@@ -102,7 +107,7 @@ class Database:
         logger.info('dump completed')
 
     def load(self, file: str):
-        """Loads the database conten as 'tar' from the given file."""
+        """Loads the database content as 'tar' from the given file."""
         logger.info('loading database from {}'.format(file))
 
         tarstream = io.BytesIO()

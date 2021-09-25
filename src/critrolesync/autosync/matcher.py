@@ -13,11 +13,29 @@ class Matcher:
     _db: Database
     _dejavu: Dejavu
 
-    def __init__(self):
-        db_name = 'dejavu_db'
-        db_host = '127.0.0.1'
-        db_user = 'root'
-        db_pass = 'password'
+    def __init__(self, db=None):
+
+        if db is None:
+            db_name = 'dejavu_db'
+            db_host = '127.0.0.1'
+            db_user = 'root'
+            db_pass = 'password'
+            self._db = Database(
+                database_name=db_name,
+                address=db_host,
+                root=db_user,
+                password=db_pass,
+            )
+            self._db_private = True
+
+        else:
+            self._db = db
+            db_name = db._db_name
+            db_host = db._db_address
+            db_user = db._db_root
+            db_pass = db._db_pass
+            self._db_private = False
+
         db_config = {
             'database': {
             'host': db_host,
@@ -27,16 +45,12 @@ class Matcher:
             },
             'database_type' : 'postgres',
         }
-        self._db = Database(
-            database_name=db_name,
-            address=db_host,
-            root=db_user,
-            password=db_pass,
-        )
+
         self._dejavu = Dejavu(db_config)
 
     def close(self):
-        self._db.close()
+        if self._db_private:
+            self._db.close()
 
     def __enter__(self):
         return self

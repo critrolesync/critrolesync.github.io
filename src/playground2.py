@@ -6,7 +6,7 @@ from librosa import get_duration
 import logging
 from critrolesync import data, write_data, get_episode_data_from_id, Time, \
                          download_youtube_audio, download_podcast_audio
-from critrolesync.autosync import Matcher
+from critrolesync.autosync import Database, Matcher
 
 logger = logging.getLogger(__name__)
 
@@ -116,157 +116,159 @@ test_dir.mkdir(parents=True, exist_ok=True)
 episode_ids = [f'C2E{i}' for i in range(1, 20)]
 
 
-for episode_id in episode_ids:
-    print(episode_id)
+with Database('dejavu_db') as db:
 
-    youtube_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
-    podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
+    for episode_id in episode_ids:
+        print(episode_id)
 
-    youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
-    podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
+        youtube_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
+        podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
 
-    youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
-    podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
+        youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
+        podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
 
-    fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
+        youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
+        podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
 
-    d = get_episode_data_from_id(episode_id)
-    ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
+        fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
 
-
-    # download YouTube and podcast audio files
-    if youtube_file is None or overwrite_youtube_download:
-        logger.info(f'downloading YouTube audio for {episode_id}')
-        youtube_file = download_youtube_audio(episode_id, test_dir / 'original')
-    if podcast_file is None or overwrite_podcast_download:
-        logger.info(f'downloading podcast audio for {episode_id}')
-        podcast_file = download_podcast_audio(episode_id, test_dir / 'original')
+        d = get_episode_data_from_id(episode_id)
+        ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
 
 
-    # Campaign 1 podcast timestamps may be stored in CBR format, but ffmpeg
-    # slices according to ABR times, so timestamps must be coverted back and
-    # forth throughout this process
-    timestampsBitrate = d.get('timestampsBitrate', None)
-    ABR = d.get('ABR', None)
-    if not ABR or not timestampsBitrate:
-        bitrate_conversion_factor = 1
-    else:
-        bitrate_conversion_factor = ABR/timestampsBitrate
-        # # for converting stored timestamps to ABR...
-        # bitrate_conversion_factor = 1
-        # d['timestampsBitrate'] = ABR
+        # download YouTube and podcast audio files
+        if youtube_file is None or overwrite_youtube_download:
+            logger.info(f'downloading YouTube audio for {episode_id}')
+            youtube_file = download_youtube_audio(episode_id, test_dir / 'original')
+        if podcast_file is None or overwrite_podcast_download:
+            logger.info(f'downloading podcast audio for {episode_id}')
+            podcast_file = download_podcast_audio(episode_id, test_dir / 'original')
 
 
-    # slice beginning and ending of YouTube and podcast audio files
-    absolute_slice_times = get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor)
-    youtube_beginning_start, youtube_beginning_stop = absolute_slice_times['youtube']['beginning']
-    podcast_beginning_start, podcast_beginning_stop = absolute_slice_times['podcast']['beginning']
-    youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
-    podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
-    logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
-    if not youtube_beginning_file.exists() or overwrite_youtube_slices:
-        logger.info(f'slicing YouTube beginning for {episode_id}')
-        slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
-    if not podcast_beginning_file.exists() or overwrite_podcast_slices:
-        logger.info(f'slicing podcast beginning for {episode_id}')
-        slice_audio_file(podcast_file, podcast_beginning_file, *absolute_slice_times['podcast']['beginning'], mono=True)
-    if not youtube_ending_file.exists() or overwrite_youtube_slices:
-        logger.info(f'slicing YouTube ending for {episode_id}')
-        slice_audio_file(youtube_file, youtube_ending_file, *absolute_slice_times['youtube']['ending'], mono=True)
-    if not podcast_ending_file.exists() or overwrite_podcast_slices:
-        logger.info(f'slicing podcast ending for {episode_id}')
-        slice_audio_file(podcast_file, podcast_ending_file, *absolute_slice_times['podcast']['ending'], mono=True)
-
-
-    with Matcher() as m:
-
-        if not fingerprints_file.exists() or overwrite_fingerprints:
-            # create and store fingerprints for the YouTube audio slices
-            Path(fingerprints_file).parent.mkdir(parents=True, exist_ok=True)
-            m.fingerprint_file(youtube_beginning_file)
-            m.fingerprint_file(youtube_ending_file)
-            m.store_fingerprints(fingerprints_file)
+        # Campaign 1 podcast timestamps may be stored in CBR format, but ffmpeg
+        # slices according to ABR times, so timestamps must be coverted back and
+        # forth throughout this process
+        timestampsBitrate = d.get('timestampsBitrate', None)
+        ABR = d.get('ABR', None)
+        if not ABR or not timestampsBitrate:
+            bitrate_conversion_factor = 1
         else:
-            # load fingerprints previously saved for the YouTube audio slices
-            m.load_fingerprints(fingerprints_file)
+            bitrate_conversion_factor = ABR/timestampsBitrate
+            # # for converting stored timestamps to ABR...
+            # bitrate_conversion_factor = 1
+            # d['timestampsBitrate'] = ABR
 
 
-        if len(ts) != 4:
-            print(f'Skipping {episode_id}, which does not have the typical number of pairs of timestamps (expected 4, found {len(ts)}).')
-            print('This may mean the episode contains more than one discontinuity (normally just the intermission).')
-            print('It will need to be synced manually.')
+        # slice beginning and ending of YouTube and podcast audio files
+        absolute_slice_times = get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor)
+        youtube_beginning_start, youtube_beginning_stop = absolute_slice_times['youtube']['beginning']
+        podcast_beginning_start, podcast_beginning_stop = absolute_slice_times['podcast']['beginning']
+        youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
+        podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
+        logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
+        if not youtube_beginning_file.exists() or overwrite_youtube_slices:
+            logger.info(f'slicing YouTube beginning for {episode_id}')
+            slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
+        if not podcast_beginning_file.exists() or overwrite_podcast_slices:
+            logger.info(f'slicing podcast beginning for {episode_id}')
+            slice_audio_file(podcast_file, podcast_beginning_file, *absolute_slice_times['podcast']['beginning'], mono=True)
+        if not youtube_ending_file.exists() or overwrite_youtube_slices:
+            logger.info(f'slicing YouTube ending for {episode_id}')
+            slice_audio_file(youtube_file, youtube_ending_file, *absolute_slice_times['youtube']['ending'], mono=True)
+        if not podcast_ending_file.exists() or overwrite_podcast_slices:
+            logger.info(f'slicing podcast ending for {episode_id}')
+            slice_audio_file(podcast_file, podcast_ending_file, *absolute_slice_times['podcast']['ending'], mono=True)
+
+
+        with Matcher(db) as m:
+
+            if not fingerprints_file.exists() or overwrite_fingerprints:
+                # create and store fingerprints for the YouTube audio slices
+                Path(fingerprints_file).parent.mkdir(parents=True, exist_ok=True)
+                m.fingerprint_file(youtube_beginning_file)
+                m.fingerprint_file(youtube_ending_file)
+                m.store_fingerprints(fingerprints_file)
+            else:
+                # load fingerprints previously saved for the YouTube audio slices
+                m.load_fingerprints(fingerprints_file)
+
+
+            if len(ts) != 4:
+                print(f'Skipping {episode_id}, which does not have the typical number of pairs of timestamps (expected 4, found {len(ts)}).')
+                print('This may mean the episode contains more than one discontinuity (normally just the intermission).')
+                print('It will need to be synced manually.')
+                print()
+
+                # clear date_verified
+                d['date_verified'] = ''
+
+                continue
+
+
+            # match podcast beginning slice to YouTube beginning slice
+            beginning_matches = m.match(podcast_beginning_file)
+            assert beginning_matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({beginning_matches[0].name}) is not the expected file ({youtube_beginning_file.stem}): {beginning_matches}'
+
+            # match podcast ending slice to YouTube ending slice
+            ending_matches = m.match(podcast_ending_file)
+            assert ending_matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({ending_matches[0].name}) is not the expected file ({youtube_ending_file.stem}): {ending_matches}'
+
+
+            # calculate the first podcast timestamp
+            podcast_beginning_timestamp = podcast_beginning_start * bitrate_conversion_factor - beginning_matches[0].offset
+            if podcast_beginning_timestamp.round() < 0:
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp.text}).')
+                print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
+                print()
+
+                # clear date_verified
+                d['date_verified'] = ''
+
+                continue
+
+            # calculate the last podcast timestamp
+            youtube_ending_slice_duration = youtube_ending_stop - youtube_ending_start
+            podcast_ending_timestamp = podcast_ending_start * bitrate_conversion_factor + (youtube_ending_slice_duration - ending_matches[0].offset)
+            if podcast_ending_timestamp.round() < 0:
+                print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_ending_timestamp.text}).')
+                print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
+                print()
+
+                # clear date_verified
+                d['date_verified'] = ''
+
+                continue
+
+            # calculate other podcast timestamps
+            prebreak_duration, break_duration, postbreak_duration = np.diff(Time(ts.youtube))
+            prebreak_duration = prebreak_duration * bitrate_conversion_factor
+            postbreak_duration = postbreak_duration * bitrate_conversion_factor
+            podcast_timestamps = Time([
+                podcast_beginning_timestamp,
+                podcast_beginning_timestamp + prebreak_duration,
+                podcast_ending_timestamp - postbreak_duration,
+                podcast_ending_timestamp
+            ]).text
+            ts_new = ts.copy()
+            ts_new.podcast = podcast_timestamps
+
+
+            # report new timestamps, differences from old timestamps, and match confidence
+            diff = np.full(4, np.nan)
+            for i, (new, old) in enumerate(zip(ts_new.podcast, ts.podcast)):
+                if old:
+                    diff[i] = Time(new) - Time(old)
+            print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
+            print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', beginning_matches[0].confidence)
+            print(ts_new[1], '\t', f'{diff[1]:+4g}')
+            print(ts_new[2], '\t', f'{diff[2]:+4g}')
+            print(ts_new[3], '\t', f'{diff[3]:+4g}', '\t', ending_matches[0].confidence)
             print()
 
-            # clear date_verified
+
+            # update data object with new timestamps and clear date_verified
+            d['timestamps'] = ts_new.tolist()
             d['date_verified'] = ''
-
-            continue
-
-
-        # match podcast beginning slice to YouTube beginning slice
-        beginning_matches = m.match(podcast_beginning_file)
-        assert beginning_matches[0].name == youtube_beginning_file.stem, f'{episode_id}: first match ({beginning_matches[0].name}) is not the expected file ({youtube_beginning_file.stem}): {beginning_matches}'
-
-        # match podcast ending slice to YouTube ending slice
-        ending_matches = m.match(podcast_ending_file)
-        assert ending_matches[0].name == youtube_ending_file.stem, f'{episode_id}: first match ({ending_matches[0].name}) is not the expected file ({youtube_ending_file.stem}): {ending_matches}'
-
-
-        # calculate the first podcast timestamp
-        podcast_beginning_timestamp = podcast_beginning_start * bitrate_conversion_factor - beginning_matches[0].offset
-        if podcast_beginning_timestamp.round() < 0:
-            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_beginning_timestamp.text}).')
-            print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
-            print()
-
-            # clear date_verified
-            d['date_verified'] = ''
-
-            continue
-
-        # calculate the last podcast timestamp
-        youtube_ending_slice_duration = youtube_ending_stop - youtube_ending_start
-        podcast_ending_timestamp = podcast_ending_start * bitrate_conversion_factor + (youtube_ending_slice_duration - ending_matches[0].offset)
-        if podcast_ending_timestamp.round() < 0:
-            print(f'Skipping {episode_id}, which was determined to have a negative podcast beginning timestamp ({podcast_ending_timestamp.text}).')
-            print('This indicates a problem with matching that may need to be addressed by slicing the audio differently.')
-            print()
-
-            # clear date_verified
-            d['date_verified'] = ''
-
-            continue
-
-        # calculate other podcast timestamps
-        prebreak_duration, break_duration, postbreak_duration = np.diff(Time(ts.youtube))
-        prebreak_duration = prebreak_duration * bitrate_conversion_factor
-        postbreak_duration = postbreak_duration * bitrate_conversion_factor
-        podcast_timestamps = Time([
-            podcast_beginning_timestamp,
-            podcast_beginning_timestamp + prebreak_duration,
-            podcast_ending_timestamp - postbreak_duration,
-            podcast_ending_timestamp
-        ]).text
-        ts_new = ts.copy()
-        ts_new.podcast = podcast_timestamps
-
-
-        # report new timestamps, differences from old timestamps, and match confidence
-        diff = np.full(4, np.nan)
-        for i, (new, old) in enumerate(zip(ts_new.podcast, ts.podcast)):
-            if old:
-                diff[i] = Time(new) - Time(old)
-        print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
-        print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', beginning_matches[0].confidence)
-        print(ts_new[1], '\t', f'{diff[1]:+4g}')
-        print(ts_new[2], '\t', f'{diff[2]:+4g}')
-        print(ts_new[3], '\t', f'{diff[3]:+4g}', '\t', ending_matches[0].confidence)
-        print()
-
-
-        # update data object with new timestamps and clear date_verified
-        d['timestamps'] = ts_new.tolist()
-        d['date_verified'] = ''
 
 
 # write changes to data.json
