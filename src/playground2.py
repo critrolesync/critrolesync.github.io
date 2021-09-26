@@ -112,8 +112,16 @@ overwrite_fingerprints = False
 test_dir = Path('testdata')
 test_dir.mkdir(parents=True, exist_ok=True)
 
-# episode_ids = [f'C2E{i}' for i in range(20, 141)]
-episode_ids = [f'C2E{i}' for i in range(1, 20)]
+episode_ids = [f'C1E{i}' for i in range(1, 12)]
+# episode_ids = [f'C1E{i}' for i in range(1, 31)] + \
+#               ['C1E32', 'C1E34'] + \
+#               [f'C1E{i}' for i in range(36, 60)] + \
+#               ['C1E31 (Part 1)', 'C1E31 (Part 2)', 'C1E33 (Part 1)', 'C1E33 (Part 2)', 'C1E35 (Part 1)', 'C1E35 (Part 2)']
+# episode_ids = [f'C1E{i}' for i in range(60, 116)]
+
+# episode_ids = [f'C2E{i}' for i in range(1, 142)]
+
+# episode_ids = [f'EXU{i}' for i in range(1, 9)]
 
 
 with Database('dejavu_db') as db:
@@ -122,7 +130,8 @@ with Database('dejavu_db') as db:
         print(episode_id)
 
         youtube_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
-        podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
+        # podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
+        podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id.split(" ")[0]} Podcast.*') if not str(p).endswith('.part')]), None)
 
         youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
         podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
