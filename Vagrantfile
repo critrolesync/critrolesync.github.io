@@ -1,6 +1,12 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Usage:
+#   vagrant up
+#   vagrant ssh
+#   cd /vagrant/src
+#   sudo python3 playground2.py
+
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/focal64"
   config.vm.provider "virtualbox" do |v|
