@@ -47,12 +47,12 @@ class Database:
                 self._stop_container_on_close = True
 
             logger.debug('pulling postgres image (if necessary)')
-            client.images.pull('postgres')
+            client.images.pull('postgres:10.7-alpine')
 
             logger.debug('starting database container')
             self._container = client.containers.run(
                 name=container_name,
-                image='postgres',
+                image='postgres:10.7-alpine',
                 auto_remove=True,
                 environment={
                     'POSTGRES_USER': root,
