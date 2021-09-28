@@ -20,11 +20,13 @@ class Matcher:
             db_host = '127.0.0.1'
             db_user = 'root'
             db_pass = 'password'
+            container_name = None
             self._db = Database(
                 database_name=db_name,
                 address=db_host,
                 root=db_user,
                 password=db_pass,
+                container_name=container_name,
             )
             self._db_private = True
 
