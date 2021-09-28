@@ -271,11 +271,14 @@ with Database(database_name='dejavu_db', container_name='critrolesync_db_1') as 
             for i, (new, old) in enumerate(zip(ts_new.podcast, ts.podcast)):
                 if old:
                     diff[i] = Time(new) - Time(old)
-            print(d['timestamps_columns'], '\t', 'diff', '\t', 'confidence')
-            print(ts_new[0], '\t', f'{diff[0]:+4g}', '\t', beginning_matches[0].confidence)
-            print(ts_new[1], '\t', f'{diff[1]:+4g}')
-            print(ts_new[2], '\t', f'{diff[2]:+4g}')
-            print(ts_new[3], '\t', f'{diff[3]:+4g}', '\t', ending_matches[0].confidence)
+            table = np.column_stack([ts_new.tolist(), [f'{dd:+4g}' for dd in diff], [beginning_matches[0].confidence, '', '', ending_matches[0].confidence]])
+            table = np.row_stack([d['timestamps_columns'] + ['diff', 'confidence'], table])
+            column_widths = np.vectorize(len)(table).max(axis=0)
+            w1, w2, w3, w4, w5 = column_widths
+            fmt = f'{{:{w1}}}  {{:{w2}}}  {{:{w3}}}\t{{:{w4}}}  {{:{w5}}}'
+            table = [fmt.format(*row) for row in table]
+            table = '\n'.join(table)
+            print(table)
             print()
 
 
