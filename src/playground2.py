@@ -1,52 +1,16 @@
 from pathlib import Path
 import json
 import numpy as np
-import ffmpeg
 from librosa import get_duration
 import logging
 from critrolesync import data, write_data, get_episode_data_from_id, Time, \
-                         download_youtube_audio, download_podcast_audio
+                         download_youtube_audio, download_podcast_audio, \
+                         slice_audio_file
 from critrolesync.autosync import Database, Matcher
 
 logger = logging.getLogger(__name__)
 
 # logging.basicConfig(level=logging.INFO)
-
-
-def slice_audio_file(input_file, output_file, start=None, end=None, mono=False, rate=44100):
-    input_kwargs = {}
-    output_kwargs = {}
-
-    if start: input_kwargs['ss'] = start
-    if end: input_kwargs['to'] = end
-
-    if mono:
-        # one audio channel
-        output_kwargs['ac'] = 1
-    else:
-        # skip re-encoding, very fast but incompatible with mono
-        output_kwargs['c'] = 'copy'
-
-    if rate:
-        # explicitly set the sampling rate
-        output_kwargs['ar'] = rate
-
-    # create the containing directory if necessary
-    Path(output_file).parent.mkdir(parents=True, exist_ok=True)
-
-    try:
-        (ffmpeg
-        .input(str(input_file), **input_kwargs)
-        .output(str(output_file), **output_kwargs)
-        .overwrite_output()
-        .run(quiet=True))
-
-    except:
-        # the new file is likely incomplete, so delete it
-        Path(output_file).unlink(missing_ok=True)
-
-        # raise the exception so that it can be handled elsewhere
-        raise
 
 
 youtube_slice_times = {
