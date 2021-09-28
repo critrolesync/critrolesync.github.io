@@ -83,6 +83,10 @@ class Matcher:
             self._dejavu.db.set_song_fingerprinted(sid)
             self._dejavu._Dejavu__load_fingerprinted_audio_hashes()
 
+    def empty_fingerprints(self):
+        self._dejavu.db.empty()
+        self._dejavu._Dejavu__load_fingerprinted_audio_hashes()
+
     def load_fingerprints(self, file:str):
         self._db.load(file)
         self._dejavu._Dejavu__load_fingerprinted_audio_hashes()

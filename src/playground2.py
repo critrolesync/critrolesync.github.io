@@ -191,6 +191,10 @@ with Database('dejavu_db') as db:
 
         with Matcher(db) as m:
 
+            # remove existing fingerprints left over from the previous episode
+            # or prior runs of the script
+            m.empty_fingerprints()
+
             if not fingerprints_file.exists() or overwrite_fingerprints:
                 # create and store fingerprints for the YouTube audio slices
                 Path(fingerprints_file).parent.mkdir(parents=True, exist_ok=True)
