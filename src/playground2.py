@@ -286,6 +286,5 @@ with Database(database_name='dejavu_db', container_name='critrolesync_db_1') as 
             d['timestamps'] = ts_new.tolist()
             d['date_verified'] = ''
 
-
-# write changes to data.json
-write_data(data)
+            # write changes to data.json
+            write_data(data)
