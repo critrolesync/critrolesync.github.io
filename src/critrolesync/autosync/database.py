@@ -17,7 +17,6 @@ class Database:
         address='127.0.0.1',
         port=5432,
         container_name=None,
-        stop_container_on_close=None,
     ):
         self._db_name = database_name
         self._db_pass = password
@@ -25,45 +24,30 @@ class Database:
         self._db_address = address
         self._db_port = port
 
-        self._stop_container_on_close = stop_container_on_close
-
         """Sets up the database."""
         logger.info('setting up database')
 
         logger.debug('connecting to docker host')
         client = docker.from_env()
 
-        if container_name and container_name in [c.name for c in client.containers.list()]:
-            # container already exists
-            if self._stop_container_on_close is None:
-                self._stop_container_on_close = False
+        logger.debug('pulling postgres image (if necessary)')
+        client.images.pull('postgres:10.7-alpine')
 
-            logger.debug('locating database container')
-            self._container = client.containers.get(container_name)
-
-        else:
-            # container must be created
-            if self._stop_container_on_close is None:
-                self._stop_container_on_close = True
-
-            logger.debug('pulling postgres image (if necessary)')
-            client.images.pull('postgres:10.7-alpine')
-
-            logger.debug('starting database container')
-            self._container = client.containers.run(
-                name=container_name,
-                image='postgres:10.7-alpine',
-                auto_remove=True,
-                environment={
-                    'POSTGRES_USER': root,
-                    'POSTGRES_PASSWORD': password,
-                    'POSTGRES_DB': database_name
-                },
-                ports={
-                    '5432': (address, port),
-                },
-                detach=True,
-            )
+        logger.debug('starting database container')
+        self._container = client.containers.run(
+            name=container_name,
+            image='postgres:10.7-alpine',
+            auto_remove=True,
+            environment={
+                'POSTGRES_USER': root,
+                'POSTGRES_PASSWORD': password,
+                'POSTGRES_DB': database_name
+            },
+            ports={
+                '5432': (address, port),
+            },
+            detach=True,
+        )
 
         logger.debug('ensuring database is ready')
         while True:
@@ -75,9 +59,8 @@ class Database:
         logger.info('database setup completed')
 
     def close(self):
-        if self._stop_container_on_close:
-            logger.info('stopping database container')
-            self._container.stop()
+        logger.info('stopping database container')
+        self._container.stop()
 
     def __enter__(self):
         return self

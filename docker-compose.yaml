@@ -1,28 +1,14 @@
 # Usage:
 #   docker-compose build
-#   docker-compose run python
+#   docker-compose run autosync
 
 version: '3'
 
 services:
 
-  db:
-    image: postgres:10.7-alpine
-    restart: always
-    environment:
-      - POSTGRES_DB=dejavu_db
-      - POSTGRES_USER=root
-      - POSTGRES_PASSWORD=password
-    volumes:
-      - .:/code
-      - //var/run/docker.sock:/var/run/docker.sock  # let container access host docker daemon
-    network_mode: host
-
-  python:
+  autosync:
     build: .
     volumes:
       - .:/code
       - //var/run/docker.sock:/var/run/docker.sock  # let container access host docker daemon
     network_mode: host
-    depends_on:
-      - db

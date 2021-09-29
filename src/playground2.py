@@ -88,7 +88,7 @@ episode_ids = [f'C1E{i}' for i in range(1, 12)]
 # episode_ids = [f'EXU{i}' for i in range(1, 9)]
 
 
-with Database(database_name='dejavu_db', container_name='critrolesync_db_1') as db:
+with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
 
     for episode_id in episode_ids:
         print(episode_id)
