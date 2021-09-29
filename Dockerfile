@@ -1,6 +1,6 @@
 # Usage: (docker-compose recommended instead for simplicity)
 #   docker build -t critrolesync_autosync .
-#   docker run -it -v //var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/code --network host critrolesync_autosync
+#   docker run -it -v //var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/code -v ~/critrolesync-data:/data --network host critrolesync_autosync
 
 FROM python:3.9
 

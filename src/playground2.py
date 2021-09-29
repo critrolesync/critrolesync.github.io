@@ -73,8 +73,8 @@ overwrite_youtube_slices = False
 overwrite_podcast_slices = False
 overwrite_fingerprints = False
 
-test_dir = Path('testdata')
-test_dir.mkdir(parents=True, exist_ok=True)
+data_dir = Path('/data')
+data_dir.mkdir(parents=True, exist_ok=True)
 
 episode_ids = [f'C1E{i}' for i in range(1, 12)]
 # episode_ids = [f'C1E{i}' for i in range(1, 31)] + \
@@ -93,17 +93,17 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
     for episode_id in episode_ids:
         print(episode_id)
 
-        youtube_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
-        # podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
-        podcast_file = next(iter([p for p in (test_dir / 'original').glob(f'{episode_id.split(" ")[0]} Podcast.*') if not str(p).endswith('.part')]), None)
+        youtube_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
+        # podcast_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
+        podcast_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id.split(" ")[0]} Podcast.*') if not str(p).endswith('.part')]), None)
 
-        youtube_beginning_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
-        podcast_beginning_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
+        youtube_beginning_file = data_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
+        podcast_beginning_file = data_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
 
-        youtube_ending_file = test_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
-        podcast_ending_file = test_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
+        youtube_ending_file = data_dir / 'youtube-slices' / f'{episode_id} YouTube - Ending.m4a'
+        podcast_ending_file = data_dir / 'podcast-slices' / f'{episode_id} Podcast - Ending.m4a'
 
-        fingerprints_file = test_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
+        fingerprints_file = data_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
 
         d = get_episode_data_from_id(episode_id)
         ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
@@ -112,10 +112,10 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
         # download YouTube and podcast audio files
         if youtube_file is None or overwrite_youtube_download:
             logger.info(f'downloading YouTube audio for {episode_id}')
-            youtube_file = download_youtube_audio(episode_id, test_dir / 'original')
+            youtube_file = download_youtube_audio(episode_id, data_dir / 'original')
         if podcast_file is None or overwrite_podcast_download:
             logger.info(f'downloading podcast audio for {episode_id}')
-            podcast_file = download_podcast_audio(episode_id, test_dir / 'original')
+            podcast_file = download_podcast_audio(episode_id, data_dir / 'original')
 
 
         # Campaign 1 podcast timestamps may be stored in CBR format, but ffmpeg

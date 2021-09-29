@@ -16,4 +16,7 @@ services:
       # for development, mount the source code from the host
       - .:/code
 
+      # mount host home dir for persistent storage of audio files and fingerprints
+      - ~/critrolesync-data:/data
+
     network_mode: host
