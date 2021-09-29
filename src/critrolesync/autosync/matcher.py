@@ -1,4 +1,6 @@
 import logging, os, collections
+from time import sleep
+import psycopg2
 from dejavu import Dejavu
 import dejavu.logic.decoder as decoder
 from dejavu.logic.recognizer.file_recognizer import FileRecognizer
@@ -48,7 +50,13 @@ class Matcher:
             'database_type' : 'postgres',
         }
 
-        self._dejavu = Dejavu(db_config)
+        while True:
+            try:
+                self._dejavu = Dejavu(db_config)
+                break
+            except psycopg2.OperationalError:
+                logger.info('waiting for database to connect to the network')
+                sleep(1)
 
     def close(self):
         if self._db_private:
