@@ -31,12 +31,12 @@ class Database:
         client = docker.from_env()
 
         logger.debug('pulling postgres image (if necessary)')
-        client.images.pull('postgres:10.7-alpine')
+        client.images.pull('postgres')
 
         logger.debug('starting database container')
         self._container = client.containers.run(
             name=container_name,
-            image='postgres:10.7-alpine',
+            image='postgres',
             auto_remove=True,
             environment={
                 'POSTGRES_USER': root,
