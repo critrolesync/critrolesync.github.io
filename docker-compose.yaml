@@ -1,6 +1,6 @@
 # Usage:
-#   docker-compose build
-#   docker-compose run autosync
+#   docker compose build
+#   docker compose run autosync
 
 version: '3'
 
@@ -19,4 +19,5 @@ services:
       # mount host home dir for persistent storage of audio files and fingerprints
       - ~/critrolesync-data:/data
 
+    # ensures this service can talk to postgres containers spawned at runtime
     network_mode: host

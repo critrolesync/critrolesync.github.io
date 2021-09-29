@@ -17,8 +17,9 @@ RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
 && rm -rf /var/lib/apt/lists/*
 
 # install python packages
-# - although dejavu pins pydub to version 0.23.1, a longstanding bug was fixed
-#   in version 0.24.0 that caused bad match results
+# - packages that may affect dejavu fingerprint hashes are pinned to the latest
+#   known working versions
+# - in particular, pydub>=0.24 is needed to avoid a fingerprint matching bug
 RUN pip install \
     docker \
     ffmpeg-python==0.2.0 \
