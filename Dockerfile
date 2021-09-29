@@ -21,17 +21,17 @@ RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
 #   in version 0.24.0 that caused bad match results
 RUN pip install \
     docker \
-    ffmpeg-python \
-    librosa \
-    matplotlib \
-    numpy \
-    psycopg2 \
-    pyaudio \
-    "pydub>=0.24" \
+    ffmpeg-python==0.2.0 \
+    librosa==0.8.1 \
+    matplotlib==3.4.3 \
+    numpy==1.20.3 \
+    psycopg2==2.9.1 \
+    pyaudio==0.2.11 \
+    pydub==0.25.1 \
     requests \
-    scipy \
+    scipy==1.7.1 \
     tqdm \
-    youtube_dl
+    youtube_dl==2021.6.6
 
 # install dejavu
 # - use --no-deps to avoid using dejavu's pinned versions
