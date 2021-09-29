@@ -32,3 +32,5 @@ RUN pip install \
 RUN pip install pydub==0.25.1
 
 WORKDIR /code/src
+
+CMD python playground2.py

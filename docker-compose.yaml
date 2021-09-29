@@ -1,7 +1,6 @@
 # Usage:
 #   docker-compose build
-#   docker-compose run python /bin/bash
-#   python playground2.py
+#   docker-compose run python
 
 version: '3'
 
