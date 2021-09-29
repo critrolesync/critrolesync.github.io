@@ -2,7 +2,7 @@
 #   docker build -t critrolesync_autosync .
 #   docker run -it -v "$(pwd)":/code -v //var/run/docker.sock:/var/run/docker.sock --network host critrolesync_autosync
 
-FROM python:3.7
+FROM python:3.9
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
     ffmpeg \
