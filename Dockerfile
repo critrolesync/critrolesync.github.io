@@ -1,6 +1,6 @@
 # Usage: (docker-compose recommended instead for simplicity)
 #   docker build -t critrolesync_autosync .
-#   docker run -it -v "$(pwd)":/code -v //var/run/docker.sock:/var/run/docker.sock --network host critrolesync_autosync
+#   docker run -it -v //var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/code --network host critrolesync_autosync
 
 FROM python:3.9
 
@@ -36,6 +36,15 @@ RUN pip install \
 # install dejavu
 # - use --no-deps to avoid using dejavu's pinned versions
 RUN pip install --no-deps https://github.com/critrolesync/dejavu/zipball/master
+
+# copy this project's source code to the image
+# - this allows the image to be shared and deployed in isolation with a static
+#   version of the source code included
+# - however, for a development environment, it is convenient to run editable
+#   source on the host machine; this is accomplished by mounting a host
+#   directory at /code, which will supersede this copy, using either the -v
+#   flag or docker-compose
+COPY . /code
 
 WORKDIR /code/src
 

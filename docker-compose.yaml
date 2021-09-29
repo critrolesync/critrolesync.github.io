@@ -8,7 +8,12 @@ services:
 
   autosync:
     build: .
+
     volumes:
+      # let container access host docker daemon
+      - //var/run/docker.sock:/var/run/docker.sock
+
+      # for development, mount the source code from the host
       - .:/code
-      - //var/run/docker.sock:/var/run/docker.sock  # let container access host docker daemon
+
     network_mode: host
