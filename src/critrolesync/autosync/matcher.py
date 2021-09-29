@@ -50,13 +50,19 @@ class Matcher:
             'database_type' : 'postgres',
         }
 
+        i = 0
         while True:
             try:
                 self._dejavu = Dejavu(db_config)
                 break
             except psycopg2.OperationalError:
-                logger.info('waiting for database to connect to the network')
-                sleep(1)
+                if i < 3:
+                    logger.info('waiting for database to connect to the network')
+                    sleep(1)
+                else:
+                    logger.warn('waiting for database to connect to the network... this is taking longer than usual')
+                    sleep(5)
+                i += 1
 
     def close(self):
         if self._db_private:

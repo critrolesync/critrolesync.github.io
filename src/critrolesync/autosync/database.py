@@ -49,12 +49,19 @@ class Database:
             detach=True,
         )
 
+        i = 0
         logger.debug('ensuring database is ready')
         while True:
             if self._container.exec_run("pg_isready -d {}".format(database_name)).exit_code == 0:
                 break
             else:
-                sleep(3)
+                if i < 3:
+                    logger.info('waiting for database to be ready')
+                    sleep(3)
+                else:
+                    logger.warn('waiting for database to be ready... this is taking longer than usual')
+                    sleep(5)
+                i += 1
 
         logger.info('database setup completed')
 
