@@ -49,7 +49,7 @@ class Time(np.ndarray):
         seconds = abs(seconds)
         mins, secs = divmod(seconds, 60)
         hours, mins = divmod(mins, 60)
-        return f'{sign}{hours:d}:{mins:02d}:{secs:02d}'
+        return f'{sign}{int(round(hours)):d}:{int(round(mins)):02d}:{int(round(secs)):02d}'
 
 
 def str2sec(string):
