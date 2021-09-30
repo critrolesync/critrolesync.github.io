@@ -231,7 +231,14 @@
                 "google_podcasts_episode": "ODg3NzZjMjMtNWVhYy00ZDZkLWIxNzgtYTU5ZDFiODc4ZGVm",
                 "overcast_id": "eIitrM6NY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:24:59", "0:00:23", "start"],
+                    ["3:21:20", "02:56:28", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E13",
@@ -242,7 +249,16 @@
                 "google_podcasts_episode": "ZmM1YjkxN2QtZTRhMi00ODA5LTk3OGUtZmIwNzQ4YTA4MTVm",
                 "overcast_id": "eIisVrd6M",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:23:15", "0:00:22", "recap"],
+                    ["2:21:15", "1:58:06", "break start"],
+                    ["2:32:53", "1:58:18", "break end"],
+                    ["3:10:59", "2:36:19", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E14",
@@ -253,7 +269,16 @@
                 "google_podcasts_episode": "Mjk0MGNmNTgtMGM4Yy00ZGQ4LWExMTQtOGI2ZDRjZTI4OGY3",
                 "overcast_id": "eIivYX7j4",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:21:12", "0:00:25", "recap"],
+                    ["1:36:51", "1:15:54", "break start"],
+                    ["1:56:12", "1:16:06", "break end"],
+                    ["3:04:45", "2:24:29", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E15",
@@ -264,7 +289,16 @@
                 "google_podcasts_episode": "ZDJhOWZlMGMtYjgzNi00MmIyLThkODMtZjliMmJlZThjZDRk",
                 "overcast_id": "eIisCcH_M",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:07:13", "0:00:24", "recap"],
+                    ["1:30:14", "1:23:13", "break start"],
+                    ["1:53:41", "1:23:26", "break end"],
+                    ["3:34:27", "3:03:57", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E16",
@@ -275,7 +309,16 @@
                 "google_podcasts_episode": "MDFiM2NiMjMtYjhmMi00OTZmLWI1ODYtNDIyOTM4ZTY2ODVm",
                 "overcast_id": "eIivG9VOc",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:08:22", "0:00:22", "recap"],
+                    ["1:38:00", "1:29:48", "break start"],
+                    ["1:57:23", "1:30:00", "break end"],
+                    ["2:56:50", "2:29:19", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E17",
@@ -286,7 +329,16 @@
                 "google_podcasts_episode": "YmM2NzIyMjEtYTI4OC00NGY0LWE5YzItYTc0YmYyYzVmN2Mx",
                 "overcast_id": "eIiveUB-g",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:13:28", "0:00:23", "recap"],
+                    ["1:25:20", "1:12:05", "break start"],
+                    ["1:40:48", "1:12:20", "break end"],
+                    ["3:29:55", "3:01:12", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-09-29"
             },
             {
                 "id": "C1E18",
