@@ -15,5 +15,5 @@ feeds = {
 
 # download each feed and save it as an XML file with today's date
 for name, url in feeds.items():
-    filename = Path(name) / f'feed-{date.today()}.xml'
+    filename = Path(__file__).parent / name / f'feed-{date.today()}.xml'
     urllib.request.urlretrieve(url, filename)

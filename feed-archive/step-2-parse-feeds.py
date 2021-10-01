@@ -97,12 +97,13 @@ def parse_feed(input_xml, output_json=None):
 
 if __name__ == '__main__':
     for input_dir in ['critical-role', 'nerdist']:
-        output_dir = Path(input_dir) / 'parsed'
+        input_dir = Path(__file__).parent / input_dir
+        output_dir = input_dir / 'parsed'
         output_dir.mkdir(parents=True, exist_ok=True)
 
-        for input_file in Path(input_dir).glob('feed-*.xml'):
+        for input_file in input_dir.glob('feed-*.xml'):
             match = re.fullmatch('feed-(.*)\.xml', input_file.name)
             if match:
                 date = match.group(1)
                 output_file = f'feed-parsed-{date}.json'
-                parse_feed(input_file, Path(output_dir) / output_file)
+                parse_feed(input_file, output_dir / output_file)
