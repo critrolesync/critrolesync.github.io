@@ -1,5 +1,5 @@
---- critical-role\parsed\feed-parsed-2021-09-10.json
-+++ critical-role\parsed\feed-parsed-2021-09-16.json
+--- critical-role/parsed/feed-parsed-2021-09-10.json
++++ critical-role/parsed/feed-parsed-2021-09-16.json
 @@ -1,11 +1,24 @@
  [
 +    {
