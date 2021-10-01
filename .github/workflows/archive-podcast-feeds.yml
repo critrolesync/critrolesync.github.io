@@ -1,6 +1,8 @@
 name: Archive podcast feeds
 
 on:
+  schedule:
+    - cron: '26 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -45,4 +47,4 @@ jobs:
         echo "Pull request URL: ${{ steps.pr.outputs.pull-request-url }}"
 
     - name: Show podcast feed changes
-      run: git show *.diff
+      run: git show --ignore-space-change *.diff
