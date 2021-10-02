@@ -30,9 +30,49 @@ jobs:
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
+    # - name: Stop if there are no important feed changes
+    #   run: |
+    #     if [ "$(wc -w \
+    #       feed-archive/critical-role/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+    #       feed-archive/nerdist/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+    #       | grep total)" = "0 total" ]; then
+    #       echo "Stopping because there are no important feed changes"
+    #     else
+    #       echo "Continuing because there are some important changes"
+    #     fi
+
+    - name: Discard new feed snapshots if there are no important changes
+      # id: checklatest
+      run: |
+        count=$(wc -w \
+          feed-archive/critical-role/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+          feed-archive/nerdist/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+          | grep total \
+          | tr -d [:alpha:],[:space:])
+        echo "::set-output name=count::${count}"
+        echo "New diffs contain ${count} words"
+        if [ ${count} = 0 ]; then
+          echo "Running git-reset"
+          git reset --hard
+        else
+          echo "Keeping changes"
+        fi
+        
+    # - run: echo "${{ steps.checklatest.outputs.count }}"
+
+    # - name: Determine if there are important new feed changes
+    #   id: checklatest
+    #   run: |
+    #     wc -w \
+    #       feed-archive/critical-role/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+    #       feed-archive/nerdist/parsed/diffs/feed-diff-${{ steps.date.outputs.date }}.diff \
+    #       | grep total \
+    #       | tr -d [:alpha:],[:space:]
+
     - name: Create pull request
       id: pr
       uses: peter-evans/create-pull-request@v3.10.1
+      # if: ${{ steps.checklatest.outputs.count > 0 }}
       with:
         commit-message: Update podcast feed archive
         title: Update podcast feed archive
@@ -42,9 +82,11 @@ jobs:
         delete-branch: true
 
     - name: Print pull request information
+      # if: ${{ steps.checklatest.outputs.count > 0 }}
       run: |
         echo "Pull request number: ${{ steps.pr.outputs.pull-request-number }}"
         echo "Pull request URL: ${{ steps.pr.outputs.pull-request-url }}"
 
     - name: Show podcast feed changes
+      # if: ${{ steps.checklatest.outputs.count > 0 }}
       run: git diff --output-indicator-new=" " master update-feed-archive -- *.diff
