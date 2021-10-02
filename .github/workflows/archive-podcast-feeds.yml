@@ -47,4 +47,4 @@ jobs:
         echo "Pull request URL: ${{ steps.pr.outputs.pull-request-url }}"
 
     - name: Show podcast feed changes
-      run: git show --ignore-space-change *.diff
+      run: git diff --output-indicator-new=" " master update-feed-archive -- *.diff
