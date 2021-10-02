@@ -1,12 +1,20 @@
+"""
+Run the autosync algorithm:
+  1. Download the original YouTube and podcast audio files, if necessary
+  2. Slice audio files to isolate their beginnings and endings, if necessary
+  3. Fingerprint the YouTube audio slices, if necessary
+  4. Find timestamps by matching the podcast audio slices to fingerprints
+  5. Write timestamps to data.json
+"""
+
 from pathlib import Path
 import json
 import numpy as np
 from librosa import get_duration
 import logging
-from critrolesync import data, write_data, get_episode_data_from_id, Time, \
-                         download_youtube_audio, download_podcast_audio, \
-                         slice_audio_file
-from critrolesync.autosync import Database, Matcher
+from .. import data, write_data, get_episode_data_from_id, Time, \
+               download_youtube_audio, download_podcast_audio, slice_audio_file
+from . import Database, Matcher
 
 logger = logging.getLogger(__name__)
 

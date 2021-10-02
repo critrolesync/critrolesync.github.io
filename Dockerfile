@@ -49,4 +49,4 @@ COPY . /code
 
 WORKDIR /code/src
 
-CMD python playground2.py
+CMD ["python", "-m", "critrolesync.autosync"]

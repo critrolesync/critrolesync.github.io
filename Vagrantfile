@@ -5,7 +5,7 @@
 #   vagrant up
 #   vagrant ssh
 #   cd /vagrant/src
-#   sudo python3 playground2.py
+#   sudo python3 -m critrolesync.autosync
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/focal64"
