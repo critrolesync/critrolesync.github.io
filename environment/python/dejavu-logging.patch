@@ -1,0 +1,34 @@
+# Patch last modified 2021-09-16
+# Install using:
+#   sudo patch /usr/local/lib/python3.8/dist-packages/dejavu/__init__.py /vagrant/src/dejavu-logging.patch
+
+--- dejavu/__init__.py
++++ dejavu/__init__.py
+@@ -17,6 +17,9 @@
+                                     OFFSET_SECS, SONG_ID, SONG_NAME, TOPN)
+ from dejavu.logic.fingerprint import fingerprint
+
++import logging
++logger = logging.getLogger(__name__)
++
+
+ class Dejavu:
+     def __init__(self, config):
+@@ -97,7 +100,9 @@
+         iterator = pool.imap_unordered(Dejavu._fingerprint_worker, worker_input)
+
+         # Loop till we have all of them
++        i = 0
+         while True:
++            i += 1
+             try:
+                 song_name, hashes, file_hash = next(iterator)
+             except multiprocessing.TimeoutError:
+@@ -111,6 +116,7 @@
+             else:
+                 sid = self.db.insert_song(song_name, file_hash, len(hashes))
+
++                logger.info(f'[{i}/{len(filenames_to_fingerprint)}] inserting {len(hashes)} hashes into database for "{song_name}"')
+                 self.db.insert_hashes(sid, hashes)
+                 self.db.set_song_fingerprinted(sid)
+                 self.__load_fingerprinted_audio_hashes()

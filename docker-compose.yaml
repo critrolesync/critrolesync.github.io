@@ -1,0 +1,23 @@
+# Usage:
+#   docker compose build
+#   docker compose run autosync
+
+version: '3'
+
+services:
+
+  autosync:
+    build: .
+
+    volumes:
+      # let container access host docker daemon
+      - //var/run/docker.sock:/var/run/docker.sock
+
+      # for development, mount the source code from the host
+      - .:/code
+
+      # mount host home dir for persistent storage of audio files and fingerprints
+      - ~/critrolesync-data:/data
+
+    # ensures this service can talk to postgres containers spawned at runtime
+    network_mode: host

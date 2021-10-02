@@ -15,17 +15,20 @@ mid-session break, altered introductions, and variable playback rate.
 
 Click here to start using the app: https://critrolesync.github.io
 
-## Help Needed!
-
-This project needs volunteers to catalogue timestamps from the podcast and
-YouTube videos. If you're interested in helping, [read
-this](https://github.com/critrolesync/critrolesync.github.io/issues/1)!
-
 ## Acknowledgements
 
-Thanks to
+*HUGE* thanks to [@bauersimon](https://github.com/bauersimon) for his help with
+developing tools for automated timestamp synchronization, without which the
+project may have never recovered from the near-fatal blow of [dynamic
+ads](https://github.com/critrolesync/critrolesync.github.io/issues/6)!
+
+Special thanks to
 [u/scruffed_books_fire](https://www.reddit.com/user/scruffed_books_fire) /
-[@theDragonTurtle](https://github.com/theDragonTurtle),
+[@theDragonTurtle](https://github.com/theDragonTurtle) for his massive
+timestamp contributions, invaluable debugging efforts, and enthusiastic
+support!
+
+Thanks also to
 [@brojam](https://github.com/brojam),
 [u/CantReadMaps](https://www.reddit.com/user/CantReadMaps),
 [@the-soul-keeper](https://github.com/the-soul-keeper), and

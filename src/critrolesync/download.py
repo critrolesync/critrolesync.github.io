@@ -36,28 +36,36 @@ def get_podcast_feed_from_title(episode_title):
     else:
         raise ValueError(f'episode with title containing "{episode_title}" not found')
 
-def download_youtube_audio(episode_id, output_file=None):
+def download_youtube_audio(episode_id, output_dir=None):
 
     # get the YouTube video ID
     ep = get_episode_data_from_id(episode_id)
     youtube_id = ep['youtube_id']
 
-    # determine where to permanently save the file after download
-    if output_file is None:
-        output_file = f'{episode_id} YouTube.%(ext)s'
-    else:
-        output_file = str(output_file)
+    # build a filename template for saving after download
+    output_file = f'{episode_id} YouTube.%(ext)s'
+    if output_dir is not None:
+        output_file = str(Path(output_dir) / output_file)
 
+    # prepare a list of files now so that the actual output file can be found
+    # after ffmpeg post-processing (its file extension may change without
+    # youtube-dl knowing about it, e.g., from .webm to .opus)
+    similar_files_before_download = set(Path(output_file).parent.glob(str(Path(output_file).stem) + '.*'))
+
+    # download the audio
     ydl_opts = {'outtmpl': output_file, 'format': 'bestaudio/best', 'postprocessors': [{'key': 'FFmpegExtractAudio'}]}
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         url = f'https://www.youtube.com/watch?v={youtube_id}'
-        info_dict = ydl.extract_info(url, download=True)
-        actual_output_file = Path(ydl.prepare_filename(info_dict))
+        ydl.download([url])
 
-        # return the output file path
-        return actual_output_file
+    # determine the actual name of the new file
+    similar_files_after_download = set(Path(output_file).parent.glob(str(Path(output_file).stem) + '.*'))
+    actual_output_file = next(iter(similar_files_after_download - similar_files_before_download), None)
 
-def download_podcast_audio(episode_title, output_file=None):
+    # return the output file path
+    return Path(actual_output_file)
+
+def download_podcast_audio(episode_id, output_dir=None):
 
     # get the podcast audio file URL from the feed archive
     try:
@@ -78,9 +86,10 @@ def download_podcast_audio(episode_title, output_file=None):
     url = ep['URL']
 
     # determine where to permanently save the file after download
-    if output_file is None:
-        ext = ep['File'].split('.')[-1]
-        output_file = f'{episode_title} Podcast.{ext}'
+    ext = ep['File'].split('.')[-1]
+    output_file = f'{episode_id} Podcast.{ext}'
+    if output_dir is not None:
+        output_file = Path(output_dir) / output_file
 
     _download_file(url, output_file)
 
