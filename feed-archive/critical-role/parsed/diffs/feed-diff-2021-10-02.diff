@@ -1,5 +1,5 @@
---- critical-role/parsed/feed-parsed-2021-09-16.json
-+++ critical-role/parsed/feed-parsed-2021-10-01.json
+--- critical-role/parsed/feed-parsed-2021-10-01.json
++++ critical-role/parsed/feed-parsed-2021-10-02.json
 @@ -32,21 +32,21 @@
          "Staging Date": "2021-09-08",
          "Sponsor": "a2ufu95,a6g66ti",
@@ -11,8 +11,8 @@
          "URL": "https://anchor.fm/s/91c7948/podcast/play/39349079/sponsor/a2ufu95,a6g66ti/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-09-08%2F7651237fcef4498209223ade86505ab7.m4a"
      },
      {
--        "Title": "Exandria Unlimited Episode 8: What Comes Next ",
-+        "Title": "TEST Exandria Unlimited Episode 8: What Comes Next ",
+-        "Title": "TEST Exandria Unlimited Episode 8: What Comes Next ",
++        "Title": "Exandria Unlimited Episode 8: What Comes Next ",
          "GUID": "13e896e2-a094-4833-b7ea-bf2c2d7685b4",
          "Publication Date": "2021-08-19",
          "Staging Date": "2021-09-08",
