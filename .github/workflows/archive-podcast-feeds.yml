@@ -26,9 +26,21 @@ jobs:
     - name: Diff podcast feeds
       run: python feed-archive/step-3-diff-feeds.py
 
-    - name: Get current date
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+    - name: Discard new feed snapshots if there are no parsed changes
+      run: |
+        count=$(wc -w \
+          $(ls feed-archive/critical-role/parsed/diffs/*.diff | tail -n1) \
+          $(ls feed-archive/nerdist/parsed/diffs/*.diff | tail -n1) \
+          | grep total \
+          | tr -d [:alpha:],[:space:])
+        echo "New diffs contain ${count} words"
+        if [ ${count} = 0 ]; then
+          echo "Discarding changes"
+          rm -rf feed-archive
+          git reset --hard
+        else
+          echo "Keeping changes"
+        fi
 
     - name: Create pull request
       id: pr
