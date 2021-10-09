@@ -33,23 +33,33 @@ class Time(np.ndarray):
     @staticmethod
     @np.vectorize
     def str2sec(string):
-        if string[0] == '-':
-            sign = -1
-            string = string[1:]
-        else:
-            sign = 1
-        numbers = np.asarray(string.split(':')[::-1], dtype='float')
-        return sign * np.dot(numbers, [1, 60, 3600][:len(numbers)])
+        original_string = string
+        try:
+            if string[0] == '-':
+                sign = -1
+                string = string[1:]
+            else:
+                sign = 1
+            numbers = np.asarray(string.split(':')[::-1], dtype='float')
+            seconds = sign * np.dot(numbers, [1, 60, 3600][:len(numbers)])
+            return seconds
+        except:
+            raise ValueError(f'failed to convert time string "{original_string}" to number of seconds')
 
     @staticmethod
     @np.vectorize
     def sec2str(seconds):
-        seconds = round(seconds)
-        sign = '-' if seconds < 0 else ''
-        seconds = abs(seconds)
-        mins, secs = divmod(seconds, 60)
-        hours, mins = divmod(mins, 60)
-        return f'{sign}{int(round(hours)):d}:{int(round(mins)):02d}:{int(round(secs)):02d}'
+        original_seconds = seconds
+        try:
+            seconds = round(seconds)
+            sign = '-' if seconds < 0 else ''
+            seconds = abs(seconds)
+            mins, secs = divmod(seconds, 60)
+            hours, mins = divmod(mins, 60)
+            string = f'{sign}{int(round(hours)):d}:{int(round(mins)):02d}:{int(round(secs)):02d}'
+            return string
+        except:
+            raise ValueError(f'failed to convert number of seconds "{original_seconds}" to a string')
 
 
 def str2sec(string):
