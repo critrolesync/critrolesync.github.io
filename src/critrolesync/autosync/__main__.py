@@ -42,6 +42,11 @@ with open('custom-podcast-slice-times.json') as _fd:
 def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor=None):
     d = get_episode_data_from_id(episode_id)
     ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
+
+    # verify that no YouTube timestamps are empty
+    if np.any(ts.youtube == ''):
+        raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
+
     podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
 
     podcast_slice_times = default_podcast_slice_times.copy()
