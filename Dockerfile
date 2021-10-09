@@ -4,7 +4,7 @@
 
 FROM python:3.9
 
-RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
+RUN apt-get update -y && apt-get install -y \
     ffmpeg \
     gcc \
     libasound-dev \
