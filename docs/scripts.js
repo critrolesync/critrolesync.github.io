@@ -491,9 +491,7 @@ function getUrl(type, ep, timeObj=null) {
         case 'youtube':
             return youtubeUrl(ep, timeObj)
         case 'podcast':
-            var url = googlePodcastsUrl(ep, timeObj)
-            if (!url) { url = overcastUrl(ep, timeObj) }
-            return url
+            return googlePodcastsUrl(ep, timeObj)
         case 'transcript':
             return transcriptUrl(ep, timeObj)
         default:
@@ -539,13 +537,5 @@ function googlePodcastsUrl(ep, timeObj=null) {
 
     var url = `https://podcasts.google.com/?feed=${ep.google_podcasts_feed}&episode=${ep.google_podcasts_episode}`
     if (timeObj) { url += `&pe=1&pep=${Math.floor(timeObj.total)}000` }
-    return url
-}
-
-function overcastUrl(ep, timeObj=null) {
-    if (!ep.overcast_id) { return }
-
-    var url = `https://overcast.fm/+${ep.overcast_id}`
-    if (timeObj) { url += `/${timeObj.string}` }
     return url
 }
