@@ -1,6 +1,7 @@
 # Usage: (docker-compose recommended instead for simplicity)
 #   docker build -t critrolesync_autosync .
-#   docker run -it -v //var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/code -v ~/critrolesync-data:/data --network host critrolesync_autosync
+#   docker run -it -v //var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/code -v ~/critrolesync-data:/data --network host critrolesync_autosync episode_ids
+# where episode_ids takes a form like C1E1 or C2E1-141
 
 FROM python:3.9
 
@@ -49,4 +50,4 @@ COPY . /code
 
 WORKDIR /code/src
 
-CMD ["python", "-m", "critrolesync.autosync"]
+ENTRYPOINT ["python", "-m", "critrolesync.autosync"]

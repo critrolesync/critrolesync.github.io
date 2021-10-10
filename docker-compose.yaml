@@ -1,6 +1,7 @@
 # To run the autosync algorithm:
 #   docker compose build
-#   docker compose run autosync
+#   docker compose run autosync episode_ids
+# where episode_ids takes a form like C1E1 or C2E1-141
 #
 # To host the site locally:
 #   docker compose up web -d

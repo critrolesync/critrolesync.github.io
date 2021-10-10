@@ -7,6 +7,9 @@ Run the autosync algorithm:
   5. Write timestamps to data.json
 """
 
+import sys
+import argparse
+import re
 from pathlib import Path
 import json
 import numpy as np
@@ -17,8 +20,6 @@ from .. import data, write_data, get_episode_data_from_id, Time, \
 from . import Database, Matcher
 
 logger = logging.getLogger(__name__)
-
-# logging.basicConfig(level=logging.INFO)
 
 
 youtube_slice_times = {
@@ -80,26 +81,80 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     }
 
 
-overwrite_youtube_download = False
-overwrite_podcast_download = False
-overwrite_youtube_slices = False
-overwrite_podcast_slices = False
-overwrite_fingerprints = False
+def parse_args(argv):
+    parser = argparse.ArgumentParser(prog='autosync')
+
+    parser.add_argument('episode_ids', nargs='+',
+                        help='the ids of episodes to sync, separated by spaces ' \
+                             '(e.g., C1E1 C1E2) or given as a range (e.g., C2E1-141)')
+    parser.add_argument('-v', '--verbose', action='count', default=0,
+                        help='display detailed information during execution')
+    parser.add_argument('-d', '--download', choices=['both', 'youtube', 'podcast'],
+                        help='download audio (even if downloads already exist)')
+    parser.add_argument('-s', '--slice', choices=['both', 'youtube', 'podcast'],
+                        help='slice audio (even if slices already exist)')
+    parser.add_argument('-f', '--fingerprint', action='store_true',
+                        help='generate fingerprints (even if fingerprints already exist)')
+
+    args = parser.parse_args(argv[1:])
+
+    episode_ids = []
+    for ep in args.episode_ids:
+        if '-' in ep:
+            try:
+                first, last = ep.split('-')
+
+                match = re.fullmatch('(.*\D+)(\d+)', first)
+                assert match is not None, 'first part has wrong form'
+                first_prefix, first_number = match.groups()
+
+                match = re.fullmatch('(\d+)', last)
+                if match is not None:
+                    last_number, = match.groups()
+                else:
+                    match = re.fullmatch('(.*\D+)(\d+)', last)
+                    assert match is not None, 'second part has wrong form'
+                    last_prefix, last_number = match.groups()
+                    assert first_prefix == last_prefix, 'prefixes do not match'
+
+                first_number = int(first_number)
+                last_number = int(last_number)
+                assert first_number < last_number, 'not in ascending order'
+
+                episode_ids += [f'{first_prefix}{i}' for i in range(first_number, last_number + 1)]
+
+            except Exception as e:
+                raise ValueError(f'could not parse episode ids "{ep}": {e}')
+
+        else:
+            episode_ids.append(ep)
+
+    args.episode_ids = episode_ids
+
+    return args
+
+
+args = parse_args(sys.argv)
+
+if args.verbose == 1:
+    logging.basicConfig(level=logging.INFO)
+elif args.verbose > 1:
+    logging.basicConfig(level=logging.DEBUG)
+
+logger.debug(args)
+
+episode_ids = args.episode_ids
+overwrite_youtube_download = args.download in ['both', 'youtube']
+overwrite_podcast_download = args.download in ['both', 'podcast']
+overwrite_youtube_slices = args.slice in ['both', 'youtube']
+overwrite_podcast_slices = args.slice in ['both', 'podcast']
+overwrite_fingerprints = args.fingerprint
+
+print(f'Preparing to autosync the following episodes: {episode_ids}')
+
 
 data_dir = Path('/data')
 data_dir.mkdir(parents=True, exist_ok=True)
-
-episode_ids = [f'C1E{i}' for i in range(1, 12)]
-# episode_ids = [f'C1E{i}' for i in range(1, 31)] + \
-#               ['C1E32', 'C1E34'] + \
-#               [f'C1E{i}' for i in range(36, 60)] + \
-#               ['C1E31 (Part 1)', 'C1E31 (Part 2)', 'C1E33 (Part 1)', 'C1E33 (Part 2)', 'C1E35 (Part 1)', 'C1E35 (Part 2)']
-# episode_ids = [f'C1E{i}' for i in range(60, 116)]
-
-# episode_ids = [f'C2E{i}' for i in range(1, 142)]
-
-# episode_ids = [f'EXU{i}' for i in range(1, 9)]
-
 
 with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
 
