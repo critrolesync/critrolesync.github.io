@@ -44,6 +44,12 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     d = get_episode_data_from_id(episode_id)
     ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
 
+    # verify there are at least two events in the timestamps list
+    if len(ts) == 0:
+        raise ValueError(f'timestamps are empty for "{episode_id}"')
+    if len(ts) == 1:
+        raise ValueError(f'at least two timestamp events are needed, but "{episode_id}" has only one: {ts}')
+
     # verify that no YouTube timestamps are empty
     if np.any(ts.youtube == ''):
         raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
