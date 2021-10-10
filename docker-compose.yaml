@@ -1,10 +1,15 @@
-# Usage:
+# To run the autosync algorithm:
 #   docker compose build
 #   docker compose run autosync
+#
+# To host the site locally:
+#   docker compose up web -d
+# then visit http://localhost
 
-version: '3'
+version: "3"
 
 services:
+
 
   autosync:
     build: .
@@ -19,5 +24,17 @@ services:
       # mount host home dir for persistent storage of audio files and fingerprints
       - ~/critrolesync-data:/data
 
-    # ensures this service can talk to postgres containers spawned at runtime
+    # ensure this service can talk to postgres containers spawned at runtime
     network_mode: host
+
+
+  web:
+    image: nginx
+
+    volumes:
+      # serve html from the docs directory
+      - ./docs:/usr/share/nginx/html
+
+    ports:
+      # map port 80 to the host
+      - "80:80"
