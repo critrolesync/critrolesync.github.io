@@ -491,7 +491,9 @@ function getUrl(type, ep, timeObj=null) {
         case 'youtube':
             return youtubeUrl(ep, timeObj)
         case 'podcast':
-            return googlePodcastsUrl(ep, timeObj)
+            var url = googlePodcastsUrl(ep, timeObj)
+            if (!url) { url = spotifyUrl(ep, timeObj) }
+            return url
         case 'transcript':
             return transcriptUrl(ep, timeObj)
         default:
@@ -537,5 +539,13 @@ function googlePodcastsUrl(ep, timeObj=null) {
 
     var url = `https://podcasts.google.com/?feed=${ep.google_podcasts_feed}&episode=${ep.google_podcasts_episode}`
     if (timeObj) { url += `&pe=1&pep=${Math.floor(timeObj.total)}000` }
+    return url
+}
+
+function spotifyUrl(ep, timeObj=null) {
+    if (!ep.spotify_id) { return }
+
+    var url = `https://open.spotify.com/episode/${ep.spotify_id}`
+    if (timeObj) { url += `?t=${Math.floor(timeObj.total)}` }
     return url
 }

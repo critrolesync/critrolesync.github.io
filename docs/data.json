@@ -9,6 +9,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzY2ZDI3ODAtOTA2Yy00ODE0LWJmZTAtMmQ0ZGRiMDU3MmEy",
+                "spotify_id": "0MgRsgEfS2omqOKG5h0VqF",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:17:53", "0:00:23", "last left off"],
@@ -28,6 +29,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MWM1ODU5MDMtYWZkNC00YWQ0LWIyYmQtOTY5ZWVkNjFlNzMz",
+                "spotify_id": "1qHK0e4MTsshSuuJ7HsWCS",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:13:25", "0:00:29", "recap"],
@@ -47,6 +49,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NDA2ZDkzM2ItOWQ4Yi00YzViLTk0ZTAtZGU3NThhYjZhNjgy",
+                "spotify_id": "5nYDdro2fnaZ7SV4qXUB1g",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:04:29", "0:00:23", "recap"],
@@ -66,6 +69,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzUyNmYxMmMtMTdiYy00Mzg5LTg0MTgtMDQzNmUzMTNjM2Vk",
+                "spotify_id": "2NCUmsGsFsExcmavPIXf00",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:14:19", "0:02:29", "recap"],
@@ -85,6 +89,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MGIxODIxMTUtMGRmYS00OGJiLTlhNTEtMWJkNDY0MzllMGNl",
+                "spotify_id": "68AoUNORvBBqybhcPAv3e6",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:15:33", "0:00:23", "recap"],
@@ -104,6 +109,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjQ0MGEyNmMtY2M2Mi00M2YzLWEyNjMtZmEyMzc1ZmRlY2Qz",
+                "spotify_id": "4M9TXmTw7LzQDmYrw2IY7z",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:19:09", "0:00:24", "recap"],
@@ -123,6 +129,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YWUxZDI2Y2MtODI5Yi00MWYyLThmMzYtM2UxYjMxYjk2MzU1",
+                "spotify_id": "2zGtabcdHeXEtbs26428AJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:18:24", "0:00:24", "recap"],
@@ -142,6 +149,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZGM2MzUyOWQtZjFiOS00NmYxLWJkNjQtYjZhYjRiZjFlZjMz",
+                "spotify_id": "6FJHJ5MosBUHqAutFDpBAk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:15:36", "0:00:24", "recap"],
@@ -161,6 +169,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZWM1YjRjZTItYmYwZi00NjFlLTk4MTgtODY1ZGU0ZGQxZjhi",
+                "spotify_id": "5zZ4rw6it2JGvivWlXtcvF",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:21:40", "0:00:26", "recap"],
@@ -180,6 +189,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MTlkODA1YTMtYWIwNy00ZmRiLThiMDMtODYyODI0YjczNTQ5",
+                "spotify_id": "47WrnY4IbFazvEPrCh0iry",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:19:57", "0:00:24", "recap"],
@@ -199,6 +209,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "N2I2MDBiYzktNmFmOC00MjE4LWJjNGItODJkY2ZlMWZlMzA1",
+                "spotify_id": "18qGqSCPw3SiZaVBOsGREi",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:12", "0:00:22", "recap"],
@@ -218,6 +229,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ODg3NzZjMjMtNWVhYy00ZDZkLWIxNzgtYTU5ZDFiODc4ZGVm",
+                "spotify_id": "4VM4ivO5f5EQD9Uadcp3Sx",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:24:59", "0:00:23", "start"],
@@ -235,6 +247,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZmM1YjkxN2QtZTRhMi00ODA5LTk3OGUtZmIwNzQ4YTA4MTVm",
+                "spotify_id": "4dzZeUaEIjRjfJvPAC78wN",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:23:15", "0:00:22", "recap"],
@@ -254,6 +267,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Mjk0MGNmNTgtMGM4Yy00ZGQ4LWExMTQtOGI2ZDRjZTI4OGY3",
+                "spotify_id": "7dc3CxMAOmMJqJVxitBlpa",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:21:12", "0:00:25", "recap"],
@@ -273,6 +287,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZDJhOWZlMGMtYjgzNi00MmIyLThkODMtZjliMmJlZThjZDRk",
+                "spotify_id": "2Cs3qm4m5Lr2YPLZ37AGOt",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:13", "0:00:24", "recap"],
@@ -292,6 +307,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDFiM2NiMjMtYjhmMi00OTZmLWI1ODYtNDIyOTM4ZTY2ODVm",
+                "spotify_id": "5oyG4OT2OGuQKkPU7Feo4z",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:22", "0:00:22", "recap"],
@@ -311,6 +327,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YmM2NzIyMjEtYTI4OC00NGY0LWE5YzItYTc0YmYyYzVmN2Mx",
+                "spotify_id": "4LUtuK7vpG58CWXlmOtJiL",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:13:28", "0:00:23", "recap"],
@@ -330,6 +347,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDM0YWIwNWEtZDMzMC00NjJmLWIwYzktMDg2NWQzY2I5NGFi",
+                "spotify_id": "1I7MB0Nhufgm3AaSacGTEO",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:18", "0:00:25", "recap"],
@@ -349,6 +367,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzQ2M2E1NGMtNzE5Mi00ZmNmLWI0MWMtNzA0OWU4YzNkZGQw",
+                "spotify_id": "7bLSdGotuJxTq7EFK5oZH3",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:59", "0:00:24", "recap"],
@@ -368,6 +387,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjIyOGNmNmYtYzc1ZC00OGUzLWJiNzktMzE3ZmViZDRmOTc3",
+                "spotify_id": "3HXLdG28wWsK4DA1IxPonk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:35", "0:00:25", "recap"],
@@ -387,6 +407,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "N2Q4YTNkZmItYzU3NS00MzI5LThjYjMtMjhkYjk1ZWUxYTBk",
+                "spotify_id": "2UhdcSZeu80met2D2xOr48",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:19", "0:00:22", "recap"],
@@ -406,6 +427,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MzhjMDk4ZjMtOTZlMy00MDY5LTg4ODEtNWE4MTA4M2VkYjRi",
+                "spotify_id": "3IG4RnHO8Nds7iQMMvQbNp",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:05:39", "0:00:21", "recap"],
@@ -425,6 +447,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzQzMjdmMDMtNTcyZi00OTIzLThkNWItN2RmNjczYzlhZWMx",
+                "spotify_id": "7dpLCKMbT9uwuo9oBP6Wxo",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:11:53", "0:00:24", "recap"],
@@ -444,6 +467,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzE5NjZkYjAtM2Y0My00ODAyLTg2YjQtOTYwZjFjMmMxMGUw",
+                "spotify_id": "6IxZd9kVIXNTr9xcnhUsaR",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -454,6 +478,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YjE0ZDVmMDMtM2MzMi00ZWYzLTk5OGUtZTcwMzk5MWU1ZmRi",
+                "spotify_id": "52zrrCPUX4hsyYlzyeQhzV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -464,6 +489,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzRkN2Y0ZGEtMDJhNi00YzEzLTk5ZGEtMzAwYTI5NDc0NzU5",
+                "spotify_id": "6bZazkTbl8iASgtPylP5QM",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -474,6 +500,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZTZlNTY5NTktZThmMS00NjRjLTliODAtZmNkM2Q2OWU0ZTIy",
+                "spotify_id": "0dAYn9umKSkis4XaZJQtZn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -484,6 +511,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OGUwODM0ZmEtN2QxZi00ZDkwLWE1MzktNWRhZTE4YmY1YjE3",
+                "spotify_id": "3it1wEUg9eFP6NJZejf4kD",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -494,6 +522,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjRmMzdmOTQtMzhiNy00ZjcyLWFiZmYtZmFlNGMxODgzZDZk",
+                "spotify_id": "5Y4VT79MvRxv3NRHnPH1lE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -504,6 +533,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZWUwYmQ4MzAtY2IyNC00ZTczLWEyMjUtNTEzMjZlNmExZDFm",
+                "spotify_id": "7cWAT7Ny5D7yQYZMRTKc4E",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -514,6 +544,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzdhMTA0ZDgtOTM1OC00M2UwLWI3ZDktMjFkNGEyZGQyOGFi",
+                "spotify_id": "2RfzIxKQNE8fI1fHrUppDQ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -524,6 +555,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzdhMTA0ZDgtOTM1OC00M2UwLWI3ZDktMjFkNGEyZGQyOGFi",
+                "spotify_id": "2RfzIxKQNE8fI1fHrUppDQ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -534,6 +566,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDM2OTAwODItN2MwYS00YTM2LTg5NGEtZTJjMmU1OWE0NGYx",
+                "spotify_id": "5ytUJXI8KL7GlzDPvtp8EY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -544,6 +577,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjFjMmQwMjgtNWU4Mi00Y2I4LWI5Y2MtNmY2NWFhNzQ0YTI0",
+                "spotify_id": "48loRXap4ubi5KgJCIztuw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -554,6 +588,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjFjMmQwMjgtNWU4Mi00Y2I4LWI5Y2MtNmY2NWFhNzQ0YTI0",
+                "spotify_id": "48loRXap4ubi5KgJCIztuw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -564,6 +599,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MWNhNzZhMDgtYjYyMC00MzlkLTg4MzYtYmY3MDBiYzM3ZTAy",
+                "spotify_id": "3lMSf3RcuQnuG2zcG3cJC2",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -574,6 +610,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmQyYTEyNjItMTk3Ni00YjcyLTkwMTMtYmNjNTFhYjU1MjNm",
+                "spotify_id": "1niBb7XuBoXfM5YPLUCW0p",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -584,6 +621,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmQyYTEyNjItMTk3Ni00YjcyLTkwMTMtYmNjNTFhYjU1MjNm",
+                "spotify_id": "1niBb7XuBoXfM5YPLUCW0p",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -594,6 +632,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZmM2Zjg1ZDItZWI0My00MzM1LTljNWMtZDk4YWIyNTMyYmEz",
+                "spotify_id": "2NPnjeky0z0txN6TB6JBRl",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -604,6 +643,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YTM4NDk3ZTAtNzViMC00NTQyLWFkYTQtMzlhZTgxMTk1Yjc1",
+                "spotify_id": "7Jdh520e47yOItHXuMOC81",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -614,6 +654,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NTc3ZTdmZGYtYjNjZS00OGE4LWJiMGUtZTgzZTRhOWRhYTA0",
+                "spotify_id": "44I0NALu2EMDrJPUj8Thax",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -624,6 +665,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NTZiZmFhZjUtYWU3Ny00NWNiLWJlMTUtMzVlYWNkZTg1ODM5",
+                "spotify_id": "5VaoelZHoUsDznSFACU5iP",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -634,6 +676,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MzQzOTg4YjgtOWExMi00NGRjLWJiYjEtMjc1ZTU1MzNmYzI4",
+                "spotify_id": "0wkU9Ka733zGG1duVl7vNO",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -644,6 +687,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OGFmMGU4ZTItYWEzNC00ZmU2LWIwZGMtN2NhYjFhNjU4NThi",
+                "spotify_id": "0uwffOqlwJs8pAtPJrBQRE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -654,6 +698,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmY3MjkzZDUtNzlkNi00ZTgyLWI0ZjItZmQwNTRiYTQ5MzRl",
+                "spotify_id": "3JuZ95Hf5oOMqgbmFN1N9A",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -664,6 +709,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjIxNGNiYzItYzJmZS00ZTU0LTg4NTQtODc4OTdhMDAwODk1",
+                "spotify_id": "5hKLAWMq1LHojwx0jxLwSF",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -674,6 +720,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDFlM2RhOTItNjRiMy00ZTQzLThlNjAtZjM5ZTZmZjIzNDc3",
+                "spotify_id": "6xIZg0t8uCNFsGFrGYWPmY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -684,6 +731,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZDU3NWRjZDctZWJmNi00Y2RmLTkwMGMtYzBlZmFmY2FlOWFh",
+                "spotify_id": "2XMHGOuDuo8ciIwILqHuZY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -694,6 +742,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Y2M1ZDBkMWItNDVhMS00YWUyLWE2MGYtMzI4MjU2MjVjZDIx",
+                "spotify_id": "17BInNb5QM0KI3rl0gaDIB",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -704,6 +753,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjBlMTkxZjItN2MwMS00NDMzLTgxYmUtNTAxMmRhMWY2YTI4",
+                "spotify_id": "38sdSzeSJjOKkcwxN2MwcC",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -714,6 +764,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "N2I0N2E2NjYtZDBjZS00NjZhLTlhM2MtMGZjNDA1NTNlMThi",
+                "spotify_id": "2xor13kB7BpfoxRzf9ja4i",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -724,6 +775,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjVlNTE2MTEtMDUxNy00OTJjLWI4ZDktOWQxNDAyNDFhM2Vl",
+                "spotify_id": "7irk5DhOB43y5ILLDP53Os",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -734,6 +786,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OGU0MGE4YmUtZjFkMC00YTI4LWJkOGEtNzg3OTBkNjc5ZjE4",
+                "spotify_id": "36hQk327Ku607iH5Klr1xY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -744,6 +797,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjFjZTcwYzAtY2NmOC00N2QwLTkwYzQtNThmODQxMzZhNDU2",
+                "spotify_id": "1kGOAIwgkA37zyQhW7rkwn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -754,6 +808,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YTVmN2Q0YmQtZTY1MS00NmM4LWI0NzItMGY2N2IxYzY3Mzhi",
+                "spotify_id": "541fIckumBqM9P9ntUkqy7",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -764,6 +819,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjIwYWJjZmEtYWM5Zi00YjBhLTg1ZDYtMGE2ODY1NWJhMzI0",
+                "spotify_id": "4GHv7MILs5jcSWjxB1iFES",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -774,6 +830,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjViYmU3M2QtOTAxMi00MDdjLWE5YjgtZTM1Yzg1YzhjMWUx",
+                "spotify_id": "1bOun0mI60QM4WhTMJlQKD",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -784,6 +841,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDM4ZWM3MGYtYjUzYS00MTE4LWJjYzgtYWI5MjQ3NmYzZTk4",
+                "spotify_id": "1ml2uBPkBd60bOGcf1kmvg",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -794,6 +852,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjE1MWRjNGItNjIwYi00NGZmLTk4NTAtMDM2YWQ5NzU0OGQ2",
+                "spotify_id": "5s4vD60kXID0OqyIzufeEK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -804,6 +863,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "M2RhOWNhYzItOWFjNC00ZmQ5LWE1ZWItYTcyZDZiOGM2ODM3",
+                "spotify_id": "5O53RC9TV2UYjKHNvdyXUV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -814,6 +874,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZGQyYzZlYjItNWY5Yy00NTA3LWE2NDYtYjNhZDc5OGVjOTQx",
+                "spotify_id": "1f21l8jMrEeScpFGWxvGQC",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -824,6 +885,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZmJiYmJhODEtNDlhYi00YTcyLWIzMTAtOGQ3MzYyNDQwNDVm",
+                "spotify_id": "3AAG2F84QIcoJUzYzbkHfi",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": []
             },
@@ -834,6 +896,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzBhYWExOGMtMGEwMi00ZWU0LWFhYmQtZWIyZTgxZTIxOGNl",
+                "spotify_id": "31TzMDe31i5tDWMjK2LM0x",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:13:55", "0:00:23", "recap"],
@@ -853,6 +916,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YjNlMTlmYTMtNTk5Mi00MWRlLTlkZDMtOWJhNGNlZTY0MDhh",
+                "spotify_id": "3yXozbLgjeLldhOsNlMthL",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:04", "0:00:24", "recap"],
@@ -872,6 +936,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Y2ZlNDc0MTUtOTA5NS00NjQ5LWI5MjctNzM4MzZiM2QwZjVk",
+                "spotify_id": "0XhE7SfxcCcDa7xb2x2NZh",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:26", "0:00:49", "recap"],
@@ -891,6 +956,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmQwZTc0ZTgtMGYzYS00YjdlLThhNmMtMmI1ODNlNTc5NWY1",
+                "spotify_id": "6MqFQVaFueudwwsmuHS16G",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:01:30", "0:00:23", "recap"],
@@ -910,6 +976,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzI1NjUyMjItNTNiOS00OWNmLWJhYjgtODE1YzQ2ZjE5NzAw",
+                "spotify_id": "1d9qOut20zfsNTm5yhVTxP",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:05:59", "0:00:24", "recap"],
@@ -929,6 +996,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ODBlYjhmZGMtMWY3Ny00Y2I0LWE3ZjEtZjU4ZjU4NjdiYjY2",
+                "spotify_id": "6ipqkCEUYo4BMVKZxGmiDe",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:26", "0:00:23", "recap"],
@@ -948,6 +1016,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "N2NlMjYzZGQtNGQ4OC00N2VhLThjOTQtMDI1YWViMDAwNjM4",
+                "spotify_id": "37T0W16q8t1zBSli5wwoIm",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:51", "0:00:22", "recap"],
@@ -967,6 +1036,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NmNjMzEzOGItN2YyOC00MWVhLWJhZjItZjNlN2JhNDcxMTE3",
+                "spotify_id": "7nu5erEt9wzv6jh58EF9cc",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:16", "0:00:24", "recap"],
@@ -986,6 +1056,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MWZjNGE4NmQtZGY4My00YjhiLThiMmEtMGJmMDEyMGE0OTI5",
+                "spotify_id": "1dFCqgkxP8pgFBbeT3COYn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:41", "0:00:23", "recap"],
@@ -1005,6 +1076,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZmM4N2UxNDQtMjk3ZS00MDM1LThmNWYtOWZlOTFiYTVjOGVm",
+                "spotify_id": "1Q210SmZVS4fb0kHCrSV1p",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:54", "0:00:24", "recap"],
@@ -1024,6 +1096,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MGE5NjVlYTktOGRiNi00NTQ5LTg0YjQtNDJlMGI3MzczZmM1",
+                "spotify_id": "4oGqjAwhuhQiJhampyCgVJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:35", "0:00:24", "recap"],
@@ -1043,6 +1116,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZTg2MTE2NjctZDA3OS00ZTQzLWFlNzktZTJmNWUyMTVhYWJi",
+                "spotify_id": "6eb4uqufgN9dbCBdtW7rcZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:10", "0:00:23", "recap"],
@@ -1062,6 +1136,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NWUzNzYxMmEtZTFhZS00NjFhLTgzMDgtNDRjNjMwZDBkNGNi",
+                "spotify_id": "0oNIi3kP141EknstytadaN",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:29:41", "0:00:22", "recap"],
@@ -1081,6 +1156,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MGM4MDZhYjEtMDM1Ni00NTIyLTgzYjYtYzViNzFjY2ZjN2Uy",
+                "spotify_id": "6sYeDS7hmBkgNiH8Wnu9y0",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:15:55", "0:00:26", "recap"],
@@ -1100,6 +1176,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Zjc2MzNmMzItNGI4Ni00Y2I1LTgyNTMtMGYyNmI3ZWE2ZmRk",
+                "spotify_id": "0UShtz4SibbgHz9i8XHcjS",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:47", "0:00:23", "recap"],
@@ -1119,6 +1196,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NTI4MWFhMjEtNDYxNC00NWQ0LWEzNTktYjY5OTY0Y2M1MTEx",
+                "spotify_id": "5Wvj0GST8IYdGmDkNzJRSm",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:12:38", "0:00:25", "recap"],
@@ -1138,6 +1216,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OWUwNGQ0M2UtMWQzMy00NDkzLTkxZDgtM2I1Y2I5YjRlYWIy",
+                "spotify_id": "6p1DbP3FRMw2VVaEIGWwDl",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:00", "0:00:25", "recap"],
@@ -1157,6 +1236,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmJmODgyYWEtOTJiNy00NTgxLWEyMjUtMjVmYjEwYzNhZjEz",
+                "spotify_id": "2eZz17uxW22gyqAM7qEZMY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:12:59", "0:00:24", "recap"],
@@ -1176,6 +1256,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjM4Zjk5MzItOTkyYS00YjM5LTk2YjctOGU4MTdmMDg0MGIx",
+                "spotify_id": "3tuSa3KOdcCCFfwHQTcJnG",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:16:11", "0:00:23", "recap"],
@@ -1195,6 +1276,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZWRlM2FiNDEtNmQwNS00ZTExLWI2NGYtMDBlMTQ5YzFmNTky",
+                "spotify_id": "2xYKnKKgkcFWinEY91GJ3Y",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:38", "0:00:26", "recap"],
@@ -1214,6 +1296,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjE4Nzk2YjAtNTc0Zi00OGFhLWI4ZjYtYTRmMjBkZDZkNGVj",
+                "spotify_id": "1U7dOAnFRzX7BvLbHYHxUW",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:12", "0:00:24", "recap"],
@@ -1231,6 +1314,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDkwMzU1M2MtNDUxNS00NTAxLWE3YjItNTZkZjQ4NTY0Nzgx",
+                "spotify_id": "6WLbGOtoxqSwHC3JD8Qvl5",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:39", "0:00:26", "recap"],
@@ -1250,6 +1334,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjBiMGY0NmUtYWEzNS00Y2Y1LWEwYjYtZDQ0YWI3ZmM0YzVk",
+                "spotify_id": "67RC0D9n1irLmScuWOk1gi",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:24", "0:00:27", "recap"],
@@ -1269,6 +1354,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YWJlZGUzMjItODY1NS00NDI0LWFjYmUtOTExZDA2MWI3Nzg3",
+                "spotify_id": "27Zg7QpeOwIHc9AiOwr4eb",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:42", "0:00:25", "recap"],
@@ -1288,6 +1374,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NDM4NjM0ZGEtYmU4ZC00MjgyLTkzZGQtMTNiZTgzOTAwYTlk",
+                "spotify_id": "1rJOaKVsP55wcIAJPWho7F",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:17:19", "0:00:25", "recap"],
@@ -1307,6 +1394,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZDU0MDNjMjAtNjU1Ni00MjkwLTk5NjEtMzY5Mjc5Yzg0NDhm",
+                "spotify_id": "4OBV9Wg7acct7kfB2WOvZ9",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:27", "0:00:25", "recap"],
@@ -1326,6 +1414,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZTQ3YTk1MWMtM2E2My00NDM5LWEzNDUtZjkzZmJmMmMwMmEz",
+                "spotify_id": "3b3h9hYdDjponiTPNUbeCf",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:30:32", "0:00:25", "recap"],
@@ -1345,6 +1434,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MDU2YTIxZjAtZjc3OC00ZmQ3LTliMDYtYzQzYzY0N2E3YTk3",
+                "spotify_id": "4M4c1xmMZ2W0Un2rf5iEUK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:56", "0:00:25", "recap"],
@@ -1364,6 +1454,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Y2QyMWI3MzQtN2M4YS00M2U2LTk3ODItZWM2OWVhZDYxZjFk",
+                "spotify_id": "61pypHJW58Zu5w3fERCXo6",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:57", "0:00:24", "recap"],
@@ -1383,6 +1474,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZmE3YzllZjgtYTE0Mi00MjVjLTgyYjMtYWMwMWZjZjI4Mjcy",
+                "spotify_id": "6Etdo0KTIs0S3iE21Mzfqj",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:14:02", "0:00:24", "recap"],
@@ -1402,6 +1494,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OTBiZDJiMjItM2M1YS00MDU0LTliMDItMGUzOGViOGYzYzIx",
+                "spotify_id": "3iFNW7fSrALv7Z91QIikuH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:14:50", "0:00:25", "recap"],
@@ -1421,6 +1514,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NmZlZWM4MDgtZmFmNC00Yzk2LTk1MjctN2VjMzc3YzBjYWY5",
+                "spotify_id": "6LyfT0y2sBTOx8MY0gzJEh",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:25", "0:00:24", "recap"],
@@ -1440,6 +1534,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Nzc2YWM0ZWMtMzRhYy00MTc2LWEyZTQtOTE1ZDcwMThhMWIx",
+                "spotify_id": "7dzmTyKOnnzC5c0aavPIMZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:51", "0:00:24", "recap"],
@@ -1459,6 +1554,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NTJlMTE3NmQtNTIwYS00NTM2LWE3OGUtM2M5MThhYjM4MWY3",
+                "spotify_id": "45YK61cFN2lC5gbWcVZWh3",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:32", "0:00:24", "recap"],
@@ -1478,6 +1574,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Yzk5NDQwN2QtNDg3ZS00NTU5LWJjZTItNTIxZGYxOWU5MTEx",
+                "spotify_id": "5pOeR04eE0WmqYXJ9aidoB",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:15:05", "0:00:24", "recap"],
@@ -1497,6 +1594,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OThmMGU0MzYtNjk2Yy00OTQxLTkyNDItZDg4OTQ0ZjFiNmQx",
+                "spotify_id": "73CvnkAooEWxuTDoRcRHlT",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:34", "0:00:25", "recap"],
@@ -1520,6 +1618,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MWY2NjljMzUtOGZhYS00YWY2LTg3NTEtZGJlZGIzODBjY2Iw",
+                "spotify_id": "5eKrvuVWX02Wcv3oi226eZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:12:30", "0:00:26", "recap"],
@@ -1539,6 +1638,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Zjk2ODc3MzktYTA3Yy00YTY1LTkzNzQtMjA5ZDdhNzQ4MGFh",
+                "spotify_id": "3Cwakhm5kGnK0TBYDGw84f",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:35", "0:00:25", "recap"],
@@ -1558,6 +1658,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjQwOGQ2YzAtYjdmYS00ZWViLWE3YTAtODgxYzVjMzQzM2Ew",
+                "spotify_id": "33riECK6LPnm6vJQMwlGQq",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:16", "0:00:24", "recap"],
@@ -1577,6 +1678,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjQ3MGVjYjItZjRlOS00NGY1LTk1ZmEtNTllZDE2M2ZjNDc0",
+                "spotify_id": "3nxX93sFqmg0lBH2CUQkKm",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:06", "0:00:24", "recap"],
@@ -1596,6 +1698,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjdkZTk5YTctNzBkMy00MjAwLWExMGMtN2I0ZGI2MmY4MjQw",
+                "spotify_id": "1RjkyLVXAbmF51fdsetgff",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:18:44", "0:00:25", "recap"],
@@ -1615,6 +1718,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjJkNDFmNmQtNmViOS00NmQyLWJjNzktMDMwN2MxZGQyMWMx",
+                "spotify_id": "1fEdOh5ATZogiOBW9Hz605",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:12", "0:00:26", "recap"],
@@ -1634,6 +1738,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NWZjZTRlYmUtNGNmZi00ZmZmLTlhZGQtZTAxNmQ0MWVhNDcx",
+                "spotify_id": "7LLL2aVO4d9L3dnfIaeVri",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:05:48", "0:00:25", "recap"],
@@ -1653,6 +1758,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZDY0Yjg3OTQtYThmMy00M2NmLTgwNmUtNWM0ZmUxMTc0ZWU0",
+                "spotify_id": "1l4QisqMI92EWRkIwNdJSB",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:20", "0:00:24", "recap"],
@@ -1672,6 +1778,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YWU2M2RhMzEtNjU4NS00MmJlLTgzNzUtMzM4ZjlmYTU0YzAy",
+                "spotify_id": "0ESIn72g1ZXgvLJkLAVFRj",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:09:57", "0:00:25", "recap"],
@@ -1691,6 +1798,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YzQ0ZTFhYTEtMGY5Yy00YmNkLThlZGUtZDBkNzJiMjE1ZTQ5",
+                "spotify_id": "77QQuH2gWO93gW8GhZhF9H",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:39", "0:00:25", "recap"],
@@ -1712,6 +1820,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MmY3NjkwYTUtODdjMC00YzgzLWE0YTMtZWRkNmZkYzU3NzI1",
+                "spotify_id": "1EFSuOXwtfK1KPvEVs8ZA5",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:11:46", "0:00:24", "recap"],
@@ -1731,6 +1840,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZWQyZTE2YmQtNzYwMC00MzVmLWJkNDUtMTM4ZGIyOWMyYWI2",
+                "spotify_id": "6nY9klqpBUSsIz5deM2a8N",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:28", "0:00:26", "recap"],
@@ -1750,6 +1860,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjUwZWUyMjctZGQ3My00MmIxLWI2MDItZWU2YTJlZjY4YjI3",
+                "spotify_id": "6R1I1iY6l6yvwGGs5SqkuN",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:07:28", "0:00:25", "recap"],
@@ -1769,6 +1880,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NDc2YzFlYzUtNzk0ZS00YWJkLThjMTYtZTI3YWQyNzE1Mjdm",
+                "spotify_id": "2tKHbicYLYw8a7lejJvTpp",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:18:18", "0:00:25", "recap"],
@@ -1788,6 +1900,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MzA5NGMzMTYtZjJmZi00YjY0LWIxMmQtNzdjNGYyN2Y2NGZi",
+                "spotify_id": "4Eo4DgOD7MAKSLMUKyyGiI",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:10:18", "0:00:26", "recap"],
@@ -1809,6 +1922,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjFkMTJlOTQtZjBmZC00MDA1LWJmZDQtMWQ3Nzc3YTUyNTJk",
+                "spotify_id": "3etz7BzUmwxEWMyEppgGBI",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:14:23", "0:00:25", "recap"],
@@ -1828,6 +1942,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NTdhNzAyOTItYmM4ZS00MTFmLTlkNTgtY2Q3Yjk3YWRkYmI2",
+                "spotify_id": "0pA72ZrAdrUk1AnrvwZJB2",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:08:58", "0:00:26", "recap"],
@@ -1847,6 +1962,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NmI2MGU2NWEtOWQ5NC00MGFmLWE2Y2YtZDhiMGYzMGI0NTI4",
+                "spotify_id": "70wz5oNpOYtgh5ZgDl410k",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:18", "0:00:26", "recap"],
@@ -1866,6 +1982,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjFjMzUzNTAtMmNkNi00MTFkLWE0ZTEtYmNkMmViNzkyNGJi",
+                "spotify_id": "5C3L7tDGgkqbgjU02R9q76",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:06:32", "0:00:25", "recap"],
@@ -1885,6 +2002,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQz7D0l_eLJGAISVtcL7oRu_",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YmU0NWMzYjItMjI0Yy00YzBjLTg2NmUtNGIyOGJmMzBjOTFm",
+                "spotify_id": "4k6rb0wEQNlb7xF8GyHFD3",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:13:47", "0:00:24", "recap"],
@@ -1909,6 +2027,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZDg2MDRjNWEtMDViMS00NGIwLWJjMDgtOWJlN2FiNjIwYTk4",
+                "spotify_id": "1GGrmi9DcGMJLUhv01g8kk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -1925,6 +2044,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZTk1ZTNlMTEtMDk3MS00MjYzLWIwMGEtMjZlMjJjZmQ1ZjVh",
+                "spotify_id": "39PjNyUpup3mfvOfejfA7T",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -1941,6 +2061,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "OThkNzExOWYtZmU3Yi00NTNjLThlY2ItMmZhMWE0NTQ1YmFm",
+                "spotify_id": "6NmLCUBH1VkTbwRdQcjWVM",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:01", "hello"],
@@ -1957,6 +2078,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZjUxYjRmNTUtZmUwOS00MTc1LTgyMDQtYjc3MDBkNzcyZjMw",
+                "spotify_id": "17kKAmurkDpPBs8O6s61FL",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -1973,6 +2095,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MzNiMzA5NDItODJiZS00YTNmLTk1MzktNDZjNzI3OTUyM2Jm",
+                "spotify_id": "0irH6l49WFDA3bpp4rRwMV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -1989,6 +2112,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZGFmZDcxZWYtODZiMS00YTVkLWI1NjItMmY2M2Q5MWE0MGUy",
+                "spotify_id": "0ZSLbfAdBNipirX18a3ZxU",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2005,6 +2129,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ODNjMzBjYjctYzY2NC00YmUzLWEzMjAtYTkxMDdjMGNmZjcw",
+                "spotify_id": "1rWqQSqEbbwGE4Vi4EQqUw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2021,6 +2146,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NDhjYWQ3M2YtNzE0Yi00ODRmLTljYzQtNmU2ZTg3ZjhiMTVm",
+                "spotify_id": "2qa14wLuFzlmJ8jKtxvcKo",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:01", "hello"],
@@ -2037,6 +2163,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MWVhYjVhYjgtNmM3Ny00ZGY0LWI3ODctMmI3N2MxM2VjMmQ1",
+                "spotify_id": "70vrJtbZTk5Ff1gt9Sge4i",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2053,6 +2180,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MTFlYzE1YzYtY2Q0MS00N2IyLTlkYjQtYmUyOTYxNzJkNTk1",
+                "spotify_id": "6GfoTsK2gRaSZ8sLxqu4rF",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:01", "hello"],
@@ -2069,6 +2197,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "ZTllY2Y2NDItNjQyOS00N2UzLWEwY2UtYzZmYTU5OGQ4NWJh",
+                "spotify_id": "0tJSgCKiEDHJefeCwiaOvR",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2085,6 +2214,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YTcxZTYxYzYtY2IxYS00NDBmLWE3M2UtNWIyZTQ4NzcwNDRj",
+                "spotify_id": "45q1SeidLfQbEejLMy8M1F",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:01", "hello"],
@@ -2101,6 +2231,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzAwNjM4YjItZGRkOS00ZTUzLTkyYWEtODBkYjliZjJjMTMx",
+                "spotify_id": "1qmErayy4QOZeMesWSgSjD",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:00", "hello"],
@@ -2117,6 +2248,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "MjlhYjdjNjEtMTM5NS00ZjFmLWIwMWYtZDM3NTc3ZTFhZmQy",
+                "spotify_id": "5YmAoU2n6e61Ps0FtFNVxJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2133,6 +2265,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NzkyOTU5NzktMTEzNS00ZDIwLTkxMGQtN2UwZDEwMDMzODBk",
+                "spotify_id": "6LgOc0S5wkHiy4U2ZcCwd8",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2149,6 +2282,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NWZkODQxMzEtZWRjOC00ZWVkLTkxMWItN2QwNzNiYTY4ZDZl",
+                "spotify_id": "3vFhLMxtBEiAvTakfztW1r",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:17", "hello"],
@@ -2165,6 +2299,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "YTNlZDEwZDAtODZhOC00YzgxLWE2MDYtNzA5ZTBmNzFhNzlm",
+                "spotify_id": "2g4CEFG4WEW42m9UzjLk6X",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2181,6 +2316,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "Yjk4NThjNjAtMTJhNS00ODJmLWIxZGQtYmI3YmEyYWFlNGMw",
+                "spotify_id": "4jkCTl8fPoSWT51tbpU72v",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:01", "hello"],
@@ -2197,6 +2333,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cDovL2NyaXRyb2xlLm5lcmRpc3RpbmQubGlic3lucHJvLmNvbS9yc3M",
                 "google_podcasts_episode": "NjA5ZDA5ZTktN2NmZi00ODE4LTg4MTgtYmNkOTAzNjczNjBj",
+                "spotify_id": "1v3oW3cE3tPmRC3IIb6ja5",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:00", "hello"],
@@ -2213,6 +2350,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjAtbGFiZW5kYS1hd2FpdHMtOTdmNmNhYjBjZTA3NjUyMTkzNTNkYjYzZjBiMTUzOGI",
+                "spotify_id": "6EjN0O7Wi2cTvIhPZetge6",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:23", "hello"],
@@ -2229,6 +2367,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjEtc3RhbGtlci1pbi10aGUtc3dhbXAtMjgwMjUzMTZiZjliMmMxZmRjYWNjNzQ0NWE4MDM0ZjQ",
+                "spotify_id": "06pS4KPKyk1LIe014oIUBs",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:20", "hello"],
@@ -2245,6 +2384,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjItbG9zdC10cmVhc3VyZXMtNjQ2MmYyZDRlNGMyMjg0NDhlMGMyN2MzNGYzOGZmNmM",
+                "spotify_id": "0YDTZRJA9MHhvQuC8sNCXK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:27", "hello"],
@@ -2261,6 +2401,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjMtaGF2ZS1iaXJkLXdpbGwtdHJhdmVsLTMzNWQyN2I0MTM1YTlkY2E5M2U2NzYzMTQ0Y2NkZmM2",
+                "spotify_id": "2LI6fPdQk9J4RVfwJRm9bo",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:24", "hello"],
@@ -2277,6 +2418,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjQtdGhlLWhvdXItb2YtaG9ub3ItYmVmOWRiNGFlMmE2ZDg4MGE5MDI1MDc1MWYwOTJiNDk",
+                "spotify_id": "2NOOFWI69NRxLqVlHmvfDy",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:21", "hello"],
@@ -2293,6 +2435,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjUtZGl2ZXJnZW50LXBhdGhzLWMxNzBhYWRmZGU0OTlmYzI4YTY4ODFlNjhmMzU1ZjVk",
+                "spotify_id": "1KdMyZYkA56cDslbbxWPB3",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:23", "hello"],
@@ -2309,6 +2452,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjYtZm91bmQtbG9zdC04N2JlYmQ4NzE3NTlmMGYyZDIwZDE4YTQyMjg4NDEwOA",
+                "spotify_id": "0lhrdgHU3nEgCNv34tRBVU",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:21", "hello"],
@@ -2325,6 +2469,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjctY29udmVyZ2luZy1mdXJ5LTI0NTNmMzQ3YzhmZTIyMzVmODA0ZGYwNTM3YmE2Y2E3",
+                "spotify_id": "3MmCdVsHGR6pt9VosWEqdx",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:23", "hello"],
@@ -2341,6 +2486,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjgtd2l0aGluLXRoZS1uZXN0LWEwYWVmYmRkNjZjNmQ3MjJjZGZkZDZlNDAxODdiM2Q1",
+                "spotify_id": "3Z5YHjj4gj3r5v0cXa6qGv",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:20", "hello"],
@@ -2357,6 +2503,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMjktdGhlLXN0YWxraW5nLW5pZ2h0bWFyZS1saXZlLWZyb20taW5keS0zYTYxYjZmMTg3OTljODQ5YTZlNjJiOGVmMDg0NjZlZA",
+                "spotify_id": "450WkLUWtPhD6y4B8kbdxA",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:40", "0:01:04", "why can't i find"],
@@ -2373,6 +2520,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzAtdGhlLWpvdXJuZXktaG9tZS0yNzI3YmUxMzg5YzIxNDE3M2FkYjI2MGRjNTk3MTM0Yw",
+                "spotify_id": "7mEdRTWD7eOXHEb96fKodB",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:20", "hello"],
@@ -2389,6 +2537,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzEtY29tbWVyY2UtY2hhb3MtMzk5NDUzOGNlYmU2OTgzOWY3MWU3YzZlMGIzZjgyZmY",
+                "spotify_id": "77RNMBjPAV4BuHedJ4SVrE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:23", "hello"],
@@ -2409,6 +2558,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzItYmV5b25kLXRoZS1ib3VuZGFyaWVzLWRlZTI0NDBjY2ZiNjlkMTFkYmFiZDQ4Y2FlOGQ5ZjY1",
+                "spotify_id": "7zbweWwMpC2to03VtXk3wG",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -2425,6 +2575,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzMtdGhlLXJ1YnktYW5kLXRoZS1zYXBwaGlyZS03YWRmNzMzM2E2OTkxNTkwMDNhZmE4MjRlZDRkYmMwNQ",
+                "spotify_id": "3Llk51ILbOhX29mopeMIbI",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -2441,6 +2592,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzQtZW5jcm9hY2hpbmctd2F0ZXJzLTZlMDAyMTc0ZjlmNzBjNzkzZWFmZGMwMGZlM2E1NzY3",
+                "spotify_id": "6SKFO4bJm4uyNf8CbO9BLV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:24", "hello"],
@@ -2457,6 +2609,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzUtZG9ja3NpZGUtZGlwbG9tYWN5LWQ3N2U0ZGVmOTYyMDE5M2VkZDkzNmJkNTg5ZWJkNjM3",
+                "spotify_id": "4DbC2F4L67vQ3BT9eqbUqH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:22", "hello"],
@@ -2473,6 +2626,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzYtby1jYXB0YWluLXdob3MtY2FwdGFpbi03MWNkYjE0MGY0YTM1ODZiODUzZTZlYTE4ODlhMTI3MQ",
+                "spotify_id": "6PP7Kp9RYqJ7mzhVmolkWT",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -2489,6 +2643,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzctZGFuZ2Vyb3VzLWxpYWlzb25zLWRlNmFlNjk1YTI0YjU1NmMwOGVlMDZlNmE5ZTkzYWVl",
+                "spotify_id": "6OqNsWH65RL8lNLBlZ9Tck",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:10", "0:00:33", "hello"],
@@ -2505,6 +2660,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzgtd2VsY29tZS10by10aGUtanVuZ2xlLWNkNmY2OTM2YzVjYWFkMTgyYWVjM2RjYzFlMjJkNTRm",
+                "spotify_id": "3dR6AFZM7YYqnRtQHF3aP7",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -2521,6 +2677,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlMzktdGVtcGxlLW9mLXRoZS1mYWxzZS1zZXJwZW50LTQ5YjI3NWUyYzQxMzVkYTEzNjE1YTNjYzlhNjMzOWI1",
+                "spotify_id": "1nsBr1gBUzrYw5kNX5uUfZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:22", "hello"],
@@ -2537,6 +2694,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDAtZHViaW91cy1wdXJzdWl0cy0wYjc4MjE1ODEzNzMxMWU5ZGUwYmIzMjg2MmZkZGQ1MQ",
+                "spotify_id": "1IAJpJGT2jMU722sxe9evF",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:42", "hello"],
@@ -2553,6 +2711,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDEtYS1waXJhdGVzLWxpZmUtZm9yLW1lLTg4NmFmY2JhZjUyZWQ1YTQzZjYxZTY2ZGQ4MzBiNjc1",
+                "spotify_id": "5tpG3iZplD0wpw72fPN9eg",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:27", "hello"],
@@ -2569,6 +2728,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDItYS1ob2xlLWluLWEtcGxhbi03NjI1MGQyMzhiYmZiMDdhYzBhOTg0OTVhMDk0OTg0Mg",
+                "spotify_id": "72cH262B8XmkP59ni6gkmk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -2585,6 +2745,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDMtaW4taG90LXdhdGVyLTQ3M2Q5ZTQ4N2U1NjNhNDNiNDZjMmU5YTRlZTIwMDc0",
+                "spotify_id": "1dQmp55p3DxHOF2ObqOUln",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:22", "hello"],
@@ -2601,6 +2762,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDQtdGhlLWRpdmVycy1ncmF2ZS1lZGUyMjA1OGFkMzI0ZDY2ZWU5OTBhOTRmMzQzNzg3ZQ",
+                "spotify_id": "7N17kefL7yq37ASYVME58u",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -2617,6 +2779,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDUtdGhlLXN0b3dhd2F5LTQ3NmRiOThkYjRiMzFkNmFmMGRjOGFlMDcxMmFhZTU3",
+                "spotify_id": "0VKTQV5ZhlPiuC118nHoc6",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:27", "hello"],
@@ -2633,6 +2796,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDYtYS1zdG9ybS1vZi1tZW1vcmllcy1mMTUwNGE4ZDAxMmE3YTBjNzk3ZDZhZTczZGQ1ZmUzZg",
+                "spotify_id": "4xq8M62zziNMKDBoxf4Uf8",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -2649,6 +2813,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDctdGhlLXNlY29uZC1zZWFsLTk2YzA5ODU2NmIxMzcxMjRjY2I3NmExYTdkZTNkZDEz",
+                "spotify_id": "5ZI2uNbYPw7TqPIDRorROx",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:21", "hello"],
@@ -2665,6 +2830,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDgtaG9tZXdhcmQtYm91bmQtY2E0M2U5YTQ0NzM0YWJjMGMwMzUzZGFmMDY3YjAyNTg",
+                "spotify_id": "4lNetusuA0TFn6HuAMecGq",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:21", "hello"],
@@ -2681,6 +2847,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNDktYS1nYW1lLW9mLW5hbWVzLTE1NGZlNTdmYzk0MTcxNjEyNWZkNTNkY2RhOWM2ODEw",
+                "spotify_id": "6Hqvhqg4fwqdrDdYSeOBeq",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -2697,6 +2864,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTAtdGhlLWVuZGxlc3MtYnVycm93cy0xYTRiZjUzOWI0NDVmZjE2YTc4ODY4ZDUwMDgzZTk1Yg",
+                "spotify_id": "6oFeVhO1TtKt3KAAm0qu8r",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:00:23", "hello"],
@@ -2713,6 +2881,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTEteGhvcmhhcy1jM2QyZDg1ZTY0M2YyYzVhZGIwNWZiMjdhNmZlZWQyOA",
+                "spotify_id": "0tnB50e2086KL0lXNDZsbO",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -2729,6 +2898,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTItZmVyYWwtYnVzaW5lc3MtMzBjOTc3NjJlOGRkM2NlYjVlNTE3MzdjY2RlZTY4OWI",
+                "spotify_id": "6RtGZ42DCfkixgCGktVleH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:15", "hello"],
@@ -2745,6 +2915,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTMtY29ybmVyZWQtYzAzMmNlNTU2ZWEzOTdiNGNlODYxNTIxMWQxODQ5NzI",
+                "spotify_id": "2tJiI4sR0AmeVSS3mnP1dg",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:14", "hello"],
@@ -2761,6 +2932,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTQtd2VsbC1iZW5lYXRoLWM2MGQ5MGUzMzhmOGJlNDA4ZDRiNjY0YTI1NTMyNTM3",
+                "spotify_id": "1vik89xeb7LVB9pzE7JclC",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -2777,6 +2949,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTUtZHVwbGljaXR5LWRlNjI0MzMxZTNjZGVlMDAwNGM3NzhjOGY3OGRiZjkw",
+                "spotify_id": "1NVXfmokNZSiTYtqdzspTZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:14", "hello"],
@@ -2793,6 +2966,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTYtdGhlLWZhdm9yLTYzZjM2NjFmNjJhM2E5MWY0OGZhNjlhZjJjNmM1NDZl",
+                "spotify_id": "4LslSdG4gjfZ6PI6Io63vX",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:14", "hello"],
@@ -2809,6 +2983,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTctaW4tbG92ZS1hbmQtd2FyLWQwMDA4MDY0NDFlOWU5NmE0MjdmNDA1NjUxNmMyNjg5",
+                "spotify_id": "61koVOYqTg3eo0jIpPDPqH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:14", "hello"],
@@ -2825,6 +3000,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTgtd29vZC1hbmQtc3RlZWwtOGU1MzM1ZjMyMDA2NmZmZTQyOWJmOGVjYWY5OTVlZGI",
+                "spotify_id": "6Fh6ysJid8XnpF4pegxkNb",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:40", "hello"],
@@ -2841,6 +3017,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTktcGVyc3BlY3RpdmUtNDk2MGNkYzc1MzU2NGZmMDMwYjZmNjFjMzM0ZWUxNzQ",
+                "spotify_id": "4SIOPpdYaNJiBpFogb254I",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:41", "hello"],
@@ -2857,6 +3034,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjAtYS10dXJ0bGUtYnktYW55LW90aGVyLW5hbWUtYTJhZGZmNTVkNTkwMDY5ZjcyOTkyODJhNjdkNWMyNGY",
+                "spotify_id": "1TAWjpkMf58Mb5syxTmfx4",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:58", "hello"],
@@ -2873,6 +3051,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjEtYWdyZWVtZW50cy0xMDkwNjE5OWRhMzY1NTJkYzk5MGEzODA5MzgzMDQyMg",
+                "spotify_id": "24tSUfYl3SRIHRs1Wvu5R7",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:42", "hello"],
@@ -2889,6 +3068,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjItZG9tZXN0aWMtcmVzcGl0ZS1mNDI5MDAxZmYwMzdhY2M1Zjk1ODgxOTRmZTkzY2Y4Nw",
+                "spotify_id": "7d8py2XfVPgGaid8lYSrdV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:11", "hello"],
@@ -2905,6 +3085,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjMtaW50ZXJ2ZW50aW9uLWMwMTNmMzA4MzU2NGM1MjIyZThkMzM2MDBhZWUzNTA2",
+                "spotify_id": "1AD6Qewji7EQTB4U2wISYd",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:44", "hello"],
@@ -2921,6 +3102,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjQtYS1kYW5nZXJvdXMtY2hhc2UtYzA1ODY0MjYwOTg4ODJhY2FkODYwYWRkMTc1MDEzMzQ",
+                "spotify_id": "6NeZnitk6Laos3wF0XqVIo",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:57", "hello"],
@@ -2937,6 +3119,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjUtY2hhc2VzLWFuZC10cmVlcy0xYjc4NTNhNDIyZWZlM2I1MTQyM2I5MGVjNjZjYTFhNQ",
+                "spotify_id": "2cLYmImYFHpFX48v12dR45",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:33", "hello"],
@@ -2953,6 +3136,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjYtYmVuZWF0aC1iYXp6b3hhbi04NWZkOTVjMmUyYWYzMmQzMjJmOWMxZjFiMDYyM2RkYg",
+                "spotify_id": "0KcSwNYTWOJZM5wu9resz1",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:09", "hello"],
@@ -2969,6 +3153,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjctYmV5b25kLXRoZS1leWVzLW9mLWFuZ2Vscy0zYWVlMDU1MGJkODA1MzMxZjM0NDIwNGY3ODA1NDA0Yg",
+                "spotify_id": "1P7JlKYgguvbkIDSslIuRk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:43", "hello"],
@@ -2985,6 +3170,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjgtcmVmbGVjdGlvbnMtY2Y0MDljOGU0YjFmMTE5OWQ4NDQ5YjZmZjM2YzMyZmU",
+                "spotify_id": "4XTHpOC4tSUlPq3ZnUQxc3",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:17", "hello"],
@@ -3001,6 +3187,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNjktdGhlLWtpbmdzLWNhZ2UtMzI5ODYzMzdmNzQ1MTliNzU0MTY3YjNjMGY3ODcwYjc",
+                "spotify_id": "3ufyjvLcJjfnUtIZxRoKdL",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:32", "hello"],
@@ -3017,6 +3204,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzAtY2F1c2F0dW0tYWM3OWMzODNiYzZiNDhjNTkyMTQwYzI3OTgyMzM4MWM",
+                "spotify_id": "4eL5yOEkZcnUpEnyPcUEpq",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:29", "hello"],
@@ -3033,6 +3221,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzEtZmFtaWx5LWdhdGhlcmluZy02ZWZkNzA1NWI3NDdlZDE2MTA4MzdkMzIzOTcwYzZmNg",
+                "spotify_id": "7CldKPmioA58Nut6BhTLAw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:17", "hello"],
@@ -3049,6 +3238,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzItY2xheS1hbmQtZHVzdC1mMDI1OTcxZmViNzRkZDNmNTA1NDc5MmZlMWY0NzdhNA",
+                "spotify_id": "1oVxHLhMZJbAO1v4iClR0a",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:20", "hello"],
@@ -3065,6 +3255,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzMtdXRob2R1cm4tZGI0ZDhmMzJlZTZlOGQ5NWZhM2FhMjM5MmZhYzFhZjY",
+                "spotify_id": "0nWAKFavS97UIAL4hZZTG7",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:01:12", "0:00:24", "what's up"],
@@ -3081,6 +3272,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzQtbWFuaWZvbGQtbW9yYWxzLThlYjU1Yzg3Y2E1MzA2ZmNlYTlmNWMwYmZmYzBkOTU1",
+                "spotify_id": "7IPJOB5CU52kWOZAAfJf7Q",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:18", "hello"],
@@ -3097,6 +3289,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzUtcmltZS1hbmQtcmVhc29uLWQwMzE2YWQ0MTMwMjVjMjgyYzMxMzk1ZTg0NjI5ZTdh",
+                "spotify_id": "69NCzv3VAZWFqDKebuRiIu",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:12", "hello"],
@@ -3113,6 +3306,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzYtcmVmam9yZ2VkLTg0Y2RmYjhiNDA3MWMwMzU3NGI5ZWU3ZWE0MzkzMDUy",
+                "spotify_id": "68fTVERVAGNmVofnCRGW10",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:20", "hello"],
@@ -3129,6 +3323,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzctYS10YW5nbGVkLXdlYi0wZDY5ZjlhZjA4MmI5YzU3MmEyOTY1NDFjZDI5MzFlOA",
+                "spotify_id": "2YUTkI7YX3WFhFUVirjDho",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:25", "hello"],
@@ -3145,6 +3340,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzgtYmV0d2Vlbi10aGUtbGluZXMtMGM3M2RmMDVkZDY5YmNlODVmOGMyMDIzM2Y2MjI1NzY",
+                "spotify_id": "353iqcHCKBR9bwtM59KzP0",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:26", "hello"],
@@ -3161,6 +3357,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNzktdGhyb3VnaC10aGUtdHJlZXMtODgwM2QyZGY0ODRhNzlhOWVjMDI0NTNiZDk2Y2IwOTM",
+                "spotify_id": "7LuTZMNLAH64sVsuT7Pw1k",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:18", "hello"],
@@ -3177,6 +3374,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODAtdGhlLWZvbGRpbmctaGFsbHMtMDRiYjQ4YjE2MjZhYjRhMmU2ZTMzOWU0MDZhMTNkMjU",
+                "spotify_id": "7vPUXBDpmgckmVzUvDZ5CH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:19", "hello"],
@@ -3193,6 +3391,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODEtZnJvbS1kb29yLXRvLWRvb3ItOGQyMGNlODEyMGZlNjVjMDcwOTg2YWQwYzJmOTg0OGQ",
+                "spotify_id": "3EVmNncVpXoRSeGsUbmP1s",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:21", "hello"],
@@ -3209,6 +3408,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODItdGhlLWJlYXQtb2YtdGhlLXBlcm1haGVhcnQtZTI1YTE3OGNiOGRmMjI3MmRkMGVkMDRhZTJhMTJhZTU",
+                "spotify_id": "2qy2dvxTSxWwvAH3onU5iv",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:14", "hello"],
@@ -3225,6 +3425,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODMtZGFyay1iYXJnYWlucy02Njg0NTkyMTNmMGY4ZjIxMGI3Y2EwZjQyZjBhMjYwYg",
+                "spotify_id": "4G7wc1KripSl0PS7DrUsH2",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:23", "hello"],
@@ -3241,6 +3442,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODQtdGl0bGVzLWFuZC10YXR0b29zLThlYWNiMGE5OTBmOGU4NTExMjVjMzgzYWNkNDUzOTlk",
+                "spotify_id": "5cMIOs5C6wWCQLHKlrz6yA",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:20", "hello"],
@@ -3257,6 +3459,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODUtdGhlLXRocmVhZHMtY29udmVyZ2UtMGJmZjc3NTU3NDM4Zjc5MDFmN2VkMDBiN2FjODBmYzE",
+                "spotify_id": "2oZ06P3mLJ3j5jf4rI11KQ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:27", "hello"],
@@ -3273,6 +3476,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODYtdGhlLWNhdGhlZHJhbC0zMjc0NTE5NjM1OWIwYzliZjZiMGQ1MjI5ZjBlMzc0ZQ",
+                "spotify_id": "444EF9KnXEVAgEqfeG7uLE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:22", "hello"],
@@ -3289,6 +3493,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODctcHVuaXNobWVudC1hbmQtcG9saXRpY3MtOTFmNTE5ZTE5YjEyODQwYjlmMjJlNGY5YmJmYWY2OTY",
+                "spotify_id": "7CrIfYs8rQYQsg90Oxf5nf",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:22", "hello"],
@@ -3305,6 +3510,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlODgtdW53YW50ZWQtcmV1bmlvbnMtNjM4YWJkM2I0MGVkZThlY2E1ZDkxYTMyNGUwYjkyODM",
+                "spotify_id": "2qr8WX3L68LDuAvNZOa5ww",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:44", "hello"],
@@ -3321,6 +3527,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vMjRiMDk1YWYtZGEyNy01ZTRhLWFlZTItMDE0NDQ2NGVlNDEw",
+                "spotify_id": "2gBL9fZS86fDWuwqJoEiXV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:23", "hello"],
@@ -3337,6 +3544,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vZjU0MTZkMTUtNGI2ZC01ZTM3LTk3NTYtZGU5ZGFjNTA5MTMw",
+                "spotify_id": "7COQ2k3uCef32kJRi0QGSG",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:25", "hello"],
@@ -3353,6 +3561,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vN2VkZDQxNzgtMDNjMS01ODA2LWE0OTItNTAwZWY3ZWJhYjE5",
+                "spotify_id": "7xVht5ZkQ4yOcW2SDbzJCX",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:22", "hello"],
@@ -3369,6 +3578,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vOWI2NGE1ZGEtNjQ1My01N2VlLTg1ZGQtNjg5MjViYjFmYTNl",
+                "spotify_id": "0DboFsxLgrkTKAxB1PSOtk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:31", "hello"],
@@ -3385,6 +3595,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYjg4MjEwMDctMWFlNS01NmIyLWIxM2ItNjNiYTgyMDkyNzli",
+                "spotify_id": "3uYgZ6DdYxPIkLkUzleHvn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -3401,6 +3612,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vNjk3OWJiYTktYjE0Zi01NDczLWFiZWItNWRhMDVlMjk2MzAw",
+                "spotify_id": "25vFRBQdwUfiYfm7brr0JM",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:26", "hello"],
@@ -3417,6 +3629,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vMWJkNmEwNjItOTU4Yi01MzhjLTkyNjgtZGQwMTYxMDQ4NmU0",
+                "spotify_id": "6tEICPlzD1qlM0AbkOX5Pz",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:25", "hello"],
@@ -3433,6 +3646,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vZGEwNDMyMDMtMjcwNS01MWJmLTkyZDQtYjRjYWI3NjUwMzJh",
+                "spotify_id": "7GKFIge1mf7opdNkvKR8ZJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:22", "hello"],
@@ -3449,6 +3663,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vNzg4MjgzYjAtNGRkNy01MjcwLTg5ODMtN2VmZDdiMDM1NjU0",
+                "spotify_id": "0VSiVuiA9SSxtxTtMk1DiJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:27", "0:00:36", "uh oh"],
@@ -3465,6 +3680,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vZDBmNDhjNWYtMzg4MS01MDdlLTlmZjAtYmEwMDk2MzhiMDUx",
+                "spotify_id": "2gwkbyocAyqQr5QsytgaTo",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:03", "hello"],
@@ -3481,6 +3697,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vNTZmYThhYTgtNDM1Mi01MWNmLTllNmUtNjFlOTQ4MWQyNjQ4",
+                "spotify_id": "24drK3dFjkyKIyavmyIJeK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:30", "hello"],
@@ -3497,6 +3714,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vMzAwYmE4NTktNmNjOS01ZGZiLTgyNzUtNzdjYTY2NjZiZmNl",
+                "spotify_id": "05TLjvPipAtNXVUszZJVzk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:48", "hello"],
@@ -3513,6 +3731,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vZDhkMjYzYWQtZTc4NS01NzNkLWEwMWUtNTIzOTU0YzJjMDFm",
+                "spotify_id": "45qXybYzXdbbdHxalaYjfT",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:01", "0:01:24", "hello"],
@@ -3529,6 +3748,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vNDQ5NTIyMGQtNTE2Zi0zOTNmLThiMzItZDU2ODBmNjA4Yzgz",
+                "spotify_id": "136YmjZrs5SNna0hP8V7bk",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:05", "hello"],
@@ -3545,6 +3765,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZmM0NWM2OTktOGQ1MC00N2RiLWEyOTEtMTc3OGNhYTRhZTQz",
+                "spotify_id": "5VoEUKTU4Mjkz1DmlkwvBD",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:14", "hello"],
@@ -3561,6 +3782,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "YTAyYTFmNzEtOGExMS00NWVlLTlkZWYtZmFmOTQzMWI0Mjc0",
+                "spotify_id": "3kzOyHA4cv6sXb0hyv2uo2",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:41", "hello"],
@@ -3577,6 +3799,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "YjJmODU0ODgtYjBiZC00OWY3LWIxNWUtYzJlMWU5MTM2YzY3",
+                "spotify_id": "4YJrH72v7tYY7fOOGEajlZ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:41", "hello"],
@@ -3593,6 +3816,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NGU0NGQyYzItYzIyZC00NjIyLWFlMzItNjI4Y2U5MDkwZjc4",
+                "spotify_id": "4PsWazbAqnE1TL2QlNlftr",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:29", "hello"],
@@ -3609,6 +3833,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZTgyZmI0YzAtNjViZS00NTNlLWI1NmUtYzhlNDczNzI0ZjE3",
+                "spotify_id": "7b4hIT6iZiAPyCnRiUF8qK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:18", "hello"],
@@ -3625,6 +3850,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "YzEzYWEzMzAtM2IzMy00NzM0LTgyOWMtYzExN2VhMTc4ZTFh",
+                "spotify_id": "6qoNHnyYOEvMb9Xgkbfhh5",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:18", "hello"],
@@ -3641,6 +3867,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "M2U5MzJlYmItY2JhNS00ZGU1LWExY2UtNTI2MjY0ZDZiZTdk",
+                "spotify_id": "3PtcyYUr0zwev0kztYIqhy",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:42", "hello"],
@@ -3657,6 +3884,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZWQ2MmJmZjEtMWFlNi00ZDgzLTlkODgtYmJiYWY2ZmFiYjIx",
+                "spotify_id": "6DK2gYkZoDTRvYzk1BbRyO",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:34", "hello"],
@@ -3673,6 +3901,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzMzMjk5ODUtZmUxYi00MzFhLTlkMzktNDVkYTE5Njg0Mzdj",
+                "spotify_id": "1CoGUAPA516lyQJjVMOlXH",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:20", "hello"],
@@ -3689,6 +3918,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzNlODI3NzMtMTc5ZS00ZDEzLThjMzMtOGJlZDMwOTFlZWQ4",
+                "spotify_id": "4N92kCLzbk7QBcmEcdD8ai",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:33", "hello"],
@@ -3705,6 +3935,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NDYwMjliMjEtODllZi00MTZiLWI1ZjYtZjgzOTVlZjBlMWZi",
+                "spotify_id": "7oH5Spmcyj86zzeLm017Oj",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:35", "hello"],
@@ -3721,6 +3952,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MjA4MGI3MjYtNjA4My00ZTY2LTk3OGMtN2RmNGEyNDE3ODg4",
+                "spotify_id": "5iN4bB8yk2cq9rDZtMRkmJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:26", "hello"],
@@ -3737,6 +3969,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MjY3OTA1ZjgtYmZhYS00ZDVhLTkwMzEtM2JlZTQ3NDc1OGZi",
+                "spotify_id": "5KdFkqD7u4jycme5787wdq",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:12", "hello"],
@@ -3753,6 +3986,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MDBiNDcwODctMzM0OC00MmM3LWI3Y2YtODAzYWU0MDZmYjMx",
+                "spotify_id": "3ErAjmFH5tMS91woFFeLvV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:24", "hello"],
@@ -3769,6 +4003,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzdhMjQ2M2MtMDQwYy00M2Q4LTkzYzEtYWNiZTk0YzBkYTdi",
+                "spotify_id": "7y3YnaB1Tv61jmSdcSDHY7",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:21", "hello"],
@@ -3785,6 +4020,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NTZhN2RiOWQtZDNiZC00NTIyLTg1NDctZDgyYWUzZjlkNTVk",
+                "spotify_id": "1tI9yylOAonsW5XzRCzqwy",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:37", "hello"],
@@ -3801,6 +4037,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZDVmZjQ1NTItMjZjYy00ODhlLTk5YTEtNzY2NzlmMDA5NThl",
+                "spotify_id": "3meVXXCzmCoFTbfgIVX8Xw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:34", "hello"],
@@ -3817,6 +4054,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ODMyZmYzM2ItZTVkZS00MWMwLWE2ZDMtMmM1ZDEyNTA3ZGI2",
+                "spotify_id": "27wLBBwXdIMHv3NHpYiywj",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:36", "hello"],
@@ -3833,6 +4071,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NTQwYjAzZjMtNzk3Yy00MWIwLWFjMTMtNWQyNDk0MmQwMDBk",
+                "spotify_id": "0R6Tm8MhmkaJoWPJbAGtBs",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:22", "hello"],
@@ -3849,6 +4088,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ODZhMTlmYjQtOTQ3Ny00ZWMyLTg5YmItMDA5YTIzZDQ0Nzdj",
+                "spotify_id": "0StHyFPMkMH0WehvAKN1IN",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:23", "hello"],
@@ -3865,6 +4105,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "OTYxMjljNTgtYTRmNC00MTkzLTg1NWUtN2JiYjliYzg1ZGEx",
+                "spotify_id": "2VtXiovTF9hDSX0Uri2sPj",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:24", "hello"],
@@ -3881,6 +4122,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzAyYTliNjctZGJmYi00YWExLWJlZTgtNDM0MDRmODg1OTUw",
+                "spotify_id": "4pD8OrB8PRdAhFwAgCwhAD",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -3897,6 +4139,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "OWI0MDY3ZjItNThkZS00NzNkLWE0YzAtMzNkNTFkYTc4NGM5",
+                "spotify_id": "4DlHbCpkfJchLH7kJciKGJ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:26", "hello"],
@@ -3913,6 +4156,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NmVmYzlmNjYtYmU2MS00N2QwLTgzMDItMmE0ZDFiNTdmMGQw",
+                "spotify_id": "1ppx0CtEN2rKHqSKYnp2LM",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:43", "hello"],
@@ -3929,6 +4173,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZmQyYjJmMDctODkyOS00ZmE4LTgxNzUtMjIxMjhjYmE4ZTMz",
+                "spotify_id": "2x1MPFYgOqIaT7VPlwnVDc",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:26", "hello"],
@@ -3945,6 +4190,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ODUwYWQ4YzYtYTM2OC00NDhiLTllNTItNmYyYWYxNzg2Y2I2",
+                "spotify_id": "5DwubOk0aml0CaOjF3Ttih",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:13", "hello"],
@@ -3961,6 +4207,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZGE1YzU2ZjctNWMzOC00NjdlLWFiYTktNjFhZmYwZGRjOTc2",
+                "spotify_id": "4Y4SzZJth9tG2jnopeACjs",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:13", "hello"],
@@ -3977,6 +4224,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MWNmMTM1NTktZTYxNi00NzRhLThhNTctNTQ4YTAxYWIwNjU5",
+                "spotify_id": "07REwHe3sb62LWqlZkUYeb",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:26", "hello"],
@@ -3993,6 +4241,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "YjNlNDQwOTQtYWMwMy00OGM0LThlNTctNTYwNGU2N2FlNTU0",
+                "spotify_id": "4qCh9LWpTqCl2QsFHzfKzp",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:22", "hello"],
@@ -4009,6 +4258,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "M2NjOGVjYjMtNjljNS00NzYyLWE2ZWEtMGE0MTM0MmRjNjgy",
+                "spotify_id": "4Nnxjm7Bcb1us9df0wjNy8",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:40", "hello"],
@@ -4025,6 +4275,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y2RiNDBjNDMtMzM3ZS00NDQ3LTg2MmQtODQ3YjBjMmYzMDU3",
+                "spotify_id": "3zntmZ6LltVrnULbmtLYB8",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:26", "hello"],
@@ -4041,6 +4292,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MzZhYzc3ZmEtMjU3Ny00ZGY5LTk3MDMtYjQwZWY5NDIzNmM5",
+                "spotify_id": "0tROXlGPgR5zESTzsgKalW",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:26", "hello"],
@@ -4057,6 +4309,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NTc0ZTVhMDktMTQwZS00NDQ3LTgxNzctZTg3ZDRiODU3MjEy",
+                "spotify_id": "5DjTET215OU1CAAUGoPxSl",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:12", "hello"],
@@ -4073,6 +4326,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NTBmYmM4N2EtYzBiOC00ZjE3LWJjNmUtNzg1ZTAxYjVjZjUz",
+                "spotify_id": "3yCnJy9secKCJrxi6ri4Vn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:34", "hello"],
@@ -4089,6 +4343,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "OGNhYmYxNTAtZTQyZS00YmEzLTg0MWEtMTNlMzk3ZDZiODdm",
+                "spotify_id": "4dXuVfzZjFqfn5SKqphqPy",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:21", "hello"],
@@ -4105,6 +4360,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MmU2ZTFkMzYtNDUwNC00MmMyLThmNTQtYzhhYmQyZDgxM2Q2",
+                "spotify_id": "7CoFSWztkjXqjAuPliJkln",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:22", "hello"],
@@ -4121,6 +4377,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "N2YzNDk4YzEtMTk3MC00NThlLTllMGUtNWQxY2IxZTc1OTIx",
+                "spotify_id": "22uO2uq9DbmAmpeeD2T0Wm",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:03:16", "hello"],
@@ -4137,6 +4394,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZjRkZjIyOWMtMTYyZi00ZGQ2LWIxOTktNDRiZWYxMjZmNzA4",
+                "spotify_id": "4LZVvkJyigInsYmCauFRUt",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:40", "hello"],
@@ -4153,6 +4411,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MWIyMzg5MjUtM2IyNS00MzczLWI0YzQtODdmYzA5M2UyNzk2",
+                "spotify_id": "3C1eBtnnDopeBWeAda9q1y",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:24", "hello"],
@@ -4174,6 +4433,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NjUyZTg2ZjktM2ZhMS00NDFkLTg3NmYtZWU4Y2ExYWEzZGUx",
+                "spotify_id": "3LhXThPolcCvGbaL7kme91",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:02:21", "hello"],
@@ -4190,6 +4450,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NjYzOTUxNTItYmU2ZC00YmMzLTlhMjUtNWJkODk3N2IzZmE1",
+                "spotify_id": "4xAfy8EC7BeZdHSnOTReCG",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
@@ -4206,6 +4467,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZDFhMzgzNWUtYTcwNy00OTYzLWFhYTctYzFhZDNlNmQ1ZWY4",
+                "spotify_id": "2R2HJwQrcDpxdfdFw22iVP",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -4222,6 +4484,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzE3NDZhODYtODhhZi00M2NlLWExYTYtNTM0MDQ0ZTIxNTUw",
+                "spotify_id": "68ZaOEXal2xG3AclQg1nZE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:32", "hello"],
@@ -4238,6 +4501,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZDViN2ExOWItYTE5NC00N2U0LTk5NTQtZGZkNTJlYTk1YjA2",
+                "spotify_id": "0iV6EOvPLV8ZZve1FUlMQN",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:01:43", "hello"],
@@ -4254,6 +4518,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZWNhYTk5NDgtYzk5ZS00Y2VlLTkyMDYtZDQwOWE2ZDMzMmUy",
+                "spotify_id": "2gwkfOI9GDUbWo5M4E5iYK",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -4270,6 +4535,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZmU5Njc4MDEtOTYzMC00ZDUzLTkwZWItODAzODg3MGRmYmE1",
+                "spotify_id": "511JHGGKYZwu6mPagWKzFE",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -4286,6 +4552,7 @@
                 "youtube_playlist": "PL1tiwbzkOjQzSnYHVT8X4pyMIbSX3i4gz",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MTNlODk2ZTItYTA5NC00ODMzLWI3ZWEtYmYyYzJkNzY4NWI0",
+                "spotify_id": "2wHVUM5PxUQ66M7KjQjFKt",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
