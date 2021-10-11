@@ -548,8 +548,8 @@ function getUrl(type, ep, timeObj=null) {
         case 'youtube':
             return youtubeUrl(ep, timeObj)
         case 'podcast':
-            var url = googlePodcastsUrl(ep, timeObj)
-            if (!url) { url = spotifyUrl(ep, timeObj) }
+            var url = spotifyUrl(ep, timeObj)
+            if (!url) { url = googlePodcastsUrl(ep, timeObj) }
             return url
         case 'transcript':
             return transcriptUrl(ep, timeObj)
