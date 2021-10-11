@@ -146,12 +146,23 @@ function populateSeries() {
         seriesSelect.appendChild(option)
     }
 
-    changeSeries()
+    // set series from local storage. If not found, set to 0
+    seriesSelect.value = localStorage.getItem('series') || 0
+    // pass 'false' to use episode from local storage
+    changeSeries(false)
 }
 
-function changeSeries() {
+function changeSeries(resetSelectedEpisode=true) {
     series = data[seriesSelect.value]
-    populateEpisodes()
+
+    if (resetSelectedEpisode) {
+        localStorage.removeItem('episode')
+    }
+
+    populateEpisodes()   
+ 
+    // save selected series index in local storage
+    localStorage.setItem('series', seriesSelect.value)
 }
 
 function populateEpisodes(keepSelectedIndex=false) {
@@ -180,6 +191,8 @@ function populateEpisodes(keepSelectedIndex=false) {
     }
     episodeSelect.selectedIndex = selectedIndex
 
+    // set episode from local storage. If not found, set to 0
+    episodeSelect.value = localStorage.getItem('episode') || 0
     changeEpisode()
 }
 
@@ -219,6 +232,9 @@ function changeEpisode() {
     resetLabels()
     updateEmbeds()
     updateEpisodeDebugInfo()
+
+    // save selected episode in local storage
+    localStorage.setItem("episode", episodeSelect.value)
 }
 
 function resetLabels() {
