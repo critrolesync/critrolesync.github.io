@@ -129,9 +129,7 @@ function updateProgressBars() {
 
 function populateSeries(rememberSelection=true) {
     // remove all series from the series selector
-    for (let i = seriesSelect.options.length-1; i >= 0; i--) {
-       seriesSelect.remove(i)
-    }
+    seriesSelect.innerHTML = ''
 
     // repopulate the series selector
     for (let i = 0; i < data.length; i++) {
@@ -166,9 +164,7 @@ function changeSeries(rememberEpisodeSelection=false) {
 
 function populateEpisodes(rememberSelection=false) {
     // remove all episodes from the episode selector
-    for (let i = episodeSelect.options.length-1; i >= 0; i--) {
-       episodeSelect.remove(i)
-    }
+    episodeSelect.innerHTML = ''
 
     // repopulate the episode selector
     for (let i = 0; i < series.episodes.length; i++) {
