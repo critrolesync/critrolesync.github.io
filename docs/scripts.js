@@ -75,7 +75,7 @@ function setupTimePicker() {
     inputTime.removeEventListener('click', picker.onFocus)
 
     // restrict the time picker's max hour
-    picker.data.hour.max = 5
+    picker.data.hour.max = 7
     picker.render()
 
     // automatically update the time input when using the picker
