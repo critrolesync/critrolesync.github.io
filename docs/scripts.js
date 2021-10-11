@@ -54,6 +54,15 @@ request.responseType = 'json'
 request.send()
 request.onload = function() {
   data = request.response
+
+  // restore last known podcast player selection
+  var bitrateMode = localStorage.getItem('bitrate-mode')
+  if (bitrateMode == 'CBR') {
+      document.getElementById('cbr').checked = true
+  } else if (bitrateMode == 'ABR') {
+      document.getElementById('abr').checked = true
+  }
+
   updateProgressBars()
   populateSeries()
 }
@@ -315,6 +324,11 @@ function updateEpisodeDebugInfo() {
         // hide debug information on page
         debugContainer.style.display = 'none'
     }
+}
+
+function storeBitrateMode() {
+    var bitrateMode = document.querySelector('input[name="bitrate-mode"]:checked').value
+    localStorage.setItem('bitrate-mode', bitrateMode)
 }
 
 function toggleDebug(state=null) {

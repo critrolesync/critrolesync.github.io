@@ -67,14 +67,14 @@
         </fieldset>
 
         <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="" data-tippy-content="Different podcast apps and web browsers will play some episodes at slightly different rates, resulting in different times for the same moment. If your converted time is inaccurate, try switching this setting.">podcast player type</abbr></legend>
-            <input type="radio" id="cbr" name="bitrate-mode" value="CBR" onchange="this.form.submit()" checked>
+            <input type="radio" id="cbr" name="bitrate-mode" value="CBR" onchange="storeBitrateMode(); this.form.submit()" checked>
             <label for="cbr">
                 <abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr>
                 <i class="fa fa-chrome" data-tippy-content="Recommended for Chrome"></i>
                 <i class="fa fa-android" data-tippy-content="Recommended for Android"></i>
             </label><br>
 
-            <input type="radio" id="abr" name="bitrate-mode" value="ABR" onchange="this.form.submit()">
+            <input type="radio" id="abr" name="bitrate-mode" value="ABR" onchange="storeBitrateMode(); this.form.submit()">
             <label for="abr">
                 <abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr>
                 <i class="fa fa-firefox" data-tippy-content="Recommended for Firefox"></i>
