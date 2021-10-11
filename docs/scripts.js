@@ -77,6 +77,20 @@ function setupTimePicker() {
     // restrict the time picker's max hour
     picker.data.hour.max = 5
     picker.render()
+
+    // automatically update the time input when using the picker
+    function updateTimeFromPicker() {
+        // similar to picker.pick() but does not close the non-inline time picker
+        var value = picker.formatDate(picker.date)
+        picker.setValue(value)
+
+        // also auto-convert
+        resetLabels() // in case episode duration exceeded
+        showConvertedTimestamp()
+    }
+    picker.grid.addEventListener('wheel', updateTimeFromPicker)
+    picker.grid.addEventListener('pointerup', updateTimeFromPicker)
+    picker.grid.addEventListener('touchend', updateTimeFromPicker)
 }
 
 function updateProgressBars() {
@@ -226,8 +240,6 @@ function resetLabels() {
     setLink(videoLink, 'Video', getUrl('youtube', ep))
     setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
     setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
-
-    lateTimeWarning.style.display = 'none'
 }
 
 function updateEpisodeDebugInfo() {
@@ -430,6 +442,9 @@ function convertBitrate(timeObj, oldBitrate, newBitrate) {
 
 function convertTimestamp() {
 
+    timeRegEx = /^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$/
+    if (!inputTime.value.match(timeRegEx)) { return }
+
     var source, dest
     var direction = document.querySelector('input[name="direction"]:checked').value
     var bitrateMode = document.querySelector('input[name="bitrate-mode"]:checked').value
@@ -514,11 +529,15 @@ function showConvertedTimestamp() {
 
     timeObjs = convertTimestamp()
 
-    setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
+    if (timeObjs) {
+        setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
 
-    setLink(videoLink, `Video @ ${timeObjs['youtube'].string}`, getUrl('youtube', ep, timeObjs['youtube']))
-    setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
-    setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
+        setLink(videoLink, `Video @ ${timeObjs['youtube'].string}`, getUrl('youtube', ep, timeObjs['youtube']))
+        setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
+        setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
+    } else {
+        resetLabels()
+    }
 
     updateEmbeds()
 }

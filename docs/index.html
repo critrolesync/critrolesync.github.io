@@ -27,7 +27,7 @@
         <p><a href="javascript:readLess()">Read less.</a></p>
     </span>
 
-    <form action="javascript:void(0)" onsubmit="showConvertedTimestamp()">
+    <form action="javascript:showConvertedTimestamp()">
 
         <fieldset id="episode-fieldset"><legend>Choose episode</legend>
             <table id="table-select">
@@ -38,16 +38,16 @@
                 <tbody>
                     <tr>
                         <td><label class="row-label" for="series-select">Series:</label></td>
-                        <td><select id="series-select" onchange="changeSeries()"></select></td>
+                        <td><select id="series-select" onchange="changeSeries(); this.form.submit()"></select></td>
                     </tr>
                     <tr>
                         <td><label class="row-label" for="episode-select">Episode:</label></td>
-                        <td><select id="episode-select" onchange="changeEpisode()"></select></td>
+                        <td><select id="episode-select" onchange="changeEpisode(); this.form.submit()"></select></td>
                     </tr>
                     <tr>
                         <td colspan=2>
                             <label class="row-label" for="hide-titles"><abbr title="" data-tippy-content="For spoilerphobic critters">Hide titles</abbr>:</label>
-                            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true)">
+                            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(keepSelectedIndex=true); this.form.submit()">
                         </td>
                     </tr>
                 </tbody>
@@ -59,22 +59,22 @@
         </fieldset>
 
         <fieldset id="direction-fieldset"><legend>Choose direction</legend>
-            <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels()" checked>
+            <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels(); this.form.submit()" checked>
             <label for="podcast2youtube">Podcast <i class="fa fa-long-arrow-right"></i> YouTube</label><br>
 
-            <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels()">
+            <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels(); this.form.submit()">
             <label for="youtube2podcast">YouTube <i class="fa fa-long-arrow-right"></i> Podcast</label><br>
         </fieldset>
 
         <fieldset id="bitrate-fieldset"><legend>Choose <abbr title="" data-tippy-content="Different podcast apps and web browsers will play some episodes at slightly different rates, resulting in different times for the same moment. If your converted time is inaccurate, try switching this setting.">podcast player type</abbr></legend>
-            <input type="radio" id="cbr" name="bitrate-mode" value="CBR" onchange="resetLabels()" checked>
+            <input type="radio" id="cbr" name="bitrate-mode" value="CBR" onchange="this.form.submit()" checked>
             <label for="cbr">
                 <abbr title="" data-tippy-content="Constant bitrate decoding">CBR</abbr>
                 <i class="fa fa-chrome" data-tippy-content="Recommended for Chrome"></i>
                 <i class="fa fa-android" data-tippy-content="Recommended for Android"></i>
             </label><br>
 
-            <input type="radio" id="abr" name="bitrate-mode" value="ABR" onchange="resetLabels()">
+            <input type="radio" id="abr" name="bitrate-mode" value="ABR" onchange="this.form.submit()">
             <label for="abr">
                 <abbr title="" data-tippy-content="Average bitrate decoding">ABR</abbr>
                 <i class="fa fa-firefox" data-tippy-content="Recommended for Firefox"></i>
@@ -83,22 +83,26 @@
         </fieldset>
 
         <fieldset id="times-fieldset"><legend>Convert time</legend>
-            <span class="nowrap">
-                <label for="input-time" id="input-time-label"></label>
-                <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="resetLabels()" onchange="resetLabels()">
-                <button class="icon-button square" type="button" id="pick-time-button" onclick="showPicker()"><i class="fa fa-clock-o"></i></button>
-            </span>
+            <div>
+                <span class="nowrap">
+                    <label for="input-time" id="input-time-label"></label>
+                    <input type="text" id="input-time" pattern="^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$" title="HH:MM:SS" placeholder="HH:MM:SS" autocomplete="off" required oninput="this.form.submit()" onchange="this.form.submit()">
+                    <button class="icon-button square" type="button" id="pick-time-button" onclick="showPicker()"><i class="fa fa-clock-o"></i></button>
+                </span>
+            </div>
 
             <div id="late-time-warning" class="warning">
                 This time exceeds the episode duration.
             </div>
 
-            <button class="icon-button" type="submit" id="convert-button"><i class="fa fa-arrow-down"></i> Convert</button>
+            <!-- <button class="icon-button" type="submit" id="convert-button"><i class="fa fa-arrow-down"></i> Convert</button> -->
 
-            <span class="nowrap">
-                <span id="output-time-label"></span>
-                <span id="output-time"></span>
-            </span>
+            <div>
+                <span class="nowrap">
+                    <span id="output-time-label"></span>
+                    <span id="output-time"></span>
+                </span>
+            </div>
         </fieldset>
 
         <p>
