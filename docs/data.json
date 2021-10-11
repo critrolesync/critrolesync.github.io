@@ -469,7 +469,16 @@
                 "google_podcasts_episode": "YzE5NjZkYjAtM2Y0My00ODAyLTg2YjQtOTYwZjFjMmMxMGUw",
                 "spotify_id": "6IxZd9kVIXNTr9xcnhUsaR",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:12:21", "0:00:23", "recap"],
+                    ["1:40:38", "1:28:28", "break start"],
+                    ["1:56:12", "1:28:40", "break end"],
+                    ["3:47:17", "3:19:29", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-10"
             },
             {
                 "id": "C1E25",
