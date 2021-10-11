@@ -127,7 +127,7 @@ function updateProgressBars() {
     exuProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Exandria%20Unlimited&width=208&color=666666`
 }
 
-function populateSeries() {
+function populateSeries(rememberSelection=true) {
     // remove all series from the series selector
     for (let i = seriesSelect.options.length-1; i >= 0; i--) {
        seriesSelect.remove(i)
@@ -146,29 +146,25 @@ function populateSeries() {
         seriesSelect.appendChild(option)
     }
 
-    // set series from local storage. If not found, set to 0
-    seriesSelect.value = localStorage.getItem('series') || 0
-    // pass 'false' to use episode from local storage
-    changeSeries(false)
+    // load series from local storage or default to first series
+    if (rememberSelection) { seriesSelect.value = localStorage.getItem('series') || 0 }
+
+    // populateSeries runs only on page load, which is the only time that prior
+    // episode selection is restored (changing series normally resets the
+    // episode selection), so here we pass rememberEpisodeSelection=true
+    changeSeries(rememberEpisodeSelection=true)
 }
 
-function changeSeries(resetSelectedEpisode=true) {
+function changeSeries(rememberEpisodeSelection=false) {
     series = data[seriesSelect.value]
 
-    if (resetSelectedEpisode) {
-        localStorage.removeItem('episode')
-    }
-
-    populateEpisodes()   
- 
-    // save selected series index in local storage
+    // save series selection in local storage
     localStorage.setItem('series', seriesSelect.value)
+
+    populateEpisodes(rememberEpisodeSelection)
 }
 
-function populateEpisodes(keepSelectedIndex=false) {
-    var selectedIndex = 0
-    if (keepSelectedIndex) { selectedIndex = episodeSelect.selectedIndex }
-
+function populateEpisodes(rememberSelection=false) {
     // remove all episodes from the episode selector
     for (let i = episodeSelect.options.length-1; i >= 0; i--) {
        episodeSelect.remove(i)
@@ -189,15 +185,18 @@ function populateEpisodes(keepSelectedIndex=false) {
         }
         episodeSelect.appendChild(option)
     }
-    episodeSelect.selectedIndex = selectedIndex
 
-    // set episode from local storage. If not found, set to 0
-    episodeSelect.value = localStorage.getItem('episode') || 0
+    // load episode from local storage or default to first episode
+    if (rememberSelection) { episodeSelect.value = localStorage.getItem('episode') || 0 }
+
     changeEpisode()
 }
 
 function changeEpisode() {
     ep = series.episodes[episodeSelect.value]
+
+    // save episode selection in local storage
+    localStorage.setItem('episode', episodeSelect.value)
 
     if (ep.timestamps.length < 2) {
         // disable form controls if timestamp data are missing
@@ -232,9 +231,6 @@ function changeEpisode() {
     resetLabels()
     updateEmbeds()
     updateEpisodeDebugInfo()
-
-    // save selected episode in local storage
-    localStorage.setItem("episode", episodeSelect.value)
 }
 
 function resetLabels() {
