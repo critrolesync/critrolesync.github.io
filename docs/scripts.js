@@ -250,6 +250,22 @@ function resetLabels() {
     setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
 }
 
+function updateEmbeds() {
+    if (showEmbeds.checked) {
+        timeObjs = convertTimestamp()
+        if (timeObjs) {
+            fillEmbed(videoEmbed, 'youtube', ep, timeObjs['youtube'])
+            fillEmbed(podcastEmbed, 'spotify', ep, timeObjs['podcast'])
+        } else {
+            fillEmbed(videoEmbed, 'youtube', ep)
+            fillEmbed(podcastEmbed, 'spotify', ep)
+        }
+    } else {
+        videoEmbed.innerHTML = ''
+        podcastEmbed.innerHTML = ''
+    }
+}
+
 function updateEpisodeDebugInfo() {
     if (debug) {
         // display debug information on page
@@ -548,22 +564,6 @@ function showConvertedTimestamp() {
     }
 
     updateEmbeds()
-}
-
-function updateEmbeds() {
-    if (showEmbeds.checked) {
-        timeObjs = convertTimestamp()
-        if (timeObjs) {
-            fillEmbed(videoEmbed, 'youtube', ep, timeObjs['youtube'])
-            fillEmbed(podcastEmbed, 'spotify', ep, timeObjs['podcast'])
-        } else {
-            fillEmbed(videoEmbed, 'youtube', ep)
-            fillEmbed(podcastEmbed, 'spotify', ep)
-        }
-    } else {
-        videoEmbed.innerHTML = ''
-        podcastEmbed.innerHTML = ''
-    }
 }
 
 /******************************************************************************
