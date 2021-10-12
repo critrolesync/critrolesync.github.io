@@ -3,18 +3,15 @@
 :root {
   --red: #c73036;
   --black: #4d4d4d;
-  --bg-color: rgb(250,240,230);
+  --bg-color: rgb(250, 240, 230);
+  --banner-color: rgb(235, 218, 202);
   --font-family: Georgia, serif;
   --font-size: 18px;
   --line-height: 28px;
 }
 
 body {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0px;
     background-color: var(--bg-color);
     font-family: var(--font-family);
     color: var(--black);
@@ -22,11 +19,27 @@ body {
     line-height: var(--line-height);
 }
 
+#banner {
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--banner-color);
+}
+
+#banner-content, #body-content {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#banner-content { white-space: nowrap; }
+
 h1 { font-size: 45px; font-weight: normal; line-height: 54px; margin: 0 0 54px; }
 
 select { width: 100%; }
-
-#header { margin: 0 0 28px; padding-top: 20px; white-space: nowrap; }
 
 #logo { display: inline-block; vertical-align: middle; margin: 0px; height: 54px; margin-right: 10px; }
 
