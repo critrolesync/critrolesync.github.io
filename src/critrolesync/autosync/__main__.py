@@ -7,6 +7,7 @@ Run the autosync algorithm:
   5. Write timestamps to data.json
 """
 
+from pathlib import Path
 import sys
 import argparse
 import re
@@ -37,7 +38,7 @@ default_podcast_slice_times = {
     'ending': ('-0:02:00', '-0:01:50'),
 }
 
-with open('custom-podcast-slice-times.json') as _fd:
+with open(Path(__file__).parent / 'custom-podcast-slice-times.json') as _fd:
     custom_podcast_slice_times = json.load(_fd)
 
 def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor=None):
