@@ -55,6 +55,9 @@ request.send()
 request.onload = function() {
   data = request.response
 
+  // restore last known hide titles selection
+  hideTitles.checked = (localStorage.getItem('hide-titles') == 'true')
+
   // restore last known podcast player selection
   var bitrateMode = localStorage.getItem('bitrate-mode')
   if (bitrateMode == 'CBR') {
@@ -324,6 +327,10 @@ function updateEpisodeDebugInfo() {
         // hide debug information on page
         debugContainer.style.display = 'none'
     }
+}
+
+function storeHideTitles() {
+    localStorage.setItem('hide-titles', hideTitles.checked)
 }
 
 function storeBitrateMode() {

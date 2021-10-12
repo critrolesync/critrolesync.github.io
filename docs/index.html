@@ -47,7 +47,7 @@
                     <tr>
                         <td colspan=2>
                             <label class="row-label" for="hide-titles"><abbr title="" data-tippy-content="For spoilerphobic critters">Hide titles</abbr>:</label>
-                            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="populateEpisodes(rememberSelection=true); this.form.submit()">
+                            <input type="checkbox" id="hide-titles" value="hide-titles" onchange="storeHideTitles(); populateEpisodes(rememberSelection=true); this.form.submit()">
                         </td>
                     </tr>
                 </tbody>
