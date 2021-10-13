@@ -16,7 +16,7 @@ var lateTimeWarning = document.getElementById('late-time-warning')
 
 var directionFieldset = document.getElementById('direction-fieldset')
 var bitrateFieldset = document.getElementById('bitrate-fieldset')
-var timesFieldset = document.getElementById('times-fieldset')
+var convertFieldset = document.getElementById('convert-fieldset')
 
 var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
@@ -210,22 +210,22 @@ function changeEpisode() {
         // disable form controls if timestamp data are missing
         directionFieldset.disabled = true
         bitrateFieldset.disabled = true
-        timesFieldset.disabled = true
+        convertFieldset.disabled = true
 
         directionFieldset.style.display = 'none'
         bitrateFieldset.style.display = 'none'
-        timesFieldset.style.display = 'none'
+        convertFieldset.style.display = 'none'
 
         incompleteWarning.style.display = 'block'
     } else {
         // enable form controls if timestamp data are available
         directionFieldset.disabled = false
         bitrateFieldset.disabled = false
-        timesFieldset.disabled = false
+        convertFieldset.disabled = false
 
         directionFieldset.style.display = 'block'
         bitrateFieldset.style.display = 'block'
-        timesFieldset.style.display = 'block'
+        convertFieldset.style.display = 'block'
 
         incompleteWarning.style.display = 'none'
 
@@ -244,18 +244,18 @@ function changeEpisode() {
 function resetLabels() {
     var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
-        inputTimeLabel.textContent = 'Podcast time:'
-        outputTimeLabel.textContent = 'YouTube time:'
+        inputTimeLabel.innerHTML = '<i class="fa fa-headphones"></i>Podcast'
+        outputTimeLabel.innerHTML = '<i class="fa fa-youtube-play"></i>YouTube'
     } else if (direction == 'youtube2podcast') {
-        inputTimeLabel.textContent = 'YouTube time:'
-        outputTimeLabel.textContent = 'Podcast time:'
+        inputTimeLabel.innerHTML = '<i class="fa fa-youtube-play"></i>YouTube'
+        outputTimeLabel.innerHTML = '<i class="fa fa-headphones"></i>Podcast'
     } else {
         console.log(`error, bad direction: ${direction}`)
         inputTimeLabel.textContent = ''
         outputTimeLabel.textContent = ''
     }
 
-    outputTime.innerHTML = ''
+    outputTime.innerHTML = '-'
 
     setLink(videoLink, 'Video', getUrl('youtube', ep))
     setLink(podcastLink, 'Podcast', getUrl('podcast', ep))

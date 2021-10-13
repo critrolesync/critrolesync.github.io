@@ -47,9 +47,9 @@ select { width: 100%; }
 
 #more-text { display: none; }
 
-#table-select { width: 100%; }
+#episode-fieldset-table { width: 100%; }
 
-#col-select { width: 100%; }
+#episode-fieldset-select-col { width: 100%; }
 
 label.row-label { white-space: nowrap; margin-right: 5px; }
 
@@ -63,6 +63,10 @@ legend { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 select, input { font-family: var(--font-family); font-size: var(--font-size); border: 1px solid; border-radius: 5px; background-color: white; }
 
 #input-time { width: 6em; padding-left: 5px; }
+
+#convert-fieldset-table { width: 100%; text-align: center; }
+#convert-fieldset-input-col, #convert-fieldset-output-col { width: 50%; }
+#convert-fieldset-times-row { height: 35px; }
 
 #debug-container { display: none; text-align: center; }
 #debug-header { font-weight: bold; margin: auto; }
@@ -86,9 +90,8 @@ button.icon-button:hover { background-color: RoyalBlue; }
 
 #direction-fieldset .fa { margin: 0px 5px 0px 5px; }
 #bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
+#convert-fieldset-labels-row .fa { margin-right: 8px; }
 #pick-time-button {}
-#convert-button { display: block; margin: 15px 0px 15px 10px; padding: 15px; height: auto; }
-#convert-button .fa { margin-right: 5px; }
 
 a { color: var(--red); text-decoration: underline; }
 a:hover { text-decoration: none; }
