@@ -101,7 +101,10 @@ button.icon-button {
     cursor: pointer;
 }
 button.icon-button.square { width: var(--line-height); padding: 0px; }
-button.icon-button:hover { background-color: var(--red); }
+@media (hover: hover) and (pointer: fine) {
+    /* not touch interface */
+    button.icon-button:hover { background-color: var(--red); }
+}
 
 #direction-fieldset .fa { margin: 0px 5px 0px 5px; }
 #bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
@@ -109,9 +112,13 @@ button.icon-button:hover { background-color: var(--red); }
 #pick-time-button { border-top-left-radius: 0; border-bottom-left-radius: 0; height: 30px; }
 
 a { color: var(--red); text-decoration: underline; }
-a:hover { text-decoration: none; }
 a#change-direction { font-size: 40px; color: var(--black) }
-a#change-direction:hover { color: var(--red); }
+@media (hover: hover) and (pointer: fine) {
+    /* not touch interface */
+    a:hover { text-decoration: none; }
+    a#change-direction:hover { color: var(--red); }
+}
+
 
 .picker-body, .picker-footer { max-width: 400px; margin: auto; }
 .picker-cell, .picker-cell__header, .picker-cancel, .picker-confirm { font-size: var(--font-size); }
