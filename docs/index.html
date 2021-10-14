@@ -63,10 +63,10 @@
             </fieldset>
 
             <fieldset id="direction-fieldset"><legend>Choose direction</legend>
-                <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="resetLabels(); this.form.submit()" checked>
+                <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="storeDirection(); resetLabels(); this.form.submit()" checked>
                 <label for="podcast2youtube">Podcast <i class="fa fa-long-arrow-right"></i> YouTube</label><br>
 
-                <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="resetLabels(); this.form.submit()">
+                <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="storeDirection(); resetLabels(); this.form.submit()">
                 <label for="youtube2podcast">YouTube <i class="fa fa-long-arrow-right"></i> Podcast</label><br>
             </fieldset>
 

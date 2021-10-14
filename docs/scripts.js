@@ -66,6 +66,14 @@ request.onload = function() {
       document.getElementById('abr').checked = true
   }
 
+  // restore last known direction
+  var direction = localStorage.getItem('direction')
+  if (direction == 'podcast2youtube') {
+      document.getElementById('podcast2youtube').checked = true
+  } else if (direction == 'youtube2podcast') {
+      document.getElementById('youtube2podcast').checked = true
+  }
+
   updateProgressBars()
   populateSeries()
 }
@@ -336,6 +344,11 @@ function storeHideTitles() {
 function storeBitrateMode() {
     var bitrateMode = document.querySelector('input[name="bitrate-mode"]:checked').value
     localStorage.setItem('bitrate-mode', bitrateMode)
+}
+
+function storeDirection() {
+    var direction = document.querySelector('input[name="direction"]:checked').value
+    localStorage.setItem('direction', direction)
 }
 
 function toggleDebug(state=null) {
