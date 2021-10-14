@@ -216,22 +216,22 @@ function changeEpisode() {
 
     if (ep.timestamps.length < 2) {
         // disable form controls if timestamp data are missing
-        directionFieldset.disabled = true
+        // directionFieldset.disabled = true
         bitrateFieldset.disabled = true
         convertFieldset.disabled = true
 
-        directionFieldset.style.display = 'none'
+        // directionFieldset.style.display = 'none'
         bitrateFieldset.style.display = 'none'
         convertFieldset.style.display = 'none'
 
         incompleteWarning.style.display = 'block'
     } else {
         // enable form controls if timestamp data are available
-        directionFieldset.disabled = false
+        // directionFieldset.disabled = false
         bitrateFieldset.disabled = false
         convertFieldset.disabled = false
 
-        directionFieldset.style.display = 'block'
+        // directionFieldset.style.display = 'block'
         bitrateFieldset.style.display = 'block'
         convertFieldset.style.display = 'block'
 
@@ -243,6 +243,10 @@ function changeEpisode() {
             bitrateFieldset.style.display = 'none'
         }
     }
+
+    // always hide the direction fieldset
+    directionFieldset.disabled = true
+    directionFieldset.style.display = 'none'
 
     resetLabels()
     updateEmbeds()
@@ -335,6 +339,16 @@ function updateEpisodeDebugInfo() {
         // hide debug information on page
         debugContainer.style.display = 'none'
     }
+}
+
+function changeDirection() {
+    var direction = localStorage.getItem('direction')
+    if (direction == 'podcast2youtube') {
+        document.getElementById('youtube2podcast').checked = true
+    } else if (direction == 'youtube2podcast') {
+        document.getElementById('podcast2youtube').checked = true
+    }
+    storeDirection()
 }
 
 function storeHideTitles() {

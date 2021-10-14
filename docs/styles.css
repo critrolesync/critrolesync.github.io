@@ -79,7 +79,8 @@ select, input {
 }
 
 #convert-fieldset-table { width: 100%; text-align: center; }
-#convert-fieldset-input-col, #convert-fieldset-output-col { width: 50%; }
+#convert-fieldset-input-col, #convert-fieldset-output-col { width: 40%; }
+#convert-fieldset-swap-col { width: 20%; }
 #convert-fieldset-times-row { height: 35px; }
 
 #debug-container { display: none; text-align: center; }
@@ -94,21 +95,23 @@ button.icon-button {
     font-size: var(--font-size);
     height: var(--line-height);
     color: white;
-    background-color: var(--red);
+    background-color: var(--black);
     border: 1px solid var(--black);
     border-radius: 5px;
     cursor: pointer;
 }
 button.icon-button.square { width: var(--line-height); padding: 0px; }
-button.icon-button:hover { background-color: RoyalBlue; }
+button.icon-button:hover { background-color: var(--red); }
 
 #direction-fieldset .fa { margin: 0px 5px 0px 5px; }
 #bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
-#convert-fieldset-labels-row .fa { margin-right: 8px; }
+#input-time-label .fa, #output-time-label .fa { margin-right: 8px; }
 #pick-time-button { border-top-left-radius: 0; border-bottom-left-radius: 0; height: 30px; }
 
 a { color: var(--red); text-decoration: underline; }
 a:hover { text-decoration: none; }
+a#change-direction { font-size: 40px; color: var(--black) }
+a#change-direction:hover { color: var(--red); }
 
 .picker-body, .picker-footer { max-width: 400px; margin: auto; }
 .picker-cell, .picker-cell__header, .picker-cancel, .picker-confirm { font-size: var(--font-size); }
