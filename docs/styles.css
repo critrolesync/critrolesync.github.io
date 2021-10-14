@@ -60,9 +60,23 @@ legend { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 
 #output-time { font-size: 28px; font-weight: bold; }
 
-select, input { font-family: var(--font-family); font-size: var(--font-size); border: 1px solid; border-radius: 5px; background-color: white; }
+select, input {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    background-color: white;
+}
 
-#input-time { width: 6em; padding-left: 5px; }
+#input-time {
+    width: 5.5em;
+    height: var(--line-height);
+    padding: 0 0 0 5px;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
 #convert-fieldset-table { width: 100%; text-align: center; }
 #convert-fieldset-input-col, #convert-fieldset-output-col { width: 50%; }
@@ -91,7 +105,7 @@ button.icon-button:hover { background-color: RoyalBlue; }
 #direction-fieldset .fa { margin: 0px 5px 0px 5px; }
 #bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
 #convert-fieldset-labels-row .fa { margin-right: 8px; }
-#pick-time-button {}
+#pick-time-button { border-top-left-radius: 0; border-bottom-left-radius: 0; height: 30px; }
 
 a { color: var(--red); text-decoration: underline; }
 a:hover { text-decoration: none; }
