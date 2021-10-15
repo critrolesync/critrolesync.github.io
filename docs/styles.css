@@ -59,7 +59,7 @@ label.row-label { white-space: nowrap; margin-right: 5px; }
 fieldset { border: 1px solid; border-radius: 5px; margin-bottom: 10px; }
 legend { padding-left: 10px; padding-right: 10px; font-weight: bold; }
 
-#output-time { font-size: 28px; font-weight: bold; }
+#output-time { font-size: 26px; font-weight: bold; }
 
 select, input {
     font-family: var(--font-family);
@@ -71,7 +71,7 @@ select, input {
 }
 
 #input-time {
-    width: 5.5em;
+    width: 4.5em;
     height: var(--line-height);
     padding: 0 0 0 5px;
     border-right: 0;
