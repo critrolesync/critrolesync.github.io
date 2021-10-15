@@ -80,6 +80,7 @@ request.onload = function() {
 
   updateProgressBars()
   populateSeries()
+  setDirectionLabels()
   showConvertedTimestamp()
 }
 
@@ -110,7 +111,6 @@ function setupTimePicker() {
         picker.setValue(value)
 
         // also auto-convert
-        resetLabels() // in case episode duration exceeded
         showConvertedTimestamp()
     }
     picker.grid.addEventListener('wheel', updateTimeFromPicker)
@@ -253,12 +253,11 @@ function changeEpisode() {
     directionFieldset.disabled = true
     directionFieldset.style.display = 'none'
 
-    resetLabels()
     updateEmbeds()
     updateEpisodeDebugInfo()
 }
 
-function resetLabels() {
+function setDirectionLabels() {
     var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
         inputTimeLabel.innerHTML = '<i class="fa fa-headphones"></i>Podcast'
@@ -271,12 +270,6 @@ function resetLabels() {
         inputTimeLabel.textContent = ''
         outputTimeLabel.textContent = ''
     }
-
-    outputTime.innerHTML = '-'
-
-    setLink(videoLink, 'Video', getUrl('youtube', ep))
-    setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
-    setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
 }
 
 function updateEmbeds() {
@@ -353,6 +346,7 @@ function changeDirection() {
     } else if (direction == 'youtube2podcast') {
         document.getElementById('podcast2youtube').checked = true
     }
+    setDirectionLabels()
     storeDirection()
 }
 
@@ -620,7 +614,11 @@ function showConvertedTimestamp() {
         setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
         setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
     } else {
-        resetLabels()
+        outputTime.innerHTML = '-'
+
+        setLink(videoLink, 'Video', getUrl('youtube', ep))
+        setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
+        setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
     }
 
     updateEmbeds()

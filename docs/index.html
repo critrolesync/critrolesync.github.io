@@ -63,10 +63,10 @@
             </fieldset>
 
             <fieldset id="direction-fieldset"><legend>Choose direction</legend>
-                <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="storeDirection(); resetLabels(); this.form.submit()" checked>
+                <input type="radio" id="podcast2youtube" name="direction" value="podcast2youtube" onchange="storeDirection(); setDirectionLabels(); this.form.submit()" checked>
                 <label for="podcast2youtube">Podcast <i class="fa fa-long-arrow-right"></i> YouTube</label><br>
 
-                <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="storeDirection(); resetLabels(); this.form.submit()">
+                <input type="radio" id="youtube2podcast" name="direction" value="youtube2podcast" onchange="storeDirection(); setDirectionLabels(); this.form.submit()">
                 <label for="youtube2podcast">YouTube <i class="fa fa-long-arrow-right"></i> Podcast</label><br>
             </fieldset>
 
@@ -96,7 +96,7 @@
                     <tbody>
                         <tr id="convert-fieldset-labels-row">
                             <td><label for="input-time" id="input-time-label"></label></td>
-                            <td rowspan=2><button class="icon-button" type="button" id="change-direction" onclick="changeDirection(); resetLabels(); this.form.submit()"><i class="fa fa-exchange"></i></button></td>
+                            <td rowspan=2><button class="icon-button" type="button" id="change-direction" onclick="changeDirection(); this.form.submit()"><i class="fa fa-exchange"></i></button></td>
                             <td><span id="output-time-label"></span></td>
                         </tr>
                         <tr id="convert-fieldset-times-row">
