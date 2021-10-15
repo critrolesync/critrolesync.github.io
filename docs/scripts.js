@@ -78,6 +78,9 @@ request.onload = function() {
   var time = localStorage.getItem('input-time')
   inputTime.value = time || ''
 
+  // restore last known show embeds selection
+  showEmbeds.checked = (localStorage.getItem('show-embeds') == 'true')
+
   updateProgressBars()
   populateSeries()
   setDirectionLabels()
@@ -366,6 +369,10 @@ function storeDirection() {
 
 function storeInputTime() {
     localStorage.setItem('input-time', inputTime.value)
+}
+
+function storeShowEmbeds() {
+    localStorage.setItem('show-embeds', showEmbeds.checked)
 }
 
 function toggleDebug(state=null) {

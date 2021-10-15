@@ -123,7 +123,7 @@
             <fieldset id='embeds-fieldset'>
                 <legend>
                     <label for="show-embeds">Show media players:</label>
-                    <input type="checkbox" id="show-embeds" value="show-embeds" onchange="updateEmbeds()">
+                    <input type="checkbox" id="show-embeds" value="show-embeds" onchange="storeShowEmbeds(); updateEmbeds()">
                 </legend>
                 <div id="video-embed"></div>
                 <div id="podcast-embed"></div>
