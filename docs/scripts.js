@@ -263,11 +263,11 @@ function changeEpisode() {
 function setDirectionLabels() {
     var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
-        inputTimeLabel.innerHTML = '<i class="fa fa-headphones"></i>Podcast'
-        outputTimeLabel.innerHTML = '<i class="fa fa-youtube-play"></i>YouTube'
+        inputTimeLabel.innerHTML = '<span class="nowrap"><i class="fa fa-headphones"></i>Podcast</span>'
+        outputTimeLabel.innerHTML = '<span class="nowrap"><i class="fa fa-youtube-play"></i>YouTube</span>'
     } else if (direction == 'youtube2podcast') {
-        inputTimeLabel.innerHTML = '<i class="fa fa-youtube-play"></i>YouTube'
-        outputTimeLabel.innerHTML = '<i class="fa fa-headphones"></i>Podcast'
+        inputTimeLabel.innerHTML = '<span class="nowrap"><i class="fa fa-youtube-play"></i>YouTube</span>'
+        outputTimeLabel.innerHTML = '<span class="nowrap"><i class="fa fa-headphones"></i>Podcast</span>'
     } else {
         console.log(`error, bad direction: ${direction}`)
         inputTimeLabel.textContent = ''
