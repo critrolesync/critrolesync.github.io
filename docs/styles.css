@@ -84,6 +84,8 @@ select, input {
 #convert-fieldset-swap-col { width: 20%; }
 #convert-fieldset-times-row { height: 35px; }
 
+#late-time-warning { text-align: left; }
+
 #debug-container { display: none; text-align: center; }
 #debug-header { font-weight: bold; margin: auto; }
 #debug-date-verified { font-style: italic; margin: auto; }

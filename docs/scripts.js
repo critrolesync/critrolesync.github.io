@@ -544,7 +544,7 @@ function convertTimestamp() {
     }
 
     if (isAfterEpisodeEnd(timeObjs[source], source)) {
-        lateTimeWarning.style.display = 'block'
+        lateTimeWarning.style.display = 'table-row'
         return
     } else {
         lateTimeWarning.style.display = 'none'
