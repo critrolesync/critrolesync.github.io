@@ -120,10 +120,14 @@
                 </table>
             </fieldset>
 
-            <label for="show-embeds">Show embedded players:</label>
-            <input type="checkbox" id="show-embeds" value="show-embeds" onchange="updateEmbeds()">
-            <div id="video-embed"></div>
-            <div id="podcast-embed"></div>
+            <fieldset id='embeds-fieldset'>
+                <legend>
+                    <label for="show-embeds">Show media players:</label>
+                    <input type="checkbox" id="show-embeds" value="show-embeds" onchange="updateEmbeds()">
+                </legend>
+                <div id="video-embed"></div>
+                <div id="podcast-embed"></div>
+            </fieldset>
 
             <div id="debug-container">
                 <p id="debug-header"> >>> DEBUG ON <<< </p>

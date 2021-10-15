@@ -399,7 +399,7 @@ function fillEmbed(div, type, ep, timeObj=null) {
     if (type == 'youtube') {
         var url = `https://www.youtube-nocookie.com/embed/${ep.youtube_id}`
         if (timeObj) { url += `?start=${Math.floor(timeObj.total)}` }
-        div.innerHTML = `<iframe width="100%" height="337" src="${url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        div.innerHTML = `<iframe width="100%" height="232" src="${url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     } else if (type == 'spotify') {
         var url = `https://open.spotify.com/embed/episode/${ep.spotify_id}`
         if (timeObj) { url += `?t=${Math.floor(timeObj.total)}` }
