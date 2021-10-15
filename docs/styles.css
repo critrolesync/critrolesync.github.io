@@ -110,15 +110,13 @@ button.icon-button.square { width: var(--line-height); padding: 0px; }
 #bitrate-fieldset .fa { margin: 0px 2px 0px 2px; }
 #input-time-label .fa, #output-time-label .fa { margin-right: 8px; }
 #pick-time-button { border-top-left-radius: 0; border-bottom-left-radius: 0; height: 30px; }
+#change-direction { font-size: 30px; width: 50px; height: 50px; border-radius: 50%; }
 
 a { color: var(--red); text-decoration: underline; }
-a#change-direction { font-size: 40px; color: var(--black) }
 @media (hover: hover) and (pointer: fine) {
     /* not touch interface */
     a:hover { text-decoration: none; }
-    a#change-direction:hover { color: var(--red); }
 }
-
 
 .picker-body, .picker-footer { max-width: 400px; margin: auto; }
 .picker-cell, .picker-cell__header, .picker-cancel, .picker-confirm { font-size: var(--font-size); }

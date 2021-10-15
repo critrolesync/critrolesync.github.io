@@ -96,7 +96,7 @@
                     <tbody>
                         <tr id="convert-fieldset-labels-row">
                             <td><label for="input-time" id="input-time-label"></label></td>
-                            <td rowspan=2><a id="change-direction" onclick="changeDirection(); resetLabels(); showConvertedTimestamp()"><i class="fa fa-exchange"></i></a></td>
+                            <td rowspan=2><button class="icon-button" type="button" id="change-direction" onclick="changeDirection(); resetLabels(); this.form.submit()"><i class="fa fa-exchange"></i></button></td>
                             <td><span id="output-time-label"></span></td>
                         </tr>
                         <tr id="convert-fieldset-times-row">
