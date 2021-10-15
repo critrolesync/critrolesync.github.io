@@ -28,7 +28,8 @@ body {
 }
 
 #banner-content, #body-content {
-    max-width: 600px;
+    min-width: 380px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
