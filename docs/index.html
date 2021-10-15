@@ -108,6 +108,11 @@
                             </td>
                             <td><span id="output-time"></span></td>
                         </tr>
+                        <tr>
+                            <td><span id="input-link"></span></td>
+                            <td><span id="transcript-link"></span></td>
+                            <td><span id="output-link"></span></td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -115,13 +120,6 @@
                     This time exceeds the episode duration.
                 </div>
             </fieldset>
-
-            <p>
-                Go to:
-                <span id="video-link"></span> |
-                <span id="podcast-link"></span> |
-                <span id="transcript-link"></span>
-            </p>
 
             <label for="show-embeds">Show embedded players:</label>
             <input type="checkbox" id="show-embeds" value="show-embeds" onchange="updateEmbeds()">

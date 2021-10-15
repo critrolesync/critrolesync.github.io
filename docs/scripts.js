@@ -23,9 +23,9 @@ var inputTimeLabel = document.getElementById('input-time-label')
 var outputTime = document.getElementById('output-time')
 var outputTimeLabel = document.getElementById('output-time-label')
 
-var videoLink = document.getElementById('video-link')
-var podcastLink = document.getElementById('podcast-link')
+var inputLink = document.getElementById('input-link')
 var transcriptLink = document.getElementById('transcript-link')
+var outputLink = document.getElementById('output-link')
 
 var showEmbeds = document.getElementById('show-embeds')
 var videoEmbed = document.getElementById('video-embed')
@@ -592,7 +592,7 @@ function convertTimestamp() {
 }
 
 function showConvertedTimestamp() {
-    var source, dest
+    var source, dest, linkText = {'youtube': 'YouTube', 'podcast': 'Spotify'}
     var direction = document.querySelector('input[name="direction"]:checked').value
     if (direction == 'podcast2youtube') {
         source = 'podcast'
@@ -608,17 +608,25 @@ function showConvertedTimestamp() {
     timeObjs = convertTimestamp()
 
     if (timeObjs) {
-        setLink(outputTime, timeObjs[dest].string, getUrl(dest, ep, timeObjs[dest]))
+        outputTime.textContent = timeObjs[dest].string
 
-        setLink(videoLink, `Video @ ${timeObjs['youtube'].string}`, getUrl('youtube', ep, timeObjs['youtube']))
-        setLink(podcastLink, `Podcast @ ${timeObjs['podcast'].string}`, getUrl('podcast', ep, timeObjs['podcast']))
-        setLink(transcriptLink, `Transcript @ ${timeObjs['youtube'].string}`, getUrl('transcript', ep, timeObjs['youtube']))
+        setLink(inputLink, `${linkText[source]}`, getUrl(source, ep, timeObjs[source]))
+        setLink(outputLink, `${linkText[dest]}`, getUrl(dest, ep, timeObjs[dest]))
+        if (getUrl('transcript', ep)) {
+            setLink(transcriptLink, `Transcript`, getUrl('transcript', ep, timeObjs['youtube']))
+        } else {
+            setLink(transcriptLink, null)
+        }
     } else {
-        outputTime.innerHTML = '-'
+        outputTime.textContent = '-'
 
-        setLink(videoLink, 'Video', getUrl('youtube', ep))
-        setLink(podcastLink, 'Podcast', getUrl('podcast', ep))
-        setLink(transcriptLink, 'Transcript', getUrl('transcript', ep))
+        setLink(inputLink, `${linkText[source]}`, getUrl(source, ep))
+        setLink(outputLink, `${linkText[dest]}`, getUrl(dest, ep))
+        if (getUrl('transcript', ep)) {
+            setLink(transcriptLink, `Transcript`, getUrl('transcript', ep))
+        } else {
+            setLink(transcriptLink, null)
+        }
     }
 
     updateEmbeds()
