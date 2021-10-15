@@ -126,3 +126,4 @@ a { color: var(--red); text-decoration: underline; }
 .picker-cell::before, .picker-cell::after, .picker-cell__body::before, .picker-cell__body::after { background-image: none; }
 .picker-dialog, .picker-header, .picker-footer { border: none; }
 .picker-cell__header, .picker-cell, .picker-cell + .picker-cell { border-bottom: 1px solid; border-left: none; }
+.picker-footer { visibility: hidden; }
