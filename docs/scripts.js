@@ -74,8 +74,13 @@ request.onload = function() {
       document.getElementById('youtube2podcast').checked = true
   }
 
+  // restore last known input time
+  var time = localStorage.getItem('input-time')
+  inputTime.value = time || ''
+
   updateProgressBars()
   populateSeries()
+  showConvertedTimestamp()
 }
 
 /******************************************************************************
@@ -365,6 +370,10 @@ function storeDirection() {
     localStorage.setItem('direction', direction)
 }
 
+function storeInputTime() {
+    localStorage.setItem('input-time', inputTime.value)
+}
+
 function toggleDebug(state=null) {
     if (state == null) {
         debug = !debug
@@ -513,6 +522,9 @@ function convertBitrate(timeObj, oldBitrate, newBitrate) {
 }
 
 function convertTimestamp() {
+
+    // store before regex validation so that partial entries are restorable
+    storeInputTime()
 
     timeRegEx = /^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$/
     if (!inputTime.value.match(timeRegEx)) { return }
