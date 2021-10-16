@@ -489,7 +489,16 @@
                 "google_podcasts_episode": "YjE0ZDVmMDMtM2MzMi00ZWYzLTk5OGUtZTcwMzk5MWU1ZmRi",
                 "spotify_id": "52zrrCPUX4hsyYlzyeQhzV",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:09:29", "0:00:22", "recap"],
+                    ["1:57:19", "1:47:56", "break start"],
+                    ["2:09:12", "1:48:13", "break end"],
+                    ["3:33:44", "3:12:33", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-16"
             },
             {
                 "id": "C1E26",
@@ -500,7 +509,16 @@
                 "google_podcasts_episode": "YzRkN2Y0ZGEtMDJhNi00YzEzLTk5ZGEtMzAwYTI5NDc0NzU5",
                 "spotify_id": "6bZazkTbl8iASgtPylP5QM",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:07:59", "0:00:22", "recap"],
+                    ["1:28:58", "1:21:10", "break start"],
+                    ["1:45:03", "1:21:22", "break end"],
+                    ["3:47:22", "3:23:24", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-16"
             },
             {
                 "id": "C1E27",
@@ -511,7 +529,18 @@
                 "google_podcasts_episode": "ZTZlNTY5NTktZThmMS00NjRjLTliODAtZmNkM2Q2OWU0ZTIy",
                 "spotify_id": "0dAYn9umKSkis4XaZJQtZn",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:12:54", "0:00:22", "recap"],
+                    ["1:42:22", "1:29:38", "break start"],
+                    ["1:55:27", "1:29:52", "break end"],
+                    ["2:07:37", "1:42:01", "stream interruption start"],
+                    ["2:08:15", "1:42:06", "stream interruption end"],
+                    ["3:27:05", "3:00:43", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-16"
             },
             {
                 "id": "C1E28",
