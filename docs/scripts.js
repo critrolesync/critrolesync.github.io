@@ -18,6 +18,10 @@ var directionFieldset = document.getElementById('direction-fieldset')
 var bitrateFieldset = document.getElementById('bitrate-fieldset')
 var convertFieldset = document.getElementById('convert-fieldset')
 
+var convertFieldsetLegend = document.getElementById('convert-fieldset-legend')
+var convertFieldsetLabelsRow = document.getElementById('convert-fieldset-labels-row')
+var convertFieldsetTimesRow = document.getElementById('convert-fieldset-times-row')
+
 var inputTime = document.getElementById('input-time')
 var inputTimeLabel = document.getElementById('input-time-label')
 var outputTime = document.getElementById('output-time')
@@ -230,7 +234,9 @@ function changeEpisode() {
 
         // directionFieldset.style.display = 'none'
         bitrateFieldset.style.display = 'none'
-        convertFieldset.style.display = 'none'
+        convertFieldsetLabelsRow.style.display = 'none'
+        convertFieldsetTimesRow.style.display = 'none'
+        convertFieldsetLegend.textContent = 'Links'
 
         incompleteWarning.style.display = 'block'
     } else {
@@ -241,7 +247,9 @@ function changeEpisode() {
 
         // directionFieldset.style.display = 'block'
         bitrateFieldset.style.display = 'block'
-        convertFieldset.style.display = 'block'
+        convertFieldsetLabelsRow.style.display = 'table-row'
+        convertFieldsetTimesRow.style.display = 'table-row'
+        convertFieldsetLegend.textContent = 'Convert time'
 
         incompleteWarning.style.display = 'none'
 
