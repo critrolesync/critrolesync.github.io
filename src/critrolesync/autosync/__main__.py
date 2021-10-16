@@ -208,7 +208,12 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
 
 
         # slice beginning and ending of YouTube and podcast audio files
-        absolute_slice_times = get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor)
+        try:
+            absolute_slice_times = get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor)
+        except Exception as e:
+            print(f'Skipping {episode_id} because slice times cannot be determined:', e)
+            print()
+            continue
         youtube_beginning_start, youtube_beginning_stop = absolute_slice_times['youtube']['beginning']
         podcast_beginning_start, podcast_beginning_stop = absolute_slice_times['podcast']['beginning']
         youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
