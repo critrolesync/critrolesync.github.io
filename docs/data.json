@@ -767,7 +767,16 @@
                 "google_podcasts_episode": "ZmM2Zjg1ZDItZWI0My00MzM1LTljNWMtZDk4YWIyNTMyYmEz",
                 "spotify_id": "2NPnjeky0z0txN6TB6JBRl",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:07:21", "0:00:23", "recap"],
+                    ["1:35:35", "1:28:25", "break start"],
+                    ["1:58:41", "1:28:36", "break end"],
+                    ["2:37:27", "2:07:16", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E37",
@@ -778,7 +787,16 @@
                 "google_podcasts_episode": "YTM4NDk3ZTAtNzViMC00NTQyLWFkYTQtMzlhZTgxMTk1Yjc1",
                 "spotify_id": "7Jdh520e47yOItHXuMOC81",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:08:01", "0:00:23", "recap"],
+                    ["1:49:36", "1:41:44", "break start"],
+                    ["2:04:52", "1:41:56", "break end"],
+                    ["4:21:40", "3:58:24", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E38",
@@ -789,7 +807,16 @@
                 "google_podcasts_episode": "NTc3ZTdmZGYtYjNjZS00OGE4LWJiMGUtZTgzZTRhOWRhYTA0",
                 "spotify_id": "44I0NALu2EMDrJPUj8Thax",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:06:10", "0:00:23", "recap"],
+                    ["1:30:34", "1:24:35", "break start"],
+                    ["1:44:03", "1:24:47", "break end"],
+                    ["3:00:20", "2:40:54", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E39",
@@ -800,7 +827,16 @@
                 "google_podcasts_episode": "NTZiZmFhZjUtYWU3Ny00NWNiLWJlMTUtMzVlYWNkZTg1ODM5",
                 "spotify_id": "5VaoelZHoUsDznSFACU5iP",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:07:19", "0:00:23", "recap"],
+                    ["1:43:02", "1:35:52", "break start"],
+                    ["1:58:27", "1:36:04", "break end"],
+                    ["3:53:51", "3:31:12", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E40",
