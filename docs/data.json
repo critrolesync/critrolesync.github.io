@@ -613,7 +613,14 @@
                 "google_podcasts_episode": "YzdhMTA0ZDgtOTM1OC00M2UwLWI3ZDktMjFkNGEyZGQyOGFi",
                 "spotify_id": "2RfzIxKQNE8fI1fHrUppDQ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:10:38", "0:00:24", "recap"],
+                    ["2:13:30", "2:02:59", "part 1 end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E31 (Part 2)",
@@ -624,7 +631,16 @@
                 "google_podcasts_episode": "YzdhMTA0ZDgtOTM1OC00M2UwLWI3ZDktMjFkNGEyZGQyOGFi",
                 "spotify_id": "2RfzIxKQNE8fI1fHrUppDQ",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:00:00", "2:03:01", "part 2 start"],
+                    ["0:11:03", "2:14:03", "break start"],
+                    ["0:25:32", "2:14:13", "break end"],
+                    ["1:01:50", "2:50:26", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E32",
@@ -635,7 +651,16 @@
                 "google_podcasts_episode": "MDM2OTAwODItN2MwYS00YTM2LTg5NGEtZTJjMmU1OWE0NGYx",
                 "spotify_id": "5ytUJXI8KL7GlzDPvtp8EY",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:13:03", "0:00:23", "recap"],
+                    ["1:57:53", "1:44:58", "break start"],
+                    ["2:13:23", "1:45:13", "break end"],
+                    ["3:34:03", "3:05:42", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E33 (Part 1)",
@@ -646,7 +671,14 @@
                 "google_podcasts_episode": "NjFjMmQwMjgtNWU4Mi00Y2I4LWI5Y2MtNmY2NWFhNzQ0YTI0",
                 "spotify_id": "48loRXap4ubi5KgJCIztuw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:11:00", "0:00:25", "recap"],
+                    ["2:14:40", "2:03:48", "part 1 end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E33 (Part 2)",
@@ -657,7 +689,16 @@
                 "google_podcasts_episode": "NjFjMmQwMjgtNWU4Mi00Y2I4LWI5Y2MtNmY2NWFhNzQ0YTI0",
                 "spotify_id": "48loRXap4ubi5KgJCIztuw",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:00:00", "2:04:31", "part 2 start"],
+                    ["0:04:37", "2:09:07", "break start"],
+                    ["0:14:46", "2:09:20", "break end"],
+                    ["2:04:52", "3:59:10", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E34",
@@ -668,7 +709,16 @@
                 "google_podcasts_episode": "MWNhNzZhMDgtYjYyMC00MzlkLTg4MzYtYmY3MDBiYzM3ZTAy",
                 "spotify_id": "3lMSf3RcuQnuG2zcG3cJC2",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:08:21", "0:00:31", "recap"],
+                    ["1:58:40", "1:50:34", "break start"],
+                    ["2:07:18", "1:50:49", "break end"],
+                    ["4:39:32", "4:22:41", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E35 (Part 1)",
@@ -679,7 +729,14 @@
                 "google_podcasts_episode": "MmQyYTEyNjItMTk3Ni00YjcyLTkwMTMtYmNjNTFhYjU1MjNm",
                 "spotify_id": "1niBb7XuBoXfM5YPLUCW0p",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:10:56", "0:00:25", "recap"],
+                    ["2:08:20", "1:57:32", "part 1 end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E35 (Part 2)",
@@ -690,7 +747,16 @@
                 "google_podcasts_episode": "MmQyYTEyNjItMTk3Ni00YjcyLTkwMTMtYmNjNTFhYjU1MjNm",
                 "spotify_id": "1niBb7XuBoXfM5YPLUCW0p",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": []
+                "timestamps": [
+                    ["0:00:01", "1:57:36", "part 2 start"],
+                    ["0:10:46", "2:08:20", "break start"],
+                    ["0:20:16", "2:08:33", "break end"],
+                    ["1:05:44", "2:53:54", "end"]
+                ],
+                "timestampsBitrate": 128,
+                "CBR": 128,
+                "ABR": 127.7,
+                "date_verified": "2021-10-17"
             },
             {
                 "id": "C1E36",
