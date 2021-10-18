@@ -97,8 +97,8 @@ request.onload = function() {
 
 function setupTimePicker() {
     picker = new Picker(inputTime, {
-        format: 'HH:mm:ss',
-        date: '00:00:00',
+        format: 'H:mm:ss',
+        date: '0:00:00',
         text: {title: ''},
         headers: true,
     })
@@ -535,7 +535,7 @@ function convertTimestamp() {
     // store before regex validation so that partial entries are restorable
     storeInputTime()
 
-    timeRegEx = /^((\d+:[0-5]\d)|([0-5]?\d)):([0-5]\d)$/
+    timeRegEx = /^((\d:[0-5]\d)|([0-5]?\d)):([0-5]\d)$/
     if (!inputTime.value.match(timeRegEx)) { return }
 
     var source, dest
