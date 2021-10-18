@@ -39,10 +39,6 @@ var debugContainer = document.getElementById('debug-container')
 var debugTable = document.getElementById('debug-table')
 var debugDateVerified = document.getElementById('debug-date-verified')
 
-var c1ProgressBar = document.getElementById('c1-progress-bar')
-var c2ProgressBar = document.getElementById('c2-progress-bar')
-var exuProgressBar = document.getElementById('exu-progress-bar')
-
 // load mobile-friendly tooltips
 tippy('[data-tippy-content]')
 
@@ -85,7 +81,6 @@ request.onload = function() {
   // restore last known show embeds selection
   showEmbeds.checked = (localStorage.getItem('show-embeds') == 'true')
 
-  updateProgressBars()
   populateSeries()
   setDirectionLabels()
   showConvertedTimestamp()
@@ -123,40 +118,6 @@ function setupTimePicker() {
     picker.grid.addEventListener('wheel', updateTimeFromPicker)
     picker.grid.addEventListener('pointerup', updateTimeFromPicker)
     picker.grid.addEventListener('touchend', updateTimeFromPicker)
-}
-
-function updateProgressBars() {
-    var eps, numEpisodesComplete
-
-    // evaluate campaign 1 episode progress
-    eps = data[0].episodes
-    numEpisodesComplete = 0
-    for (let i = 0; i < eps.length; i++) {
-        if (eps[i].timestamps.length >= 2) {
-            numEpisodesComplete += 1
-        }
-    }
-    c1ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Campaign%201%20&width=250&color=666666`
-
-    // evaluate campaign 2 episode progress
-    eps = data[1].episodes
-    numEpisodesComplete = 0
-    for (let i = 0; i < eps.length; i++) {
-        if (eps[i].timestamps.length >= 2) {
-            numEpisodesComplete += 1
-        }
-    }
-    c2ProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Campaign%202%20&width=250&color=666666`
-
-    // evaluate exandria unlimited episode progress
-    eps = data[2].episodes
-    numEpisodesComplete = 0
-    for (let i = 0; i < eps.length; i++) {
-        if (eps[i].timestamps.length >= 2) {
-            numEpisodesComplete += 1
-        }
-    }
-    exuProgressBar.src = `https://progress-bar.dev/${numEpisodesComplete}/?scale=${eps.length}&suffix=/${eps.length}&title=Exandria%20Unlimited&width=208&color=666666`
 }
 
 function populateSeries(rememberSelection=true) {
