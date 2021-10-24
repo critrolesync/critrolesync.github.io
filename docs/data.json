@@ -4927,6 +4927,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vdGhlLXNlYXJjaC1mb3ItZ3JvZy0zYzg5YTIxZGQ0ZGNhYTk0Mjc4NjBkMjRmZTFmOTNlNA",
                 "spotify_id": "2CxQj2vn7NBEaKAPeFEodt",
+                "transcript_id": ["1", "115.09"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:03:55", "0:03:37", "OK OK OK"],

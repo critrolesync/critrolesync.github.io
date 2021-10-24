@@ -639,18 +639,23 @@ function youtubeUrl(ep, timeObj=null) {
 function transcriptUrl(ep, timeObj=null) {
     // see searchable transcript API: https://kryogenix.org/crsearch/api.html
 
-    if (!ep.id.match(/C(\d+)E(\d+)/)) {
-        // kryogenix.org/crsearch only supports the main campaigns
+    var c, e, p
+    if (ep.transcript_id) {
+        [c, e] = ep.transcript_id
+
+    } else if (ep.id.match(/C(\d+)E(\d+)/)) {
+        [, c, e, p] = ep.id.match(/C(\d+)E(\d+)(?: \(Part (\d+)\)|)/)
+
+        if (p && p > 1) {
+            // change episode parameter for multi-part episodes
+            e = `${e}.${(p-1).toString().padStart(2, 0)}`
+        }
+    } else {
+        // kryogenix.org/crsearch doesn't support all episodes
         return
     }
 
-    var url, [, c, e, p] = ep.id.match(/C(\d+)E(\d+)(?: \(Part (\d+)\)|)/)
-
-    if (p && p > 1) {
-        // change episode parameter for multi-part episodes
-        e = `${e}.${(p-1).toString().padStart(2, 0)}`
-    }
-
+    var url
     if (timeObj) {
             url = `https://kryogenix.org/crsearch/bytime.php?c=${c}&e=${e}&h=${timeObj.h}&m=${timeObj.m}&s=${timeObj.s}`
     } else {
