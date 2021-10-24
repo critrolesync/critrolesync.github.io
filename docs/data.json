@@ -4917,7 +4917,25 @@
         ]
     },
     {
-        "series": "One-Shots",
-        "episodes": []
+        "series": "Specials",
+        "episodes": [
+            {
+                "id": "SP1",
+                "title": "The Search for Grog",
+                "youtube_id": "hi5pEHs76TE",
+                "youtube_playlist": "PL1tiwbzkOjQyUR1nbxZGETYMZRCcfV6yL",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vdGhlLXNlYXJjaC1mb3ItZ3JvZy0zYzg5YTIxZGQ0ZGNhYTk0Mjc4NjBkMjRmZTFmOTNlNA",
+                "spotify_id": "2CxQj2vn7NBEaKAPeFEodt",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:03:55", "0:03:37", "OK OK OK"],
+                    ["1:22:45", "1:22:27", "break start"],
+                    ["1:38:36", "1:22:39", "break end"],
+                    ["4:40:04", "4:24:07", "IITY?"]
+                ],
+                "date_verified": "2021-10-24"
+            }
+        ]
     }
 ]
