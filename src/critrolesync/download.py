@@ -61,6 +61,20 @@ def download_youtube_audio(episode_id, output_dir=None):
     # determine the actual name of the new file
     similar_files_after_download = set(Path(output_file).parent.glob(str(Path(output_file).stem) + '.*'))
     actual_output_file = next(iter(similar_files_after_download - similar_files_before_download), None)
+    if actual_output_file is None:
+        # if the file existed before (re-)downloading, the set difference will
+        # be empty
+        if len(similar_files_after_download) == 1:
+            # if there is only one file with a matching name, it must be the
+            # right one
+            actual_output_file = list(similar_files_after_download)[0]
+        else:
+            # otherwise, we don't know which file to use
+            raise ValueError('Cannot determine the name of the downloaded '
+                             'YouTube audio file because multiple similarly '
+                             'named files with different extensions exist, '
+                             'delete them and try again: '
+                             f'{[str(p) for p in similar_files_after_download]}')
 
     # return the output file path
     return Path(actual_output_file)

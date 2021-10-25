@@ -220,16 +220,16 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
         podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
         logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
         if not youtube_beginning_file.exists() or overwrite_youtube_slices:
-            logger.info(f'slicing YouTube beginning for {episode_id}')
+            logger.info(f'slicing YouTube beginning for {episode_id} from {youtube_file}')
             slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
         if not podcast_beginning_file.exists() or overwrite_podcast_slices:
-            logger.info(f'slicing podcast beginning for {episode_id}')
+            logger.info(f'slicing podcast beginning for {episode_id} from {podcast_file}')
             slice_audio_file(podcast_file, podcast_beginning_file, *absolute_slice_times['podcast']['beginning'], mono=True)
         if not youtube_ending_file.exists() or overwrite_youtube_slices:
-            logger.info(f'slicing YouTube ending for {episode_id}')
+            logger.info(f'slicing YouTube ending for {episode_id} from {youtube_file}')
             slice_audio_file(youtube_file, youtube_ending_file, *absolute_slice_times['youtube']['ending'], mono=True)
         if not podcast_ending_file.exists() or overwrite_podcast_slices:
-            logger.info(f'slicing podcast ending for {episode_id}')
+            logger.info(f'slicing podcast ending for {episode_id} from {podcast_file}')
             slice_audio_file(podcast_file, podcast_ending_file, *absolute_slice_times['podcast']['ending'], mono=True)
 
 
