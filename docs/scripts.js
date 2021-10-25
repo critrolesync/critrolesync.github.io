@@ -372,11 +372,11 @@ function setLink(span, text, url=null, target='_blank') {
 }
 
 function fillEmbed(div, type, ep, timeObj=null) {
-    if (type == 'youtube') {
+    if (type == 'youtube' && ep.youtube_id) {
         var url = `https://www.youtube-nocookie.com/embed/${ep.youtube_id}`
         if (timeObj) { url += `?start=${Math.floor(timeObj.total)}` }
         div.innerHTML = `<iframe width="100%" height="232" src="${url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    } else if (type == 'spotify') {
+    } else if (type == 'spotify' && ep.spotify_id) {
         var url = `https://open.spotify.com/embed/episode/${ep.spotify_id}`
         if (timeObj) { url += `?t=${Math.floor(timeObj.total)}` }
         div.innerHTML = `<iframe src="${url}" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`
