@@ -33,7 +33,7 @@ RUN pip install \
     requests \
     scipy==1.7.1 \
     tqdm \
-    youtube_dl==2021.6.6
+    yt_dlp==2021.10.22
 
 # install dejavu
 # - use --no-deps to avoid using dejavu's pinned versions

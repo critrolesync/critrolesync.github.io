@@ -3,7 +3,7 @@
 numpy <1.21  # librosa requires numba, which requires numpy<1.21 as of numba 0.54
 requests
 tqdm
-youtube_dl
+yt_dlp
 
 docker
 ffmpeg-python

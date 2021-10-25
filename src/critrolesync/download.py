@@ -9,7 +9,7 @@ import shutil
 import json
 import requests
 from tqdm.auto import tqdm
-import youtube_dl
+import yt_dlp
 
 from . import data
 from .tools import get_episode_data_from_id
@@ -49,12 +49,12 @@ def download_youtube_audio(episode_id, output_dir=None):
 
     # prepare a list of files now so that the actual output file can be found
     # after ffmpeg post-processing (its file extension may change without
-    # youtube-dl knowing about it, e.g., from .webm to .opus)
+    # yt-dlp knowing about it, e.g., from .webm to .opus)
     similar_files_before_download = set(Path(output_file).parent.glob(str(Path(output_file).stem) + '.*'))
 
     # download the audio
     ydl_opts = {'outtmpl': output_file, 'format': 'bestaudio/best', 'postprocessors': [{'key': 'FFmpegExtractAudio'}]}
-    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         url = f'https://www.youtube.com/watch?v={youtube_id}'
         ydl.download([url])
 
