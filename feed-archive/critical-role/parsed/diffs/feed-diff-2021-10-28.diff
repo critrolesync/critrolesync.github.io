@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-10-27.json
++++ critical-role/parsed/feed-parsed-2021-10-28.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E1 The Draw of Destiny",
++        "GUID": "b36839c3-acb9-4550-afcc-5eb0f4df7631",
++        "Publication Date": "2021-10-28",
++        "Staging Date": "2021-10-28",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "03:53:58",
++        "Seconds": 14038,
++        "Bytes": 227042536,
++        "File": "a1acdf4a66986be1704e3be763985396.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/42456127/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-28%2Fa1acdf4a66986be1704e3be763985396.m4a"
++    },
+     {
+         "Title": "The Nautilus Ark: A Johnson Corp Odyssey | Ashley's One-Shot",
+         "GUID": "db87e8c0-3bee-4bc1-bdad-84b89c10ca9c",
+         "Publication Date": "2021-09-16",
+         "Staging Date": "2021-10-26",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "03:10:55",
+         "Seconds": 11455,
+         "Bytes": 185266766,
+         "File": "92ad9173974998a0a7482d2bbdcffcb4.m4a",
