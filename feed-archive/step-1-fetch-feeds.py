@@ -4,6 +4,7 @@ Retrieve podcast RSS feeds for archival in XML format
 
 from datetime import date
 from pathlib import Path
+from string import ascii_lowercase
 import urllib.request
 
 
@@ -15,5 +16,7 @@ feeds = {
 
 # download each feed and save it as an XML file with today's date
 for name, url in feeds.items():
-    filename = Path(__file__).parent / name / f'feed-{date.today()}.xml'
+    for letter in [''] + list(ascii_lowercase):
+        filename = Path(__file__).parent / name / f'feed-{date.today()}{letter}.xml'
+        if not filename.exists(): break
     urllib.request.urlretrieve(url, filename)
