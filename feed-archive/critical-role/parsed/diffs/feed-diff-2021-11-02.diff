@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-10-28.json
++++ critical-role/parsed/feed-parsed-2021-11-02.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Elder Scrolls Online: Blackwood - Part Three: The Golden Goose One-Shot",
++        "GUID": "ccbfaab4-cfdd-425d-ae22-acce85127556",
++        "Publication Date": "2021-11-02",
++        "Staging Date": "2021-11-02",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "04:16:14",
++        "Seconds": 15374,
++        "Bytes": 248645115,
++        "File": "c963e1ff9638a3295d62c3340ba4fb3c.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/42687966/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-02%2Fc963e1ff9638a3295d62c3340ba4fb3c.m4a"
++    },
+     {
+         "Title": "C3E1 The Draw of Destiny",
+         "GUID": "b36839c3-acb9-4550-afcc-5eb0f4df7631",
+         "Publication Date": "2021-10-28",
+         "Staging Date": "2021-10-28",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "03:53:58",
+         "Seconds": 14038,
+         "Bytes": 227042536,
+         "File": "a1acdf4a66986be1704e3be763985396.m4a",
