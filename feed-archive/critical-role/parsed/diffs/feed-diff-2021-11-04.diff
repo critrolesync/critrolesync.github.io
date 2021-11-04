@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-11-02.json
++++ critical-role/parsed/feed-parsed-2021-11-04.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E2 Trial by Firelight",
++        "GUID": "e46c98c1-acab-4c20-bb22-58b6f94df422",
++        "Publication Date": "2021-11-04",
++        "Staging Date": "2021-11-04",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "04:02:06",
++        "Seconds": 14526,
++        "Bytes": 234929638,
++        "File": "aff35ea107845340e9a1a80d6125569f.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/42793560/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-04%2Faff35ea107845340e9a1a80d6125569f.m4a"
++    },
+     {
+         "Title": "The Elder Scrolls Online: Blackwood - Part Three: The Golden Goose One-Shot",
+         "GUID": "ccbfaab4-cfdd-425d-ae22-acce85127556",
+         "Publication Date": "2021-11-02",
+         "Staging Date": "2021-11-02",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "04:16:14",
+         "Seconds": 15374,
+         "Bytes": 248645115,
+         "File": "c963e1ff9638a3295d62c3340ba4fb3c.m4a",
