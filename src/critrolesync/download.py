@@ -30,11 +30,11 @@ def get_podcast_feed_from_title(episode_title):
             if ep is None:
                 ep = episode
             else:
-                raise ValueError(f'episode title substring "{episode_title}" is not unique')
+                raise ValueError(f'podcast episode title substring "{episode_title}" is not unique')
     if ep:
         return ep
     else:
-        raise ValueError(f'episode with title containing "{episode_title}" not found')
+        raise ValueError(f'podcast episode with title containing "{episode_title}" not found')
 
 def download_youtube_audio(episode_id, output_dir=None):
 
