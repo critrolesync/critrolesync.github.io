@@ -4814,11 +4814,16 @@
                 "youtube_id": "POgfa65vi4k",
                 "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "spotify_id": "",
+                "google_podcasts_episode": "ZDMwMWIxYTItNDZkNS00NmQ3LWJhOTktMjcyNmI2MTAzZTcz",
+                "spotify_id": "6bYG7RJzwZQNjc6HiQuakL",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:01:42", "hello"],
+                    ["1:31:45", "1:33:27", "break start"],
+                    ["1:42:28", "1:36:42", "break end"],
+                    ["4:08:21", "4:02:35", "IITY?"]
+                ],
+                "date_verified": "2021-11-11"
             }
         ]
     },
