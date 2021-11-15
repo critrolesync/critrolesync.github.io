@@ -4824,6 +4824,18 @@
                     ["4:08:21", "4:02:35", "IITY?"]
                 ],
                 "date_verified": "2021-11-11"
+            },
+            {
+                "id": "C3E4",
+                "title": "On the Trail of a Killer",
+                "youtube_id": "gZ7u5NE_q4k",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
