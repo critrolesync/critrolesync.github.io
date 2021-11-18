@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-11-11.json
++++ critical-role/parsed/feed-parsed-2021-11-18.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E4 On the Trail of a Killer",
++        "GUID": "5c18b57e-1935-4106-b800-5222ad856dba",
++        "Publication Date": "2021-11-18",
++        "Staging Date": "2021-11-17",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "03:50:18",
++        "Seconds": 13818,
++        "Bytes": 223483671,
++        "File": "a139196be5bce7d0eb08a55747c72a85.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/43515631/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-17%2Fa139196be5bce7d0eb08a55747c72a85.m4a"
++    },
+     {
+         "Title": "C3E3 The Trail and the Toll",
+         "GUID": "d301b1a2-46d5-46d7-ba99-2726b6103e73",
+         "Publication Date": "2021-11-11",
+         "Staging Date": "2021-11-10",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "04:02:55",
+         "Seconds": 14575,
+         "Bytes": 235724888,
+         "File": "47c60e7ad6575d22499c1751c06969e6.m4a",
