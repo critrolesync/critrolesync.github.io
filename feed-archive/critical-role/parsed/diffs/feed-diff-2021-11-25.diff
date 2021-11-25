@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-11-18.json
++++ critical-role/parsed/feed-parsed-2021-11-25.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E5 The Threat Between the Walls",
++        "GUID": "5aa7ceef-6a60-40c4-a7a1-667be37d0892",
++        "Publication Date": "2021-11-25",
++        "Staging Date": "2021-11-25",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "04:20:10",
++        "Seconds": 15610,
++        "Bytes": 252464044,
++        "File": "0ff13e0d14d240f155892a51984b6543.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/43889273/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-25%2F0ff13e0d14d240f155892a51984b6543.m4a"
++    },
+     {
+         "Title": "C3E4 On the Trail of a Killer",
+         "GUID": "5c18b57e-1935-4106-b800-5222ad856dba",
+         "Publication Date": "2021-11-18",
+         "Staging Date": "2021-11-17",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "03:50:18",
+         "Seconds": 13818,
+         "Bytes": 223483671,
+         "File": "a139196be5bce7d0eb08a55747c72a85.m4a",
