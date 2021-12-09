@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-11-25.json
++++ critical-role/parsed/feed-parsed-2021-12-09.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E6 Growing Bonds and Teasing Threads ",
++        "GUID": "eb35d973-0ef4-4f00-94b5-36e1bdd65006",
++        "Publication Date": "2021-12-09",
++        "Staging Date": "2021-12-09",
++        "Sponsor": "a2ufu95",
++        "HH:MM:SS": "03:51:14",
++        "Seconds": 13874,
++        "Bytes": 224378577,
++        "File": "31bb79e27c19396cc061493a7dc48e65.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/44584405/sponsor/a2ufu95/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-12-09%2F31bb79e27c19396cc061493a7dc48e65.m4a"
++    },
+     {
+         "Title": "C3E5 The Threat Between the Walls",
+         "GUID": "5aa7ceef-6a60-40c4-a7a1-667be37d0892",
+         "Publication Date": "2021-11-25",
+         "Staging Date": "2021-11-25",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "04:20:10",
+         "Seconds": 15610,
+         "Bytes": 252464044,
+         "File": "0ff13e0d14d240f155892a51984b6543.m4a",
