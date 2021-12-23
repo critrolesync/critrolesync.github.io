@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2021-12-16.json
++++ critical-role/parsed/feed-parsed-2021-12-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E8 A Woodworker\u2019s Quandary",
++        "GUID": "875a9ec8-0d56-4c0a-be4c-21a29db3514a",
++        "Publication Date": "2021-12-23",
++        "Staging Date": "2021-12-23",
++        "Sponsor": "a2ufu95,a6pck8b",
++        "HH:MM:SS": "03:15:13",
++        "Seconds": 11713,
++        "Bytes": 189441207,
++        "File": "7c1a11aef6ae9f5490e9778147f3a75e.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/45237130/sponsor/a2ufu95,a6pck8b/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-12-23%2F7c1a11aef6ae9f5490e9778147f3a75e.m4a"
++    },
+     {
+         "Title": "C3E7 Behind the Curtain",
+         "GUID": "a12093e5-4b65-4c6c-a3b8-b39013f4d2a0",
+         "Publication Date": "2021-12-16",
+         "Staging Date": "2021-12-16",
+         "Sponsor": "a2ufu95,a6pck8b",
+         "HH:MM:SS": "03:45:48",
+         "Seconds": 13548,
+         "Bytes": 219108444,
+         "File": "c534dcbbe70affa8bf3dabb56c2bfb0e.m4a",
