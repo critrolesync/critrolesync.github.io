@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-01-19.json
++++ critical-role/parsed/feed-parsed-2022-01-20.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E10 Ghosts, Dates, and Darker Fates",
++        "GUID": "1ddee6cf-3720-4342-831c-12852b4eb8b7",
++        "Publication Date": "2022-01-20",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a78ojge",
++        "HH:MM:SS": "03:08:14",
++        "Seconds": 11294,
++        "Bytes": 182654593,
++        "File": "d4255acc9bc3494c606a1af624a5bb97.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/46398560/sponsor/a2ufu95,a78ojge/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F46398560%2Fd4255acc9bc3494c606a1af624a5bb97.m4a"
++    },
+     {
+         "Title": "C3E9 Thicker Grows the Meal and Plot ",
+         "GUID": "19990a41-0d50-4fa5-9c3a-f7f3bcc10797",
+         "Publication Date": "2022-01-13",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a78ojge",
+         "HH:MM:SS": "04:09:21",
+         "Seconds": 14961,
+         "Bytes": 241966102,
+         "File": "f2a53dc914761abd2b5f3fca559baf9f.m4a",
