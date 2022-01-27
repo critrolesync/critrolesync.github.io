@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-01-20.json
++++ critical-role/parsed/feed-parsed-2022-01-27.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E11 Chasing Nightmares",
++        "GUID": "e6bc8642-74cf-465b-96bc-267f8409b29d",
++        "Publication Date": "2022-01-27",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a78ojge",
++        "HH:MM:SS": "04:45:59",
++        "Seconds": 17159,
++        "Bytes": 277510099,
++        "File": "d84119bc1a2f1d8fd0b6850ea9cd2966.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/46740885/sponsor/a2ufu95,a78ojge/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F46740885%2Fd84119bc1a2f1d8fd0b6850ea9cd2966.m4a"
++    },
+     {
+         "Title": "C3E10 Ghosts, Dates, and Darker Fates",
+         "GUID": "1ddee6cf-3720-4342-831c-12852b4eb8b7",
+         "Publication Date": "2022-01-20",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a78ojge",
+         "HH:MM:SS": "03:08:14",
+         "Seconds": 11294,
+         "Bytes": 182654593,
+         "File": "d4255acc9bc3494c606a1af624a5bb97.m4a",
