@@ -8,8 +8,10 @@ import re
 
 
 for input_dir in ['critical-role', 'nerdist']:
-    print(f'=== Feed: {input_dir} ===')
+    print(f'## Podcast Feed: {input_dir}')
     print()
+
+    feed_has_changes = False
 
     input_dir = Path(__file__).parent / input_dir / 'parsed'
     file_list = {}
@@ -35,12 +37,18 @@ for input_dir in ['critical-role', 'nerdist']:
             if title == old_ep['Title']:
                 diff_seconds = new_ep['Seconds'] - old_ep['Seconds']
                 if diff_seconds != 0:
-                    print(title)
+                    print(f'* **{title.strip()}**')
                     print(f"  {diff_seconds:+} seconds, {old_ep['HH:MM:SS']} -> {new_ep['HH:MM:SS']}")
                     print()
+                    feed_has_changes = True
                 matched = True
                 break
         if not matched:
-            print(title)
+            print(f'* **{title.strip()}**')
             print(f'  New episode')
             print()
+            feed_has_changes = True
+
+    if not feed_has_changes:
+        print('No episode changes')
+        print()
