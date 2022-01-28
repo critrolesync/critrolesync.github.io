@@ -7,9 +7,11 @@ from pathlib import Path
 import re
 
 
-for input_dir in ['critical-role']:#, 'nerdist']:
-    input_dir = Path(__file__).parent / input_dir / 'parsed'
+for input_dir in ['critical-role', 'nerdist']:
+    print(f'=== Feed: {input_dir} ===')
+    print()
 
+    input_dir = Path(__file__).parent / input_dir / 'parsed'
     file_list = {}
     for file in input_dir.glob('feed-parsed-*.json'):
         match = re.fullmatch('feed-parsed-(.*)\.json', file.name)
@@ -29,13 +31,16 @@ for input_dir in ['critical-role']:#, 'nerdist']:
     for new_ep in new_feed[::-1]:
         matched = False
         title = new_ep['Title']
-        print(title)
         for old_ep in old_feed:
             if title == old_ep['Title']:
                 diff_seconds = new_ep['Seconds'] - old_ep['Seconds']
-                print(f"  {diff_seconds:+} seconds, {old_ep['HH:MM:SS']} -> {new_ep['HH:MM:SS']}")
+                if diff_seconds != 0:
+                    print(title)
+                    print(f"  {diff_seconds:+} seconds, {old_ep['HH:MM:SS']} -> {new_ep['HH:MM:SS']}")
+                    print()
                 matched = True
                 break
         if not matched:
-            print(f'  Could not find old episode')
-        print()
+            print(title)
+            print(f'  New episode')
+            print()

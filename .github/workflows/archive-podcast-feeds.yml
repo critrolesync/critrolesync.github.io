@@ -26,6 +26,9 @@ jobs:
     - name: Diff podcast feeds
       run: python feed-archive/step-3-diff-feeds.py
 
+    - name: Print podcast episode duration changes
+      run: python feed-archive/step-4-diff-times.py
+
     - name: Discard new feed snapshots if there are no parsed changes
       run: |
         count=$(wc -w \
