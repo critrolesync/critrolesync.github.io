@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-01-28.json
++++ critical-role/parsed/feed-parsed-2022-02-03.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Guest Battle Royale",
++        "GUID": "31033f91-373f-4cb8-a0ae-2ff3b2c28cf1",
++        "Publication Date": "2022-02-03",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a7afnja",
++        "HH:MM:SS": "03:42:28",
++        "Seconds": 13348,
++        "Bytes": 215879768,
++        "File": "ce547978348fe7e383cc0f45cb513869.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/47092737/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F47092737%2Fce547978348fe7e383cc0f45cb513869.m4a"
++    },
+     {
+         "Title": "C3E11 Chasing Nightmares",
+         "GUID": "e6bc8642-74cf-465b-96bc-267f8409b29d",
+         "Publication Date": "2022-01-27",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "04:46:15",
+         "Seconds": 17175,
+         "Bytes": 277777425,
+         "File": "f21fa0569bfba3b8b5e4ce8123a8ffa7.m4a",
