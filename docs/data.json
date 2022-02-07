@@ -4960,6 +4960,18 @@
                     ["4:51:58", "4:45:31", "IITY?"]
                 ],
                 "date_verified": "2022-01-28"
+            },
+            {
+                "id": "C3E12",
+                "title": "Make It Fashion",
+                "youtube_id": "h6AkvAj_hao",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
