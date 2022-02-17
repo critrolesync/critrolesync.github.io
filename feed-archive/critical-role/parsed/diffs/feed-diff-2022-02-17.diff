@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-02-10.json
++++ critical-role/parsed/feed-parsed-2022-02-17.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E13 A Dance of Deception",
++        "GUID": "ad271b22-7af2-444f-b1ac-d4fe6c77e10b",
++        "Publication Date": "2022-02-17",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a7afnja",
++        "HH:MM:SS": "03:53:47",
++        "Seconds": 14027,
++        "Bytes": 226852145,
++        "File": "2fc8c327d81dfddccd14c1ad2761033e.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/47770079/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F47770079%2F2fc8c327d81dfddccd14c1ad2761033e.m4a"
++    },
+     {
+         "Title": "C3E12 Make It Fashion",
+         "GUID": "7002f2cb-3c05-42d1-b5b6-2a8ca8e3b615",
+         "Publication Date": "2022-02-10",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "04:29:19",
+         "Seconds": 16159,
+         "Bytes": 261335494,
+         "File": "00b3957252633f15bae937c03da7fded.m4a",
