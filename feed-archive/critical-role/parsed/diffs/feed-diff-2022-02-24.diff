@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-02-17.json
++++ critical-role/parsed/feed-parsed-2022-02-24.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E14 In Too Deep",
++        "GUID": "9ab4bdff-c555-4709-a8ca-86ad20896432",
++        "Publication Date": "2022-02-24",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a7afnja",
++        "HH:MM:SS": "04:38:52",
++        "Seconds": 16732,
++        "Bytes": 270600565,
++        "File": "9da7278255b121a4d7028f512fc681e8.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/48117961/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F48117961%2F9da7278255b121a4d7028f512fc681e8.m4a"
++    },
+     {
+         "Title": "C3E13 A Dance of Deception",
+         "GUID": "ad271b22-7af2-444f-b1ac-d4fe6c77e10b",
+         "Publication Date": "2022-02-17",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "03:53:47",
+         "Seconds": 14027,
+         "Bytes": 226852145,
+         "File": "2fc8c327d81dfddccd14c1ad2761033e.m4a",
