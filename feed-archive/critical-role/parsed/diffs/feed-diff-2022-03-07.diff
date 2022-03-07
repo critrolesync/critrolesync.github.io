@@ -1,0 +1,76 @@
+--- critical-role/parsed/feed-parsed-2022-02-24.json
++++ critical-role/parsed/feed-parsed-2022-03-07.json
+@@ -178,28 +178,28 @@
+         "Seconds": 14562,
+         "Bytes": 235515216,
+         "File": "196655024d59b5d0bd526c24f408ee6c.m4a",
+         "Type": "audio/x-m4a",
+         "URL": "https://anchor.fm/s/91c7948/podcast/play/42793560/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F42793560%2F196655024d59b5d0bd526c24f408ee6c.m4a"
+     },
+     {
+         "Title": "The Elder Scrolls Online: Blackwood - Part Three: The Golden Goose One-Shot",
+         "GUID": "ccbfaab4-cfdd-425d-ae22-acce85127556",
+         "Publication Date": "2021-11-02",
+-        "Staging Date": null,
+-        "Sponsor": "a2ufu95,a7afnja",
+-        "HH:MM:SS": "04:16:50",
+-        "Seconds": 15410,
+-        "Bytes": 249230717,
+-        "File": "5f2a90226de757e9168f47b7e6aff491.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/42687966/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F42687966%2F5f2a90226de757e9168f47b7e6aff491.m4a"
++        "Staging Date": "2021-11-02",
++        "Sponsor": null,
++        "HH:MM:SS": "04:14:42",
++        "Seconds": 15282,
++        "Bytes": 247151745,
++        "File": "5731617a231735bf19a5b5b635391ec2.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/42687966/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-02%2F5731617a231735bf19a5b5b635391ec2.m4a"
+     },
+     {
+         "Title": "C3E1 The Draw of Destiny",
+         "GUID": "b36839c3-acb9-4550-afcc-5eb0f4df7631",
+         "Publication Date": "2021-10-28",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "03:54:34",
+         "Seconds": 14074,
+         "Bytes": 227628074,
+@@ -230,28 +230,28 @@
+         "Seconds": 6537,
+         "Bytes": 105729733,
+         "File": "4c0d3d148e8155517de034c36708d968.m4a",
+         "Type": "audio/x-m4a",
+         "URL": "https://anchor.fm/s/91c7948/podcast/play/39681542/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F39681542%2F4c0d3d148e8155517de034c36708d968.m4a"
+     },
+     {
+         "Title": "The Elder Scrolls Online: Blackwood - Part Two: A Faulty Foundation One-Shot",
+         "GUID": "1471d589-9b21-42d0-9fd3-fcf0edb1da16",
+         "Publication Date": "2021-08-26",
+-        "Staging Date": null,
+-        "Sponsor": "a2ufu95,a7afnja",
+-        "HH:MM:SS": "04:09:00",
+-        "Seconds": 14940,
+-        "Bytes": 241621475,
+-        "File": "a3db6d84da1e23668071229a77c9e597.m4a",
+-        "Type": "audio/x-m4a",
+-        "URL": "https://anchor.fm/s/91c7948/podcast/play/39349079/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F39349079%2Fa3db6d84da1e23668071229a77c9e597.m4a"
++        "Staging Date": "2021-10-26",
++        "Sponsor": null,
++        "HH:MM:SS": "04:06:51",
++        "Seconds": 14811,
++        "Bytes": 239542383,
++        "File": "c0a735890fc59f67a4fa13b4fff9e197.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/39349079/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-10-26%2Fc0a735890fc59f67a4fa13b4fff9e197.m4a"
+     },
+     {
+         "Title": "Exandria Unlimited Episode 8: What Comes Next ",
+         "GUID": "13e896e2-a094-4833-b7ea-bf2c2d7685b4",
+         "Publication Date": "2021-08-19",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "03:20:29",
+         "Seconds": 12029,
+         "Bytes": 194555183,
