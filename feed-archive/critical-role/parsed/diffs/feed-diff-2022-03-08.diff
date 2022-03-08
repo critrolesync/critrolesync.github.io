@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-03-07.json
++++ critical-role/parsed/feed-parsed-2022-03-08.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Elden Ring One-Shot: O Ye of Little Faith",
++        "GUID": "86735ab8-8d44-46ea-97c4-845ad1e45a46",
++        "Publication Date": "2022-03-08",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:28:38",
++        "Seconds": 16118,
++        "Bytes": 260679752,
++        "File": "632c893160a141cb3b8b5dfe3114eed0.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/48702670/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F48702670%2F632c893160a141cb3b8b5dfe3114eed0.m4a"
++    },
+     {
+         "Title": "C3E14 In Too Deep",
+         "GUID": "9ab4bdff-c555-4709-a8ca-86ad20896432",
+         "Publication Date": "2022-02-24",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "04:38:52",
+         "Seconds": 16732,
+         "Bytes": 270600565,
+         "File": "9da7278255b121a4d7028f512fc681e8.m4a",
