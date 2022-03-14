@@ -5028,6 +5028,18 @@
                     ["4:42:03", "4:36:23", "IITY?"]
                 ],
                 "date_verified": "2022-03-10"
+            },
+            {
+                "id": "C3E16",
+                "title": "The Shade Mother",
+                "youtube_id": "O6-NaqWorI0",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
