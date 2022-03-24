@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-03-17.json
++++ critical-role/parsed/feed-parsed-2022-03-24.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E17 Heart-to-Heartmoor",
++        "GUID": "4101750c-4083-449b-9c98-43283c928d2c",
++        "Publication Date": "2022-03-24",
++        "Staging Date": null,
++        "Sponsor": "a2ufu95,a7afnja",
++        "HH:MM:SS": "04:05:07",
++        "Seconds": 14707,
++        "Bytes": 237858133,
++        "File": "93a0c227f83c5154fba0dde567c0150c.m4a",
++        "Type": "audio/x-m4a",
++        "URL": "https://anchor.fm/s/91c7948/podcast/play/49514850/sponsor/a2ufu95,a7afnja/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2Fexports%2F91c7948%2F49514850%2F93a0c227f83c5154fba0dde567c0150c.m4a"
++    },
+     {
+         "Title": "C3E16 The Shade Mother",
+         "GUID": "a755f029-b24e-4bdc-b1b3-91e2de638065",
+         "Publication Date": "2022-03-17",
+         "Staging Date": null,
+         "Sponsor": "a2ufu95,a7afnja",
+         "HH:MM:SS": "04:06:35",
+         "Seconds": 14795,
+         "Bytes": 239286956,
+         "File": "583b19a88dc318d7d1c3ff599c561dcc.m4a",
