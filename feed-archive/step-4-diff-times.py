@@ -36,9 +36,13 @@ for input_dir in ['critical-role', 'nerdist']:
         for old_ep in old_feed:
             if title.strip() == old_ep['Title'].strip():
                 diff_seconds = new_ep['Seconds'] - old_ep['Seconds']
-                if diff_seconds != 0:
+                guid_changed = (new_ep['GUID'] != old_ep['GUID'])
+                if diff_seconds != 0 or guid_changed:
                     print(f'* **{title.strip()}**')
-                    print(f"  {diff_seconds:+} seconds, {old_ep['HH:MM:SS']} -> {new_ep['HH:MM:SS']}")
+                    if diff_seconds != 0:
+                        print(f"  {diff_seconds:+} seconds, {old_ep['HH:MM:SS']} -> {new_ep['HH:MM:SS']}")
+                    if guid_changed:
+                        print('  Spotify / Google Podcast IDs may need to be updated (GUID changed)')
                     print()
                     feed_has_changes = True
                 matched = True
