@@ -34,7 +34,7 @@ for input_dir in ['critical-role', 'nerdist']:
         matched = False
         title = new_ep['Title']
         for old_ep in old_feed:
-            if title == old_ep['Title']:
+            if title.strip() == old_ep['Title'].strip():
                 diff_seconds = new_ep['Seconds'] - old_ep['Seconds']
                 if diff_seconds != 0:
                     print(f'* **{title.strip()}**')
