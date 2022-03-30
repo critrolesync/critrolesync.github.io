@@ -1,0 +1,63 @@
+--- critical-role/parsed/feed-parsed-2022-03-30.json
++++ critical-role/parsed/feed-parsed-2022-03-30a.json
+@@ -19,33 +19,20 @@
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:03:38",
+         "Seconds": 14618,
+         "Bytes": 234344638,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/57d006ee-deac-4552-a615-4b5c1c43ea63/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=57d006ee-deac-4552-a615-4b5c1c43ea63&feed=LXz4Q9rJ"
+     },
+     {
+-        "Title": "C3E16 The Shade Mother",
+-        "GUID": "9f0fd2a4-19b1-4a82-8cb7-897dfc721d84",
+-        "Publication Date": "2022-03-17",
+-        "Staging Date": null,
+-        "Sponsor": null,
+-        "HH:MM:SS": "04:03:38",
+-        "Seconds": 14618,
+-        "Bytes": 234344638,
+-        "File": "default.mp3",
+-        "Type": "audio/mpeg",
+-        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/001e2031-0979-4c09-be5a-c5fb32fa2558/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=001e2031-0979-4c09-be5a-c5fb32fa2558&feed=LXz4Q9rJ"
+-    },
+-    {
+         "Title": "C3E15 The Tunnels Below",
+         "GUID": "34c3187d-ffbb-46cf-98b8-2d1a3fc1a97b",
+         "Publication Date": "2022-03-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:34:11",
+         "Seconds": 16451,
+         "Bytes": 263755255,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+@@ -1727,23 +1714,23 @@
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1dcb172a-d75e-4e01-a9f5-5e032131d5f6/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1dcb172a-d75e-4e01-a9f5-5e032131d5f6&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "C2E55 Duplicity",
+         "GUID": "critrole.podbean.com/c2e55-duplicity-de624331e3cdee0004c778c8f78dbf90",
+         "Publication Date": "2019-03-21",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:40:42",
+-        "Seconds": 9642,
+-        "Bytes": 154320945,
++        "HH:MM:SS": "04:04:53",
++        "Seconds": 14693,
++        "Bytes": 235137146,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/459c98dd-ab77-4474-aae0-fcf5f69a3490/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=459c98dd-ab77-4474-aae0-fcf5f69a3490&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "Honey Heist 3: Tova's Honeys",
+         "GUID": "critrole.podbean.com/honey-heist-3-tovas-honeys-8a56af53de05f00502da90022aaa1713",
+         "Publication Date": "2019-03-15",
+         "Staging Date": null,
+         "Sponsor": null,
