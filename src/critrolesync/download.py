@@ -30,7 +30,7 @@ def get_podcast_feed_from_title(episode_title):
             if ep is None:
                 ep = episode
             else:
-                raise ValueError(f'podcast episode title substring "{episode_title}" is not unique')
+                print(f'WARNING: podcast episode title substring "{episode_title}" is not unique, using first instance')
     if ep:
         return ep
     else:
