@@ -168,9 +168,22 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
     for episode_id in episode_ids:
         print(episode_id)
 
-        youtube_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]), None)
-        # podcast_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id} Podcast.*') if not str(p).endswith('.part')]), None)
-        podcast_file = next(iter([p for p in (data_dir / 'original').glob(f'{episode_id.split(" ")[0]} Podcast.*') if not str(p).endswith('.part')]), None)
+        youtube_file = [p for p in (data_dir / 'original').glob(f'{episode_id} YouTube.*') if not str(p).endswith('.part')]
+        podcast_file = [p for p in (data_dir / 'original').glob(f'{episode_id.split(" ")[0]} Podcast.*') if not str(p).endswith('.part')]
+
+        if len(youtube_file) == 0:
+            youtube_file = None
+        elif len(youtube_file) == 1:
+            youtube_file = youtube_file[0]
+        else:
+            raise ValueError(f'multiple YouTube audio files with different file extensions found in downloads cache for "{episode_id}" when at most one was expected (try deleting and redownloading): {youtube_file}')
+
+        if len(podcast_file) == 0:
+            podcast_file = None
+        elif len(podcast_file) == 1:
+            podcast_file = podcast_file[0]
+        else:
+            raise ValueError(f'multiple podcast audio files with different file extensions found in downloads cache for "{episode_id}" when at most one was expected (extension may have changed in the podcast feed, try deleting and redownloading): {podcast_file}')
 
         youtube_beginning_file = data_dir / 'youtube-slices' / f'{episode_id} YouTube - Beginning.m4a'
         podcast_beginning_file = data_dir / 'podcast-slices' / f'{episode_id} Podcast - Beginning.m4a'
