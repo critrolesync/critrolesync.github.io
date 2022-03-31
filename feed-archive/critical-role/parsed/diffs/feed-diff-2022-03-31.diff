@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-03-30a.json
++++ critical-role/parsed/feed-parsed-2022-03-31.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E18 A Hungry Jungle",
++        "GUID": "191aedbb-2355-4223-bc9e-a30a90081bb9",
++        "Publication Date": "2022-03-31",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:13:39",
++        "Seconds": 11619,
++        "Bytes": 186369271,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/9235693b-d401-4d76-b908-596d745f2bf9/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=9235693b-d401-4d76-b908-596d745f2bf9&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E17 Heart-to-Heartmoor",
+         "GUID": "375416fc-34df-4817-8b5c-41a04c2315b8",
+         "Publication Date": "2022-03-24",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:02:59",
+         "Seconds": 14579,
+         "Bytes": 233300359,
+         "File": "default.mp3",
