@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-04-07.json
++++ critical-role/parsed/feed-parsed-2022-04-08.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Exandria Unlimited: Kymal | Part 2",
++        "GUID": "f115280e-5876-43f9-b751-2cccc0a6de68",
++        "Publication Date": "2022-04-08",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:45:06",
++        "Seconds": 17106,
++        "Bytes": 274013867,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/3e416cf6-1570-4d06-a094-8e6e755cd6eb/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=3e416cf6-1570-4d06-a094-8e6e755cd6eb&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Exandria Unlimited: Kymal | Part 1",
+         "GUID": "9b6fbfdb-3689-45c2-9d31-d0a8435e7b36",
+         "Publication Date": "2022-04-07",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:17:09",
+         "Seconds": 15429,
+         "Bytes": 247147422,
+         "File": "default.mp3",
