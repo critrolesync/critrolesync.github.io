@@ -5075,6 +5075,18 @@
                     ["3:22:52", "3:12:54", "IITY?"]
                 ],
                 "date_verified": "2022-03-31"
+            },
+            {
+                "id": "C3E19",
+                "title": "Omens Above",
+                "youtube_id": "pPa_O6F5kqs",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
