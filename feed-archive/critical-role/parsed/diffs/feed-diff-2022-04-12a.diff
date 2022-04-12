@@ -1,0 +1,35 @@
+--- critical-role/parsed/feed-parsed-2022-04-12.json
++++ critical-role/parsed/feed-parsed-2022-04-12a.json
+@@ -1775,30 +1775,30 @@
+         "Sponsor": null,
+         "HH:MM:SS": "04:29:00",
+         "Seconds": 16140,
+         "Bytes": 261192984,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1dcb172a-d75e-4e01-a9f5-5e032131d5f6/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1dcb172a-d75e-4e01-a9f5-5e032131d5f6&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "C2E55 Duplicity",
+-        "GUID": "critrole.podbean.com/c2e55-duplicity-de624331e3cdee0004c778c8f78dbf90",
++        "GUID": "b832e99c-cd59-4699-bd59-a40517076694",
+         "Publication Date": "2019-03-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:04:53",
+         "Seconds": 14693,
+         "Bytes": 235137146,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/459c98dd-ab77-4474-aae0-fcf5f69a3490/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=459c98dd-ab77-4474-aae0-fcf5f69a3490&feed=LXz4Q9rJ"
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/029dcac1-90e7-4d4f-8870-f5e69b29eb42/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=029dcac1-90e7-4d4f-8870-f5e69b29eb42&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "Honey Heist 3: Tova's Honeys",
+         "GUID": "critrole.podbean.com/honey-heist-3-tovas-honeys-8a56af53de05f00502da90022aaa1713",
+         "Publication Date": "2019-03-15",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:59:47",
+         "Seconds": 10787,
+         "Bytes": 174707176,
