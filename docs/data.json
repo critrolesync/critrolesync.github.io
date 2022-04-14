@@ -3292,7 +3292,7 @@
                 "youtube_id": "k1PRExWXj8o",
                 "youtube_playlist": "PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "Y3JpdHJvbGUucG9kYmVhbi5jb20vYzJlNTUtZHVwbGljaXR5LWRlNjI0MzMxZTNjZGVlMDAwNGM3NzhjOGY3OGRiZjkw",
+                "google_podcasts_episode": "",
                 "spotify_id": "4QO3UCVXt1zCiySy8mQYv6",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
