@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-04-12a.json
++++ critical-role/parsed/feed-parsed-2022-04-14.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E19 Omens Above",
++        "GUID": "bad5823d-449e-4085-9a74-fcbef5e03122",
++        "Publication Date": "2022-04-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:47:01",
++        "Seconds": 13621,
++        "Bytes": 218514656,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/0623aa6f-d8db-4bb0-a550-99dd1d8f3c33/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=0623aa6f-d8db-4bb0-a550-99dd1d8f3c33&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Silken Secrets | 4-Sided Dive Episode 1: Discussing Up to C3E18",
+         "GUID": "259dba0f-c4af-418c-a076-b2e3cf4ce277",
+         "Publication Date": "2022-04-12",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:18:25",
+         "Seconds": 4705,
+         "Bytes": 76467490,
+         "File": "default.mp3",
