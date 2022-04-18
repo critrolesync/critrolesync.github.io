@@ -5092,6 +5092,18 @@
                     ["3:54:52", "3:46:41", "IITY?"]
                 ],
                 "date_verified": "2022-04-14"
+            },
+            {
+                "id": "C3E20",
+                "title": "Breaking and Entering...",
+                "youtube_id": "X9Bc-uuxCm4",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
