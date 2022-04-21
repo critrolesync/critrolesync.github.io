@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-04-14.json
++++ critical-role/parsed/feed-parsed-2022-04-21.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E20 Breaking and Entering...",
++        "GUID": "4247e306-dbd5-4180-92fe-26f77e027ac4",
++        "Publication Date": "2022-04-21",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:28:01",
++        "Seconds": 12481,
++        "Bytes": 200317737,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/38c0b13a-2cc1-436d-9393-6ab950a53663/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=38c0b13a-2cc1-436d-9393-6ab950a53663&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E19 Omens Above",
+         "GUID": "bad5823d-449e-4085-9a74-fcbef5e03122",
+         "Publication Date": "2022-04-14",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:47:01",
+         "Seconds": 13621,
+         "Bytes": 218514656,
+         "File": "default.mp3",
