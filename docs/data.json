@@ -5112,15 +5112,20 @@
             },
             {
                 "id": "C3E21",
-                "title": "Fight at the Museum...",
+                "title": "Fight at the Museum…",
                 "youtube_id": "4fK2wdBGCYo",
                 "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "spotify_id": "",
+                "google_podcasts_episode": "ZjdkOTBmZmItYzI5OC00MDFmLTk4NzctZjE3N2QxNzhkNzc5",
+                "spotify_id": "5xc5pzrXLTbbDFdcsdva9c",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:00:43", "hello"],
+                    ["2:24:18", "2:25:01", "break start"],
+                    ["2:34:22", "2:25:37", "break end"],
+                    ["3:47:23", "3:38:38", "IITY?"]
+                ],
+                "date_verified": "2022-04-28"
             }
         ]
     },
