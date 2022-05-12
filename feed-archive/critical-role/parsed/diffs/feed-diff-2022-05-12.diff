@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-05-10.json
++++ critical-role/parsed/feed-parsed-2022-05-12.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E22 Promise and Potential",
++        "GUID": "f2d8edcd-c059-4ff0-8638-4e3b718f13c7",
++        "Publication Date": "2022-05-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:12:36",
++        "Seconds": 15156,
++        "Bytes": 242597983,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e93355eb-fdb3-4a4c-b828-2dced9fa4f7f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e93355eb-fdb3-4a4c-b828-2dced9fa4f7f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Party of NPCs | 4-Sided Dive | Episode 2: Discussing Up to C3E21",
+         "GUID": "5bdc8b62-9f50-42bf-b2f1-2057f3646d24",
+         "Publication Date": "2022-05-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:14:19",
+         "Seconds": 4459,
+         "Bytes": 76628158,
+         "File": "default.mp3",
