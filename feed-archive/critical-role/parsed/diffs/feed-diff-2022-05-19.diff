@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-05-12.json
++++ critical-role/parsed/feed-parsed-2022-05-19.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E23 To The Skies",
++        "GUID": "6d888298-c387-46a1-a199-4707e4243b2e",
++        "Publication Date": "2022-05-19",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:06:11",
++        "Seconds": 14771,
++        "Bytes": 236558556,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/c071ae10-818f-40cb-8ea6-2c70eae89394/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=c071ae10-818f-40cb-8ea6-2c70eae89394&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E22 Promise and Potential",
+         "GUID": "f2d8edcd-c059-4ff0-8638-4e3b718f13c7",
+         "Publication Date": "2022-05-12",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:12:36",
+         "Seconds": 15156,
+         "Bytes": 242597983,
+         "File": "default.mp3",
