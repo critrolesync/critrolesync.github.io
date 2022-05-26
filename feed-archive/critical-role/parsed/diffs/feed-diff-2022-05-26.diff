@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-05-19.json
++++ critical-role/parsed/feed-parsed-2022-05-26.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E24 The Hellcatch Valley",
++        "GUID": "35aaa0b3-ccb2-4e2e-a389-79e1c0484d47",
++        "Publication Date": "2022-05-26",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:45:38",
++        "Seconds": 13538,
++        "Bytes": 217088405,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/f1629cb0-9d91-4498-8314-3bd37b472950/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=f1629cb0-9d91-4498-8314-3bd37b472950&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E23 To The Skies",
+         "GUID": "6d888298-c387-46a1-a199-4707e4243b2e",
+         "Publication Date": "2022-05-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:06:11",
+         "Seconds": 14771,
+         "Bytes": 236558556,
+         "File": "default.mp3",
