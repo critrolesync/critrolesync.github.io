@@ -5361,6 +5361,23 @@
         ]
     },
     {
+        "series": "Exandria Unlimited: Calamity",
+        "episodes": [
+            {
+                "id": "E3E1",
+                "title": "Excelsior",
+                "youtube_id": "KlIkkeWmVvA",
+                "youtube_playlist": "",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
+            }
+        ]
+    },
+    {
         "series": "Specials",
         "episodes": [
             {
