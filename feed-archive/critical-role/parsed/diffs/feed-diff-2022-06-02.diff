@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-05-26.json
++++ critical-role/parsed/feed-parsed-2022-06-02.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Excelsior | Exandria Unlimited: Calamity Episode 1",
++        "GUID": "89b1032a-5d8d-4ded-9d24-3694d2de34cc",
++        "Publication Date": "2022-06-02",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:02:23",
++        "Seconds": 14543,
++        "Bytes": 233223678,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/9f21dc22-893d-4d31-be60-17194fbcf175/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=9f21dc22-893d-4d31-be60-17194fbcf175&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E24 The Hellcatch Valley",
+         "GUID": "35aaa0b3-ccb2-4e2e-a389-79e1c0484d47",
+         "Publication Date": "2022-05-26",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:45:38",
+         "Seconds": 13538,
+         "Bytes": 217088405,
+         "File": "default.mp3",
