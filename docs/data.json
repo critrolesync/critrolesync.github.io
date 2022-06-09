@@ -5379,6 +5379,18 @@
                     ["4:10:23", "4:01:45", "end"]
                 ],
                 "date_verified": "2022-06-02"
+            },
+            {
+                "id": "E3E2",
+                "title": "Bitterness and Dread",
+                "youtube_id": "cLhXA_Hl6LM",
+                "youtube_playlist": "PL1tiwbzkOjQwzhdskYekmjr0h2tsbKaZw",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
