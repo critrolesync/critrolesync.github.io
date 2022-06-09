@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-06-02.json
++++ critical-role/parsed/feed-parsed-2022-06-09.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Bitterness and Dread | Exandria Unlimited: Calamity Episode 2",
++        "GUID": "962f4ecb-c006-41b8-83ca-567f7e672266",
++        "Publication Date": "2022-06-09",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:29:46",
++        "Seconds": 16186,
++        "Bytes": 259434393,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/d5cc7b79-2deb-4b26-aee3-b9fc3be1cddd/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=d5cc7b79-2deb-4b26-aee3-b9fc3be1cddd&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Excelsior | Exandria Unlimited: Calamity Episode 1",
+         "GUID": "89b1032a-5d8d-4ded-9d24-3694d2de34cc",
+         "Publication Date": "2022-06-02",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:02:23",
+         "Seconds": 14543,
+         "Bytes": 233223678,
+         "File": "default.mp3",
