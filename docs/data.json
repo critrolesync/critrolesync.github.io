@@ -5396,6 +5396,18 @@
                     ["4:37:27", "4:29:02", "end"]
                 ],
                 "date_verified": "2022-06-09"
+            },
+            {
+                "id": "E3E3",
+                "title": "Blood and Shadow",
+                "youtube_id": "YNTP_CckXrM",
+                "youtube_playlist": "PL1tiwbzkOjQwzhdskYekmjr0h2tsbKaZw",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
