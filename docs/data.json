@@ -5191,6 +5191,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NjUyZTg2ZjktM2ZhMS00NDFkLTg3NmYtZWU4Y2ExYWEzZGUx",
                 "spotify_id": "3LhXThPolcCvGbaL7kme91",
+                "transcript_id": ["E", "1"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5208,6 +5209,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NjYzOTUxNTItYmU2ZC00YmMzLTlhMjUtNWJkODk3N2IzZmE1",
                 "spotify_id": "4xAfy8EC7BeZdHSnOTReCG",
+                "transcript_id": ["E", "2"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
@@ -5225,6 +5227,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZDFhMzgzNWUtYTcwNy00OTYzLWFhYTctYzFhZDNlNmQ1ZWY4",
                 "spotify_id": "2R2HJwQrcDpxdfdFw22iVP",
+                "transcript_id": ["E", "3"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5242,6 +5245,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NzE3NDZhODYtODhhZi00M2NlLWExYTYtNTM0MDQ0ZTIxNTUw",
                 "spotify_id": "68ZaOEXal2xG3AclQg1nZE",
+                "transcript_id": ["E", "4"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5259,6 +5263,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZDViN2ExOWItYTE5NC00N2U0LTk5NTQtZGZkNTJlYTk1YjA2",
                 "spotify_id": "0iV6EOvPLV8ZZve1FUlMQN",
+                "transcript_id": ["E", "5"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
@@ -5276,6 +5281,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZWNhYTk5NDgtYzk5ZS00Y2VlLTkyMDYtZDQwOWE2ZDMzMmUy",
                 "spotify_id": "2gwkfOI9GDUbWo5M4E5iYK",
+                "transcript_id": ["E", "6"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5293,6 +5299,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZmU5Njc4MDEtOTYzMC00ZDUzLTkwZWItODAzODg3MGRmYmE1",
                 "spotify_id": "511JHGGKYZwu6mPagWKzFE",
+                "transcript_id": ["E", "7"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5310,6 +5317,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MTNlODk2ZTItYTA5NC00ODMzLWI3ZWEtYmYyYzJkNzY4NWI0",
                 "spotify_id": "2wHVUM5PxUQ66M7KjQjFKt",
+                "transcript_id": ["E", "8"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
@@ -5332,6 +5340,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "OWI2ZmJmZGItMzY4OS00NWMyLTlkMzEtZDBhODQzNWU3YjM2",
                 "spotify_id": "3QrzVs0Pq1bnENGEiUn3ze",
+                "transcript_id": ["E2", "1"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:31", "hello"],
@@ -5349,6 +5358,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ZjExNTI4MGUtNTg3Ni00M2Y5LWI3NTEtMmNjY2MwYTZkZTY4",
                 "spotify_id": "49dRiXByjOlquHQOvZvcTs",
+                "transcript_id": ["E2", "2"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:37", "hello"],
@@ -5371,6 +5381,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "ODliMTAzMmEtNWQ4ZC00ZGVkLTlkMjQtMzY5NGQyZGUzNGNj",
                 "spotify_id": "76zuo29kovtLQEgUx1BKBl",
+                "transcript_id": ["E3", "1"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:38", "hello"],
@@ -5388,6 +5399,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "OTYyZjRlY2ItYzAwNi00MWI4LTgzY2EtNTY3ZjdlNjcyMjY2",
                 "spotify_id": "07Mwynnx6djLVJKsvgrrRS",
+                "transcript_id": ["E3", "2"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:40", "hello"],
@@ -5405,6 +5417,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "NWU3OTEzYmMtZDkzMi00YzJjLWJiYjctY2IxOWNkYjFkZjEx",
                 "spotify_id": "5Et7xJR77xgfVresFwxCZD",
+                "transcript_id": ["E3", "3"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [
                     ["0:00:00", "0:00:38", "hello"],
@@ -5422,6 +5435,7 @@
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "",
                 "spotify_id": "",
+                "transcript_id": ["E3", "4"],
                 "timestamps_columns": ["youtube", "podcast", "comment"],
                 "timestamps": [],
                 "date_verified": ""
