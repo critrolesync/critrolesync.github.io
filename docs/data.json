@@ -5413,6 +5413,18 @@
                     ["5:21:15", "5:12:38", "end"]
                 ],
                 "date_verified": "2022-06-16"
+            },
+            {
+                "id": "E3E4",
+                "title": "Fire and Ruin",
+                "youtube_id": "CrtoyB2fcMI",
+                "youtube_playlist": "PL1tiwbzkOjQwzhdskYekmjr0h2tsbKaZw",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
