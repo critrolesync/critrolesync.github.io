@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-06-16.json
++++ critical-role/parsed/feed-parsed-2022-06-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Fire and Ruin | Exandria Unlimited: Calamity Episode 4",
++        "GUID": "725d1f5e-e1ee-4c81-a117-7a0081463840",
++        "Publication Date": "2022-06-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "05:57:55",
++        "Seconds": 21475,
++        "Bytes": 344090810,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/c7d7bb36-40c2-453a-85b6-c22facb85d3f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=c7d7bb36-40c2-453a-85b6-c22facb85d3f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Blood and Shadow | Exandria Unlimited: Calamity Episode 3",
+         "GUID": "5e7913bc-d932-4c2c-bbb7-cb19cdb1df11",
+         "Publication Date": "2022-06-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "05:13:14",
+         "Seconds": 18794,
+         "Bytes": 301097808,
+         "File": "default.mp3",
