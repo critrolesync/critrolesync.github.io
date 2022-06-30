@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-06-23.json
++++ critical-role/parsed/feed-parsed-2022-06-30.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "A Familiar Problem: Sprinkle\u2019s Incredible Journey!",
++        "GUID": "f2efa1c4-98e0-4d31-a859-518e7a21dec4",
++        "Publication Date": "2022-06-30",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:40:34",
++        "Seconds": 13234,
++        "Bytes": 214149749,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/0bb20c2b-9801-4f28-926c-c2a28d2cf530/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=0bb20c2b-9801-4f28-926c-c2a28d2cf530&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Fire and Ruin | Exandria Unlimited: Calamity Episode 4",
+         "GUID": "725d1f5e-e1ee-4c81-a117-7a0081463840",
+         "Publication Date": "2022-06-23",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "05:57:55",
+         "Seconds": 21475,
+         "Bytes": 344090810,
+         "File": "default.mp3",
