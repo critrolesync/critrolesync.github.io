@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-06-30.json
++++ critical-role/parsed/feed-parsed-2022-07-05.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Game Masters of Exandria Roundtable",
++        "GUID": "1e17fe4d-a6d7-496c-bbff-bf03209d4328",
++        "Publication Date": "2022-07-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:51:07",
++        "Seconds": 6667,
++        "Bytes": 107045547,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/08b78c18-1133-4c47-976d-a063b915959d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=08b78c18-1133-4c47-976d-a063b915959d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "A Familiar Problem: Sprinkle\u2019s Incredible Journey!",
+         "GUID": "f2efa1c4-98e0-4d31-a859-518e7a21dec4",
+         "Publication Date": "2022-06-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:40:34",
+         "Seconds": 13234,
+         "Bytes": 214149749,
+         "File": "default.mp3",
