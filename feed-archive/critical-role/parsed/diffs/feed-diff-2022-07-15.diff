@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-07-12.json
++++ critical-role/parsed/feed-parsed-2022-07-15.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E26 Hidden Truths",
++        "GUID": "9c1c78c7-586e-4937-8860-50862adb3ea8",
++        "Publication Date": "2022-07-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:01:13",
++        "Seconds": 14473,
++        "Bytes": 232015300,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/48663903-49ad-4c21-9ee2-81fce8a55c0d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=48663903-49ad-4c21-9ee2-81fce8a55c0d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Independent Witches | 4-Sided Dive | Episode 4: Discussing Up To C3E24 & Calamity",
+         "GUID": "3a121ae3-4b4a-4eb6-9487-88f32104bf71",
+         "Publication Date": "2022-07-12",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:29:37",
+         "Seconds": 5377,
+         "Bytes": 86075842,
+         "File": "default.mp3",
