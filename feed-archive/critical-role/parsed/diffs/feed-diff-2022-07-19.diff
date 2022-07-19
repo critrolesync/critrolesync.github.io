@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-07-15.json
++++ critical-role/parsed/feed-parsed-2022-07-19.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Exandria Unlimited: Calamity Wrap Up",
++        "GUID": "5ad58840-efa1-4d82-a9eb-8948aafe01e6",
++        "Publication Date": "2022-07-19",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:51:05",
++        "Seconds": 6665,
++        "Bytes": 106672745,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/4771db47-6760-4271-acdb-07100150bc76/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=4771db47-6760-4271-acdb-07100150bc76&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E26 Hidden Truths",
+         "GUID": "9c1c78c7-586e-4937-8860-50862adb3ea8",
+         "Publication Date": "2022-07-14",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:01:13",
+         "Seconds": 14473,
+         "Bytes": 232015300,
+         "File": "default.mp3",
