@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-07-19.json
++++ critical-role/parsed/feed-parsed-2022-07-21.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E27 A Race for the Prize",
++        "GUID": "9e814e02-e35d-43a6-bf78-12c49b99a02c",
++        "Publication Date": "2022-07-21",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:50:53",
++        "Seconds": 13853,
++        "Bytes": 222152336,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/48426d55-80a0-4e03-80d5-4a5c9c9772a1/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=48426d55-80a0-4e03-80d5-4a5c9c9772a1&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Exandria Unlimited: Calamity Wrap Up",
+         "GUID": "5ad58840-efa1-4d82-a9eb-8948aafe01e6",
+         "Publication Date": "2022-07-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:51:05",
+         "Seconds": 6665,
+         "Bytes": 106672745,
+         "File": "default.mp3",
