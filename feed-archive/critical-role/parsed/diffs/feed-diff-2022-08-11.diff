@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-07-28.json
++++ critical-role/parsed/feed-parsed-2022-08-11.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E29 Dark Portents",
++        "GUID": "024d3761-60d9-4aa8-b417-85abf3c30252",
++        "Publication Date": "2022-08-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:28:15",
++        "Seconds": 12495,
++        "Bytes": 200366620,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/c33dcae7-72b5-4628-812e-647b7990743e/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=c33dcae7-72b5-4628-812e-647b7990743e&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E28 The Deathwish Run",
+         "GUID": "b4dd6141-9325-4176-b501-f2c247c989a5",
+         "Publication Date": "2022-07-28",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:19:28",
+         "Seconds": 15568,
+         "Bytes": 249651638,
+         "File": "default.mp3",
