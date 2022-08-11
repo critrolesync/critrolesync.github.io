@@ -5252,11 +5252,16 @@
                 "youtube_id": "Qu44OYKzNI4",
                 "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "spotify_id": "",
+                "google_podcasts_episode": "MDI0ZDM3NjEtNjBkOS00YWE4LWI0MTctODVhYmYzYzMwMjUy",
+                "spotify_id": "2pdTVoUUifxup5ZbKrfUxS",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:00:40", "hello"],
+                    ["2:00:36", "2:01:16", "break start"],
+                    ["2:10:45", "2:02:04", "break end"],
+                    ["3:36:29", "3:27:48", "IITY?"]
+                ],
+                "date_verified": "2022-08-11"
             }
         ]
     },
