@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-08-16.json
++++ critical-role/parsed/feed-parsed-2022-08-18.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E30 Reunion & Revelation",
++        "GUID": "231872c8-011e-4442-8dab-66716edab448",
++        "Publication Date": "2022-08-18",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:27:35",
++        "Seconds": 12455,
++        "Bytes": 200177689,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/0d2f319d-0457-445d-9e52-0d165e207739/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=0d2f319d-0457-445d-9e52-0d165e207739&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "From Dusk Till Faun | 4-Sided Dive | Episode 5: Discussing Up To C3E29",
+         "GUID": "5623f81c-696c-44b8-991a-29acd4fbfa9e",
+         "Publication Date": "2022-08-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:17:16",
+         "Seconds": 4636,
+         "Bytes": 74215039,
+         "File": "default.mp3",
