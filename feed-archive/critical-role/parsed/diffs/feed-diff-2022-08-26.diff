@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-08-18.json
++++ critical-role/parsed/feed-parsed-2022-08-26.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E31 Breaking Point",
++        "GUID": "1520738b-b8db-4323-9bfd-6d9e75481ac2",
++        "Publication Date": "2022-08-25",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:44:40",
++        "Seconds": 13480,
++        "Bytes": 216124768,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1afe8f36-d289-4f3c-ab4e-da0d202dbe72/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1afe8f36-d289-4f3c-ab4e-da0d202dbe72&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E30 Reunion & Revelation",
+         "GUID": "231872c8-011e-4442-8dab-66716edab448",
+         "Publication Date": "2022-08-18",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:27:35",
+         "Seconds": 12455,
+         "Bytes": 200177689,
+         "File": "default.mp3",
