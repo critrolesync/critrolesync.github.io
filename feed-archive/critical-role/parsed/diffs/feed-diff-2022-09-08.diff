@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-08-26.json
++++ critical-role/parsed/feed-parsed-2022-09-08.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E32 A Stage Set",
++        "GUID": "8fc44d15-ddca-46e6-ac43-2ef50573adff",
++        "Publication Date": "2022-09-08",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:26:13",
++        "Seconds": 15973,
++        "Bytes": 256049736,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e3327ed5-9b42-47ea-829b-2cbb892fd6c9/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e3327ed5-9b42-47ea-829b-2cbb892fd6c9&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E31 Breaking Point",
+         "GUID": "1520738b-b8db-4323-9bfd-6d9e75481ac2",
+         "Publication Date": "2022-08-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:44:40",
+         "Seconds": 13480,
+         "Bytes": 216124768,
+         "File": "default.mp3",
