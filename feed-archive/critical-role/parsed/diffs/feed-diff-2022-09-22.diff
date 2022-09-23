@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-09-17.json
++++ critical-role/parsed/feed-parsed-2022-09-22.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E34 What Dreams May Come",
++        "GUID": "d81341b8-65ed-40fe-a802-907fe1eb5919",
++        "Publication Date": "2022-09-22",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:31:45",
++        "Seconds": 12705,
++        "Bytes": 203777052,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b6546e13-fb99-42a1-8143-90d79f453dfd/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b6546e13-fb99-42a1-8143-90d79f453dfd&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E33 Blood and Dust",
+         "GUID": "848a21de-b4ac-4d89-8a7a-9a4825fdb323",
+         "Publication Date": "2022-09-15",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:47:52",
+         "Seconds": 13672,
+         "Bytes": 219200389,
+         "File": "default.mp3",
