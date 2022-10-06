@@ -5347,6 +5347,18 @@
                     ["3:40:09", "3:31:24", "IITY?"]
                 ],
                 "date_verified": "2022-09-22"
+            },
+            {
+                "id": "C3E35",
+                "title": "Pyrrhic Return",
+                "youtube_id": "KrOolIMi7PM",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "",
+                "spotify_id": "",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [],
+                "date_verified": ""
             }
         ]
     },
