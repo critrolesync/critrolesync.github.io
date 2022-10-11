@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-09-29.json
++++ critical-role/parsed/feed-parsed-2022-10-11.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Fun Scary | 4-Sided Dive | Episode 7: Discussing Up To C3E35",
++        "GUID": "363c5bc7-c175-49bd-9bd5-d63e053827e7",
++        "Publication Date": "2022-10-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:31:50",
++        "Seconds": 5510,
++        "Bytes": 88207408,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e811166f-01b1-4b2c-8d4d-258a57d183a0/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e811166f-01b1-4b2c-8d4d-258a57d183a0&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E35 Pyrrhic Return",
+         "GUID": "aa07f167-0cc0-42c6-816b-c9b13b314861",
+         "Publication Date": "2022-09-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:26:45",
+         "Seconds": 16005,
+         "Bytes": 256092153,
+         "File": "default.mp3",
