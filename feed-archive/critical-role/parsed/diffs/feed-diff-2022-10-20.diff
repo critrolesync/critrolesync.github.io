@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-10-14.json
++++ critical-role/parsed/feed-parsed-2022-10-20.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E37 From the Boughs",
++        "GUID": "c605bf27-2569-4a94-9446-1158ff8901aa",
++        "Publication Date": "2022-10-20",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:58:53",
++        "Seconds": 14333,
++        "Bytes": 230278976,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/c7d4f25f-a32d-4b61-b7e9-bd02ed1cf522/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=c7d4f25f-a32d-4b61-b7e9-bd02ed1cf522&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E36 A Desperate Call",
+         "GUID": "b55fb784-8753-4e38-9796-4183c1a8b38a",
+         "Publication Date": "2022-10-13",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:07:41",
+         "Seconds": 14861,
+         "Bytes": 238841017,
+         "File": "default.mp3",
