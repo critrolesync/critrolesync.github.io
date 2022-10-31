@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-10-20.json
++++ critical-role/parsed/feed-parsed-2022-10-31.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E38 A Dark Balance",
++        "GUID": "eb1fd142-7239-463d-96df-0cda9805b6ca",
++        "Publication Date": "2022-10-27",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:12:29",
++        "Seconds": 15149,
++        "Bytes": 243413293,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/9551c5aa-448d-4a10-a3c3-7aac9b91b5f5/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=9551c5aa-448d-4a10-a3c3-7aac9b91b5f5&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E37 From the Boughs",
+         "GUID": "c605bf27-2569-4a94-9446-1158ff8901aa",
+         "Publication Date": "2022-10-20",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:58:53",
+         "Seconds": 14333,
+         "Bytes": 230278976,
+         "File": "default.mp3",
