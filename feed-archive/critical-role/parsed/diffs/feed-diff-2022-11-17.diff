@@ -1,0 +1,53 @@
+--- critical-role/parsed/feed-parsed-2022-11-09.json
++++ critical-role/parsed/feed-parsed-2022-11-17.json
+@@ -1,11 +1,50 @@
+ [
++    {
++        "Title": "C3E40 Compulsions",
++        "GUID": "b69e7f36-3ae0-4e8a-b1b2-31f106cd03bd",
++        "Publication Date": "2022-11-17",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:45:46",
++        "Seconds": 13546,
++        "Bytes": 217242058,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/5356f4e5-5f90-49ca-b7d7-48dabfc1a55d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=5356f4e5-5f90-49ca-b7d7-48dabfc1a55d&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "Generation Nord One-Shot",
++        "GUID": "0aee9933-32c8-4a47-a966-53215f916ef4",
++        "Publication Date": "2022-11-15",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:43:53",
++        "Seconds": 13433,
++        "Bytes": 215556712,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/d3362fb7-5b38-4bc8-88f1-89caf98e78af/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=d3362fb7-5b38-4bc8-88f1-89caf98e78af&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "C3E39 The Momentum of Murder",
++        "GUID": "0f3a8cbd-eac8-4379-b5ab-41c9321b5a14",
++        "Publication Date": "2022-11-10",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:22:19",
++        "Seconds": 12139,
++        "Bytes": 195064311,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/3dc73d50-e1ea-4cf7-96e7-42c69569571f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=3dc73d50-e1ea-4cf7-96e7-42c69569571f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Why Are You Like This?! | 4-Sided Dive | Episode 8: Discussing Up To C3E38",
+         "GUID": "4c35a929-a606-4ded-a906-229b5fe3a0db",
+         "Publication Date": "2022-11-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:19:24",
+         "Seconds": 4764,
+         "Bytes": 76267420,
+         "File": "default.mp3",
