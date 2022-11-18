@@ -5422,11 +5422,16 @@
                 "youtube_id": "WCLH6uLaH7c",
                 "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "spotify_id": "",
+                "google_podcasts_episode": "MGYzYThjYmQtZWFjOC00Mzc5LWI1YWItNDFjOTMyMWI1YTE0",
+                "spotify_id": "4Elo38M0Xl49X9ZJHGRvHz",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:00:43", "hello"],
+                    ["1:59:40", "2:00:23", "break start"],
+                    ["2:11:25", "2:00:58", "break end"],
+                    ["3:32:28", "3:22:01", "IITY?"]
+                ],
+                "date_verified": "2022-11-18"
             },
             {
                 "id": "C3E40",
@@ -5434,11 +5439,16 @@
                 "youtube_id": "54lMQNp_HlE",
                 "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "",
-                "spotify_id": "",
+                "google_podcasts_episode": "YjY5ZTdmMzYtM2FlMC00ZThhLWIxYjItMzFmMTA2Y2QwM2Jk",
+                "spotify_id": "5RbKO7VzRmtUg77iBBZsBI",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:00:44", "hello"],
+                    ["2:07:02", "2:07:46", "break start"],
+                    ["2:19:26", "2:08:34", "break end"],
+                    ["3:56:11", "3:45:19", "IITY?"]
+                ],
+                "date_verified": "2022-11-18"
             }
         ]
     },
