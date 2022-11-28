@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-11-17.json
++++ critical-role/parsed/feed-parsed-2022-11-28.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Mighty Nein Reunited Part 1 | Unfinished Business",
++        "GUID": "314a0a34-9134-4e21-859c-a66f5cfce3a7",
++        "Publication Date": "2022-11-24",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:19:38",
++        "Seconds": 15578,
++        "Bytes": 259967715,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b4d9f568-14c5-4d26-94c8-41f1b26a343b/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b4d9f568-14c5-4d26-94c8-41f1b26a343b&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E40 Compulsions",
+         "GUID": "b69e7f36-3ae0-4e8a-b1b2-31f106cd03bd",
+         "Publication Date": "2022-11-17",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:45:46",
+         "Seconds": 13546,
+         "Bytes": 217242058,
+         "File": "default.mp3",
