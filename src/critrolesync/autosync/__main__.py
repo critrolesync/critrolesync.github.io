@@ -56,6 +56,7 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
         raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
 
     podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
+    logger.info(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
 
     podcast_slice_times = default_podcast_slice_times.copy()
     podcast_slice_times.update(custom_podcast_slice_times.get(episode_id, {}))
