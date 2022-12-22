@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2022-12-15.json
++++ critical-role/parsed/feed-parsed-2022-12-22.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E42 The City of Flowing Light",
++        "GUID": "11532e2d-d593-4c41-8980-66c1caaf4cf9",
++        "Publication Date": "2022-12-22",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:41:14",
++        "Seconds": 13274,
++        "Bytes": 213505436,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e92f8559-4786-4321-8907-54f9153e6d97/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e92f8559-4786-4321-8907-54f9153e6d97&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E41 Call of the Wild",
+         "GUID": "df7871b2-81ab-44a1-8179-bcc50a850607",
+         "Publication Date": "2022-12-15",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:01:59",
+         "Seconds": 14519,
+         "Bytes": 233129643,
+         "File": "default.mp3",
