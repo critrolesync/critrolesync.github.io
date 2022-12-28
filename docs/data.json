@@ -5798,7 +5798,7 @@
                 "id": "SP5",
                 "title": "The Mighty Nein Reunited Part 1 | Unfinished Business",
                 "youtube_id": "XhkjjN7M0hk",
-                "youtube_playlist": "",
+                "youtube_playlist": "PL1tiwbzkOjQxLSFOtwuzl-c6wEkjaqsv5",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
                 "google_podcasts_episode": "MzE0YTBhMzQtOTEzNC00ZTIxLTg1OWMtYTY2ZjVjZmNlM2E3",
                 "spotify_id": "2AMM4J4Td7JvUvEp5C3fx2",
@@ -5813,15 +5813,20 @@
             },
             {
                 "id": "SP6",
-                "title": "The Mighty Nein Reunited: Part 2 | Uk'otoa Unleashed",
+                "title": "The Mighty Nein Reunited Part 2 | Uk'otoa Unleashed",
                 "youtube_id": "c5NsUbMoXxw",
-                "youtube_playlist": "",
+                "youtube_playlist": "PL1tiwbzkOjQxLSFOtwuzl-c6wEkjaqsv5",
                 "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
-                "google_podcasts_episode": "MzE0YTBhMzQtOTEzNC00ZTIxLTg1OWMtYTY2ZjVjZmNlM2E3",
-                "spotify_id": "",
+                "google_podcasts_episode": "OTZkZTYwOGYtMTFhMC00NjdkLWJkYWQtMjA2OGIxMWVjMjhm",
+                "spotify_id": "0gHpziFq1Cbjzd3zys0yIc",
                 "timestamps_columns": ["youtube", "podcast", "comment"],
-                "timestamps": [],
-                "date_verified": ""
+                "timestamps": [
+                    ["0:00:00", "0:00:40", "hello"],
+                    ["2:21:23", "2:22:03", "break start"],
+                    ["2:36:26", "2:22:34", "break end"],
+                    ["5:20:54", "5:07:02", "IITY?"]
+                ],
+                "date_verified": "2022-12-28"
             }
         ]
     }
