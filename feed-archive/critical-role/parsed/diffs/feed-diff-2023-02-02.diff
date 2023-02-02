@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-01-26.json
++++ critical-role/parsed/feed-parsed-2023-02-02.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E46 Night at the Ligament Manor",
++        "GUID": "b57bba61-064f-4cfd-818b-6d7dca1694c6",
++        "Publication Date": "2023-02-02",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:08:35",
++        "Seconds": 14915,
++        "Bytes": 241787619,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/76a9619f-a007-4d69-8a73-4562f4e0475d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=76a9619f-a007-4d69-8a73-4562f4e0475d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E45 Ominous Lectures",
+         "GUID": "59e44949-c8dd-49cf-a66f-181fad448cbd",
+         "Publication Date": "2023-01-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:25:03",
+         "Seconds": 12303,
+         "Bytes": 198376223,
+         "File": "default.mp3",
