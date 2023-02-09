@@ -5500,6 +5500,23 @@
                     ["4:14:16", "4:00:12", "IITY?"]
                 ],
                 "date_verified": "2023-02-09"
+            },
+            {
+                "id": "C3E44",
+                "title": "Bawdy Basement Belligerence",
+                "youtube_id": "nqXmeYBqF1c",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "NjE1ZDIzYmMtODZhMy00MTZhLWJjMzktNGIzNGE0N2Q0ZTVl",
+                "spotify_id": "1antiPhcY8tTxlaFekPsER",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:40", "hello"],
+                    ["2:17:16", "2:17:56", "break start"],
+                    ["2:31:28", "2:18:44", "break end"],
+                    ["3:52:58", "3:40:14", "IITY?"]
+                ],
+                "date_verified": "2023-02-09"
             }
         ]
     },
