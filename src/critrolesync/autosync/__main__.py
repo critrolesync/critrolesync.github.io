@@ -194,15 +194,26 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
 
         fingerprints_file = data_dir / 'fingerprints' / f'{episode_id} Fingerprints.tar'
 
+        do_fingerprint = overwrite_fingerprints or not fingerprints_file.exists()
+
+        do_youtube_beginning_slice = overwrite_youtube_slices or (do_fingerprint and not youtube_beginning_file.exists())
+        do_youtube_ending_slice = overwrite_youtube_slices or (do_fingerprint and not youtube_ending_file.exists())
+
+        do_podcast_beginning_slice = overwrite_podcast_slices or not podcast_beginning_file.exists()
+        do_podcast_ending_slice = overwrite_podcast_slices or not podcast_ending_file.exists()
+
+        do_youtube_download = overwrite_youtube_download or (youtube_file is None and (do_youtube_beginning_slice or do_youtube_ending_slice))
+        do_podcast_download = overwrite_podcast_download or (podcast_file is None and (do_podcast_beginning_slice or do_podcast_ending_slice))
+
         d = get_episode_data_from_id(episode_id)
         ts = np.rec.fromrecords(list(map(tuple, d['timestamps'])), names=d['timestamps_columns'], formats=['U8', 'U8', 'U30'])
 
 
         # download YouTube and podcast audio files
-        if youtube_file is None or overwrite_youtube_download:
+        if do_youtube_download:
             logger.info(f'downloading YouTube audio for {episode_id}')
             youtube_file = download_youtube_audio(episode_id, data_dir / 'original')
-        if podcast_file is None or overwrite_podcast_download:
+        if do_podcast_download:
             logger.info(f'downloading podcast audio for {episode_id}')
             podcast_file = download_podcast_audio(episode_id, data_dir / 'original')
 
@@ -233,16 +244,16 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
         youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
         podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
         logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
-        if not youtube_beginning_file.exists() or overwrite_youtube_slices:
+        if do_youtube_beginning_slice:
             logger.info(f'slicing YouTube beginning for {episode_id} from {youtube_file}')
             slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
-        if not podcast_beginning_file.exists() or overwrite_podcast_slices:
+        if do_podcast_beginning_slice:
             logger.info(f'slicing podcast beginning for {episode_id} from {podcast_file}')
             slice_audio_file(podcast_file, podcast_beginning_file, *absolute_slice_times['podcast']['beginning'], mono=True)
-        if not youtube_ending_file.exists() or overwrite_youtube_slices:
+        if do_youtube_ending_slice:
             logger.info(f'slicing YouTube ending for {episode_id} from {youtube_file}')
             slice_audio_file(youtube_file, youtube_ending_file, *absolute_slice_times['youtube']['ending'], mono=True)
-        if not podcast_ending_file.exists() or overwrite_podcast_slices:
+        if do_podcast_ending_slice:
             logger.info(f'slicing podcast ending for {episode_id} from {podcast_file}')
             slice_audio_file(podcast_file, podcast_ending_file, *absolute_slice_times['podcast']['ending'], mono=True)
 
@@ -253,7 +264,7 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
             # or prior runs of the script
             m.empty_fingerprints()
 
-            if not fingerprints_file.exists() or overwrite_fingerprints:
+            if do_fingerprint:
                 # create and store fingerprints for the YouTube audio slices
                 Path(fingerprints_file).parent.mkdir(parents=True, exist_ok=True)
                 m.fingerprint_file(youtube_beginning_file)
