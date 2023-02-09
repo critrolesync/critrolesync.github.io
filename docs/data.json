@@ -5517,6 +5517,23 @@
                     ["3:52:58", "3:40:14", "IITY?"]
                 ],
                 "date_verified": "2023-02-09"
+            },
+            {
+                "id": "C3E45",
+                "title": "Ominous Lectures",
+                "youtube_id": "7t2NJJjy8r8",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "NTllNDQ5NDktYzhkZC00OWNmLWE2NmYtMTgxZmFkNDQ4Y2Jk",
+                "spotify_id": "7vwohhWD3R74Fyk1d9GHbM",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:40", "hello"],
+                    ["1:42:23", "1:43:03", "break start"],
+                    ["1:53:44", "1:43:39", "break end"],
+                    ["3:34:44", "3:24:39", "IITY?"]
+                ],
+                "date_verified": "2023-02-09"
             }
         ]
     },
