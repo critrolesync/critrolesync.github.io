@@ -21,7 +21,7 @@ RUN apt-get update -y && apt-get install -y \
 # - packages that may affect dejavu fingerprint hashes are pinned to the latest
 #   known working versions
 # - in particular, pydub>=0.24 is needed to avoid a fingerprint matching bug
-# - yt-dlp commit 149eb0b (2023-02-16) fixes uploader_id extraction error
+# - yt-dlp>=2023.02.17 fixes uploader_id extraction error
 RUN pip install \
     docker \
     ffmpeg-python==0.2.0 \
@@ -34,7 +34,7 @@ RUN pip install \
     requests \
     scipy==1.7.1 \
     tqdm \
-    git+https://github.com/yt-dlp/yt-dlp.git@149eb0b
+    yt_dlp==2023.02.17
 
 # install dejavu
 # - use --no-deps to avoid using dejavu's pinned versions
