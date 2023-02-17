@@ -55,6 +55,8 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     if np.any(ts.youtube == ''):
         raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
 
+    if not podcast_file or not podcast_file.exists():
+        raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration: {podcast_file}')
     podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
     logger.info(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
 
