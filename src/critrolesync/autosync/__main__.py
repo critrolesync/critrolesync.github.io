@@ -151,6 +151,9 @@ elif args.verbose > 1:
 
 logger.debug(args)
 
+import yt_dlp
+logger.debug(f'yt_dlp version {yt_dlp.version.__version__}')
+
 episode_ids = args.episode_ids
 overwrite_youtube_download = args.download in ['both', 'youtube']
 overwrite_podcast_download = args.download in ['both', 'podcast']
