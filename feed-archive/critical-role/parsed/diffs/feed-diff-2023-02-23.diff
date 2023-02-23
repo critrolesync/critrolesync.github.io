@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-02-16.json
++++ critical-role/parsed/feed-parsed-2023-02-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E49 The Aurora Grows",
++        "GUID": "ff989730-4681-45f8-a6b7-ef25c0879007",
++        "Publication Date": "2023-02-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:52:01",
++        "Seconds": 17521,
++        "Bytes": 280920595,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/abce7bb4-af7d-43f6-9255-01b5740043ae/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=abce7bb4-af7d-43f6-9255-01b5740043ae&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E48 An Exit Most Fraught",
+         "GUID": "f9be66ab-95a6-4329-ae5a-0b5a98f27a35",
+         "Publication Date": "2023-02-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:46:39",
+         "Seconds": 13599,
+         "Bytes": 217597276,
+         "File": "default.mp3",
