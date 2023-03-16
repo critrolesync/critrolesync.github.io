@@ -5619,6 +5619,23 @@
                     ["3:51:24", "3:40:27", "IITY?"]
                 ],
                 "date_verified": "2023-03-09"
+            },
+            {
+                "id": "C3E51",
+                "title": "The Apogee Solstice",
+                "youtube_id": "i7GjrGmq_l4",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "MGE1YzBjODUtNjczYi00ZDQ0LWIwMzctNDIzMWJiZGI0NGRi",
+                "spotify_id": "6K6lGRVS45ZtG5dmyiM3Ot",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:53", "hello"],
+                    ["2:35:26", "2:36:19", "break start"],
+                    ["2:45:28", "2:37:11", "break end"],
+                    ["4:36:45", "4:28:28", "IITY?"]
+                ],
+                "date_verified": "2023-03-16"
             }
         ]
     },
