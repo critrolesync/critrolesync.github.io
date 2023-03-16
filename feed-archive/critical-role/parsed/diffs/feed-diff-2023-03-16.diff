@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-03-09.json
++++ critical-role/parsed/feed-parsed-2023-03-16.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E51 The Apogee Solstice",
++        "GUID": "0a5c0c85-673b-4d44-b037-4231bbdb44db",
++        "Publication Date": "2023-03-16",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:28:53",
++        "Seconds": 16133,
++        "Bytes": 259078778,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/10c7ce75-27e5-44f2-8240-99be4f7bb653/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=10c7ce75-27e5-44f2-8240-99be4f7bb653&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E50 Red Moon Rising",
+         "GUID": "b5788fcc-d950-4cd6-aca6-dc123bd951ba",
+         "Publication Date": "2023-03-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:41:00",
+         "Seconds": 13260,
+         "Bytes": 212918018,
+         "File": "default.mp3",
