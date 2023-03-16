@@ -88,7 +88,7 @@ def download_podcast_audio(episode_id, output_dir=None):
         c, e = episode_id.strip('C').split('E')
         if c == '1':
             episode_title = f'Vox Machina Ep. {e} '  # include trailing space to distinguish 1, 10, 100, etc.
-        elif c == '2':
+        elif c in ['2', '3']:
             episode_title = f'{episode_id} '         # include trailing space to distinguish 1, 10, 100, etc.
         else:
             raise NotImplementedError
