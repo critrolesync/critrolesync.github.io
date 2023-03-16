@@ -58,6 +58,8 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     if not podcast_file or not podcast_file.exists():
         raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration: {podcast_file}')
     podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
+    # podcast_duration = Time('4:19:38')  # OVERRIDE FOR SP5
+    # podcast_duration = Time('3:41:14')  # OVERRIDE FOR C3E42
     # podcast_duration = Time('4:28:53')  # OVERRIDE FOR C3E51
     logger.info(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
 
