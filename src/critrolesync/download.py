@@ -6,35 +6,13 @@ Download audio files:
 
 from pathlib import Path
 import shutil
-import json
 import requests
 from tqdm.auto import tqdm
 import yt_dlp
 
 from . import data
-from .tools import get_episode_data_from_id
+from .tools import get_episode_data_from_id, get_podcast_feed_from_id
 
-
-_latest_parsed_nerdist_feed = list(Path(__file__).parent.joinpath('../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
-_latest_parsed_criticalrole_feed = list(Path(__file__).parent.joinpath('../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
-latest_parsed_podcast_feed = []
-with open(_latest_parsed_nerdist_feed) as _fd:
-    latest_parsed_podcast_feed += json.load(_fd)
-with open(_latest_parsed_criticalrole_feed) as _fd:
-    latest_parsed_podcast_feed += json.load(_fd)
-
-def get_podcast_feed_from_title(episode_title):
-    ep = None
-    for episode in latest_parsed_podcast_feed:
-        if episode_title.lower() in episode['Title'].lower():
-            if ep is None:
-                ep = episode
-            else:
-                print(f'WARNING: podcast episode title substring "{episode_title}" is not unique, using first instance')
-    if ep:
-        return ep
-    else:
-        raise ValueError(f'podcast episode with title containing "{episode_title}" not found')
 
 def download_youtube_audio(episode_id, output_dir=None):
 
@@ -82,21 +60,7 @@ def download_youtube_audio(episode_id, output_dir=None):
 def download_podcast_audio(episode_id, output_dir=None):
 
     # get the podcast audio file URL from the feed archive
-    try:
-        # we try it this way first because there is at least one example (C1E78)
-        # where the title is spelled differently in the feed
-        c, e = episode_id.strip('C').split('E')
-        if c == '1':
-            episode_title = f'Vox Machina Ep. {e} '  # include trailing space to distinguish 1, 10, 100, etc.
-        elif c in ['2', '3']:
-            episode_title = f'{episode_id} '         # include trailing space to distinguish 1, 10, 100, etc.
-        else:
-            raise NotImplementedError
-    except:
-        # we fall back on the actual title if the episode is not part of the
-        # main campaigns
-        episode_title = get_episode_data_from_id(episode_id)['title']
-    ep = get_podcast_feed_from_title(episode_title)
+    ep = get_podcast_feed_from_id(episode_id)
     url = ep['URL']
 
     # determine where to permanently save the file after download

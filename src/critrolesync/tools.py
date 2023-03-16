@@ -8,6 +8,14 @@ from .jsonencoder import CompactJSONEncoder
 from .time import Time
 
 
+_latest_parsed_nerdist_feed = list(Path(__file__).parent.joinpath('../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
+_latest_parsed_criticalrole_feed = list(Path(__file__).parent.joinpath('../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
+latest_parsed_podcast_feed = []
+with _latest_parsed_nerdist_feed.open() as _fd:
+    latest_parsed_podcast_feed += reversed(json.load(_fd))
+with _latest_parsed_criticalrole_feed.open() as _fd:
+    latest_parsed_podcast_feed += reversed(json.load(_fd))
+
 def write_data(new_data):
     with Path(__file__).parent.joinpath('../../docs/data.json').open('w') as _fd:
         json.dump(new_data, _fd, indent=4, cls=CompactJSONEncoder)
@@ -26,6 +34,35 @@ def get_episode_data_from_id(episode_id):
         return ep
     else:
         raise ValueError(f'episode with id "{episode_id}" not found')
+
+def get_podcast_feed_from_id(episode_id):
+    try:
+        # we try it this way first because there is at least one example (C1E78)
+        # where the title is spelled differently in the feed
+        c, e = episode_id.strip('C').split('E')
+        if c == '1':
+            episode_title = f'Vox Machina Ep. {e} '  # include trailing space to distinguish 1, 10, 100, etc.
+        elif c in ['2', '3']:
+            episode_title = f'{episode_id} '         # include trailing space to distinguish 1, 10, 100, etc.
+        else:
+            raise NotImplementedError
+    except:
+        # we fall back on the title stored in data.json if the episode is not
+        # part of the main campaigns
+        episode_title = get_episode_data_from_id(episode_id)['title']
+
+    # use title substring to locate the podcast feed entry
+    ep = None
+    for episode in latest_parsed_podcast_feed:
+        if episode_title.lower() in episode['Title'].lower():
+            if ep is None:
+                ep = episode
+            else:
+                print(f'WARNING: podcast episode title substring "{episode_title}" ({episode_id}) is not unique, using first instance')
+    if ep:
+        return ep
+    else:
+        raise ValueError(f'podcast episode with title containing "{episode_title}" ({episode_id}) not found')
 
 def convert_time(time, episode_id, source, dest):
     ep = get_episode_data_from_id(episode_id)
