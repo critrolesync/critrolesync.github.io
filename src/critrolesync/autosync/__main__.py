@@ -23,6 +23,11 @@ from . import Database, Matcher
 
 logger = logging.getLogger(__name__)
 
+# raise thresholds for some verbose loggers
+logging.getLogger('docker').setLevel(logging.WARN)
+logging.getLogger('pydub.converter').setLevel(logging.WARN)
+logging.getLogger('urllib3.connectionpool').setLevel(logging.WARN)
+
 
 youtube_slice_times = {
     # these times are relative to the first ("beginning")
@@ -64,7 +69,7 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     podcast_duration = Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"])
     # logger.debug(f'podcast duration for {episode_id} according to podcast feed:         {Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]).text}')
     # logger.debug(f'podcast duration for {episode_id} according to librosa.get_duration: {Time(get_duration(filename=podcast_file)).text}')
-    logger.info(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
+    logger.debug(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
 
     podcast_slice_times = default_podcast_slice_times.copy()
     podcast_slice_times.update(custom_podcast_slice_times.get(episode_id, {}))
@@ -254,7 +259,7 @@ with Database(database_name='dejavu_db', container_name='dejavu_db') as db:
         podcast_beginning_start, podcast_beginning_stop = absolute_slice_times['podcast']['beginning']
         youtube_ending_start,    youtube_ending_stop    = absolute_slice_times['youtube']['ending']
         podcast_ending_start,    podcast_ending_stop    = absolute_slice_times['podcast']['ending']
-        logger.info(f'absolute slice times for {episode_id}: {absolute_slice_times}')
+        logger.debug(f'absolute slice times for {episode_id}: {absolute_slice_times}')
         if do_youtube_beginning_slice:
             logger.info(f'slicing YouTube beginning for {episode_id} from {youtube_file}')
             slice_audio_file(youtube_file, youtube_beginning_file, *absolute_slice_times['youtube']['beginning'], mono=True)
