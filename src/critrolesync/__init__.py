@@ -10,5 +10,5 @@ from .time import *
 from .tools import *
 
 # Do not import autosync here, as this will make critrolesync unimportable
-# outside the Docker container or Vagrant VM, where dejavu may not be
-# installed. Instead, import critrolesync.autosync as a subpackage when needed.
+# outside the Docker container, where dejavu may not be installed. Instead,
+# import critrolesync.autosync as a subpackage when needed.

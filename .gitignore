@@ -1,5 +1,4 @@
 data-old-g&s-feed.json
-testdata
 *.m4a
 *.mp3
 *.opus
@@ -7,7 +6,4 @@ testdata
 *.txt
 *.part
 *.ini
-.vagrant
 __pycache__
-
-!requirements.txt
