@@ -14,10 +14,11 @@ import re
 from pathlib import Path
 import json
 import numpy as np
-from librosa import get_duration
+# from librosa import get_duration
 import logging
-from .. import data, write_data, get_episode_data_from_id, Time, \
-               download_youtube_audio, download_podcast_audio, slice_audio_file
+from .. import data, write_data, get_episode_data_from_id, \
+               get_podcast_feed_from_id, Time, download_youtube_audio, \
+               download_podcast_audio, slice_audio_file
 from . import Database, Matcher
 
 logger = logging.getLogger(__name__)
@@ -55,12 +56,14 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     if np.any(ts.youtube == ''):
         raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
 
-    if not podcast_file or not podcast_file.exists():
-        raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration: {podcast_file}')
-    podcast_duration = get_duration(filename=podcast_file) # * 128/127.7  # get_duration returns CBR duration and would need to be replaced with an ABR method if stored timestamps are converted to ABR
-    # podcast_duration = Time('4:19:38')  # OVERRIDE FOR SP5
-    # podcast_duration = Time('3:41:14')  # OVERRIDE FOR C3E42
-    # podcast_duration = Time('4:28:53')  # OVERRIDE FOR C3E51
+    # if not podcast_file or not podcast_file.exists():
+    #     raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration using librosa: {podcast_file}')
+    # podcast_duration = get_duration(filename=podcast_file)
+    if Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]) != Time(get_podcast_feed_from_id(episode_id)["Seconds"]):
+        raise ValueError(f'discrepancy in podcast durations from feed for "{episode_id}": {Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]).text} (HH:MM:SS) vs {Time(get_podcast_feed_from_id(episode_id)["Seconds"]).text} (Seconds)')
+    podcast_duration = Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"])
+    # logger.debug(f'podcast duration for {episode_id} according to podcast feed:         {Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]).text}')
+    # logger.debug(f'podcast duration for {episode_id} according to librosa.get_duration: {Time(get_duration(filename=podcast_file)).text}')
     logger.info(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
 
     podcast_slice_times = default_podcast_slice_times.copy()
