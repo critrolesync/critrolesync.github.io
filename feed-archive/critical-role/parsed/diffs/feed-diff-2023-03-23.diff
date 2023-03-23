@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-03-16.json
++++ critical-role/parsed/feed-parsed-2023-03-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E52 Far From The Others",
++        "GUID": "d7a9387d-989b-4853-b738-33432f39b9e5",
++        "Publication Date": "2023-03-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:34:45",
++        "Seconds": 12885,
++        "Bytes": 206756433,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1aaf8460-1309-455b-80cf-440c3f64a4a7/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1aaf8460-1309-455b-80cf-440c3f64a4a7&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E51 The Apogee Solstice",
+         "GUID": "0a5c0c85-673b-4d44-b037-4231bbdb44db",
+         "Publication Date": "2023-03-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:28:53",
+         "Seconds": 16133,
+         "Bytes": 259078778,
+         "File": "default.mp3",
