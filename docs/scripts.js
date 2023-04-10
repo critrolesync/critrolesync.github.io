@@ -40,7 +40,7 @@ var debugTable = document.getElementById('debug-table')
 var debugDateVerified = document.getElementById('debug-date-verified')
 
 // load mobile-friendly tooltips
-// tippy('[data-tippy-content]')
+tippy('[data-tippy-content]')
 
 // set up time picker
 var picker
