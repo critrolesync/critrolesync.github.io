@@ -36,7 +36,7 @@ jobs:
       run: |
         count=$(wc -w \
           $(ls feed-archive/critical-role/parsed/diffs/*.diff | tail -n1) \
-          $(ls feed-archive/nerdist/parsed/diffs/*.diff | tail -n1) \
+          $(ls feed-archive/geek-and-sundry/parsed/diffs/*.diff | tail -n1) \
           | grep total \
           | tr -d [:alpha:],[:space:])
         echo "New diffs contain ${count} words"
