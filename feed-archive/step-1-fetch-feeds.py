@@ -19,4 +19,7 @@ for name, url in feeds.items():
     for letter in [''] + list(ascii_lowercase):
         filename = Path(__file__).parent / name / f'feed-{date.today()}{letter}.xml'
         if not filename.exists(): break
-    urllib.request.urlretrieve(url, filename)
+    try:
+        urllib.request.urlretrieve(url, filename)
+    except Exception as e:
+        raise ValueError(f'failed to retrieve {name} feed at {url} with the following error: {e}')
