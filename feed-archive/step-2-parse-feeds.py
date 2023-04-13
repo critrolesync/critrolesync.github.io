@@ -96,7 +96,7 @@ def parse_feed(input_xml, output_json=None):
 
 
 if __name__ == '__main__':
-    for input_dir in ['critical-role', 'nerdist']:
+    for input_dir in ['critical-role']:#, 'nerdist']:
         input_dir = Path(__file__).parent / input_dir
         output_dir = input_dir / 'parsed'
         output_dir.mkdir(parents=True, exist_ok=True)

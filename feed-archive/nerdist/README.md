@@ -1,8 +1,8 @@
-This podcast's homepage is
+As of 2023-04-13, this podcast feed appears to have been taken down. Its homepage used to be
 
 http://critrole.nerdistind.libsynpro.com/website
 
-and the feed is located at
+and the feed was located at
 
 http://critrole.nerdistind.libsynpro.com/rss
 
