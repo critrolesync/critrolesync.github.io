@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-03-30.json
++++ critical-role/parsed/feed-parsed-2023-04-13.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E54 Treacherous Toys",
++        "GUID": "566c2a8e-4132-46f2-b5b7-1970b2e4451c",
++        "Publication Date": "2023-04-13",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:06:39",
++        "Seconds": 14799,
++        "Bytes": 237426734,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/057c7fcd-ba55-4b15-89de-3adcfbe7ca16/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=057c7fcd-ba55-4b15-89de-3adcfbe7ca16&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E53 Ripples",
+         "GUID": "e160b99c-9e17-457d-b5ad-cad565fa8f57",
+         "Publication Date": "2023-03-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:51:10",
+         "Seconds": 13870,
+         "Bytes": 222745183,
+         "File": "default.mp3",
