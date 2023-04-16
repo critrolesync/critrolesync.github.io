@@ -82,7 +82,7 @@ def parse_feed(input_xml, output_json=None):
                 'Sponsor': sponsor,
                 'HH:MM:SS': hms,
                 'Seconds': int(secs),
-                'Bytes': int(size),
+                'Bytes': int(size) if size else size,
                 'File': file,
                 'Type': filetype,
                 'URL': url,
