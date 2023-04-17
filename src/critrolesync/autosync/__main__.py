@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 import json
 import numpy as np
-# from librosa import get_duration
+from librosa import get_duration
 import logging
 from .. import data, write_data, get_episode_data_from_id, \
                get_podcast_feed_from_id, Time, download_youtube_audio, \
@@ -61,12 +61,15 @@ def get_absolute_slice_times(episode_id, podcast_file, bitrate_conversion_factor
     if np.any(ts.youtube == ''):
         raise ValueError(f'one or more YouTube timestamps is missing for "{episode_id}": {ts.youtube}')
 
-    # if not podcast_file or not podcast_file.exists():
-    #     raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration using librosa: {podcast_file}')
-    # podcast_duration = get_duration(filename=podcast_file)
+    # get episode duration
     if Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]) != Time(get_podcast_feed_from_id(episode_id)["Seconds"]):
         raise ValueError(f'discrepancy in podcast durations from feed for "{episode_id}": {Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]).text} (HH:MM:SS) vs {Time(get_podcast_feed_from_id(episode_id)["Seconds"]).text} (Seconds)')
     podcast_duration = Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"])
+    if podcast_duration == 0:
+        print(f'Podcast duration for "{episode_id}" is 0 according to feed, so getting duration from audio file')
+        if not podcast_file or not podcast_file.exists():
+            raise ValueError(f'podcast file for "{episode_id}" is missing, cannot get its duration using librosa: {podcast_file}')
+        podcast_duration = get_duration(filename=podcast_file)
     # logger.debug(f'podcast duration for {episode_id} according to podcast feed:         {Time(get_podcast_feed_from_id(episode_id)["HH:MM:SS"]).text}')
     # logger.debug(f'podcast duration for {episode_id} according to librosa.get_duration: {Time(get_duration(filename=podcast_file)).text}')
     logger.debug(f'podcast duration for {episode_id}: {Time(podcast_duration).text}')
