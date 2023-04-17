@@ -1,8 +1,12 @@
-As of 2023-04-13, this podcast feed appears to have been taken down. Its homepage used to be
+NOTE: As of early 2022, it seems that the Geek & Sundry feed is favored over
+this Nerdist feed as being "official", according to critrole.com's list for
+Campaign 1 podcast episodes.
+
+This podcast feed's homepage is
 
 http://critrole.nerdistind.libsynpro.com/website
 
-and the feed was located at
+and the feed is located at
 
 http://critrole.nerdistind.libsynpro.com/rss
 
