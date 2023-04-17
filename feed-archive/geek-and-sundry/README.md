@@ -4,11 +4,11 @@ https://geekandsundry.podbean.com/
 
 and the feed is located at
 
-https://criticalrole.podbean.com/feed.xml
+https://feed.podbean.com/geekandsundry/feed.xml
 
 XML files were obtained using step-1-fetch-feeds.py or, equivalently, the following:
 
-    wget -O feed-YYYY-MM-DD.xml https://criticalrole.podbean.com/feed.xml
+    wget -O feed-YYYY-MM-DD.xml https://feed.podbean.com/geekandsundry/feed.xml
 
 JSON files were derived from XML files using step-2-parse-feeds.py.
 
