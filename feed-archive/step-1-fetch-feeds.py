@@ -10,8 +10,8 @@ import urllib.request
 
 feeds = {
     'critical-role': 'https://anchor.fm/s/91c7948/podcast/rss',
+    'nerdist': 'http://critrole.nerdistind.libsynpro.com/rss',
     'geek-and-sundry': 'https://feed.podbean.com/geekandsundry/feed.xml',
-    # 'nerdist':       'http://critrole.nerdistind.libsynpro.com/rss',  # taken down as of 2023-04-13
     # 'original-geek-and-sundry': 'https://criticalrole.podbean.com/feed.xml',  # taken down as of 2020-07-08
 }
 

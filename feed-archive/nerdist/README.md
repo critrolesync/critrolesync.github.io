@@ -1,6 +1,8 @@
 NOTE: As of early 2022, it seems that the Geek & Sundry feed is favored over
 this Nerdist feed as being "official", according to critrole.com's list for
-Campaign 1 podcast episodes.
+Campaign 1 podcast episodes. CritRoleSync favors the Nerdist feed because the
+Geek & Sundry feed has historically had some problems with reliability and bad
+data in the feed (e.g., zero-duration episodes).
 
 This podcast feed's homepage is
 

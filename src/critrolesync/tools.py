@@ -8,13 +8,12 @@ from .jsonencoder import CompactJSONEncoder
 from .time import Time
 
 
-_latest_parsed_nerdist_feed = list(Path(__file__).parent.joinpath('../../feed-archive/nerdist/parsed').glob('*.json'))[-1]
-_latest_parsed_criticalrole_feed = list(Path(__file__).parent.joinpath('../../feed-archive/critical-role/parsed').glob('*.json'))[-1]
 latest_parsed_podcast_feed = []
-with _latest_parsed_nerdist_feed.open() as _fd:
-    latest_parsed_podcast_feed += reversed(json.load(_fd))
-with _latest_parsed_criticalrole_feed.open() as _fd:
-    latest_parsed_podcast_feed += reversed(json.load(_fd))
+# for feed_dir in ['geekandsundry', 'critical-role']:
+for feed_dir in ['nerdist', 'critical-role']:
+    _latest_parsed_feed = list(Path(__file__).parent.joinpath(f'../../feed-archive/{feed_dir}/parsed').glob('*.json'))[-1]
+    with _latest_parsed_feed.open() as _fd:
+        latest_parsed_podcast_feed += reversed(json.load(_fd))
 
 def write_data(new_data):
     with Path(__file__).parent.joinpath('../../docs/data.json').open('w') as _fd:
