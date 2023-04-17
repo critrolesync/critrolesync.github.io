@@ -6,4 +6,5 @@ data-old-g&s-feed.json
 *.txt
 *.part
 *.ini
+.cache
 __pycache__
