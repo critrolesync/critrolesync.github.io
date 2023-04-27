@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-04-20a.json
++++ critical-role/parsed/feed-parsed-2023-04-27.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E56 By Goat or By Boat",
++        "GUID": "eb8d7834-3e9e-4501-9fd3-cb54b6da75dc",
++        "Publication Date": "2023-04-27",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:55:48",
++        "Seconds": 14148,
++        "Bytes": 226875920,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/4a081a89-a8b6-449d-af6d-5b3bdc7f48dc/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=4a081a89-a8b6-449d-af6d-5b3bdc7f48dc&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E55 Hope Within History",
+         "GUID": "77b0db38-dc38-4346-b3c4-511b307d7ade",
+         "Publication Date": "2023-04-20",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:24:06",
+         "Seconds": 12246,
+         "Bytes": 196470854,
+         "File": "default.mp3",
