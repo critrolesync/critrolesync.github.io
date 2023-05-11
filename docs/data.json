@@ -5733,6 +5733,23 @@
                     ["4:10:19", "3:55:06", "IITY?"]
                 ],
                 "date_verified": "2023-04-27"
+            },
+            {
+                "id": "C3E57",
+                "title": "The Sorrow of Molaesmyr",
+                "youtube_id": "T5k_BurVhOE",
+                "youtube_playlist": "PL1tiwbzkOjQydg3QOkBLG9OYqWJ0dwlxF",
+                "google_podcasts_feed": "aHR0cHM6Ly9jcml0cm9sZS5wb2RiZWFuLmNvbS9mZWVkLnhtbA",
+                "google_podcasts_episode": "YzI1NTk2ZGQtZmFmMy00NGFhLTg5YWItNGZhOTFlNTM1ZTU4",
+                "spotify_id": "3NkDUySbPdVR4OhyNkWgi2",
+                "timestamps_columns": ["youtube", "podcast", "comment"],
+                "timestamps": [
+                    ["0:00:00", "0:00:43", "hello"],
+                    ["1:58:35", "1:59:18", "break start"],
+                    ["2:11:13", "2:00:06", "break end"],
+                    ["3:37:14", "3:26:07", "IITY?"]
+                ],
+                "date_verified": "2023-05-11"
             }
         ]
     },
