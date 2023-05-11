@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-04-27.json
++++ critical-role/parsed/feed-parsed-2023-05-11.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E57 The Sorrow of Molaesmyr",
++        "GUID": "c25596dd-faf3-44aa-89ab-4fa91e535e58",
++        "Publication Date": "2023-05-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:26:31",
++        "Seconds": 12391,
++        "Bytes": 198667028,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/2fcae327-d577-436a-b2fc-e69e37cbdd44/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=2fcae327-d577-436a-b2fc-e69e37cbdd44&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E56 By Goat or By Boat",
+         "GUID": "eb8d7834-3e9e-4501-9fd3-cb54b6da75dc",
+         "Publication Date": "2023-04-27",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:55:48",
+         "Seconds": 14148,
+         "Bytes": 226875920,
+         "File": "default.mp3",
