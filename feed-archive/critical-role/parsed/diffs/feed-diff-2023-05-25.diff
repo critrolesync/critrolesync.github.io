@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-05-18.json
++++ critical-role/parsed/feed-parsed-2023-05-25.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E59 Somewhere Out There",
++        "GUID": "ad98e622-85db-4e50-b9cf-6716ea313c15",
++        "Publication Date": "2023-05-25",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:59:15",
++        "Seconds": 14355,
++        "Bytes": 230420996,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/299831f2-76ab-42cd-baae-1d7bc6484125/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=299831f2-76ab-42cd-baae-1d7bc6484125&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E58 Escape From The Past",
+         "GUID": "c6a532a8-9bd7-4695-acc2-f7d3e8960ea6",
+         "Publication Date": "2023-05-18",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:55:17",
+         "Seconds": 14117,
+         "Bytes": 226590584,
+         "File": "default.mp3",
