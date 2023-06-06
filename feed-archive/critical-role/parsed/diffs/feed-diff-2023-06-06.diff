@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-05-25.json
++++ critical-role/parsed/feed-parsed-2023-06-06.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Legend of Zelda One-Shot | Lookout, Here We Come!",
++        "GUID": "3dca791a-ea35-464d-8d87-3f5e16b6a092",
++        "Publication Date": "2023-06-06",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:51:17",
++        "Seconds": 17477,
++        "Bytes": 280058130,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/362fbbf8-62af-4556-9069-afc14cd46a1f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=362fbbf8-62af-4556-9069-afc14cd46a1f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E59 Somewhere Out There",
+         "GUID": "ad98e622-85db-4e50-b9cf-6716ea313c15",
+         "Publication Date": "2023-05-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:59:15",
+         "Seconds": 14355,
+         "Bytes": 230420996,
+         "File": "default.mp3",
