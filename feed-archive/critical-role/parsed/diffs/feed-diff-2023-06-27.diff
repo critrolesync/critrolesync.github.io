@@ -1,0 +1,17 @@
+--- critical-role/parsed/feed-parsed-2023-06-22.json
++++ critical-role/parsed/feed-parsed-2023-06-27.json
+@@ -1,13 +1,13 @@
+ [
+     {
+-        "Title": "C3 E62 A Long Walk of Reflection",
++        "Title": "C3E62 A Long Walk of Reflection",
+         "GUID": "7166e4a2-0900-4fab-b9c3-9e069e3e76b5",
+         "Publication Date": "2023-06-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:34:56",
+         "Seconds": 12896,
+         "Bytes": 206349158,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/3ce1e73f-8bb0-4792-8758-6a3d560ee1e9/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=3ce1e73f-8bb0-4792-8758-6a3d560ee1e9&feed=LXz4Q9rJ"
