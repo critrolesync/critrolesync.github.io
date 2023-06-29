@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-06-27.json
++++ critical-role/parsed/feed-parsed-2023-06-29.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E63 A Haunted Past",
++        "GUID": "0c513686-f120-4d3a-8c9c-cd2b12615f60",
++        "Publication Date": "2023-06-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:55:51",
++        "Seconds": 14151,
++        "Bytes": 226424574,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b19b3ad2-2d5b-43d3-b546-314bb82d06bd/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b19b3ad2-2d5b-43d3-b546-314bb82d06bd&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E62 A Long Walk of Reflection",
+         "GUID": "7166e4a2-0900-4fab-b9c3-9e069e3e76b5",
+         "Publication Date": "2023-06-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:34:56",
+         "Seconds": 12896,
+         "Bytes": 206349158,
+         "File": "default.mp3",
