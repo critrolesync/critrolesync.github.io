@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-07-13.json
++++ critical-role/parsed/feed-parsed-2023-07-20.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E65 A Path of Vengeance",
++        "GUID": "15a337ea-69ff-4aa2-95a0-b84d453498f6",
++        "Publication Date": "2023-07-20",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:57:21",
++        "Seconds": 14241,
++        "Bytes": 228367863,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/7df07fbd-6081-4320-9c3d-58ba51110863/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=7df07fbd-6081-4320-9c3d-58ba51110863&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E64 Reunited",
+         "GUID": "e763de2f-6cf9-47e9-b1b3-c6348ed6b72a",
+         "Publication Date": "2023-07-13",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:07:02",
+         "Seconds": 14822,
+         "Bytes": 237675235,
+         "File": "default.mp3",
