@@ -1,0 +1,25 @@
+--- critical-role/parsed/feed-parsed-2023-07-27.json
++++ critical-role/parsed/feed-parsed-2023-08-07.json
+@@ -1417,21 +1417,21 @@
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/5eb23856-2adb-4d2e-a258-a1d5ba513f05/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=5eb23856-2adb-4d2e-a258-a1d5ba513f05&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "C2E130 The Calm Before The Storm",
+         "GUID": "1cf13559-e616-474a-8a57-548a01ab0659",
+         "Publication Date": "2021-03-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:45:20",
+         "Seconds": 13520,
+-        "Bytes": 217013944,
++        "Bytes": 216795952,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/c1a68cff-b81d-4915-bd61-f06667c62e91/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=c1a68cff-b81d-4915-bd61-f06667c62e91&feed=LXz4Q9rJ"
+     },
+     {
+         "Title": "C2E129 Between a Ball and a Hot Place",
+         "GUID": "da5c56f7-5c38-467e-aba9-61aff0ddc976",
+         "Publication Date": "2021-03-18",
+         "Staging Date": null,
+         "Sponsor": null,
