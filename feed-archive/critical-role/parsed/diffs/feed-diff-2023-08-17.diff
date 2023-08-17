@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-08-10.json
++++ critical-role/parsed/feed-parsed-2023-08-17.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E68: For The Tempest",
++        "GUID": "ef2696ff-e295-4ca0-a7f4-58bc687be5a0",
++        "Publication Date": "2023-08-17",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:36:12",
++        "Seconds": 12972,
++        "Bytes": 208374390,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/bc3fd652-3f9e-49c2-89f2-07ff360c5b4f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=bc3fd652-3f9e-49c2-89f2-07ff360c5b4f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E67: Bloody Flowers",
+         "GUID": "62216161-94fd-4012-9f87-2312d3365bf7",
+         "Publication Date": "2023-08-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:37:00",
+         "Seconds": 16620,
+         "Bytes": 266723679,
+         "File": "default.mp3",
