@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-08-17.json
++++ critical-role/parsed/feed-parsed-2023-08-24.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E69: Nice",
++        "GUID": "6d582701-8488-4585-a3a8-7237c7514602",
++        "Publication Date": "2023-08-24",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:47:06",
++        "Seconds": 13626,
++        "Bytes": 218890082,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/01aba951-a0da-47f5-8751-9e30d9da1d39/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=01aba951-a0da-47f5-8751-9e30d9da1d39&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E68: For The Tempest",
+         "GUID": "ef2696ff-e295-4ca0-a7f4-58bc687be5a0",
+         "Publication Date": "2023-08-17",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:36:12",
+         "Seconds": 12972,
+         "Bytes": 208374390,
+         "File": "default.mp3",
