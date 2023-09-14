@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-08-31.json
++++ critical-role/parsed/feed-parsed-2023-09-14.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E71: Mist and Whimsy",
++        "GUID": "ae2e84f7-0339-49bf-805f-9901b1bd5bf4",
++        "Publication Date": "2023-09-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:04:54",
++        "Seconds": 14694,
++        "Bytes": 235872427,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/fbc3e11d-a359-410e-83ac-bd7fa9d588c7/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=fbc3e11d-a359-410e-83ac-bd7fa9d588c7&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E70: Embattled in Bassuras",
+         "GUID": "c7a61e03-cbdd-40e2-85e0-12ea5f8eb85b",
+         "Publication Date": "2023-08-31",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:25:00",
+         "Seconds": 15900,
+         "Bytes": 255229745,
+         "File": "default.mp3",
