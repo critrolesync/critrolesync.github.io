@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-09-21.json
++++ critical-role/parsed/feed-parsed-2023-09-26.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Mortal Kombat 1 One-Shot | Sindel Vs. The Realms",
++        "GUID": "6b206f67-4187-48e3-8674-6e49c5c0c7f5",
++        "Publication Date": "2023-09-26",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:42:16",
++        "Seconds": 13336,
++        "Bytes": 213471588,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/f8433993-b2be-4e40-9398-eb9dc226a03f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=f8433993-b2be-4e40-9398-eb9dc226a03f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E72: Phantasmal Parley",
+         "GUID": "045e8c45-2ebb-47f8-ab10-6b70d4e6c1e9",
+         "Publication Date": "2023-09-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:42:09",
+         "Seconds": 13329,
+         "Bytes": 214084408,
+         "File": "default.mp3",
