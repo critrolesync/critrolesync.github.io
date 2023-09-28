@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-09-26.json
++++ critical-role/parsed/feed-parsed-2023-09-28.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E73: Kindling the Spirits",
++        "GUID": "01240778-0f44-4df5-be8d-9a1068c4c5ce",
++        "Publication Date": "2023-09-28",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:14:12",
++        "Seconds": 15252,
++        "Bytes": 244976650,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/fd6b62d9-483e-4d04-918b-58f1d055d5c9/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=fd6b62d9-483e-4d04-918b-58f1d055d5c9&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Mortal Kombat 1 One-Shot | Sindel Vs. The Realms",
+         "GUID": "6b206f67-4187-48e3-8674-6e49c5c0c7f5",
+         "Publication Date": "2023-09-26",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:42:16",
+         "Seconds": 13336,
+         "Bytes": 213471588,
+         "File": "default.mp3",
