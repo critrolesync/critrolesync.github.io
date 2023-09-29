@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-09-28.json
++++ critical-role/parsed/feed-parsed-2023-09-29.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Rose City Comic Con 2023",
++        "GUID": "8f82a339-352d-41b2-b80c-0b88c016640d",
++        "Publication Date": "2023-09-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:58:53",
++        "Seconds": 3533,
++        "Bytes": 56566252,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/01e869bb-96a2-4dbe-9a90-b72282913989/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=01e869bb-96a2-4dbe-9a90-b72282913989&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E73: Kindling the Spirits",
+         "GUID": "01240778-0f44-4df5-be8d-9a1068c4c5ce",
+         "Publication Date": "2023-09-28",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:14:12",
+         "Seconds": 15252,
+         "Bytes": 244976650,
+         "File": "default.mp3",
