@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-09-29.json
++++ critical-role/parsed/feed-parsed-2023-10-12.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E74: Roots Between Worlds",
++        "GUID": "66000a52-79fe-42e5-ac24-09b5495f967b",
++        "Publication Date": "2023-10-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:35:36",
++        "Seconds": 12936,
++        "Bytes": 208283852,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1fd1c306-99a3-4ddb-9b91-2c2b83724ab3/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1fd1c306-99a3-4ddb-9b91-2c2b83724ab3&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Rose City Comic Con 2023",
+         "GUID": "8f82a339-352d-41b2-b80c-0b88c016640d",
+         "Publication Date": "2023-09-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:58:53",
+         "Seconds": 3533,
+         "Bytes": 56566252,
+         "File": "default.mp3",
