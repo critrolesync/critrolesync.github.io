@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-10-25.json
++++ critical-role/parsed/feed-parsed-2023-10-26.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C2E76 A Gathering of Heroes",
++        "GUID": "9105912e-fd84-446e-a162-c9f03225eaec",
++        "Publication Date": "2023-10-26",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:48:33",
++        "Seconds": 13713,
++        "Bytes": 220033323,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/54d133ad-33de-4668-9891-e61ea0b7a4d2/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=54d133ad-33de-4668-9891-e61ea0b7a4d2&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E75 An Ancient Flame",
+         "GUID": "b0b8c7bf-da04-4056-a8de-5a1daeca3eb5",
+         "Publication Date": "2023-10-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:45:13",
+         "Seconds": 13513,
+         "Bytes": 216946922,
+         "File": "default.mp3",
