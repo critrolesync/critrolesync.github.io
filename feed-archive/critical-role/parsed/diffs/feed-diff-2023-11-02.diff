@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-11-01.json
++++ critical-role/parsed/feed-parsed-2023-11-02.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Mighty Nein Reunion: Echoes of the Solstice | Live from London!",
++        "GUID": "ddc747be-0b53-414d-ac23-74dffefacb12",
++        "Publication Date": "2023-11-02",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:29:44",
++        "Seconds": 16184,
++        "Bytes": 258991330,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/9e87104d-9859-413c-9004-7d89b881181d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=9e87104d-9859-413c-9004-7d89b881181d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E76 A Gathering of Heroes",
+         "GUID": "9105912e-fd84-446e-a162-c9f03225eaec",
+         "Publication Date": "2023-10-26",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:48:33",
+         "Seconds": 13713,
+         "Bytes": 220033323,
+         "File": "default.mp3",
