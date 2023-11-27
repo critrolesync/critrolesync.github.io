@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2023-11-16.json
++++ critical-role/parsed/feed-parsed-2023-11-27.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Persona 5 Tactica One-Shot",
++        "GUID": "24579119-8136-4b44-a31c-26ad49275e86",
++        "Publication Date": "2023-11-24",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:00:16",
++        "Seconds": 14416,
++        "Bytes": 230669367,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/36689ddc-df04-495f-aa03-abc212dd9f25/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=36689ddc-df04-495f-aa03-abc212dd9f25&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "C3E78 Fractures",
++        "GUID": "6dbfda98-ae7b-4f7e-a8e9-babd68056b1a",
++        "Publication Date": "2023-11-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:43:01",
++        "Seconds": 13381,
++        "Bytes": 214102719,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e96f2236-dee2-4fd3-80ab-85495172a35f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e96f2236-dee2-4fd3-80ab-85495172a35f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E77 The Promise and the Price",
+         "GUID": "4eb34ded-f1fd-4008-95f9-ed9aacca749c",
+         "Publication Date": "2023-11-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:18:21",
+         "Seconds": 15501,
+         "Bytes": 248027629,
+         "File": "default.mp3",
