@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-11-27.json
++++ critical-role/parsed/feed-parsed-2023-12-05.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Choose Their Adventure...Again! Critical Role Foundation One-Shot to Benefit Red Nose Day",
++        "GUID": "8c6c57d2-f8fc-488b-91d9-324cc98890fb",
++        "Publication Date": "2023-12-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:29:40",
++        "Seconds": 8980,
++        "Bytes": 143692061,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/906e7356-936c-4315-b2bc-3d4b6225d19f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=906e7356-936c-4315-b2bc-3d4b6225d19f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Persona 5 Tactica One-Shot",
+         "GUID": "24579119-8136-4b44-a31c-26ad49275e86",
+         "Publication Date": "2023-11-24",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:00:16",
+         "Seconds": 14416,
+         "Bytes": 230669367,
+         "File": "default.mp3",
