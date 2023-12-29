@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2023-12-21a.json
++++ critical-role/parsed/feed-parsed-2023-12-29.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E81 The Eve of the Red Moon",
++        "GUID": "bad1af8d-f8d8-46e2-867d-c5a324a63872",
++        "Publication Date": "2023-12-28",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:25:57",
++        "Seconds": 12357,
++        "Bytes": 197715792,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/f8431f0f-4ec4-47b1-a1df-dfea89581563/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=f8431f0f-4ec4-47b1-a1df-dfea89581563&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E80 A Test of Trust",
+         "GUID": "91194205-0d04-4aef-bf37-128b34b3b173",
+         "Publication Date": "2023-12-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:39:25",
+         "Seconds": 13165,
+         "Bytes": 210649540,
+         "File": "default.mp3",
