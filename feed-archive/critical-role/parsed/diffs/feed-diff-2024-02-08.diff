@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-01-30.json
++++ critical-role/parsed/feed-parsed-2024-02-08.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E83 Ruidus",
++        "GUID": "6e15fe9f-ee75-4401-84c5-7e207769dc92",
++        "Publication Date": "2024-02-08",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:43:23",
++        "Seconds": 13403,
++        "Bytes": 214464672,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/4df6f64f-29fb-40f7-aa8c-219b51a9d512/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=4df6f64f-29fb-40f7-aa8c-219b51a9d512&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E82 Rush for the Bloody Bridge",
+         "GUID": "35709e1c-0fad-4e42-bc10-8c9de7212b2e",
+         "Publication Date": "2024-01-18",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:10:36",
+         "Seconds": 15036,
+         "Bytes": 240583358,
+         "File": "default.mp3",
