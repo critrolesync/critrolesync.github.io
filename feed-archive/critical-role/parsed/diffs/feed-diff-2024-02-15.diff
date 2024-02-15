@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-02-08.json
++++ critical-role/parsed/feed-parsed-2024-02-15.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E84 Red Rural Revelations",
++        "GUID": "f0d8b730-6518-45f1-88f1-955a6492f73b",
++        "Publication Date": "2024-02-15",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:41:58",
++        "Seconds": 13318,
++        "Bytes": 213100871,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/7cf30d4c-d2ac-4464-913d-9709c9df8bd4/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=7cf30d4c-d2ac-4464-913d-9709c9df8bd4&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E83 Ruidus",
+         "GUID": "6e15fe9f-ee75-4401-84c5-7e207769dc92",
+         "Publication Date": "2024-02-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:43:23",
+         "Seconds": 13403,
+         "Bytes": 214464672,
+         "File": "default.mp3",
