@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-02-28.json
++++ critical-role/parsed/feed-parsed-2024-02-29.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E86 Doorways to Darker Depths",
++        "GUID": "f1f1b6d6-e244-42fc-a4bf-af1ecc4877a8",
++        "Publication Date": "2024-02-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:46:01",
++        "Seconds": 13561,
++        "Bytes": 216988310,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/72f66433-5506-450a-8cbc-389a8adc850e/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=72f66433-5506-450a-8cbc-389a8adc850e&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E85 Intense Interrogations",
+         "GUID": "6932a321-1ce4-4b82-929d-464f541dadc8",
+         "Publication Date": "2024-02-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:19:49",
+         "Seconds": 11989,
+         "Bytes": 191836779,
+         "File": "default.mp3",
