@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-03-06.json
++++ critical-role/parsed/feed-parsed-2024-03-13.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Critical Role Plays Daggerheart | Live One-Shot",
++        "GUID": "73c70ed8-c4c0-4e0a-a3d3-78982925d528",
++        "Publication Date": "2024-03-13",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:00:18",
++        "Seconds": 14418,
++        "Bytes": 230693608,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/de1ddccb-c1b8-46b9-9e86-a085a950f69d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=de1ddccb-c1b8-46b9-9e86-a085a950f69d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E86 Doorways to Darker Depths",
+         "GUID": "f1f1b6d6-e244-42fc-a4bf-af1ecc4877a8",
+         "Publication Date": "2024-02-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:46:01",
+         "Seconds": 13561,
+         "Bytes": 216988310,
+         "File": "default.mp3",
