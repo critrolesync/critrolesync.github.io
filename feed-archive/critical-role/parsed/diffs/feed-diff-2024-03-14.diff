@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-03-13.json
++++ critical-role/parsed/feed-parsed-2024-03-14.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E87 Arrival at Kreviris",
++        "GUID": "7f2fba0e-0bdc-43a9-a9e0-f59fd3375773",
++        "Publication Date": "2024-03-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:11:00",
++        "Seconds": 15060,
++        "Bytes": 240972478,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/f437e6a3-d4de-49e4-b7ef-c857d4ddc85e/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=f437e6a3-d4de-49e4-b7ef-c857d4ddc85e&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Critical Role Plays Daggerheart | Live One-Shot",
+         "GUID": "73c70ed8-c4c0-4e0a-a3d3-78982925d528",
+         "Publication Date": "2024-03-13",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:00:18",
+         "Seconds": 14418,
+         "Bytes": 230693608,
+         "File": "default.mp3",
