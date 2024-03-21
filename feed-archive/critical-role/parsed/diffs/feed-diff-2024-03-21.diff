@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-03-14.json
++++ critical-role/parsed/feed-parsed-2024-03-21.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E88 Seeking Sedition",
++        "GUID": "4b99f317-c6ff-449b-bf54-0b6242640e32",
++        "Publication Date": "2024-03-21",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:12:04",
++        "Seconds": 11524,
++        "Bytes": 184393763,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/bf1a35f1-2b23-4960-ae8f-d276fe74d957/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=bf1a35f1-2b23-4960-ae8f-d276fe74d957&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E87 Arrival at Kreviris",
+         "GUID": "7f2fba0e-0bdc-43a9-a9e0-f59fd3375773",
+         "Publication Date": "2024-03-14",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:11:00",
+         "Seconds": 15060,
+         "Bytes": 240972478,
+         "File": "default.mp3",
