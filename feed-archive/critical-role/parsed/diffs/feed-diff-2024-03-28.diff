@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-03-21.json
++++ critical-role/parsed/feed-parsed-2024-03-28.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E89 Divisive Portents",
++        "GUID": "98c8ded8-a3ae-4137-b19a-c6525996020b",
++        "Publication Date": "2024-03-28",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:24:45",
++        "Seconds": 12285,
++        "Bytes": 196574345,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e86add7a-3ded-4457-873a-d6d2368cbae4/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e86add7a-3ded-4457-873a-d6d2368cbae4&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E88 Seeking Sedition",
+         "GUID": "4b99f317-c6ff-449b-bf54-0b6242640e32",
+         "Publication Date": "2024-03-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:12:04",
+         "Seconds": 11524,
+         "Bytes": 184393763,
+         "File": "default.mp3",
