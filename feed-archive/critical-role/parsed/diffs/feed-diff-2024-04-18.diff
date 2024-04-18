@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-04-14.json
++++ critical-role/parsed/feed-parsed-2024-04-18.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E91 True Heroism",
++        "GUID": "ead971a9-e154-4fe6-9b17-f49fb14870d0",
++        "Publication Date": "2024-04-18",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:31:18",
++        "Seconds": 16278,
++        "Bytes": 260454393,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b8a9f7ec-f498-4a58-9768-4141729541f1/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b8a9f7ec-f498-4a58-9768-4141729541f1&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E90 Mission Improbable",
+         "GUID": "73f13622-8eb4-4ef9-9a86-f10c687d54e4",
+         "Publication Date": "2024-04-11",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:06:56",
+         "Seconds": 14816,
+         "Bytes": 237071246,
+         "File": "default.mp3",
