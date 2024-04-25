@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-04-19.json
++++ critical-role/parsed/feed-parsed-2024-04-25.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E92 Broken Roads",
++        "GUID": "f98604c4-3ce8-4004-aa12-c36a8531596c",
++        "Publication Date": "2024-04-25",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:15:12",
++        "Seconds": 15312,
++        "Bytes": 245009128,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/35892c93-7d95-4c19-a96f-02ccc7ca1925/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=35892c93-7d95-4c19-a96f-02ccc7ca1925&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E91 True Heroism",
+         "GUID": "ead971a9-e154-4fe6-9b17-f49fb14870d0",
+         "Publication Date": "2024-04-18",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:31:18",
+         "Seconds": 16278,
+         "Bytes": 260454393,
+         "File": "default.mp3",
