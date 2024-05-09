@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-05-09.json
++++ critical-role/parsed/feed-parsed-2024-05-09a.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Welcome to Beacon!",
++        "GUID": "a9b6b9b4-95d4-4243-9243-d2bb637c278a",
++        "Publication Date": "2024-05-09",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:01:28",
++        "Seconds": 88,
++        "Bytes": 1421261,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/be8231ba-cdfa-473c-bcfe-f23e1f9a3c54/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=be8231ba-cdfa-473c-bcfe-f23e1f9a3c54&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E93 Bittersweet Reunions",
+         "GUID": "febd905a-744e-4b31-9088-a936dd77fd4e",
+         "Publication Date": "2024-05-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:54:39",
+         "Seconds": 14079,
+         "Bytes": 225282292,
+         "File": "default.mp3",
