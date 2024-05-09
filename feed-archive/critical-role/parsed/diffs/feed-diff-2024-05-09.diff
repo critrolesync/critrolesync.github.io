@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-04-25.json
++++ critical-role/parsed/feed-parsed-2024-05-09.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E93 Bittersweet Reunions",
++        "GUID": "febd905a-744e-4b31-9088-a936dd77fd4e",
++        "Publication Date": "2024-05-09",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:54:39",
++        "Seconds": 14079,
++        "Bytes": 225282292,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/01c0bc4f-0970-41b4-8fa8-328f49bf0bbc/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=01c0bc4f-0970-41b4-8fa8-328f49bf0bbc&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E92 Broken Roads",
+         "GUID": "f98604c4-3ce8-4004-aa12-c36a8531596c",
+         "Publication Date": "2024-04-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:15:12",
+         "Seconds": 15312,
+         "Bytes": 245009128,
+         "File": "default.mp3",
