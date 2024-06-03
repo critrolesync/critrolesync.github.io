@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-05-30.json
++++ critical-role/parsed/feed-parsed-2024-06-03.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Introducing Our New Podcast The Re-Slayer's Take!",
++        "GUID": "04b9b503-9a70-42c6-8153-ace6cdfb0d21",
++        "Publication Date": "2024-06-03",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:47:45",
++        "Seconds": 2865,
++        "Bytes": 45866722,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/ee844a3a-1e7b-4626-98e0-d9fa0639e6eb/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=ee844a3a-1e7b-4626-98e0-d9fa0639e6eb&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E96 Shadows New and Old",
+         "GUID": "50a17217-0789-47a9-b793-ebd061fcee57",
+         "Publication Date": "2024-05-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:53:23",
+         "Seconds": 14003,
+         "Bytes": 224052237,
+         "File": "default.mp3",
