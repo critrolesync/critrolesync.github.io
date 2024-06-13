@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-06-10.json
++++ critical-role/parsed/feed-parsed-2024-06-13.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E97 Ancient Sins",
++        "GUID": "19f57b8c-b128-4533-b215-70dc62da945b",
++        "Publication Date": "2024-06-13",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:27:52",
++        "Seconds": 12472,
++        "Bytes": 199561081,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/f6f9b25f-aa38-4f66-b8aa-32aad33a6952/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=f6f9b25f-aa38-4f66-b8aa-32aad33a6952&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Introducing Our New Podcast The Re-Slayer's Take!",
+         "GUID": "04b9b503-9a70-42c6-8153-ace6cdfb0d21",
+         "Publication Date": "2024-06-03",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:47:45",
+         "Seconds": 2865,
+         "Bytes": 45866722,
+         "File": "default.mp3",
