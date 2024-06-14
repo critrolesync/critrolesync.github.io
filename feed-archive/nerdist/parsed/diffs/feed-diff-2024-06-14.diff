@@ -1,0 +1,45 @@
+--- nerdist/parsed/feed-parsed-2024-06-13.json
++++ nerdist/parsed/feed-parsed-2024-06-14.json
+@@ -1,36 +1,36 @@
+ [
+     {
+         "Title": "CelebriD&D with Joe Manganiello (Full Version)",
+         "GUID": "595ab74e-2382-11ef-8664-83998eefb40a",
+         "Publication Date": "2024-06-10",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "01:00:43",
+-        "Seconds": 3643,
++        "HH:MM:SS": "01:03:43",
++        "Seconds": 3823,
+         "Bytes": 0,
+         "File": "SBP6870421736.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP6870421736.mp3?updated=1717623123"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP6870421736.mp3?updated=1718305330"
+     },
+     {
+         "Title": "D&Diesel with Vin Diesel (Extended Version)",
+         "GUID": "3317b32e-1f7d-11ef-9415-977161e193f9",
+         "Publication Date": "2024-06-03",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "00:31:46",
+-        "Seconds": 1906,
++        "HH:MM:SS": "00:33:46",
++        "Seconds": 2026,
+         "Bytes": 0,
+         "File": "SBP2547161780.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP2547161780.mp3?updated=1717182274"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP2547161780.mp3?updated=1718305221"
+     },
+     {
+         "Title": "Pants Optional Critmas!",
+         "GUID": "geekandsundry.podbean.com/98a0bfd2-c6de-3d1b-adf8-427104b720a8",
+         "Publication Date": "2022-01-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:31:25",
+         "Seconds": 5485,
+         "Bytes": 0,
