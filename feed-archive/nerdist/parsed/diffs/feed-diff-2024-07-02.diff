@@ -1,0 +1,29 @@
+--- nerdist/parsed/feed-parsed-2024-07-01.json
++++ nerdist/parsed/feed-parsed-2024-07-02.json
+@@ -1,23 +1,23 @@
+ [
+     {
+         "Title": "Relics and Rarities Ep. 3 - Sam Richardson in The Trail of the Hidden Ones - Part 2 ",
+         "GUID": "aaa53f96-357c-11ef-8915-e318c1df2509",
+         "Publication Date": "2024-07-01",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "00:59:45",
+-        "Seconds": 3585,
++        "HH:MM:SS": "01:02:45",
++        "Seconds": 3765,
+         "Bytes": 0,
+         "File": "SBP5265569417.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP5265569417.mp3?updated=1719599803"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP5265569417.mp3?updated=1719950113"
+     },
+     {
+         "Title": "Relics and Rarities Ep. 2 - Sam Richardson in The Trail of the Hidden Ones - Part 1",
+         "GUID": "d8a54c50-2f60-11ef-942a-fb0c594e6cb1",
+         "Publication Date": "2024-06-24",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:48:47",
+         "Seconds": 2927,
+         "Bytes": 0,
