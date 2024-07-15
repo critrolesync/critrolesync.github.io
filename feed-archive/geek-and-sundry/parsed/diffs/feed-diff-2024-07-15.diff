@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-07-12.json
++++ geek-and-sundry/parsed/feed-parsed-2024-07-15.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Relics and Rarities Ep. 5 - Charlie Cox in The Ascent of The Angler - Part 2",
++        "GUID": "594c8b6c-357d-11ef-aa3d-0f7477084a12",
++        "Publication Date": "2024-07-15",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:04:59",
++        "Seconds": 3899,
++        "Bytes": 0,
++        "File": "SBP9117558092.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9117558092.mp3?updated=1719950183"
++    },
+     {
+         "Title": "Relics and Rarities Ep. 4 - Charlie Cox in The Ascent of The Angler - Part 1",
+         "GUID": "d0c122bc-357c-11ef-8606-7331e7bc2b71",
+         "Publication Date": "2024-07-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:04:27",
+         "Seconds": 3867,
+         "Bytes": 0,
+         "File": "SBP3842051511.mp3",
