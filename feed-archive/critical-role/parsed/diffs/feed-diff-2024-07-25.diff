@@ -1,0 +1,87 @@
+--- critical-role/parsed/feed-parsed-2024-07-22.json
++++ critical-role/parsed/feed-parsed-2024-07-25.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E100 Downfall: Part Two",
++        "GUID": "db381d0b-c81b-42cd-864d-cbda9815ed49",
++        "Publication Date": "2024-07-25",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:49:12",
++        "Seconds": 13752,
++        "Bytes": 220049860,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/7c80ee54-7829-4220-96b2-a80cdbfd2bf6/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=7c80ee54-7829-4220-96b2-a80cdbfd2bf6&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E99 Downfall: Part One",
+         "GUID": "59f432a1-a9ff-46b5-8a53-d5946fc509fa",
+         "Publication Date": "2024-07-18",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:03:48",
+         "Seconds": 14628,
+         "Bytes": 234057342,
+         "File": "default.mp3",
+@@ -58,46 +71,46 @@
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:47:45",
+         "Seconds": 2865,
+         "Bytes": 45866722,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/ee844a3a-1e7b-4626-98e0-d9fa0639e6eb/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=ee844a3a-1e7b-4626-98e0-d9fa0639e6eb&feed=LXz4Q9rJ"
+     },
+     {
++        "Title": "C3E96 Shadows New and Old",
++        "GUID": "50a17217-0789-47a9-b793-ebd061fcee57",
++        "Publication Date": "2024-05-30",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:53:23",
++        "Seconds": 14003,
++        "Bytes": 224052237,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/8fa8a671-5933-4c43-b3af-41b024998aea/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=8fa8a671-5933-4c43-b3af-41b024998aea&feed=LXz4Q9rJ"
++    },
++    {
+         "Title": "The Menagerie Returns! | Live One-Shot | Open Beta",
+         "GUID": "79d028db-b1bd-4052-b3c7-2c76bda952a9",
+         "Publication Date": "2024-05-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:30:54",
+         "Seconds": 12654,
+         "Bytes": 202480108,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/bd24a785-0ebf-4b8c-8fab-d719d6d93c06/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=bd24a785-0ebf-4b8c-8fab-d719d6d93c06&feed=LXz4Q9rJ"
+     },
+     {
+-        "Title": "C3E96 Shadows New and Old",
+-        "GUID": "50a17217-0789-47a9-b793-ebd061fcee57",
+-        "Publication Date": "2024-05-30",
+-        "Staging Date": null,
+-        "Sponsor": null,
+-        "HH:MM:SS": "03:53:23",
+-        "Seconds": 14003,
+-        "Bytes": 224052237,
+-        "File": "default.mp3",
+-        "Type": "audio/mpeg",
+-        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/8fa8a671-5933-4c43-b3af-41b024998aea/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=8fa8a671-5933-4c43-b3af-41b024998aea&feed=LXz4Q9rJ"
+-    },
+-    {
+         "Title": "C3E95 Gathering of Needs",
+         "GUID": "1a941660-6d04-4026-98e7-e9a38d1acd50",
+         "Publication Date": "2024-05-23",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:23:08",
+         "Seconds": 15788,
+         "Bytes": 252612224,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
