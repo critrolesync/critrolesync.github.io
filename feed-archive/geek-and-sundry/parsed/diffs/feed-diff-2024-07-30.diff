@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-07-25.json
++++ geek-and-sundry/parsed/feed-parsed-2024-07-30.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Relics and Rarities Ep. 7 - Janina Gavankar in The Mystery of King Senna's Tomb Part 2 ",
++        "GUID": "91d5328a-4e97-11ef-b9ad-fffff77bea8b",
++        "Publication Date": "2024-07-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:09:51",
++        "Seconds": 4191,
++        "Bytes": 0,
++        "File": "SBP7370051411.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP7370051411.mp3?updated=1722360158"
++    },
+     {
+         "Title": "Relics and Rarities Ep. 6 - Janina Gavankar in The Mystery of King Senna's Tomb Part 1",
+         "GUID": "81a96710-357d-11ef-b1bd-4b3132163b9d",
+         "Publication Date": "2024-07-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:55:58",
+         "Seconds": 3358,
+         "Bytes": 0,
+         "File": "SBP2703083014.mp3",
