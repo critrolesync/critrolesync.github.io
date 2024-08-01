@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-07-30.json
++++ critical-role/parsed/feed-parsed-2024-08-01.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E101 Downfall: Part Three",
++        "GUID": "2fbce761-7fbe-436c-b6e6-106754410785",
++        "Publication Date": "2024-08-01",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "05:52:23",
++        "Seconds": 21143,
++        "Bytes": 338305141,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/8ba21d87-39ea-4ebf-b427-19ee60ff8a9f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=8ba21d87-39ea-4ebf-b427-19ee60ff8a9f&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E100 Downfall: Part Two",
+         "GUID": "db381d0b-c81b-42cd-864d-cbda9815ed49",
+         "Publication Date": "2024-07-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:49:12",
+         "Seconds": 13752,
+         "Bytes": 220049860,
+         "File": "default.mp3",
