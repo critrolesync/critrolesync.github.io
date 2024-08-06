@@ -1,0 +1,27 @@
+--- nerdist/parsed/feed-parsed-2024-08-02.json
++++ nerdist/parsed/feed-parsed-2024-08-06.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Relics and Rarities Ep. 8 - Kevin Smith in The Case of the Black Onyx - Part 1",
++        "GUID": "0ded4ede-4e98-11ef-a7ff-633a61047615",
++        "Publication Date": "2024-08-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:08:12",
++        "Seconds": 4092,
++        "Bytes": 0,
++        "File": "SBP9785266312.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9785266312.mp3?updated=1722360345"
++    },
+     {
+         "Title": "Relics and Rarities Ep. 7 - Janina Gavankar in The Mystery of King Senna's Tomb Part 2 ",
+         "GUID": "91d5328a-4e97-11ef-b9ad-fffff77bea8b",
+         "Publication Date": "2024-07-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:09:51",
+         "Seconds": 4191,
+         "Bytes": 0,
+         "File": "SBP7370051411.mp3",
