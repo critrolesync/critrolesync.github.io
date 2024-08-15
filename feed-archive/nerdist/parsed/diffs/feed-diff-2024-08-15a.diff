@@ -1,0 +1,61 @@
+--- nerdist/parsed/feed-parsed-2024-08-15.json
++++ nerdist/parsed/feed-parsed-2024-08-15a.json
+@@ -1,49 +1,49 @@
+ [
+     {
+         "Title": "Relics and Rarities Ep. 9 - Kevin Smith in The Case of the Black Onyx Part 2 ",
+         "GUID": "367beb76-4e98-11ef-894f-d7ede9ce1955",
+         "Publication Date": "2024-08-12",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "01:15:33",
+-        "Seconds": 4533,
++        "HH:MM:SS": "01:19:33",
++        "Seconds": 4773,
+         "Bytes": 0,
+         "File": "SBP9390641804.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9390641804.mp3?updated=1722544989"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9390641804.mp3?updated=1723753780"
+     },
+     {
+         "Title": "Relics and Rarities Ep. 8 - Kevin Smith in The Case of the Black Onyx - Part 1",
+         "GUID": "0ded4ede-4e98-11ef-a7ff-633a61047615",
+         "Publication Date": "2024-08-05",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "01:08:12",
+-        "Seconds": 4092,
++        "HH:MM:SS": "01:12:12",
++        "Seconds": 4332,
+         "Bytes": 0,
+         "File": "SBP9785266312.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9785266312.mp3?updated=1722360345"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP9785266312.mp3?updated=1723753466"
+     },
+     {
+         "Title": "Relics and Rarities Ep. 7 - Janina Gavankar in The Mystery of King Senna's Tomb Part 2 ",
+         "GUID": "91d5328a-4e97-11ef-b9ad-fffff77bea8b",
+         "Publication Date": "2024-07-29",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "01:09:51",
+-        "Seconds": 4191,
++        "HH:MM:SS": "01:15:51",
++        "Seconds": 4551,
+         "Bytes": 0,
+         "File": "SBP7370051411.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP7370051411.mp3?updated=1722360158"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/traffic.megaphone.fm/SBP7370051411.mp3?updated=1723753665"
+     },
+     {
+         "Title": "Relics and Rarities Ep. 6 - Janina Gavankar in The Mystery of King Senna's Tomb Part 1",
+         "GUID": "81a96710-357d-11ef-b1bd-4b3132163b9d",
+         "Publication Date": "2024-07-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:55:58",
+         "Seconds": 3358,
+         "Bytes": 0,
