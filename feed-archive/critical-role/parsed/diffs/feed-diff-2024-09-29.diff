@@ -1,0 +1,66 @@
+--- critical-role/parsed/feed-parsed-2024-08-26.json
++++ critical-role/parsed/feed-parsed-2024-09-29.json
+@@ -1,11 +1,63 @@
+ [
++    {
++        "Title": "C3E108 Looming",
++        "GUID": "8d07af19-8b04-47ed-ba2e-fc98739dd966",
++        "Publication Date": "2024-09-26",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:57:35",
++        "Seconds": 14255,
++        "Bytes": 228093484,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/0c760939-f730-415f-ad12-d10809bdf6d5/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=0c760939-f730-415f-ad12-d10809bdf6d5&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "C3E107 Under the Arch Heart's Eye",
++        "GUID": "d5325666-6810-47e3-899f-85e289f32376",
++        "Publication Date": "2024-09-19",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:11:45",
++        "Seconds": 15105,
++        "Bytes": 241688025,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/6f39b3f4-12b6-4eed-9b00-95e94aac5b0d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=6f39b3f4-12b6-4eed-9b00-95e94aac5b0d&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "C3E106 Unseelie Interrupted",
++        "GUID": "12fd181a-0d91-4806-a9cc-cf82cf2d6439",
++        "Publication Date": "2024-09-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:54:12",
++        "Seconds": 14052,
++        "Bytes": 224838001,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/d2c8e054-2092-4cab-8917-84efed4926b0/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=d2c8e054-2092-4cab-8917-84efed4926b0&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "C3E105 Collecting Legends",
++        "GUID": "0cbbd94d-35fa-4265-9c9d-346f652fde9f",
++        "Publication Date": "2024-08-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:38:37",
++        "Seconds": 13117,
++        "Bytes": 209883002,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/a50f4e58-8d30-466d-ae4a-28177c476413/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=a50f4e58-8d30-466d-ae4a-28177c476413&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E104 The Cradle's Convocation",
+         "GUID": "054f6d0b-843f-411b-831e-28c94f9a8bea",
+         "Publication Date": "2024-08-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:12:01",
+         "Seconds": 15121,
+         "Bytes": 241943398,
+         "File": "default.mp3",
