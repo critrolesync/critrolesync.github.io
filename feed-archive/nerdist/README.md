@@ -1,3 +1,8 @@
+NOTE: As of September 2024, the Nerdist and Geek & Sundry feeds have collapsed
+into a single source. One was taken down, and the other appears to be well
+maintained. CritRoleSync will resume fetching feeds under the geek-and-sundry
+directory, so the nerdist directory will not be updated.
+
 NOTE: As of early 2022, it seems that the Geek & Sundry feed is favored over
 this Nerdist feed as being "official", according to critrole.com's list for
 Campaign 1 podcast episodes. CritRoleSync favors the Nerdist feed because the

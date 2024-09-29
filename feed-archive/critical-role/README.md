@@ -1,10 +1,14 @@
 This podcast's homepage is
 
-https://anchor.fm/criticalrole/
+https://podcasters.spotify.com/pod/show/criticalrole/
 
 and the feed is located at
 
 https://anchor.fm/s/91c7948/podcast/rss
+
+which redirects to
+
+https://feeds.simplecast.com/LXz4Q9rJ
 
 XML files were obtained using step-1-fetch-feeds.py or, equivalently, the following:
 

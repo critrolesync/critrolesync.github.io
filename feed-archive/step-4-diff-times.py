@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 
 
-for input_dir in ['critical-role', 'nerdist', 'geek-and-sundry']:
+for input_dir in ['critical-role', 'geek-and-sundry']:
     print(f'## Podcast Feed: {input_dir}')
     print()
 

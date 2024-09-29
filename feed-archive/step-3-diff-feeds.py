@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 
 
-for input_dir in ['critical-role', 'nerdist', 'geek-and-sundry']:
+for input_dir in ['critical-role', 'geek-and-sundry']:
     input_dir = Path(__file__).parent / input_dir / 'parsed'
     output_dir = input_dir / 'diffs'
     output_dir.mkdir(parents=True, exist_ok=True)
