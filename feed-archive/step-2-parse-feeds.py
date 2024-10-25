@@ -38,7 +38,7 @@ def parse_feed(input_xml, output_json=None):
     for item in root[0].findall('item'):
         title = item.find('title').text
         isTalkShow = re.match('Talks Machina|Talking|.* 4-Sided Dive', title)
-        isOffTopic = re.match('Relics and Rarities|.* Sagas of Sundry', title)
+        isOffTopic = re.match('Relics and Rarities|.* Sagas of Sundry|.* Stinky Dragon', title)
         if not isTalkShow and not isOffTopic:
             pubdate = item.find('pubDate').text
             for format in ['%a, %d %b %Y %H:%M:%S %Z', '%a, %d %b %Y %H:%M:%S %z']:
