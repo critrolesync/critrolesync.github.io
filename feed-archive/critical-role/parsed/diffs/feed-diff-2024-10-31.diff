@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-10-25.json
++++ critical-role/parsed/feed-parsed-2024-10-31.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E112 The Assembling of Legends",
++        "GUID": "fcbcc8c5-ec5c-4c1b-91e8-6f7b79ec7aca",
++        "Publication Date": "2024-10-31",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:08:24",
++        "Seconds": 14904,
++        "Bytes": 238478516,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/47006de5-2aec-467c-952c-45ee328835e7/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=47006de5-2aec-467c-952c-45ee328835e7&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E111 The Nein Hells",
+         "GUID": "eacc8c84-0ee5-4cd8-82ad-167434c5a859",
+         "Publication Date": "2024-10-24",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:19:11",
+         "Seconds": 11951,
+         "Bytes": 191222797,
+         "File": "default.mp3",
