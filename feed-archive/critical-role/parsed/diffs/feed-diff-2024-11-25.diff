@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2024-11-21.json
++++ critical-role/parsed/feed-parsed-2024-11-25.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3E115 To the Arx Creonum",
++        "GUID": "aa5918fe-1877-40db-91d1-61bccf5b0c59",
++        "Publication Date": "2024-11-25",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:10:24",
++        "Seconds": 15024,
++        "Bytes": 240384252,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://chrt.fm/track/E5D5FB/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/da7e2ccd-8c6b-4974-b38b-f073f4f82749/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=da7e2ccd-8c6b-4974-b38b-f073f4f82749&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "C3E114 Fight for the Bloody Bridge",
+         "GUID": "14f8ca49-272e-4d1e-a526-7c1065049a64",
+         "Publication Date": "2024-11-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:30:16",
+         "Seconds": 16216,
+         "Bytes": 259466337,
+         "File": "default.mp3",
