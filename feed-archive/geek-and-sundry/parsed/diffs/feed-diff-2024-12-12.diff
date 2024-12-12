@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-12-10.json
++++ geek-and-sundry/parsed/feed-parsed-2024-12-12.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Introducing: D&D Legends and Lore | The Legend of Vecna",
++        "GUID": "e17b83e4-b7ff-11ef-bbc9-235a80a62008",
++        "Publication Date": "2024-12-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:48:43",
++        "Seconds": 2923,
++        "Bytes": 0,
++        "File": "SBP2341569283.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2341569283.mp3?updated=1733950295"
++    },
+     {
+         "Title": "CelebriD&D with Game of Thrones' John Bradley (Full Version)",
+         "GUID": "d05cabc6-2824-11ef-9a6a-a7bb075adc64",
+         "Publication Date": "2024-12-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:10:49",
+         "Seconds": 4249,
+         "Bytes": 0,
+         "File": "SBP4654849839.mp3",
