@@ -1,0 +1,25 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-12-12.json
++++ geek-and-sundry/parsed/feed-parsed-2024-12-13.json
+@@ -16,21 +16,21 @@
+         "Title": "CelebriD&D with Game of Thrones' John Bradley (Full Version)",
+         "GUID": "d05cabc6-2824-11ef-9a6a-a7bb075adc64",
+         "Publication Date": "2024-12-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:10:49",
+         "Seconds": 4249,
+         "Bytes": 0,
+         "File": "SBP4654849839.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4654849839.mp3?updated=1733512758"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4654849839.mp3?updated=1734033471"
+     },
+     {
+         "Title": "CelebriD&D with Joe Manganiello (Full Version)",
+         "GUID": "595ab74e-2382-11ef-8664-83998eefb40a",
+         "Publication Date": "2024-06-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:03:43",
+         "Seconds": 3823,
+         "Bytes": 0,
