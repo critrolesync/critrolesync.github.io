@@ -1,0 +1,29 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-12-16.json
++++ geek-and-sundry/parsed/feed-parsed-2024-12-17.json
+@@ -1,23 +1,23 @@
+ [
+     {
+         "Title": "CelebriD&D with The Suicide Squad's Nathan Fillion, Michael Rooker, & Flula Borg",
+         "GUID": "9db56342-b8c1-11ef-9702-234534485e59",
+         "Publication Date": "2024-12-16",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "00:31:35",
+-        "Seconds": 1895,
++        "HH:MM:SS": "00:32:50",
++        "Seconds": 1970,
+         "Bytes": 0,
+         "File": "SBP4052648788.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4052648788.mp3?updated=1734122194"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4052648788.mp3?updated=1734380946"
+     },
+     {
+         "Title": "Introducing: D&D Legends and Lore | The Legend of Vecna",
+         "GUID": "e17b83e4-b7ff-11ef-bbc9-235a80a62008",
+         "Publication Date": "2024-12-11",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:48:43",
+         "Seconds": 2923,
+         "Bytes": 0,
