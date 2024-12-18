@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2024-12-17.json
++++ geek-and-sundry/parsed/feed-parsed-2024-12-18.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Introducing: Oxventure D&D (Wyrdwood)",
++        "GUID": "ea0e683e-bce9-11ef-a93d-9f65b163aa66",
++        "Publication Date": "2024-12-18",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:38:07",
++        "Seconds": 9487,
++        "Bytes": 0,
++        "File": "SBP5119364753.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP5119364753.mp3?updated=1734493492"
++    },
+     {
+         "Title": "CelebriD&D with The Suicide Squad's Nathan Fillion, Michael Rooker, & Flula Borg",
+         "GUID": "9db56342-b8c1-11ef-9702-234534485e59",
+         "Publication Date": "2024-12-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:32:50",
+         "Seconds": 1970,
+         "Bytes": 0,
+         "File": "SBP4052648788.mp3",
