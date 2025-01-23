@@ -1,0 +1,87 @@
+--- critical-role/parsed/feed-parsed-2025-01-21.json
++++ critical-role/parsed/feed-parsed-2025-01-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "C3 E119 | Predathos Awakened",
++        "GUID": "f9c7ef8d-c18e-44c9-a826-3bcbb0fbaa0f",
++        "Publication Date": "2025-01-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:47:51",
++        "Seconds": 13671,
++        "Bytes": 218749172,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/12806081-1eb1-4fe9-b823-4575cacf7f15/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=12806081-1eb1-4fe9-b823-4575cacf7f15&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Assassin's Creed Shadows One-Shot",
+         "GUID": "eea11048-94f8-4169-9125-293b97ed9631",
+         "Publication Date": "2025-01-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:36:18",
+         "Seconds": 12978,
+         "Bytes": 207663639,
+         "File": "default.mp3",
+@@ -331,46 +344,46 @@
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:47:45",
+         "Seconds": 2865,
+         "Bytes": 45866722,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/ee844a3a-1e7b-4626-98e0-d9fa0639e6eb/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=ee844a3a-1e7b-4626-98e0-d9fa0639e6eb&feed=LXz4Q9rJ"
+     },
+     {
++        "Title": "C3E96 Shadows New and Old",
++        "GUID": "50a17217-0789-47a9-b793-ebd061fcee57",
++        "Publication Date": "2024-05-30",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:53:23",
++        "Seconds": 14003,
++        "Bytes": 224052237,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/8fa8a671-5933-4c43-b3af-41b024998aea/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=8fa8a671-5933-4c43-b3af-41b024998aea&feed=LXz4Q9rJ"
++    },
++    {
+         "Title": "The Menagerie Returns! | Live One-Shot | Open Beta",
+         "GUID": "79d028db-b1bd-4052-b3c7-2c76bda952a9",
+         "Publication Date": "2024-05-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:30:54",
+         "Seconds": 12654,
+         "Bytes": 202480108,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/bd24a785-0ebf-4b8c-8fab-d719d6d93c06/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=bd24a785-0ebf-4b8c-8fab-d719d6d93c06&feed=LXz4Q9rJ"
+     },
+     {
+-        "Title": "C3E96 Shadows New and Old",
+-        "GUID": "50a17217-0789-47a9-b793-ebd061fcee57",
+-        "Publication Date": "2024-05-30",
+-        "Staging Date": null,
+-        "Sponsor": null,
+-        "HH:MM:SS": "03:53:23",
+-        "Seconds": 14003,
+-        "Bytes": 224052237,
+-        "File": "default.mp3",
+-        "Type": "audio/mpeg",
+-        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/8fa8a671-5933-4c43-b3af-41b024998aea/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=8fa8a671-5933-4c43-b3af-41b024998aea&feed=LXz4Q9rJ"
+-    },
+-    {
+         "Title": "C3E95 Gathering of Needs",
+         "GUID": "1a941660-6d04-4026-98e7-e9a38d1acd50",
+         "Publication Date": "2024-05-23",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:23:08",
+         "Seconds": 15788,
+         "Bytes": 252612224,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
