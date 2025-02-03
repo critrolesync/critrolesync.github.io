@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-01-30.json
++++ geek-and-sundry/parsed/feed-parsed-2025-02-03.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Introducing Rotating Heroes ",
++        "GUID": "59ad25ea-dab3-11ef-9000-c36ccc698289",
++        "Publication Date": "2025-02-03",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:49:31",
++        "Seconds": 2971,
++        "Bytes": 0,
++        "File": "SBP8977347827.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8977347827.mp3?updated=1737765232"
++    },
+     {
+         "Title": "Introducing: Backwater Bastards",
+         "GUID": "64c0d980-bf25-11ef-900d-2b2ba130232c",
+         "Publication Date": "2024-12-23",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:47:49",
+         "Seconds": 6469,
+         "Bytes": 0,
+         "File": "SBP2399273177.mp3",
