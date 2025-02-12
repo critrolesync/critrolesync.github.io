@@ -1,0 +1,29 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-02-11.json
++++ geek-and-sundry/parsed/feed-parsed-2025-02-12.json
+@@ -1,23 +1,23 @@
+ [
+     {
+         "Title": "Dungeon Master Tips (w/ Amy Vorpahl) | Quests N\u2019 Answers",
+         "GUID": "91634420-e34f-11ef-84f9-eff7c69053b5",
+         "Publication Date": "2025-02-05",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "01:01:33",
+-        "Seconds": 3693,
++        "HH:MM:SS": "01:05:33",
++        "Seconds": 3933,
+         "Bytes": 0,
+         "File": "SBP6308547013.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6308547013.mp3?updated=1738712499"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6308547013.mp3?updated=1739309923"
+     },
+     {
+         "Title": "Introducing Rotating Heroes ",
+         "GUID": "59ad25ea-dab3-11ef-9000-c36ccc698289",
+         "Publication Date": "2025-02-03",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:53:31",
+         "Seconds": 3211,
+         "Bytes": 0,
