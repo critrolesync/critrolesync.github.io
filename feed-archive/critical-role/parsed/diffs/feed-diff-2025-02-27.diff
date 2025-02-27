@@ -1,0 +1,27 @@
+--- critical-role/parsed/feed-parsed-2025-02-25.json
++++ critical-role/parsed/feed-parsed-2025-02-27.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Seven of Them | Exandria Unlimited: Divergence Episode 2",
++        "GUID": "5c347881-63b7-4637-a520-25e2f1034bd9",
++        "Publication Date": "2025-02-27",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:46:29",
++        "Seconds": 17189,
++        "Bytes": 275028628,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/e6259d09-e05c-4a09-abff-0e6b24e52282/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=e6259d09-e05c-4a09-abff-0e6b24e52282&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Avowed One-Shot",
+         "GUID": "a4b83810-2f4d-403c-b712-28285d12817d",
+         "Publication Date": "2025-02-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "04:59:34",
+         "Seconds": 17974,
+         "Bytes": 287601677,
+         "File": "default.mp3",
