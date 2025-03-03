@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-02-27.json
++++ geek-and-sundry/parsed/feed-parsed-2025-03-03.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Introducing Rude Tales of Magic\u2019s Brand New Campaign",
++        "GUID": "6c13856c-f39f-11ef-bb79-170fea150958",
++        "Publication Date": "2025-03-03",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:16:23",
++        "Seconds": 4583,
++        "Bytes": 0,
++        "File": "SBP6638019376.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6638019376.mp3?updated=1740775700"
++    },
+     {
+         "Title": "Dungeon Master Tips (w/ Amy Vorpahl) | Quests N\u2019 Answers",
+         "GUID": "91634420-e34f-11ef-84f9-eff7c69053b5",
+         "Publication Date": "2025-02-05",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:05:33",
+         "Seconds": 3933,
+         "Bytes": 0,
+         "File": "SBP6308547013.mp3",
