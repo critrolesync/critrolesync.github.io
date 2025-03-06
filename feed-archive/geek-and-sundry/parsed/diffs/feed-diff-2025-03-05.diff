@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-03-03.json
++++ geek-and-sundry/parsed/feed-parsed-2025-03-05.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Building Your Own Campaign Setting w/ Johnny Stanton IV | Quests N\u2019 Answers",
++        "GUID": "247996fc-f920-11ef-9a4a-43f10a9b669a",
++        "Publication Date": "2025-03-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:56:19",
++        "Seconds": 3379,
++        "Bytes": 0,
++        "File": "SBP9308342996.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP9308342996.mp3?updated=1741111446"
++    },
+     {
+         "Title": "Introducing Rude Tales of Magic\u2019s Brand New Campaign",
+         "GUID": "6c13856c-f39f-11ef-bb79-170fea150958",
+         "Publication Date": "2025-03-03",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:16:23",
+         "Seconds": 4583,
+         "Bytes": 0,
+         "File": "SBP6638019376.mp3",
