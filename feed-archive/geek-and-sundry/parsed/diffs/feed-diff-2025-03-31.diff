@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-03-25.json
++++ geek-and-sundry/parsed/feed-parsed-2025-03-31.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter One: The Beginning of the End | Ten Candles: Eclipse",
++        "GUID": "441dc9da-0b3e-11f0-a228-b345b8295dbe",
++        "Publication Date": "2025-03-31",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:37:57",
++        "Seconds": 9477,
++        "Bytes": 0,
++        "File": "SBP6744777058.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6744777058.mp3?updated=1743104647"
++    },
+     {
+         "Title": "Building Your Own Campaign Setting w/ Johnny Stanton IV | Quests N\u2019 Answers",
+         "GUID": "247996fc-f920-11ef-9a4a-43f10a9b669a",
+         "Publication Date": "2025-03-05",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:56:19",
+         "Seconds": 3379,
+         "Bytes": 0,
+         "File": "SBP9308342996.mp3",
