@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-03.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-07.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter Two: The Photograph | Ten Candles: Eclipse",
++        "GUID": "ad7a6ef4-0b40-11f0-b42d-339583758128",
++        "Publication Date": "2025-04-07",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:29:13",
++        "Seconds": 12553,
++        "Bytes": 0,
++        "File": "SBP1567955085.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP1567955085.mp3?updated=1743121135"
++    },
+     {
+         "Title": "Chapter One: The Beginning of the End | Ten Candles: Eclipse",
+         "GUID": "441dc9da-0b3e-11f0-a228-b345b8295dbe",
+         "Publication Date": "2025-03-31",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:37:57",
+         "Seconds": 9477,
+         "Bytes": 0,
+         "File": "SBP6744777058.mp3",
