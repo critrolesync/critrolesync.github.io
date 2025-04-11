@@ -1,0 +1,29 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-10.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-11.json
+@@ -1,23 +1,23 @@
+ [
+     {
+         "Title": "Reimagining Blood on the Clocktower w/ Becca Scott | Quests N\u2019 Answers",
+         "GUID": "af3dbcda-14cf-11f0-a2df-3b0ddc1aa1f9",
+         "Publication Date": "2025-04-09",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "00:46:51",
+-        "Seconds": 2811,
++        "HH:MM:SS": "00:50:51",
++        "Seconds": 3051,
+         "Bytes": 0,
+         "File": "SBP6225638061.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6225638061.mp3?updated=1744156970"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6225638061.mp3?updated=1744311191"
+     },
+     {
+         "Title": "Chapter Two: The Photograph | Ten Candles: Eclipse",
+         "GUID": "ad7a6ef4-0b40-11f0-b42d-339583758128",
+         "Publication Date": "2025-04-07",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:29:13",
+         "Seconds": 12553,
+         "Bytes": 0,
