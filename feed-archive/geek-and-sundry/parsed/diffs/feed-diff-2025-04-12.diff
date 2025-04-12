@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-11.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-12.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Lost Odyssey: Godfall | Full Presentation",
++        "GUID": "529519ba-1650-11f0-a89c-3b5bc6b1ee02",
++        "Publication Date": "2025-04-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:30:21",
++        "Seconds": 9021,
++        "Bytes": 0,
++        "File": "SBP6298869217.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6298869217.mp3?updated=1744413587"
++    },
+     {
+         "Title": "Reimagining Blood on the Clocktower w/ Becca Scott | Quests N\u2019 Answers",
+         "GUID": "af3dbcda-14cf-11f0-a2df-3b0ddc1aa1f9",
+         "Publication Date": "2025-04-09",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:50:51",
+         "Seconds": 3051,
+         "Bytes": 0,
+         "File": "SBP6225638061.mp3",
