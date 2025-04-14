@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-12.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-14.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter Three: God is With You | Ten Candles: Eclipse",
++        "GUID": "d3d72db2-0b40-11f0-b789-ffeaa5e6efec",
++        "Publication Date": "2025-04-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:58:23",
++        "Seconds": 10703,
++        "Bytes": 0,
++        "File": "SBP8011224017.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8011224017.mp3?updated=1743112219"
++    },
+     {
+         "Title": "Lost Odyssey: Godfall | Full Presentation",
+         "GUID": "529519ba-1650-11f0-a89c-3b5bc6b1ee02",
+         "Publication Date": "2025-04-11",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:30:21",
+         "Seconds": 9021,
+         "Bytes": 0,
+         "File": "SBP6298869217.mp3",
