@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-17.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-21.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter Four: Message in a Bottle | Ten Candles: Eclipse",
++        "GUID": "662f10d0-0b41-11f0-ad4d-9f8ac7d058b0",
++        "Publication Date": "2025-04-21",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:29:24",
++        "Seconds": 12564,
++        "Bytes": 0,
++        "File": "SBP2634133159.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2634133159.mp3?updated=1743112649"
++    },
+     {
+         "Title": "How to Be a Better TTRPG Player w/ Ross Bryant | Quests N\u2019 Answers ",
+         "GUID": "f96e9f2c-1a4c-11f0-9183-2ba943e17307",
+         "Publication Date": "2025-04-16",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:07:18",
+         "Seconds": 4038,
+         "Bytes": 0,
+         "File": "SBP3993324745.mp3",
