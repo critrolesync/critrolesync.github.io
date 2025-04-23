@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-22.json
++++ geek-and-sundry/parsed/feed-parsed-2025-04-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "The Rule of Cool w/ Ify Nwadiwe | Quests N\u2019 Answers",
++        "GUID": "5687ffba-1fd3-11f0-be66-0b8362f91b44",
++        "Publication Date": "2025-04-23",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:58:29",
++        "Seconds": 3509,
++        "Bytes": 0,
++        "File": "SBP3056190801.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP3056190801.mp3?updated=1745366945"
++    },
+     {
+         "Title": "Chapter Four: Message in a Bottle | Ten Candles: Eclipse",
+         "GUID": "662f10d0-0b41-11f0-ad4d-9f8ac7d058b0",
+         "Publication Date": "2025-04-21",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:29:24",
+         "Seconds": 12564,
+         "Bytes": 0,
+         "File": "SBP2634133159.mp3",
