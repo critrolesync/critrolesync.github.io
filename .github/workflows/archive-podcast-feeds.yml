@@ -3,7 +3,8 @@ name: Archive podcast feeds
 on:
   schedule:
     #- cron: '26 0,3,6,9,12,15,18,21 * * *'
-    - cron: '26 15 * * *'
+    #- cron: '26 15 * * *'
+    - cron: '26 15 * * 2'
   workflow_dispatch:
 
 jobs:
