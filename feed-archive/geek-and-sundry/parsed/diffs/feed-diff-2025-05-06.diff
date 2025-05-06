@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-04-29.json
++++ geek-and-sundry/parsed/feed-parsed-2025-05-06.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter Six: A Voice on the Radio | Ten Candles: Eclipse",
++        "GUID": "d0a7d55a-0b41-11f0-a003-272f3a830c60",
++        "Publication Date": "2025-05-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:51:33",
++        "Seconds": 13893,
++        "Bytes": 0,
++        "File": "SBP7787239835.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP7787239835.mp3?updated=1743112978"
++    },
+     {
+         "Title": "Chapter Five: Towards the Light | Ten Candles: Eclipse",
+         "GUID": "88f95d6e-0b41-11f0-8180-27b35c3c3156",
+         "Publication Date": "2025-04-28",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:51:45",
+         "Seconds": 13905,
+         "Bytes": 0,
+         "File": "SBP6620484165.mp3",
