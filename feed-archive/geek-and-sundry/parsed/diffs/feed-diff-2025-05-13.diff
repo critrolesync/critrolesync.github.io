@@ -1,0 +1,40 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-05-06.json
++++ geek-and-sundry/parsed/feed-parsed-2025-05-13.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Chapter Seven: A Different Approach | Ten Candles: Eclipse",
++        "GUID": "0465475c-0b55-11f0-a5b1-47e9ded978bc",
++        "Publication Date": "2025-05-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:48:20",
++        "Seconds": 13700,
++        "Bytes": 0,
++        "File": "SBP6156392991.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6156392991.mp3?updated=1743121139"
++    },
++    {
++        "Title": "The Love of Legends and Lore w/ Will Stark & Omar Timsah | Quests N\u2019 Answers",
++        "GUID": "7bd0c66c-2b5e-11f0-b0b7-97ba5055406f",
++        "Publication Date": "2025-05-07",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:57:20",
++        "Seconds": 3440,
++        "Bytes": 0,
++        "File": "SBP3722924403.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP3722924403.mp3?updated=1746635437"
++    },
+     {
+         "Title": "Chapter Six: A Voice on the Radio | Ten Candles: Eclipse",
+         "GUID": "d0a7d55a-0b41-11f0-a003-272f3a830c60",
+         "Publication Date": "2025-05-05",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:51:33",
+         "Seconds": 13893,
+         "Bytes": 0,
+         "File": "SBP7787239835.mp3",
