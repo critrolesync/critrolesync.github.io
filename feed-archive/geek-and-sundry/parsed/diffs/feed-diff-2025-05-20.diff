@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-05-13.json
++++ geek-and-sundry/parsed/feed-parsed-2025-05-20.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Chapter Eight: An Ashen Wonderland | Ten Candles: Eclipse",
++        "GUID": "f2fb3b7e-0b55-11f0-990c-770d771ddac1",
++        "Publication Date": "2025-05-19",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:53:16",
++        "Seconds": 13996,
++        "Bytes": 0,
++        "File": "SBP5772842728.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP5772842728.mp3?updated=1743120124"
++    },
+     {
+         "Title": "Chapter Seven: A Different Approach | Ten Candles: Eclipse",
+         "GUID": "0465475c-0b55-11f0-a5b1-47e9ded978bc",
+         "Publication Date": "2025-05-12",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:48:20",
+         "Seconds": 13700,
+         "Bytes": 0,
+         "File": "SBP6156392991.mp3",
