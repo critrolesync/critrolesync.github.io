@@ -1,0 +1,40 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-05-20.json
++++ geek-and-sundry/parsed/feed-parsed-2025-06-03.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Chapter Nine: Lake of Fire | Ten Candles: Eclipse",
++        "GUID": "f58b877e-0b62-11f0-97ed-af7d48e4efb7",
++        "Publication Date": "2025-06-02",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "03:25:07",
++        "Seconds": 12307,
++        "Bytes": 0,
++        "File": "SBP3045209472.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP3045209472.mp3?updated=1743547284"
++    },
++    {
++        "Title": "The Rudest TTRPG Actual Play Ever?! (w/ Christopher Hastings & Joe Lepore)",
++        "GUID": "921c990a-3bee-11f0-beb0-d7170737c95c",
++        "Publication Date": "2025-05-28",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:58:51",
++        "Seconds": 3531,
++        "Bytes": 0,
++        "File": "SBP6227745051.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6227745051.mp3?updated=1748455929"
++    },
+     {
+         "Title": "Chapter Eight: An Ashen Wonderland | Ten Candles: Eclipse",
+         "GUID": "f2fb3b7e-0b55-11f0-990c-770d771ddac1",
+         "Publication Date": "2025-05-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:53:16",
+         "Seconds": 13996,
+         "Bytes": 0,
+         "File": "SBP5772842728.mp3",
