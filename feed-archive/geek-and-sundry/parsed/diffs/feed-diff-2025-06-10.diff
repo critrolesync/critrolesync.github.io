@@ -1,0 +1,40 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-06-03.json
++++ geek-and-sundry/parsed/feed-parsed-2025-06-10.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Chapter Ten: The End of the End | Ten Candles: Eclipse",
++        "GUID": "a26cc3a0-0b62-11f0-a6a4-9f6e9a68971c",
++        "Publication Date": "2025-06-09",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "04:39:49",
++        "Seconds": 16789,
++        "Bytes": 0,
++        "File": "SBP8629552759.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8629552759.mp3?updated=1743547709"
++    },
++    {
++        "Title": "How Do Games Like DAGGERHEART Get Made? (w/ Ivan Van Norman)",
++        "GUID": "da2df57c-4170-11f0-ab57-e33ef42e5929",
++        "Publication Date": "2025-06-04",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:55:11",
++        "Seconds": 3311,
++        "Bytes": 0,
++        "File": "SBP1932656948.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP1932656948.mp3?updated=1749061642"
++    },
+     {
+         "Title": "Chapter Nine: Lake of Fire | Ten Candles: Eclipse",
+         "GUID": "f58b877e-0b62-11f0-97ed-af7d48e4efb7",
+         "Publication Date": "2025-06-02",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "03:25:07",
+         "Seconds": 12307,
+         "Bytes": 0,
+         "File": "SBP3045209472.mp3",
