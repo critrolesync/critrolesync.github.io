@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-06-10.json
++++ critical-role/parsed/feed-parsed-2025-06-17.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "The Lost Monastery | Age of Umbra Episode 2 Part 2",
++        "GUID": "550c9b00-d73f-4e9e-92a8-893756df0ac2",
++        "Publication Date": "2025-06-17",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:27:54",
++        "Seconds": 5274,
++        "Bytes": 84398281,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/cc7b1bb2-a3a9-47c4-abc1-c1b4a3034f90/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=cc7b1bb2-a3a9-47c4-abc1-c1b4a3034f90&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "The Lost Monastery | Age of Umbra Episode 2 Part 1",
++        "GUID": "9a9bc452-1f4f-4ca5-b50b-781233494b4f",
++        "Publication Date": "2025-06-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:48:41",
++        "Seconds": 6521,
++        "Bytes": 104341204,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/7a5f7b58-3411-4c4a-a889-3adc32432ce5/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=7a5f7b58-3411-4c4a-a889-3adc32432ce5&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Desperloch | Age of Umbra Episode 1 Part 2",
+         "GUID": "613c583a-45ec-4493-93a8-1bc86f4bea2e",
+         "Publication Date": "2025-06-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:43:55",
+         "Seconds": 6235,
+         "Bytes": 99775000,
+         "File": "default.mp3",
