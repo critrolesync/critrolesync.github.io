@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-06-24.json
++++ critical-role/parsed/feed-parsed-2025-07-01.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "The Rampart and Beyond | Age of Umbra  Episode 4 Part 2",
++        "GUID": "2d7e063e-d99c-4cf5-ab79-dcfb0efdca49",
++        "Publication Date": "2025-07-01",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:29:39",
++        "Seconds": 5379,
++        "Bytes": 86081820,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/82a4bd42-6922-4daf-aff4-e9caae2e6bd5/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=82a4bd42-6922-4daf-aff4-e9caae2e6bd5&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "The Rampart and Beyond | Age of Umbra  Episode 4 Part 1",
++        "GUID": "ce4b7bd0-cf61-4206-b741-1a36515dc3c7",
++        "Publication Date": "2025-06-26",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:49:06",
++        "Seconds": 6546,
++        "Bytes": 104745789,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/6af9599b-d246-45d3-a5f9-8a7bc7d7cac9/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=6af9599b-d246-45d3-a5f9-8a7bc7d7cac9&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "What Is Gained, What Is Lost | Age of Umbra Episode 3 Part 2",
+         "GUID": "dd640821-fe20-4602-a5c5-a53927c39838",
+         "Publication Date": "2025-06-24",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:30:13",
+         "Seconds": 5413,
+         "Bytes": 86613047,
+         "File": "default.mp3",
