@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-07-08.json
++++ critical-role/parsed/feed-parsed-2025-07-22.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "The Unforgiving City | Age of Umbra Episode 6 Part 2",
++        "GUID": "e5596237-beeb-44b4-8287-21455693f886",
++        "Publication Date": "2025-07-22",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:08:17",
++        "Seconds": 4097,
++        "Bytes": 65559190,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/32546788-3a08-4851-b8dc-3ea76ef6cebf/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=32546788-3a08-4851-b8dc-3ea76ef6cebf&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "The Unforgiving City | Age of Umbra Episode 6 Part 1",
++        "GUID": "eb21d538-77f5-4b9c-99f4-2516d25c2e48",
++        "Publication Date": "2025-07-17",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:07:38",
++        "Seconds": 7658,
++        "Bytes": 122539146,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/a691ab07-5afa-45d8-80cb-ac22956ccfb0/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=a691ab07-5afa-45d8-80cb-ac22956ccfb0&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Ages of Pain | Age of Umbra Episode 5 Part 2",
+         "GUID": "ec8f4d16-0d7d-44fa-b380-4f14bde07197",
+         "Publication Date": "2025-07-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:08:34",
+         "Seconds": 7714,
+         "Bytes": 123519814,
+         "File": "default.mp3",
