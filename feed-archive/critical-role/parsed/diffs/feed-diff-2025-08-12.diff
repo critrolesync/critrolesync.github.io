@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-08-05.json
++++ critical-role/parsed/feed-parsed-2025-08-12.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Tag Team At The Teeth: The Misty Ascent | Critical Role Sydney Live Show 2025 Part 2",
++        "GUID": "e7c2d1c4-8155-48c3-bf04-f229b83457b0",
++        "Publication Date": "2025-08-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:13:07",
++        "Seconds": 7987,
++        "Bytes": 127799162,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/12d8e1ae-bd93-4408-bc1d-8e5016b01868/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=12d8e1ae-bd93-4408-bc1d-8e5016b01868&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "Tag Team At The Teeth: The Misty Ascent | Critical Role Sydney Live Show 2025 Part 1",
++        "GUID": "5b75006b-cedd-433d-97e3-4d5f8dbc7dde",
++        "Publication Date": "2025-08-07",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:46:48",
++        "Seconds": 6408,
++        "Bytes": 102536457,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/0bDcdoop59bdTYSfajQW/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/938eb83b-96cf-4c45-bc50-8cd7aeb7d29e/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=938eb83b-96cf-4c45-bc50-8cd7aeb7d29e&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "The Tomb of the Heretic Saint | Age of Umbra Episode 8 Part 2",
+         "GUID": "be1be0cb-e63a-4ce5-9547-85316dd68682",
+         "Publication Date": "2025-08-05",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:11:57",
+         "Seconds": 4317,
+         "Bytes": 69077570,
+         "File": "default.mp3",
