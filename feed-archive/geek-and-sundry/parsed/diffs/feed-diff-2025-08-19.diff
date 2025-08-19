@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-08-12.json
++++ geek-and-sundry/parsed/feed-parsed-2025-08-19.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 2: Combat & Skill Checks | Starter Kit - D&D Edition",
++        "GUID": "046534ea-7222-11f0-b313-37f9bd206a45",
++        "Publication Date": "2025-08-18",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:46:33",
++        "Seconds": 2793,
++        "Bytes": 0,
++        "File": "SBP8981465338.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8981465338.mp3?updated=1754416227"
++    },
+     {
+         "Title": "Part 1: Character Creation & Introductions | Starter Kit - D&D Edition",
+         "GUID": "b20aad24-7221-11f0-a876-f3335bd58bc1",
+         "Publication Date": "2025-08-11",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:48:26",
+         "Seconds": 2906,
+         "Bytes": 0,
+         "File": "SBP2073618146.mp3",
