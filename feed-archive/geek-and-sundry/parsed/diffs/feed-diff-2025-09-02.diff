@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-08-26.json
++++ geek-and-sundry/parsed/feed-parsed-2025-09-02.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 4: Healing & Diplomacy | Starter Kit - D&D Edition",
++        "GUID": "3bb5e5a2-7222-11f0-ac9f-9ff1e88e5b97",
++        "Publication Date": "2025-09-01",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:36:06",
++        "Seconds": 2166,
++        "Bytes": 0,
++        "File": "SBP8353911185.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8353911185.mp3?updated=1754416232"
++    },
+     {
+         "Title": "Part 3: Class Roles & Battle Tactics | Starter Kit - D&D Edition",
+         "GUID": "23ceb57c-7222-11f0-8fea-5fe8c91c24b4",
+         "Publication Date": "2025-08-25",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:37:39",
+         "Seconds": 2259,
+         "Bytes": 0,
+         "File": "SBP7362397604.mp3",
