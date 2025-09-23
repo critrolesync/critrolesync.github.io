@@ -1,0 +1,42 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-09-16.json
++++ geek-and-sundry/parsed/feed-parsed-2025-09-23.json
+@@ -1,23 +1,36 @@
+ [
++    {
++        "Title": "Part 1: All Hands on Deck | Starter Kit - 7th Sea Edition",
++        "GUID": "91d156e2-7222-11f0-8b6b-8773af92da3c",
++        "Publication Date": "2025-09-22",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:49:01",
++        "Seconds": 2941,
++        "Bytes": 0,
++        "File": "SBP2265795159.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2265795159.mp3?updated=1754416420"
++    },
+     {
+         "Title": "Part 6: The Big Bad Boss Battle | Starter Kit - D&D Edition",
+         "GUID": "773d19b0-7222-11f0-b8fb-eb1704f79866",
+         "Publication Date": "2025-09-15",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "00:40:53",
+-        "Seconds": 2453,
++        "HH:MM:SS": "00:42:53",
++        "Seconds": 2573,
+         "Bytes": 0,
+         "File": "SBP2395951641.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2395951641.mp3"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2395951641.mp3?updated=1758061734"
+     },
+     {
+         "Title": "Part 5: Exploration & the Unexpected | Starter Kit - D&D Edition",
+         "GUID": "5631ea48-7222-11f0-9eca-3b0c9a73f351",
+         "Publication Date": "2025-09-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:39:14",
+         "Seconds": 2354,
+         "Bytes": 0,
