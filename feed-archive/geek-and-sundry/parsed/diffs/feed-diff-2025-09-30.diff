@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-09-23.json
++++ geek-and-sundry/parsed/feed-parsed-2025-09-30.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 2: Fire on the Water | Starter Kit - 7th Sea Edition",
++        "GUID": "afd45464-7222-11f0-bd18-838ad09e4784",
++        "Publication Date": "2025-09-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:38:14",
++        "Seconds": 2294,
++        "Bytes": 0,
++        "File": "SBP5999321022.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP5999321022.mp3?updated=1754416389"
++    },
+     {
+         "Title": "Part 1: All Hands on Deck | Starter Kit - 7th Sea Edition",
+         "GUID": "91d156e2-7222-11f0-8b6b-8773af92da3c",
+         "Publication Date": "2025-09-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:49:01",
+         "Seconds": 2941,
+         "Bytes": 0,
+         "File": "SBP2265795159.mp3",
