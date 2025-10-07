@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-09-30.json
++++ geek-and-sundry/parsed/feed-parsed-2025-10-07.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 3: Enter the Villain | Starter Kit - 7th Sea Edition ",
++        "GUID": "e1b8f8c2-7222-11f0-806f-0f20eb2ad4a0",
++        "Publication Date": "2025-10-06",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:39:57",
++        "Seconds": 2397,
++        "Bytes": 0,
++        "File": "SBP4699350573.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4699350573.mp3?updated=1754416412"
++    },
+     {
+         "Title": "Part 2: Fire on the Water | Starter Kit - 7th Sea Edition",
+         "GUID": "afd45464-7222-11f0-bd18-838ad09e4784",
+         "Publication Date": "2025-09-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:38:14",
+         "Seconds": 2294,
+         "Bytes": 0,
+         "File": "SBP5999321022.mp3",
