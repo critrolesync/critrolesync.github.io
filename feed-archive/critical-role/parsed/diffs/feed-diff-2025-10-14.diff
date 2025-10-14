@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-10-07.json
++++ critical-role/parsed/feed-parsed-2025-10-14.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "The Fall of Thjazi Fang | Critical Role | Campaign 4, Episode 1 Part 2",
++        "GUID": "8d6279a7-f492-4c9a-b6a5-ad7b0ad8e936",
++        "Publication Date": "2025-10-14",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:02:33",
++        "Seconds": 7353,
++        "Bytes": 117656128,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/dfbee493-70d0-48d2-b78b-03bba53a5a7f/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=dfbee493-70d0-48d2-b78b-03bba53a5a7f&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "The Fall of Thjazi Fang | Critical Role | Campaign 4, Episode 1 Part 1",
++        "GUID": "3c1a680e-8e1d-4b76-ad31-64c7b8f76a74",
++        "Publication Date": "2025-10-09",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:07:35",
++        "Seconds": 7655,
++        "Bytes": 122487319,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/76076a75-df8d-437b-9ecd-12277a1c75f1/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=76076a75-df8d-437b-9ecd-12277a1c75f1&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Thank Goodness it's Thursday! CRF's 90s Charity One-Shot Benefitting NCWIT | Sponsored by Ebay Live Part 2",
+         "GUID": "e23d8965-11e1-40d6-b769-8f1ab4ef1386",
+         "Publication Date": "2025-09-30",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:20:14",
+         "Seconds": 8414,
+         "Bytes": 134681202,
+         "File": "default.mp3",
