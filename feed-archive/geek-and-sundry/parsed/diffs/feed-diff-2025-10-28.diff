@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-10-21.json
++++ geek-and-sundry/parsed/feed-parsed-2025-10-28.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 6: An Ending is an Ending | Starter Kit - 7th Sea Edition",
++        "GUID": "459662a8-7223-11f0-8c43-ff8c23835157",
++        "Publication Date": "2025-10-27",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:37:06",
++        "Seconds": 2226,
++        "Bytes": 0,
++        "File": "SBP8971401389.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP8971401389.mp3?updated=1760725063"
++    },
+     {
+         "Title": "Part 5: The Witch's Vendetta | Starter Kit - 7th Sea Edition",
+         "GUID": "1fa2da22-7223-11f0-9ee5-83843091f803",
+         "Publication Date": "2025-10-20",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:41:50",
+         "Seconds": 2510,
+         "Bytes": 0,
+         "File": "SBP8602394367.mp3",
