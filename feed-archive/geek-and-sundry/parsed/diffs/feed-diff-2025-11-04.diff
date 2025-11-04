@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-10-28.json
++++ geek-and-sundry/parsed/feed-parsed-2025-11-04.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 1: The Inquisitors | Starter Kit - Advanced D&D",
++        "GUID": "ffd32d4a-3254-11f0-a96d-af0735b1d243",
++        "Publication Date": "2025-11-03",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:48:36",
++        "Seconds": 2916,
++        "Bytes": 0,
++        "File": "SBP6175433729.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6175433729.mp3?updated=1761761041"
++    },
+     {
+         "Title": "Part 6: An Ending is an Ending | Starter Kit - 7th Sea Edition",
+         "GUID": "459662a8-7223-11f0-8c43-ff8c23835157",
+         "Publication Date": "2025-10-27",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:37:06",
+         "Seconds": 2226,
+         "Bytes": 0,
+         "File": "SBP8971401389.mp3",
