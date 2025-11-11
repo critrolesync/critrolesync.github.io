@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-11-04.json
++++ geek-and-sundry/parsed/feed-parsed-2025-11-11.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 2: A Terrible Transformation | Starter Kit - Advanced D&D",
++        "GUID": "ff7c3d50-3254-11f0-a96d-8bb4cd3642a6",
++        "Publication Date": "2025-11-10",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:42:19",
++        "Seconds": 2539,
++        "Bytes": 0,
++        "File": "SBP5221368607.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP5221368607.mp3?updated=1761761108"
++    },
+     {
+         "Title": "Part 1: The Inquisitors | Starter Kit - Advanced D&D",
+         "GUID": "ffd32d4a-3254-11f0-a96d-af0735b1d243",
+         "Publication Date": "2025-11-03",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:48:36",
+         "Seconds": 2916,
+         "Bytes": 0,
+         "File": "SBP6175433729.mp3",
