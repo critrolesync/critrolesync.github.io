@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-11-11.json
++++ geek-and-sundry/parsed/feed-parsed-2025-11-18.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 3: Gangland | Starter Kit - Advanced D&D",
++        "GUID": "ffa7b3cc-3254-11f0-a96d-131cdb08ff38",
++        "Publication Date": "2025-11-17",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:40:52",
++        "Seconds": 2452,
++        "Bytes": 0,
++        "File": "SBP6892985164.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/mgln.ai/e/495/chrt.fm/track/FGADCC/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6892985164.mp3?updated=1761761115"
++    },
+     {
+         "Title": "Part 2: A Terrible Transformation | Starter Kit - Advanced D&D",
+         "GUID": "ff7c3d50-3254-11f0-a96d-8bb4cd3642a6",
+         "Publication Date": "2025-11-10",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:42:19",
+         "Seconds": 2539,
+         "Bytes": 0,
+         "File": "SBP5221368607.mp3",
