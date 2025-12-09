@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-12-02.json
++++ geek-and-sundry/parsed/feed-parsed-2025-12-09.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 6: Sewers Run with Blood | Starter Kit - Advanced D&D",
++        "GUID": "00574e54-3255-11f0-a96d-3fa68687203d",
++        "Publication Date": "2025-12-08",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:47:42",
++        "Seconds": 2862,
++        "Bytes": 0,
++        "File": "SBP6556984531.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6556984531.mp3?updated=1761761237"
++    },
+     {
+         "Title": "Part 5: Descent to Danger | Starter Kit - Advanced D&D",
+         "GUID": "002bef8e-3255-11f0-a96d-777fcc1eb32f",
+         "Publication Date": "2025-12-01",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:40:14",
+         "Seconds": 2414,
+         "Bytes": 0,
+         "File": "SBP8754426733.mp3",
