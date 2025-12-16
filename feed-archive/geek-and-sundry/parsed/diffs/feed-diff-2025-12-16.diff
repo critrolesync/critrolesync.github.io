@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-12-09.json
++++ geek-and-sundry/parsed/feed-parsed-2025-12-16.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 1: The Ninth World | Starter Kit - Numenera",
++        "GUID": "0082241c-3255-11f0-a96d-5366cc8419f9",
++        "Publication Date": "2025-12-15",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:49:11",
++        "Seconds": 2951,
++        "Bytes": 0,
++        "File": "SBP2352201986.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP2352201986.mp3?updated=1761761752"
++    },
+     {
+         "Title": "Part 6: Sewers Run with Blood | Starter Kit - Advanced D&D",
+         "GUID": "00574e54-3255-11f0-a96d-3fa68687203d",
+         "Publication Date": "2025-12-08",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:47:42",
+         "Seconds": 2862,
+         "Bytes": 0,
+         "File": "SBP6556984531.mp3",
