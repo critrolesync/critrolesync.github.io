@@ -1,0 +1,40 @@
+--- critical-role/parsed/feed-parsed-2025-12-09.json
++++ critical-role/parsed/feed-parsed-2025-12-16.json
+@@ -1,11 +1,37 @@
+ [
++    {
++        "Title": "Fanged Revenge | Critical Role | Campaign 4, Episode 8 Part 2",
++        "GUID": "b244dd4c-2ddf-462e-9a45-460dff1246f3",
++        "Publication Date": "2025-12-16",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:26:47",
++        "Seconds": 5207,
++        "Bytes": 83329559,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/7873f66f-0364-4068-b177-3f043b2bfb6a/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=7873f66f-0364-4068-b177-3f043b2bfb6a&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "Fanged Revenge | Critical Role | Campaign 4, Episode 8 Part 1",
++        "GUID": "8c3f5b9b-d282-4d2e-be52-27cece05eb30",
++        "Publication Date": "2025-12-11",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:47:03",
++        "Seconds": 10023,
++        "Bytes": 160377409,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/1904cf2f-7e98-4fda-8a1c-ee95cea2433d/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=1904cf2f-7e98-4fda-8a1c-ee95cea2433d&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "On the Scent | Critical Role | Campaign 4, Episode 7 Part 2",
+         "GUID": "e7110220-d4ae-4922-850d-e84393eb338c",
+         "Publication Date": "2025-12-02",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:37:05",
+         "Seconds": 5825,
+         "Bytes": 93204681,
+         "File": "default.mp3",
