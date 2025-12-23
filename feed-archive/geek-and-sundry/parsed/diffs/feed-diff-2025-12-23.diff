@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-12-16.json
++++ geek-and-sundry/parsed/feed-parsed-2025-12-23.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 2: Ascent to Yesterday | Starter Kit - Numenera",
++        "GUID": "00ad590c-3255-11f0-a96d-534c8f416009",
++        "Publication Date": "2025-12-22",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:40:18",
++        "Seconds": 2418,
++        "Bytes": 0,
++        "File": "SBP7944206780.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP7944206780.mp3?updated=1761761788"
++    },
+     {
+         "Title": "Part 1: The Ninth World | Starter Kit - Numenera",
+         "GUID": "0082241c-3255-11f0-a96d-5366cc8419f9",
+         "Publication Date": "2025-12-15",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:49:11",
+         "Seconds": 2951,
+         "Bytes": 0,
+         "File": "SBP2352201986.mp3",
