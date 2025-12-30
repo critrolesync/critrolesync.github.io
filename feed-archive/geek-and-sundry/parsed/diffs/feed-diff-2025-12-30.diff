@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-12-23.json
++++ geek-and-sundry/parsed/feed-parsed-2025-12-30.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 3: The Broken | Starter Kit - Numenera ",
++        "GUID": "00d99af8-3255-11f0-a96d-dba3ddd0754d",
++        "Publication Date": "2025-12-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:40:48",
++        "Seconds": 2448,
++        "Bytes": 0,
++        "File": "SBP4150271686.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP4150271686.mp3?updated=1761761819"
++    },
+     {
+         "Title": "Part 2: Ascent to Yesterday | Starter Kit - Numenera",
+         "GUID": "00ad590c-3255-11f0-a96d-534c8f416009",
+         "Publication Date": "2025-12-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:40:18",
+         "Seconds": 2418,
+         "Bytes": 0,
+         "File": "SBP7944206780.mp3",
