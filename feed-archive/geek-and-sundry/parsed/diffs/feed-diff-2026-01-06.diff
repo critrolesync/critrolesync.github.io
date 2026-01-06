@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2025-12-30.json
++++ geek-and-sundry/parsed/feed-parsed-2026-01-06.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 4: The Kindness of Strangers | Starter Kit - Numenera",
++        "GUID": "ad4fcb40-7f3f-11f0-8413-8fec1782eb79",
++        "Publication Date": "2026-01-05",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:38:00",
++        "Seconds": 2280,
++        "Bytes": 0,
++        "File": "SBP9348509187.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP9348509187.mp3?updated=1761761833"
++    },
+     {
+         "Title": "Part 3: The Broken | Starter Kit - Numenera ",
+         "GUID": "00d99af8-3255-11f0-a96d-dba3ddd0754d",
+         "Publication Date": "2025-12-29",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:40:48",
+         "Seconds": 2448,
+         "Bytes": 0,
+         "File": "SBP4150271686.mp3",
