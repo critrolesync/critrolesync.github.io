@@ -1,0 +1,27 @@
+--- geek-and-sundry/parsed/feed-parsed-2026-01-06.json
++++ geek-and-sundry/parsed/feed-parsed-2026-01-13.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 5: Toward the Whispering Peak | Starter Kit - Numenera",
++        "GUID": "ae2aef90-7f3f-11f0-8413-4b3c7790314a",
++        "Publication Date": "2026-01-12",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:41:42",
++        "Seconds": 2502,
++        "Bytes": 0,
++        "File": "SBP6412314411.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP6412314411.mp3?updated=1761761871"
++    },
+     {
+         "Title": "Part 4: The Kindness of Strangers | Starter Kit - Numenera",
+         "GUID": "ad4fcb40-7f3f-11f0-8413-8fec1782eb79",
+         "Publication Date": "2026-01-05",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:38:00",
+         "Seconds": 2280,
+         "Bytes": 0,
+         "File": "SBP9348509187.mp3",
