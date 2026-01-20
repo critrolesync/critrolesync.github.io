@@ -1,0 +1,121 @@
+--- geek-and-sundry/parsed/feed-parsed-2026-01-13.json
++++ geek-and-sundry/parsed/feed-parsed-2026-01-20.json
+@@ -1,11 +1,24 @@
+ [
++    {
++        "Title": "Part 6: Ghost of Metal | Starter Kit - Numenera",
++        "GUID": "ae53b718-7f3f-11f0-8413-fb0abcfb7415",
++        "Publication Date": "2026-01-19",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "00:42:48",
++        "Seconds": 2568,
++        "Bytes": 0,
++        "File": "SBP3943369938.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/SBP3943369938.mp3?updated=1761761945"
++    },
+     {
+         "Title": "Part 5: Toward the Whispering Peak | Starter Kit - Numenera",
+         "GUID": "ae2aef90-7f3f-11f0-8413-4b3c7790314a",
+         "Publication Date": "2026-01-12",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:41:42",
+         "Seconds": 2502,
+         "Bytes": 0,
+         "File": "SBP6412314411.mp3",
+@@ -2364,78 +2377,78 @@
+         "File": "DYEAN5976019575.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN5976019575.mp3?updated=1760725818"
+     },
+     {
+         "Title": "Vox Machina Ep. 5 - The Trick About Falling",
+         "GUID": "geekandsundry.podbean.com/a64e32c5-bae2-30ae-9b0b-8bfda0403837",
+         "Publication Date": "2021-11-25",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:43:17",
+-        "Seconds": 9797,
++        "HH:MM:SS": "02:40:21",
++        "Seconds": 9621,
+         "Bytes": 0,
+         "File": "DYEAN4354267894.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN4354267894.mp3?updated=1760726168"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN4354267894.mp3?updated=1768525769"
+     },
+     {
+         "Title": "Vox Machina Ep. 4 - Attack on the Duergar Warcamp",
+         "GUID": "geekandsundry.podbean.com/5781a0a1-bf14-38e8-b900-495c78ff2bee",
+         "Publication Date": "2021-11-24",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:45:33",
+-        "Seconds": 9933,
++        "HH:MM:SS": "02:40:27",
++        "Seconds": 9627,
+         "Bytes": 0,
+         "File": "DYEAN9736722938.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN9736722938.mp3?updated=1760726127"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN9736722938.mp3?updated=1768522406"
+     },
+     {
+         "Title": "Vox Machina Ep. 3 - Strange Bedfellows",
+         "GUID": "geekandsundry.podbean.com/2150c32d-1d43-3efe-9763-e236937c92dc",
+         "Publication Date": "2021-11-22",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:24:01",
+-        "Seconds": 8641,
++        "HH:MM:SS": "02:21:04",
++        "Seconds": 8464,
+         "Bytes": 0,
+         "File": "DYEAN3006981348.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN3006981348.mp3?updated=1760725914"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN3006981348.mp3?updated=1768520581"
+     },
+     {
+         "Title": "Vox Machina Ep. 2 - Into the Greyspine Mines",
+         "GUID": "geekandsundry.podbean.com/de792adf-8115-3708-a3ba-de19971841ea",
+         "Publication Date": "2021-11-21",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:38:14",
+-        "Seconds": 9494,
++        "HH:MM:SS": "02:35:16",
++        "Seconds": 9316,
+         "Bytes": 0,
+         "File": "DYEAN1056631287.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN1056631287.mp3?updated=1760725936"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN1056631287.mp3?updated=1768518029"
+     },
+     {
+         "Title": "Vox Machina Ep. 1 - Arrival at Kraghammer",
+         "GUID": "geekandsundry.podbean.com/4be63ccc-28e4-3bb7-87f7-f227e87addfd",
+         "Publication Date": "2021-11-20",
+         "Staging Date": null,
+         "Sponsor": null,
+-        "HH:MM:SS": "02:40:45",
+-        "Seconds": 9645,
++        "HH:MM:SS": "02:38:26",
++        "Seconds": 9506,
+         "Bytes": 0,
+         "File": "DYEAN3580285195.mp3",
+         "Type": "audio/mpeg",
+-        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN3580285195.mp3?updated=1760726021"
++        "URL": "https://www.podtrac.com/pts/redirect.mp3/mgln.ai/e/495/pscrb.fm/rss/p/tracking.swap.fm/track/bwUd3PHC9DH3VTlBXDTt/traffic.megaphone.fm/DYEAN3580285195.mp3?updated=1768516376"
+     },
+     {
+         "Title": "Vox Machina Ep. 0 - The Backstory",
+         "GUID": "geekandsundry.podbean.com/02a437f0-c963-371d-b4a8-70a0eef1caf7",
+         "Publication Date": "2021-11-19",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "00:18:12",
+         "Seconds": 1092,
+         "Bytes": 0,
