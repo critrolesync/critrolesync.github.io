@@ -1,0 +1,80 @@
+--- critical-role/parsed/feed-parsed-2026-01-27.json
++++ critical-role/parsed/feed-parsed-2026-02-03.json
+@@ -1,38 +1,64 @@
+ [
++    {
++        "Title": "The Giant's Belt | Critical Role | Campaign 4, Episode 12 Part 2",
++        "GUID": "10e5bbec-04bf-4fc9-b886-f03879907f78",
++        "Publication Date": "2026-02-03",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:19:10",
++        "Seconds": 4750,
++        "Bytes": 76144716,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/ff0aab52-5b67-4e9f-9e1a-59ad5967da62/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=ff0aab52-5b67-4e9f-9e1a-59ad5967da62&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "The Giant's Belt | Critical Role | Campaign 4, Episode 12 Part 1",
++        "GUID": "906fb5c6-a743-4ab9-843a-8f87cd27197a",
++        "Publication Date": "2026-01-29",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "02:07:04",
++        "Seconds": 7624,
++        "Bytes": 122756666,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b6b0d623-e5fe-4f83-a61d-b006d2156922/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b6b0d623-e5fe-4f83-a61d-b006d2156922&feed=LXz4Q9rJ"
++    },
++    {
++        "Title": "Tale Gate | Episode 1 | Discussing Up To C4E11",
++        "GUID": "ea0db981-7018-4ced-a486-3362bc22e6bb",
++        "Publication Date": "2026-01-27",
++        "Staging Date": null,
++        "Sponsor": null,
++        "HH:MM:SS": "01:02:47",
++        "Seconds": 3767,
++        "Bytes": 60299573,
++        "File": "default.mp3",
++        "Type": "audio/mpeg",
++        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/a805f5d3-29a1-45ee-beda-7fd2f6b63994/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=a805f5d3-29a1-45ee-beda-7fd2f6b63994&feed=LXz4Q9rJ"
++    },
+     {
+         "Title": "Make Merry | Critical Role | Campaign 4, Episode 11 Part 2",
+         "GUID": "cd09a382-25f2-48ed-84d0-ceb477a86a1a",
+         "Publication Date": "2026-01-27",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "02:06:07",
+         "Seconds": 7567,
+         "Bytes": 121091335,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
+         "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/b433bc79-591b-45d1-8840-c82cdc1f35ac/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=b433bc79-591b-45d1-8840-c82cdc1f35ac&feed=LXz4Q9rJ"
+     },
+     {
+-        "Title": "Tale Gate | Episode 1 | Discussing Up To C4E11",
+-        "GUID": "ea0db981-7018-4ced-a486-3362bc22e6bb",
+-        "Publication Date": "2026-01-27",
+-        "Staging Date": null,
+-        "Sponsor": null,
+-        "HH:MM:SS": "01:02:47",
+-        "Seconds": 3767,
+-        "Bytes": 60299573,
+-        "File": "default.mp3",
+-        "Type": "audio/mpeg",
+-        "URL": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/a74173a8-254a-45ff-aee0-b0cd0458d7f1/episodes/a805f5d3-29a1-45ee-beda-7fd2f6b63994/audio/128/default.mp3?aid=rss_feed&awCollectionId=a74173a8-254a-45ff-aee0-b0cd0458d7f1&awEpisodeId=a805f5d3-29a1-45ee-beda-7fd2f6b63994&feed=LXz4Q9rJ"
+-    },
+-    {
+         "Title": "Make Merry | Critical Role | Campaign 4, Episode 11 Part 1",
+         "GUID": "ea08f1ca-04bc-4829-8d69-d848089b6958",
+         "Publication Date": "2026-01-22",
+         "Staging Date": null,
+         "Sponsor": null,
+         "HH:MM:SS": "01:21:03",
+         "Seconds": 4863,
+         "Bytes": 77818347,
+         "File": "default.mp3",
+         "Type": "audio/mpeg",
